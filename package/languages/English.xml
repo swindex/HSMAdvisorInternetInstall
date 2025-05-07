@@ -1,0 +1,1792 @@
+<?xml version="1.0" standalone="yes"?>
+<language>
+  <settings>
+    <lang_code>EN</lang_code>
+    <lang_scale_x>1</lang_scale_x>
+    <lang_scale_y>1</lang_scale_y>
+  </settings>
+  <controls>
+    <TXT_TranslatedBy>Original HSMAdvisor language by Eldar Gerfanov.</TXT_TranslatedBy>
+    <LB_Type>Type</LB_Type>
+    <CHK_DefaultForTooltypes>Make default for supported tool types</CHK_DefaultForTooltypes>
+    <CHK_DefaultForTooltypes_tooltip>Automatically select this machine when any of the supported tool types are selected</CHK_DefaultForTooltypes_tooltip>
+    <FSWIZARD_TAB>Speeds and Feeds</FSWIZARD_TAB>
+    <GRP_Static_Fields>Static(Sticky) Fields</GRP_Static_Fields>
+    <settings_keep_Limit_Def>Limit Deflection %</settings_keep_Limit_Def>
+    <settings_keep_productivity>Performance</settings_keep_productivity>
+    <Label14>?</Label14>
+    <settings_keep_Limit_Torque>Limit Torque %</settings_keep_Limit_Torque>
+    <settings_keep_max_RPM>Max RPM</settings_keep_max_RPM>
+    <settings_keep_max_feed>Max Feed rate</settings_keep_max_feed>
+    <settings_keep_max_torque>Max Torque</settings_keep_max_torque>
+    <settings_keep_max_HP>Max HP</settings_keep_max_HP>
+    <TAB_Tool_Database>Tool Database</TAB_Tool_Database>
+    <BT_Library_More>Actions</BT_Library_More>
+    <Tab_Threads>Threads</Tab_Threads>
+    <LB_Machine_Overrides>Current Machine Limits</LB_Machine_Overrides>
+    <REFERENCE_TAB>Reference</REFERENCE_TAB>
+    <GEOMETRY_TAB>Geometry</GEOMETRY_TAB>
+    <PLUGINS_TAB>WEB Pages</PLUGINS_TAB>
+    <LB_Browse_Web>Browse Web:</LB_Browse_Web>
+    <Plugins_BTN_Go>Go</Plugins_BTN_Go>
+    <BTN_CustomSpeedsFeeds>Custom Speeds and Feeds</BTN_CustomSpeedsFeeds>
+    <TAB_Settings>Settings</TAB_Settings>
+    <LB_Input_T>Input</LB_Input_T>
+    <LB_Result_T>Result</LB_Result_T>
+    <LB_Lic_Status>License</LB_Lic_Status>
+    <DB_Status_OK>Tool and Machine Database Status: OK</DB_Status_OK>
+    <DB_Status_OK_Text>Tool Database:{x}</DB_Status_OK_Text>
+    <ML_Status_OK_Text>Machine Database:{x}</ML_Status_OK_Text>
+    <DB_Status_Writing>Tool Database Status: Saving</DB_Status_Writing>
+    <DB_Status_Writing_Text>Writing into:{x}</DB_Status_Writing_Text>
+    <DB_Status_Writing_Error>Database Status: Saving Failed!</DB_Status_Writing_Error>
+    <DB_Status_Writing_Error_Text>Failed to write file:{x}
+With error:{y}</DB_Status_Writing_Error_Text>
+    <DB_Status_Reading>Database Status: Reading</DB_Status_Reading>
+    <DB_Status_Reading_Text>Reading from:{x}</DB_Status_Reading_Text>
+    <DB_Status_Reading_Error>Database Status: Reading Failed!</DB_Status_Reading_Error>
+    <DB_Status_Reading_Error_Text>Failed to read file:{x}
+With error:{y}</DB_Status_Reading_Error_Text>
+    <btn_DDE_OK>OK</btn_DDE_OK>
+    <btn_DDE_Cancel>Cancel</btn_DDE_Cancel>
+    <BT_Define_Machines>Edit</BT_Define_Machines>
+    <BTN_Edit>Edit</BTN_Edit>
+    <BTN_Edit_Family>Edit</BTN_Edit_Family>
+    <BTN_More_Materials>More</BTN_More_Materials>
+    <LB_Machine>Machine</LB_Machine>
+    <LB_Tool_Library>Tool Library</LB_Tool_Library>
+    <LB_Library>Library</LB_Library>
+    <LB_Hardness_T>Hardness:</LB_Hardness_T>
+    <LB_Brinell>Brinell</LB_Brinell>
+    <LB_Max_RPM_T>Max RPM</LB_Max_RPM_T>
+    <LB_Max_Power_T>Max Power</LB_Max_Power_T>
+    <LB_Max_Power>HP</LB_Max_Power>
+    <LB_Max_Torque_T>Max Torque</LB_Max_Torque_T>
+    <LB_Max_Feed_T>Max Feed</LB_Max_Feed_T>
+    <LB_ToolType>Tool Type</LB_ToolType>
+    <btn_Capture>Capture</btn_Capture>
+    <PIC_RPM_Plunge_Lock_tooltip>Lock Plunge RPM to Main RPM</PIC_RPM_Plunge_Lock_tooltip>
+    <BTN_FSW_Edit_New_Tool>Edit New</BTN_FSW_Edit_New_Tool>
+    <btn_Load_Tool>Load Tool/Cut</btn_Load_Tool>
+    <btn_FSW_Add_Tool>Add Tool</btn_FSW_Add_Tool>
+    <LB_Pitch>in</LB_Pitch>
+    <LB_Thread_Pitch>Pitch</LB_Thread_Pitch>
+    <LB_Thread_Form>Thread Form</LB_Thread_Form>
+    <LB_Thread_Size>Size</LB_Thread_Size>
+    <LB_Tap_dia_T>Tap Dia</LB_Tap_dia_T>
+    <LB_Tip_Dia_T>Tip Dia</LB_Tip_Dia_T>
+    <LB_Tool_Dia_T>Tool Dia</LB_Tool_Dia_T>
+    <LB_Turn_Dia_T>Turn Dia</LB_Turn_Dia_T>
+    <LB_N_Starts_T>N# of Starts</LB_N_Starts_T>
+    <LB_N_Flutes_T>N# of Flutes</LB_N_Flutes_T>
+    <LB_N_Inserts_T>N# of Inserts</LB_N_Inserts_T>
+    <LB_Len_T>Tool Stick-out</LB_Len_T>
+    <LB_Corner_Rad_T>Corner Rad</LB_Corner_Rad_T>
+    <LB_MaxForce>Max. Cutting Force</LB_MaxForce>
+    <LB_MaxForce_tooltip>Maximum allowed cutting force.
+Feed rate will be limited to keep the cutting force below this number.</LB_MaxForce_tooltip>
+    <check_BallNose>Ball Nose</check_BallNose>
+    <check_TaperShoulder>Tapered Shoulder</check_TaperShoulder>
+    <LB_Insert_Len_T>Insert Length</LB_Insert_Len_T>
+    <LB_Flute_Len_T>Flute Length</LB_Flute_Len_T>
+    <LB_Leadangle_T>Lead Angle</LB_Leadangle_T>
+    <LB_Shank_Dia_T>Shank Dia</LB_Shank_Dia_T>
+    <LB_HolderSize_T>Holder Size</LB_HolderSize_T>
+    <LB_Helix_T>Helix Angle</LB_Helix_T>
+    <LB_ShouldeR_Len_T>Shoulder Len.</LB_ShouldeR_Len_T>
+    <LB_Shoulder_Dia_T>Shoulder Dia.</LB_Shoulder_Dia_T>
+    <BTN_Reset_all>Reset</BTN_Reset_all>
+    <LB_Tool_Type>Tool Type</LB_Tool_Type>
+    <LB_DOC_T>DOC</LB_DOC_T>
+    <LD_DOC_Threadmill_T>DOC</LD_DOC_Threadmill_T>
+    <LB_DOC_RAD_T>DOC</LB_DOC_RAD_T>
+    <LB_DOC_GROOVE_T>WOC</LB_DOC_GROOVE_T>
+    <LB_WOC_T>WOC</LB_WOC_T>
+    <LB_WOC_Threadmill_T>WOC</LB_WOC_Threadmill_T>
+    <check_Slotting>Slot/Pocket</check_Slotting>
+    <LB_DEG>Deg</LB_DEG>
+    <btn_Minicalc_Interpolation>Circle/Ramp</btn_Minicalc_Interpolation>
+    <btn_Check_HSM>HSM</btn_Check_HSM>
+    <btn_check_Thinning>Chip Thinning</btn_check_Thinning>
+    <btn_minicalc_scallop>Scallop</btn_minicalc_scallop>
+    <Button1>Ramp</Button1>
+    <LB_TP_Thread_Type>Thread Type</LB_TP_Thread_Type>
+    <Label_Crossfeed_Angle>Lathe Cross-Feed Angle</Label_Crossfeed_Angle>
+    <LB_TP_Major_Diameter>Major Dia</LB_TP_Major_Diameter>
+    <radio_Circle_Line>Straight Line</radio_Circle_Line>
+    <LB_DRL_E_Dia_T>Effective Dia</LB_DRL_E_Dia_T>
+    <LB_CSNK_E_Dia_T>Countersink Dia</LB_CSNK_E_Dia_T>
+    <LB_Depth_T>Depth</LB_Depth_T>
+    <LB_DRL_Peck_T>Peck</LB_DRL_Peck_T>
+    <LB_Tap_Thread_PC_T>Thread Percentage</LB_Tap_Thread_PC_T>
+    <LB_Tap_Drill_Dia_T>Drill Size</LB_Tap_Drill_Dia_T>
+    <LB_Feed_PC_T>F</LB_Feed_PC_T>
+    <LB_Speed_PC_T>S</LB_Speed_PC_T>
+    <LB_Limit_Torque_PC_T>Limit Torque</LB_Limit_Torque_PC_T>
+    <LB_LimitDef_PC_T>Limit Deflection</LB_LimitDef_PC_T>
+    <LB_Tool_Max_RPM>Tool Max RPM</LB_Tool_Max_RPM>
+    <LB_Ideal_Speed_T>Speed</LB_Ideal_Speed_T>
+    <LB_Ideal_Chipload_T>Chipload</LB_Ideal_Chipload_T>
+    <LB_RPM_T>RPM</LB_RPM_T>
+    <LB_Feed_T>Feed</LB_Feed_T>
+    <LB_Speed_T>Speed</LB_Speed_T>
+    <LB_RPM_Plunge_T>Plunge RPM</LB_RPM_Plunge_T>
+    <LB_Plunge_T>Plunge Feed</LB_Plunge_T>
+    <Tab_Cutting_Data>Cutting Data</Tab_Cutting_Data>
+    <tab_warnings>Warnings</tab_warnings>
+    <tab_tool_paint>Tool Drawing</tab_tool_paint>
+    <btn_Filter_Reset>Reset All</btn_Filter_Reset>
+    <LB_Size>Size</LB_Size>
+    <LB_ThreadForm>Thread Form</LB_ThreadForm>
+    <LB_ThreadClass>Class</LB_ThreadClass>
+    <LB_Units>Units</LB_Units>
+    <GRP_Threads_External_Thread_Info>External Thread Information</GRP_Threads_External_Thread_Info>
+    <LB_MaxRad>Max Rad</LB_MaxRad>
+    <LB_ThreadPitch>Pitch</LB_ThreadPitch>
+    <LB_ThreadCrestTruncate>Crest Truncate</LB_ThreadCrestTruncate>
+    <LB_ThreadRootTruncate>Root Truncate</LB_ThreadRootTruncate>
+    <Label_Root_Radius_T>Root Radius</Label_Root_Radius_T>
+    <GRP_Threads_External_Three_Wire>Three Wire Measurement</GRP_Threads_External_Three_Wire>
+    <LB_Thread3Wire>Enter known values and hit ENTER</LB_Thread3Wire>
+    <LB_ThreadWireDiameter>Wire Diameter</LB_ThreadWireDiameter>
+    <LB_ThreadPitchDiameter>Pitch Diameter</LB_ThreadPitchDiameter>
+    <LB_ThreadMeasureOverWire>Measure over wire</LB_ThreadMeasureOverWire>
+    <LB_ThreadWireDiaMin>Wire Dia Min</LB_ThreadWireDiaMin>
+    <LB_ThreadWireDiaMax>Wire Dia Max</LB_ThreadWireDiaMax>
+    <LB_ThreadWireDiaBest>Wire Dia Best</LB_ThreadWireDiaBest>
+    <LB_DrillTapChart>Drill/Tap Chart</LB_DrillTapChart>
+    <LB_ThreadRecPc>Recommended Thread %</LB_ThreadRecPc>
+    <Radio_Threads_Cutting>Cutting</Radio_Threads_Cutting>
+    <Radio_Threads_Forming>Forming</Radio_Threads_Forming>
+    <LB_ThreadTapHoleSize>Tap Hole Size</LB_ThreadTapHoleSize>
+    <LB_ThreadDesiredPC>Desired Thread %</LB_ThreadDesiredPC>
+    <Licence_BT_Enter_Key>Purchase/Enter Key</Licence_BT_Enter_Key>
+    <LB_LicenseLevel>License Level:</LB_LicenseLevel>
+    <btn_settings_open_user_folder>Open User Folder</btn_settings_open_user_folder>
+    <LB_Settings_Lease_Period_T>Floating License Parking Period</LB_Settings_Lease_Period_T>
+    <BT_E_Exit>Emergency Exit!</BT_E_Exit>
+    <btn_Font_Large>Set Font Size and Style</btn_Font_Large>
+    <settings_check_for_updates>Check for Updates on Startup</settings_check_for_updates>
+    <settings_check_Help>Show Tool-Tip Help</settings_check_Help>
+    <settings_check_swicth_to_warnings>Upon error switch to warnings tab</settings_check_swicth_to_warnings>
+    <settings_check_reset_tooldata_upon_tooltype>Reset Tool Data (HIGHLY Recommended To Check This One)</settings_check_reset_tooldata_upon_tooltype>
+    <settings_check_reset_overrides_upon_tooltype>Reset Speed/Feed Overrides</settings_check_reset_overrides_upon_tooltype>
+    <settings_check_reset_preformance_upon_tooltype>Reset Cutter Performance</settings_check_reset_preformance_upon_tooltype>
+    <settings_check_reset_limits_upon_tooltype>Reset Tool Safety Limits</settings_check_reset_limits_upon_tooltype>
+    <LB_Defaults_Text>Here you can set default values for various overrides and limits.</LB_Defaults_Text>
+    <LB_Defaults_Speed>Cutting Speed (S%)</LB_Defaults_Speed>
+    <LB_Defaults_Feed>Chip load  (F%)</LB_Defaults_Feed>
+    <LB_Defaults_Performance>Tool Performance</LB_Defaults_Performance>
+    <LB_Defaults_Torque>Torque Limit (%)</LB_Defaults_Torque>
+    <LB_Defaults_Deflection>Deflection Limit (%)</LB_Defaults_Deflection>
+    <GRP_Settings_Dropdown>Tool and Cut Drop-Downs</GRP_Settings_Dropdown>
+    <BTN_Settings_Edit_Tool_DropDown_Items>Edit Tool Drop-Down Items</BTN_Settings_Edit_Tool_DropDown_Items>
+    <BTN_Settings_Edit_Cut_DropDown_Items>Edit Cut Drop-Down Items</BTN_Settings_Edit_Cut_DropDown_Items>
+    <LB_ToolCutDrowdowns_Hint>You can also use Right Mouse Click on Cut and Tool Drop-downs to edit items</LB_ToolCutDrowdowns_Hint>
+    <GRP_Settings_DB_Other>Other</GRP_Settings_DB_Other>
+    <BTN_Set_DB_Location>Load Tool Database</BTN_Set_DB_Location>
+    <BTN_MachineDB_Location>Load Machine Database</BTN_MachineDB_Location>
+    <chck_Shared_Database>Compressed Tool Database</chck_Shared_Database>
+    <settings_confirm_calculation_delete>Confirm Tool/Cut Delete</settings_confirm_calculation_delete>
+    <settings_keep_machine_id>Sticky Machine</settings_keep_machine_id>
+    <BTN_View_Reginfo>View Registration Info</BTN_View_Reginfo>
+    <btn_CutCloud>Launch CutCloud</btn_CutCloud>
+    <BT_Define_Tool_Type>Tool Type</BT_Define_Tool_Type>
+    <BT_Define_Material>Material</BT_Define_Material>
+    <BTN_Manage_Machines>Manage Machines</BTN_Manage_Machines>
+    <EXP_DDE_Integration>CAM Integration</EXP_DDE_Integration>
+    <EXP_Workpiece>Workpiece Machine</EXP_Workpiece>
+    <EXP_Tool_Data>Tool Data</EXP_Tool_Data>
+    <EXP_Cut>Cutting Parameters</EXP_Cut>
+    <LB_Cutting_Parameters>Parameters</LB_Cutting_Parameters>
+    <EXP_Comp>Compensation</EXP_Comp>
+    <EXP_Thread_Params>Thread Parameters</EXP_Thread_Params>
+    <EXP_Drilling_Params>Drilling Parameters</EXP_Drilling_Params>
+    <EXP_Tapping_Data>Tapping Data</EXP_Tapping_Data>
+    <EXP_Gages>Gauges</EXP_Gages>
+    <PB_Machine_Power>Spindle Load:</PB_Machine_Power>
+    <PB_Machine_Torque>Torque:</PB_Machine_Torque>
+    <PB_Machine_Force>Cutting Force:</PB_Machine_Force>
+    <PB_Mrr>MRR:</PB_Mrr>
+    <PB_Tool_Life>Tool Life:</PB_Tool_Life>
+    <PB_Tool_Deflection>Deflection:</PB_Tool_Deflection>
+    <PB_Tool_Torque>Tool Torque:</PB_Tool_Torque>
+    <EXP_Overrides>Speed and Feed Adjustments</EXP_Overrides>
+    <EXP_Tool_Limits>Tool Limits</EXP_Tool_Limits>
+    <EXP_CUT_Controls>Saved Cut</EXP_CUT_Controls>
+    <EXP_Limits>Load Limits</EXP_Limits>
+    <EXP_Man_Settings>Manufacturer Speeds and Feeds</EXP_Man_Settings>
+    <EXP_Speed_Feed>Speeds and Feeds</EXP_Speed_Feed>
+    <EXP_myCut_tool_DB_Tool_Filter>Tool Filter</EXP_myCut_tool_DB_Tool_Filter>
+    <EXP_Threads_Thread_Type>Thread</EXP_Threads_Thread_Type>
+    <EXP_Threads_External>External Thread / Three Wire Measurement</EXP_Threads_External>
+    <EXP_Threads_Internal>Internal Thread, Tap/Drill Chart </EXP_Threads_Internal>
+    <EXP_Settings_Licence_Trial>License</EXP_Settings_Licence_Trial>
+    <EXP_Settings_General>General</EXP_Settings_General>
+    <EXP_Settings_Things_to_Reset>Fields and Limits that Reset to Default when Tool Type is changed</EXP_Settings_Things_to_Reset>
+    <EXP_Settings_Defaults>Defaults</EXP_Settings_Defaults>
+    <EXP_Settings_myCUT_DB_Settings>myCut Tool DB and Tool/Cut drop-down list Settings</EXP_Settings_myCUT_DB_Settings>
+    <EXP_Settings_Licence_Full>License</EXP_Settings_Licence_Full>
+    <LB_Tool_Filter>Tool Filter:</LB_Tool_Filter>
+    <LB_ToolShankDia>Tool Shank Diameter</LB_ToolShankDia>
+    <LB_Machine_Interface>Machine Interface</LB_Machine_Interface>
+    <LB_ProductURL>Product URL</LB_ProductURL>
+    <btn_Ok>OK</btn_Ok>
+    <btn_Delete>Delete</btn_Delete>
+    <btn_Add>Add</btn_Add>
+    <btn_Cancel>Cancel</btn_Cancel>
+    <btn_Save>Save</btn_Save>
+    <btn_Apply>Apply</btn_Apply>
+    <SFMToolStripMenuItem>Cutting Speed</SFMToolStripMenuItem>
+    <ChiploadToolStripMenuItem>Chip load</ChiploadToolStripMenuItem>
+    <RPMToolStripMenuItem>RPM</RPMToolStripMenuItem>
+    <FeedrateToolStripMenuItem>Feed rate</FeedrateToolStripMenuItem>
+    <PlungeFeedToolStripMenuItem>Plunge Feed</PlungeFeedToolStripMenuItem>
+    <DOCToolStripMenuItem>DOC</DOCToolStripMenuItem>
+    <WOCToolStripMenuItem>WOC</WOCToolStripMenuItem>
+    <PeckToolStripMenuItem>Peck</PeckToolStripMenuItem>
+    <LoginForm>{pname} License Activation</LoginForm>
+    <LB_FirstName>First Name:</LB_FirstName>
+    <LB_SerialNumber>License Key:</LB_SerialNumber>
+    <LB_LastName>Last Name:</LB_LastName>
+    <LNK_Purchase_License>Purchase License</LNK_Purchase_License>
+    <LB_Computer_ID>Computer ID:</LB_Computer_ID>
+    <LB_License_Level>License Level:</LB_License_Level>
+    <LB_Email>Email</LB_Email>
+    <LB_Login>Username</LB_Login>
+    <LB_Password>Password</LB_Password>
+    <LB_Password2>Re-enter Password</LB_Password2>
+    <LB_CloudUsername>Username/Email</LB_CloudUsername>
+    <LB_CloudPassword>Password</LB_CloudPassword>
+    <LNK_Claim_Purchased_Keys>View My License On-line</LNK_Claim_Purchased_Keys>
+    <LNK_Autoregister>Register Automatically</LNK_Autoregister>
+    <LNK_License_Logout>Log Out</LNK_License_Logout>
+    <FRM_MachineDefinition>Machine Profile</FRM_MachineDefinition>
+    <CHK_Mach_Stick_To_RPM>Calculations stick to predefined RPM from the Power Curve table</CHK_Mach_Stick_To_RPM>
+    <CHK_Mach_Stick_To_RPM_tooltip>Check if you want to force calculated RPM to always match predefined RPM from the Power Curve table</CHK_Mach_Stick_To_RPM_tooltip>
+    <GRP_Power_Curve>Power Curve </GRP_Power_Curve>
+    <BTN_Power_Curve_Wizard>Power Curve Wizard</BTN_Power_Curve_Wizard>
+    <BTN_Power_Curve_Wizard_tooltip>Launch Power Curve Estimation Wizard</BTN_Power_Curve_Wizard_tooltip>
+    <LB_Mach_Notice>* RPM Values MUST be in ascending order</LB_Mach_Notice>
+    <GRP_Machine_Info>Machine Info</GRP_Machine_Info>
+    <GRP_Select_Machine>Select Machine</GRP_Select_Machine>
+    <BTN_Add_Mach>Add</BTN_Add_Mach>
+    <BTN_Add_Mach_tooltip>Create a new Machine Profile</BTN_Add_Mach_tooltip>
+    <BTN_Remove_Mach>Remove</BTN_Remove_Mach>
+    <BTN_Remove_Mach_tooltip>Remove selected Profile from the list</BTN_Remove_Mach_tooltip>
+    <BTN_clone_mach>Clone</BTN_clone_mach>
+    <BTN_clone_mach_tooltip>Clone selected Profile</BTN_clone_mach_tooltip>
+    <BTN_Import_Mach>Import</BTN_Import_Mach>
+    <BTN_Import_Mach_tooltip>Import a Machine Profile from an external file</BTN_Import_Mach_tooltip>
+    <BTN_Export_Mach>Export</BTN_Export_Mach>
+    <BTN_Export_Mach_tooltip>Export Machine Profiles to an external file</BTN_Export_Mach_tooltip>
+    <BTN_Open>Open</BTN_Open>
+    <LB_Max_Tap_RPM>Max Tap RPM</LB_Max_Tap_RPM>
+    <LB_Max_Tap_RPM_tooltip>Set maximum allowed tapping RPM for your machine</LB_Max_Tap_RPM_tooltip>
+    <LB_Min_RPM_T>Min RPM</LB_Min_RPM_T>
+    <LB_Min_RPM_T_tooltip>Minimum spindle RPM</LB_Min_RPM_T_tooltip>
+    <LB_Name>Name</LB_Name>
+    <LB_Warning_At_T>Warning at</LB_Warning_At_T>
+    <LB_Warning_At_T_tooltip>Generate warning whenever either power or torque are THIS close to the maximum</LB_Warning_At_T_tooltip>
+    <CHK_Mach_Use_Curve>Use Power Curve</CHK_Mach_Use_Curve>
+    <CHK_Mach_Use_Curve_tooltip>Check if you want to use Power Curve compensation
+Maximum Power and Maximum Torque Limits will vary according to the spindle RPM</CHK_Mach_Use_Curve_tooltip>
+    <MiniCalc_Turn_Scallop>Turning Surface Finish Calculator</MiniCalc_Turn_Scallop>
+    <LB_Surface_Roughness_T>Ra surface roughness</LB_Surface_Roughness_T>
+    <LB_Scallop_T>Scallop</LB_Scallop_T>
+    <LB_Feed_per_Rev>Feed per Revolution</LB_Feed_per_Rev>
+    <MiniCalc_Interpolation>Circular Interpolation/Ramping</MiniCalc_Interpolation>
+    <MiniCalc_Scallop>Ball Mill Scallop Calculator</MiniCalc_Scallop>
+    <LB_Scallop_DOC>Scallop(DOC)</LB_Scallop_DOC>
+    <LB_Stepover>Step-over</LB_Stepover>
+    <GRP_Interpolation_Params>Internal Interpolation Parameters</GRP_Interpolation_Params>
+    <GRP_External_Interpolation_Params>External Interpolation Parameters</GRP_External_Interpolation_Params>
+    <GRP_Line_Ramping_Params>Straight Line Ramping Parameters</GRP_Line_Ramping_Params>
+    <LB_LineRamp_FullSlot_Text>Straight Line Ramping assumes Full Slotting engagement</LB_LineRamp_FullSlot_Text>
+    <LB_Circular_Units_Converted_T>All units are converted to the units of the cutter tip diameter</LB_Circular_Units_Converted_T>
+    <LB_Feature_Type>Feature Type</LB_Feature_Type>
+    <LB_Pilot_Hole_Dia>Pilot Hole Diameter</LB_Pilot_Hole_Dia>
+    <LB_Stock_Dia_T>Stock Diameter</LB_Stock_Dia_T>
+    <LB_Fin_Hole_Dia>Finished Hole Diameter</LB_Fin_Hole_Dia>
+    <LB_Fin_Boss_Dia>Finished Boss Diameter</LB_Fin_Boss_Dia>
+    <LB_Cutter_Dia_T>Cutter Diameter</LB_Cutter_Dia_T>
+    <LB_With_of_Cut_T>Width of Cut</LB_With_of_Cut_T>
+    <LB_Pass_Len>Length of pass</LB_Pass_Len>
+    <LB_Angle_T>Angle</LB_Angle_T>
+    <LB_Pitch_DOC>Pitch (Depth of Cut)</LB_Pitch_DOC>
+    <GRP_Helical_Params>Ramp Angle Calculator</GRP_Helical_Params>
+    <Radio_Ramp_Feed>Ramp Milling</Radio_Ramp_Feed>
+    <Radio_Ramp_Feed_tooltip>Circular Interpolation and Ramping settings apply to Milling Feedrate</Radio_Ramp_Feed_tooltip>
+    <Radio_Ramp_Plunge>Ramp Plunging</Radio_Ramp_Plunge>
+    <Radio_Ramp_Plunge_tooltip>Circular Interpolation and Ramping settings affect Only Plunging Feedrate</Radio_Ramp_Plunge_tooltip>
+    <LB_Pass_Length>Pass Length</LB_Pass_Length>
+    <btn_CreatePR>Create Purchase Request Form</btn_CreatePR>
+    <btn_Close>Close</btn_Close>
+    <btn_ApplyToStock>Apply Received to Stock</btn_ApplyToStock>
+    <btn_Save_Request>Save Request</btn_Save_Request>
+    <LB_SetOrderQty>Set 'Request' quantity:</LB_SetOrderQty>
+    <LB_SetOrderQtyMax>max Stock</LB_SetOrderQtyMax>
+    <LB_SetOrderQtyMin>min Stock</LB_SetOrderQtyMin>
+    <LB_SetOrderQty0>Set to 0</LB_SetOrderQty0>
+    <PurchaseRequest_DLG>Purchase Request Form</PurchaseRequest_DLG>
+    <btn_PrintPR>Export Purchase Request</btn_PrintPR>
+    <Edit_Tool_Info>Edit Tool Information</Edit_Tool_Info>
+    <LB_Series_Name>Series Name</LB_Series_Name>
+    <LB_Brand_Name>Brand Name</LB_Brand_Name>
+    <LB_Insert_Name>Insert Name</LB_Insert_Name>
+    <LB_Brand_Series>Custom Table</LB_Brand_Series>
+    <LB_Additional_Tool_Info>Additional Tool Info</LB_Additional_Tool_Info>
+    <LB_Number_On_Hand>In Stock</LB_Number_On_Hand>
+    <LB_Number_On_Hand_tooltip>Number of tools currently In Stock</LB_Number_On_Hand_tooltip>
+    <LB_Stock_Min>Stock Min.</LB_Stock_Min>
+    <LB_Stock_Min_tooltip>Minimum Stock Quantity which triggers a warning</LB_Stock_Min_tooltip>
+    <LB_Stock_Opt>Stock Max.</LB_Stock_Opt>
+    <LB_Stock_Opt_tooltip>Optimal Stock Quantity</LB_Stock_Opt_tooltip>
+    <LB_Number_On_Order>Currently On Order</LB_Number_On_Order>
+    <LB_Number_On_Order_tooltip>Number of Tools Currently On Order</LB_Number_On_Order_tooltip>
+    <LB_Price>Price</LB_Price>
+    <btn_Clear_Table>Clear table</btn_Clear_Table>
+    <btn_Copy_Data>Copy</btn_Copy_Data>
+    <btn_Paste_Data>Paste</btn_Paste_Data>
+    <btn_Copy_Data_tooltip>Copy Custom Data to Clipboard</btn_Copy_Data_tooltip>
+    <btn_Paste_Data_tooltip>Paste Custom Data from Clipboard</btn_Paste_Data_tooltip>
+    <LB_ToOrder>To Order</LB_ToOrder>
+    <btn_Add_ToOrder>Set To Order</btn_Add_ToOrder>
+    <LB_Tool_Supplier>Tool Supplier</LB_Tool_Supplier>
+    <LB_Tool_Location>Location (Cabinet-Drawer-Bin)</LB_Tool_Location>
+    <LB_Supplier_Part_ID>Supplier Part Number</LB_Supplier_Part_ID>
+    <LB_Tool_Record_Type>Record Type</LB_Tool_Record_Type>
+    <CHK_Generic>Generic - Editable Tool Geometry</CHK_Generic>
+    <TAB_Tool_Info>Tool Info</TAB_Tool_Info>
+    <Tab_Speeds_and_Feeds>Speeds and Feeds</Tab_Speeds_and_Feeds>
+    <CHK_SF_Auto>Automatic Speeds and Feeds</CHK_SF_Auto>
+    <CHK_SF_Custom>Custom Speeds and Feeds</CHK_SF_Custom>
+    <LB_Chipload_T>Chip Load</LB_Chipload_T>
+    <LB_Material_T>Material</LB_Material_T>
+    <LB_SFM>SFM</LB_SFM>
+    <btn_Reset_SFM>Reset to default</btn_Reset_SFM>
+    <CustomSpeedsFeeds>Custom Speeds and Feeds</CustomSpeedsFeeds>
+    <LB_Custom_Tables>Custom Tables</LB_Custom_Tables>
+    <LB_SAF_Message>Specify Brand Name and Series Name in Tool Info</LB_SAF_Message>
+    <btn_Reset_IPT>Reset to default</btn_Reset_IPT>
+    <BTN_Generate_Sizes>Generate Sizes</BTN_Generate_Sizes>
+    <btn_Reset_IPT_Table>Reset to default</btn_Reset_IPT_Table>
+    <Edit_Cut_Info>Edit Cut Information</Edit_Cut_Info>
+    <LB_Number>T#</LB_Number>
+    <LB_Offset_Length>L#</LB_Offset_Length>
+    <LB_Offset_Dia>D#</LB_Offset_Dia>
+    <LB_Additional_OP_Info>Additional Operation Info</LB_Additional_OP_Info>
+    <LB_Holder>Holder Name</LB_Holder>
+    <Tab_Tool_Geometry>Tool Geometry</Tab_Tool_Geometry>
+    <btn_HSMA_Cloud_Login>HSMAdvisor Cloud Login</btn_HSMA_Cloud_Login>
+    <GRP_Cloud_Service>HSMAdvisor Cloud Services</GRP_Cloud_Service>
+    <BTN_Upload_Machine>Upload</BTN_Upload_Machine>
+    <BTN_Upload_Machine_tooltip>Upload Current Machine Profile to the Cloud</BTN_Upload_Machine_tooltip>
+    <BTN_Download_Machine>Download</BTN_Download_Machine>
+    <BTN_Download_Machine_tooltip>Download Machine Profiles from the Cloud</BTN_Download_Machine_tooltip>
+    <CHK_Private_Machine>Private Machine</CHK_Private_Machine>
+    <CHK_Private_Machine_tooltip>Uploading this machine as Private does not allow other users to view or download it</CHK_Private_Machine_tooltip>
+    <LB_Register_About_Cloud>Register for the HSMAdvisor Cloud to upload Machine Profiles, and sync Tools with your other HSMAdvisor instances and FSWizard!</LB_Register_About_Cloud>
+    <LB_Reset_About_Cloud>You have successfully logged in to your account using a temporary password. As a security measure, we require you to change this temporary password to a new one of your choice. Please provide your new password below.</LB_Reset_About_Cloud>
+    <LB_Remind_About_Cloud>To reset your password and regain access to your account, please provide the email address associated with your account. We will send a temporary password to this email address.</LB_Remind_About_Cloud>
+    <CutCloudFeedback>Cut Cloud Feedback</CutCloudFeedback>
+    <EXP_OptionsAbout>Options/About</EXP_OptionsAbout>
+    <CHK_CutCloudF_Save_Params>Save Feedback Parameters in the Cut</CHK_CutCloudF_Save_Params>
+    <LB_CutCloudAbout>Send feedback about your experience cutting in the current conditions with this tool.
+Good or Bad - let everybody know how did it go!</LB_CutCloudAbout>
+    <LB_Op_Comment>Operation Comment</LB_Op_Comment>
+    <LB_Op_Rating>Rate This Cut</LB_Op_Rating>
+    <LB_Coolant>Coolant</LB_Coolant>
+    <btn_Send>Send</btn_Send>
+    <AddToolToolStripMenuItem>Add New Tool</AddToolToolStripMenuItem>
+    <EditToolInfoToolStripMenuItem>Edit Tool Info</EditToolInfoToolStripMenuItem>
+    <EditToolDataToolStripMenuItem>Edit Tool Geometry</EditToolDataToolStripMenuItem>
+    <DeleteToolToolStripMenuItem>Delete Tool</DeleteToolToolStripMenuItem>
+    <SaveToolToolStripMenuItem>Save Tool</SaveToolToolStripMenuItem>
+    <OpenToolDatabaseToolStripMenuItem>Open Tool Database...</OpenToolDatabaseToolStripMenuItem>
+    <CreateNewToolLibrary>Create New Tool Library</CreateNewToolLibrary>
+    <ImportStripMenuItem>Import</ImportStripMenuItem>
+    <ExportToolStripMenuItem>Export</ExportToolStripMenuItem>
+    <ExportAsXmlFileToolStripMenuItem>Export as XML File</ExportAsXmlFileToolStripMenuItem>
+    <ImportFromXMLFileToolStripMenuItem>Import From XML File</ImportFromXMLFileToolStripMenuItem>
+    <LoadToolStripMenuItem>Load</LoadToolStripMenuItem>
+    <ViewInformationToolStripMenuItem>View Information</ViewInformationToolStripMenuItem>
+    <CopyToolToAnotherLibraryToolStripMenuItem>Copy To ...</CopyToolToAnotherLibraryToolStripMenuItem>
+    <MoveToolToAnotherLibraryToolStripMenuItem>Move To ...</MoveToolToAnotherLibraryToolStripMenuItem>
+    <DeleteCutInfoToolStripMenuItem>Delete</DeleteCutInfoToolStripMenuItem>
+    <ToolWizardsToolStripMenuItem>Mass Quick Edit</ToolWizardsToolStripMenuItem>
+    <ResetSFOverridesToolStripMenuItem>Reset Speed Feed Overrides</ResetSFOverridesToolStripMenuItem>
+    <ResetCutDataToolStripMenuItem>Reset Cut Data</ResetCutDataToolStripMenuItem>
+    <SetMachineToolStripMenuItem>Set Machine</SetMachineToolStripMenuItem>
+    <SetHolderToolStripMenuItem>Set Holder</SetHolderToolStripMenuItem>
+    <SetCommentToolStripMenuItem>Set Comment</SetCommentToolStripMenuItem>
+    <SetBrandNameToolStripMenuItem>Set Brand Name</SetBrandNameToolStripMenuItem>
+    <SetSeriesNameToolStripMenuItem>Set Series Name</SetSeriesNameToolStripMenuItem>
+    <SetSupplierToolStripMenuItem>Set Supplier Name</SetSupplierToolStripMenuItem>
+    <SetSupplierPartNumberToolStripMenuItem>Set Supplier Part Number</SetSupplierPartNumberToolStripMenuItem>
+    <RenameToolLibraryToolStripMenuItem>Rename Tool Library</RenameToolLibraryToolStripMenuItem>
+    <MergeToolLibrariesToolStripMenuItem>Merge Tool Library with another one</MergeToolLibrariesToolStripMenuItem>
+    <InsertBatchToolListToolStripMenuItem>Insert Batch Tool List</InsertBatchToolListToolStripMenuItem>
+    <DeleteCurrentToolLibraryToolStripMenuItem>Delete Tool Library</DeleteCurrentToolLibraryToolStripMenuItem>
+    <AddCutToolStripMenuItem>Add Cut</AddCutToolStripMenuItem>
+    <CutInfoToolStripMenuItem>Edit Cut Info</CutInfoToolStripMenuItem>
+    <DeleteCutToolStripMenuItem>Delete Cut</DeleteCutToolStripMenuItem>
+    <SaveCutToolStripMenuItem>Save Cut</SaveCutToolStripMenuItem>
+    <ToolStripMenuItem11>Export</ToolStripMenuItem11>
+    <DeletePluginToolStripMenuItem>Delete WEB Page</DeletePluginToolStripMenuItem>
+    <CloseTabToolStripMenuItem>Close Tab</CloseTabToolStripMenuItem>
+    <SavePageOnDiskToolStripMenuItem>Save Page On Disk</SavePageOnDiskToolStripMenuItem>
+    <radio_Circle_Internal>Internal(Hole)</radio_Circle_Internal>
+    <radio_Circle_External>External(Boss)</radio_Circle_External>
+    <LB_Cutting_Speed_T>Cutting Speed</LB_Cutting_Speed_T>
+    <CHK_Expand_All>Expand All Tools</CHK_Expand_All>
+    <LB_Operation>Operation</LB_Operation>
+    <LB_Surface_Finish>Surface Finish</LB_Surface_Finish>
+    <LB_Tool_Life>Tool Life</LB_Tool_Life>
+    <LB_Units_T>Units</LB_Units_T>
+    <LB_Comment>Comment</LB_Comment>
+    <LB_Show_Tree_ToolTip>Show/Hide Tool DataBase Contents Tree</LB_Show_Tree_ToolTip>
+    <txt_data_help_label_Head>Cutting Data</txt_data_help_label_Head>
+    <txt_data_help_label_Body>Use the "Print Current Tab" button on the bottom status bar\nto print the Calculation Report document</txt_data_help_label_Body>
+    <LB_Feed_PC_T_Head>Chip load Override</LB_Feed_PC_T_Head>
+    <LB_Feed_PC_T_Body>
+● 30% - Finishing / Very light roughing
+● 50% - Semi-finishing / light roughing
+● 100% - Normal roughing
+● 150% - Heavy roughing: Use caution
+● 200% - Very heavy roughing on very rigid setups: Use extreme caution</LB_Feed_PC_T_Body>
+    <LB_Max_Feed_T_Head>Maximum Desired Feed rate for your machine</LB_Max_Feed_T_Head>
+    <LB_Max_Feed_T_Body>If this limit is reached, Spindle Speed is reduced to match the calculated chip load</LB_Max_Feed_T_Body>
+    <PB_Tool_Deflection_Slider_Head>Cutter Deflection Safety Limit</PB_Tool_Deflection_Slider_Head>
+    <PB_Tool_Deflection_Slider_Body>Allows you to limit cutter deflection
+When end mill deflection exceeds specified percentage, chip load is reduced to prevent cutter breakage
+● 70% is the default safe value (You can change it in Settings-&gt;Defaults)
+● 100% is a maximum safe deflection
+● 200% is a maximum survivable deflection
+Click To Reset to Default</PB_Tool_Deflection_Slider_Body>
+    <PB_Tool_Torque_Slider_Head>Cutter Torque Safety Limit</PB_Tool_Torque_Slider_Head>
+    <PB_Tool_Torque_Slider_Body>Allows you to limit torque on the cutter by automatically reducing chip load
+When torque on the end mill exceeds specified percentage, chip load is reduced to prevent cutter breakage
+● 70% is the safe value (You can change it in Settings-&gt;Defaults)
+● 100% is a maximum safe value
+● 200% is a maximum survivable torque value
+Click To Reset to Default</PB_Tool_Torque_Slider_Body>
+    <PB_Machine_CuttingForce_Head>Cutting Force</PB_Machine_CuttingForce_Head>
+    <PB_Machine_CuttingForce_Body>Shows the relation between Tool Cutting force and Machine Max Cutting Force set in the Machine Profile</PB_Machine_CuttingForce_Body>
+    <LB_Max_RPM_T_Head>Machine RPM Limit</LB_Max_RPM_T_Head>
+    <LB_Max_RPM_T_Body>Allows you to limit the spindle speed
+Feed rate will reduce accordingly but chip load will remain the same</LB_Max_RPM_T_Body>
+    <LB_Max_Power_T_Head>Power at Tool Limit</LB_Max_Power_T_Head>
+    <LB_Max_Power_T_Body>Allows you to limit the power that is required to make the cut
+RPM and Feed rate will be reduced to keep calculated power requirement below this number</LB_Max_Power_T_Body>
+    <LB_Max_Torque_T_Head>Torque at Tool Limit</LB_Max_Torque_T_Head>
+    <LB_Max_Torque_T_Body>Allows you to limit the torque that is required to make the cut
+Feed rate will be reduced to keep calculated power requirement below this number</LB_Max_Torque_T_Body>
+    <LB_WOC_T_Head>Radial Width Of Cut</LB_WOC_T_Head>
+    <LB_WOC_T_Body>Taking small WOC lets you use radial chip thinning that enables higher feed rates
+CLICK to reset to default</LB_WOC_T_Body>
+    <LB_WOC_Threadmill_T_Head>Width Of Cut</LB_WOC_Threadmill_T_Head>
+    <LB_WOC_Threadmill_T_Body>Radial Depth of Thread per each side</LB_WOC_Threadmill_T_Body>
+    <LB_DOC_T_Head>Axial Depth Of Cut</LB_DOC_T_Head>
+    <LB_DOC_T_Body>Taking small DOC in conjunction with using tools with significant corner radius or low lead angle
+allows to increase feed rate when Chip Thinning and/or HSM option is enabled.
+Click to reset to default</LB_DOC_T_Body>
+    <LB_DOC_Threadmill_T_Head>Axial Depth Of Cut</LB_DOC_Threadmill_T_Head>
+    <LB_DOC_Threadmill_T_Body>Maximum depth of the threading pass</LB_DOC_Threadmill_T_Body>
+    <LB_DOC_GROOVE_T_Head>Width of Cut</LB_DOC_GROOVE_T_Head>
+    <LB_DOC_GROOVE_T_Body>Width of Grooving Cut</LB_DOC_GROOVE_T_Body>
+    <LB_Leadangle_T_Lead_Head>Lead Angle</LB_Leadangle_T_Lead_Head>
+    <LB_Leadangle_T_Lead_Body>Lead Angle is angle between the cutting edge and a plane perpendicular to the axis the cutter
+Common values:
+● 90 - regular straight edge
+● 45 - Common angle for face mills
+● 5-30: High feed mills
+Lower angles allow increased feed rates
+CLICK to reset to default for this tool type</LB_Leadangle_T_Lead_Body>
+    <LB_Leadangle_T_Taper_Head>Taper Angle</LB_Leadangle_T_Taper_Head>
+    <LB_Leadangle_T_Taper_Body>Angle between the cutting edge and the axis of the cutter
+CLICK to reset to default for this tool type</LB_Leadangle_T_Taper_Body>
+    <LB_Leadangle_T_Tip_Head>Tip Angle (Included Angle)</LB_Leadangle_T_Tip_Head>
+    <LB_Leadangle_T_Tip_Body>Double of the Angle between the cutting edge and the axis of the cutter
+CLICK to reset to default for this tool type</LB_Leadangle_T_Tip_Body>
+    <PNL_MaxPerformance_Head>Maximum Performance</PNL_MaxPerformance_Head>
+    <PNL_MaxPerformance_Body>
+● Requires high performance heavy-duty cutters, holders, rigid setup and machine tool.
+● Recommended Depth Of Cut is increased
+● Recommended Depth Of Cut is NOT reduced to compensate for increased overhang and flute length of an end mill
+● Feed rate will be minimally reduced by increased engagement, thus increasing side load on the cutter, deflection and torque
+● Deflection and Torque will only be limited by the Tool Safety Limits
+Make Sure your work holding, tooling and machine tool are up to the job
+Make Sure your Tool Safety and Machine Limits are setup correctly</PNL_MaxPerformance_Body>
+    <PNL_MinPerformance_Head>Minimum Performance</PNL_MinPerformance_Head>
+    <PNL_MinPerformance_Body>
+● For cases when work holding, tooling or machinery are not sufficiently rigid to use the tool to its full potential
+● Advised for unstable cutting conditions
+● Recommended Depth Of Cut is reduced to compensate for increased overhang and flute length of an end mill
+● When using DOC greater than recommended, Feed rate will be reduced by up to 50%
+● Any additional increase in cutter load will reflect in increased deflection
+Make Sure your Tool Deflection Safety Limit is setup correctly</PNL_MinPerformance_Body>
+    <LB_Depth_T_Head>Hole Depth</LB_Depth_T_Head>
+    <LB_Depth_T_Body>
+● Pecking may be required when drilling deeper holes
+● Peck distance recommendation will change according to the depth of the hole
+● in cases when depth is less than the length of the tip,
+Effective diameter will be smaller than the diameter of the drill
+Click to reset to default</LB_Depth_T_Body>
+    <LB_DRL_E_Dia_T_Head>Effective Diameter</LB_DRL_E_Dia_T_Head>
+    <LB_DRL_E_Dia_T_Body> ● Effective diameter of the hole at the specified depth</LB_DRL_E_Dia_T_Body>
+    <LB_Speed_PC_T_Head>Cutting Speed Override</LB_Speed_PC_T_Head>
+    <LB_Speed_PC_T_Body>The program will adjust Cutting Speed according to cutting conditions
+any overrides you put in place here will add up on top of that
+● 30% - Very Heavy roughing and/or very unstable setups
+● 50% - Heavy Roughing and/or unstable setups
+● 100% - Normal Roughing/Semi-Finishing on stable setups
+● 150% - Medium finishing on stable setups
+● 200% - Light Finishing on stable setups</LB_Speed_PC_T_Body>
+    <LB_TP_Major_Diameter_Head>Thread Diameter</LB_TP_Major_Diameter_Head>
+    <LB_TP_Major_Diameter_Body>Major diameter of the thread
+Required to properly calculate feed reduction to account for difference between tool path and tool radius</LB_TP_Major_Diameter_Body>
+    <LB_DOC_RAD_T_Head>Depth Of Cut</LB_DOC_RAD_T_Head>
+    <LB_DOC_RAD_T_Body>For Turning-Profiling: Radial Depth of Cut
+For Turning-Grooving: Axial Width of Cut
+Click to reset to default</LB_DOC_RAD_T_Body>
+    <LB_Len_T_Head>Tool Stick out</LB_Len_T_Head>
+    <LB_Len_T_Body>Distance from tip of the tool to the holder
+For integrated tooling and arbor-mounted shell mills use distance from spindle nose to the tip of the cutter
+Click to reset to default</LB_Len_T_Body>
+    <LB_Corner_Rad_T_Head>Corner Radius</LB_Corner_Rad_T_Head>
+    <LB_Corner_Rad_T_Body>Click to reset to default</LB_Corner_Rad_T_Body>
+    <BT_MyCut_Tool_More_Head>Tool Actions</BT_MyCut_Tool_More_Head>
+    <BT_MyCut_Tool_More_Body>Tool records hold data for all fields except Machine Data and Workpiece Material
+Add New Tool - A new tool can be added after 'New Tool' is selected from Tool drop-down list
+Edit Tool Info - Edit Tool manufacturer, vendor and usage information
+Edit Tool Geometry - Makes tool geometry fields available for edit
+Delete Tool - Remove selected Tool from the library
+Save Tool - You can only save changes made to the tool geometry while still in 'Edit Tool Geometry' mode
+
+When a tool is loaded from the DataBase most input fields responsible for tool material and geometry become disabled.
+In order to enable those fields you need to unload current tool by selecting 'New Tool' from 'Tool' drop-down list</BT_MyCut_Tool_More_Body>
+    <BT_myCut_Cut_More_Head>Cut Actions</BT_myCut_Cut_More_Head>
+    <BT_myCut_Cut_More_Body>Cut records hold data for all fields except Tool Geometry
+Add New Cut - Add new Cut to the currently selected tool
+Edit Cut Info - Edit selected Cut information
+Delete Cut - Remove selected Cut from the library
+Save Cut - Save changes made to the currently selected Cut
+
+Cut Data contains such information as workpiece material, depth and width of cut, as well as speed, feed and productivity overrides.
+Each Tool can contain any number of Cuts attached to it</BT_myCut_Cut_More_Body>
+    <Input_Depth_Head />
+    <Input_Depth_Body />
+    <btn_check_Thinning_Head>Enable/Disable Chip Thinning</btn_check_Thinning_Head>
+    <btn_check_Thinning_Body>Check to enable axial and radial chip thinning
+● It allows to compensate for chip thinning effect that occurs at low radial and axial engagements
+● Usual Width Of Cut for HSM machining is 6-12% or 30-40 degrees
+● Running at low engagements improves productivity and tool life
+● Enabling Chip Thinning is NOT recommended for finishing as it deteriorates surface finish</btn_check_Thinning_Body>
+    <btn_Check_HSM_Head>Enable/Disable HSM Machining</btn_Check_HSM_Head>
+    <btn_Check_HSM_Body>Check to enable High Speed Machining speeds
+● It allows to increase cutting speed at low radial engagements
+● Usual Width Of Cut for HSM machining is 6-12% or 30-40 degrees
+● Running at low engagements improves productivity and tool life
+● HSM can be used for both roughing and finishing as it allows to increase cutting speed without sacrificing tool life</btn_Check_HSM_Body>
+    <Panel_Tool_Manufacturer_Settings_Tip_Head>Tool Manufacturer Custom Settings</Panel_Tool_Manufacturer_Settings_Tip_Head>
+    <Panel_Tool_Manufacturer_Settings_Tip_Body>
+● Here you can adjust the most important parameters to match the manufacturer-recommended settings
+● Tool Max RPM is saved both with the Tool and the Cut
+● Cutting Speed and Chip load are material-dependent and saved with the Cut
+● Click to reset these fields to default</Panel_Tool_Manufacturer_Settings_Tip_Body>
+    <LB_Tool_Max_RPM_Head>Maximum allowed RPM for this tool</LB_Tool_Max_RPM_Head>
+    <LB_Tool_Max_RPM_Body>You can limit maximum allowed RPM for this tool
+● Leave this field zero if you wish to use Machine Max RPM setting instead
+● Click to reset this field to zero</LB_Tool_Max_RPM_Body>
+    <LB_Ideal_Chipload_T_Head>Manufacturer-recommended / Custom chip load</LB_Ideal_Chipload_T_Head>
+    <LB_Ideal_Chipload_T_Body>You can specify manufacturer-recommended or ideal chip load here
+● Custom chip load is active only for one particular Cur record and is saved into myCut DB
+● Click to reset this field to default</LB_Ideal_Chipload_T_Body>
+    <LB_Ideal_Speed_T_Head>Manufacturer-recommended / Custom Cutting Speed</LB_Ideal_Speed_T_Head>
+    <LB_Ideal_Speed_T_Body>You can specify manufacturer-recommended or ideal Cutting Speed here
+● Custom Cutting Speed is active only for one particular Cut record and is saved into myCut DB
+● Click to reset this field to default</LB_Ideal_Speed_T_Body>
+    <BTN_Reset_all_Head>Reset everything to default</BTN_Reset_all_Head>
+    <BTN_Reset_all_Body>All fields will be reset to default
+Current tool will be unloaded
+Tool geometry and engagement will be set to default for the current cutter type
+Tool safety limits will be set to default 70%
+Speed and Feed overrides will be set to 100%</BTN_Reset_all_Body>
+    <BTN_More_Materials_Head>Material Cross Reference</BTN_More_Materials_Head>
+    <BTN_More_Materials_Body>Launch the material cross reference chart</BTN_More_Materials_Body>
+    <LB_Chipload_T_Head>Chip load / Feed Per Revolution</LB_Chipload_T_Head>
+    <LB_Chipload_T_Body>Chip load: Advancement of tool per tooth per one revolution
+Feed per Revolution: Advancement of tool per one revolution
+● Expressed in Inches or Millimetres
+● Shows recommended Chip load or Feed per Revolution After it gets gets affected by factors like
+feed override, material load, HSM and Chip Thinning
+Enter your number and hit Enter to recalculate to this value
+Click to switch between Chip load and Feed per Revolution display</LB_Chipload_T_Body>
+    <LB_Speed_T_Head>Cutting Speed</LB_Speed_T_Head>
+    <LB_Speed_T_Body>Material, Tool and Coating - dependent value.
+● Shows recommended Cutting Speed after it gets affected by parameters like:
+Cutting Speed override, Tool length, material load and HSM _
+But before limits like Machine Max RPM
+Expressed in Surface Meters per Minute or Surface Feet per Minute
+
+Enter your number and hit Enter to recalculate to this value
+Click to Reset to Default</LB_Speed_T_Body>
+    <check_Slotting_Head>Slotting/Pocket Switch</check_Slotting_Head>
+    <check_Slotting_Body>CHECK to force use of full width of the cutter
+● Recommended not only when slotting but also when when pocketing
+
+For Ball Nose End Mill:
+Enables axial tip diameter compensation
+● CHECK for end milling and flat floor milling (0-60deg floor)
+● UnCHECK for side milling and steep wall milling (60-90 degree wall)</check_Slotting_Body>
+    <settings_keep_machine_id_Head>Sticky Machine</settings_keep_machine_id_Head>
+    <settings_keep_machine_id_Body>Please check if you DO NOT want Machine to change when a cut containing another machine is loaded from the DB</settings_keep_machine_id_Body>
+    <LB_Plunge_T_Head>Plunge Feed Rate</LB_Plunge_T_Head>
+    <LB_Plunge_T_Body>Theoretical Plunge Rate based on selected Plunging/Ramping parameters
+● Use Extreme Caution: Not every tool is designed for plunging or ramping at steep angles - Consult your tool manufacturer
+● Safe Ramping angle for most types of solid end mills is 3-5 degrees; for most indexed end mills is 1.5-2 degrees
+● Click to reset to Default</LB_Plunge_T_Body>
+    <chck_Shared_Database_Head>Enable/Disable Tool Database File Compression</chck_Shared_Database_Head>
+    <chck_Shared_Database_Body>Enable to save your Tool Database in ZIP format for faster read/write operations and 10x smaller file footprint.
+Recommended for large Data Base files.</chck_Shared_Database_Body>
+    <BTN_Set_DB_Location_Head>Set myCut Tool Database Location</BTN_Set_DB_Location_Head>
+    <BTN_Set_DB_Location_Body>You can specify a custom location for the Tool Data Base
+By default Tool Database is located in the installation folder in the user_tool_lib.tooldb.xml file
+● Using this You can switch between Tool Databases on the fly
+● Pointing this location to a network drive will allow more than one instance of HSMAdvisor to access the database at the same time
+You can start by Exporting your Tool DB to a shared location on a network drive
+Then you should set the custom location in settings of all HSMAdvisor seats to this file
+Do not forget to 'Enable Shared Tool Database' option to enable compression and let all HSMAdvisor instances use the same file in real time</BTN_Set_DB_Location_Body>
+    <BTN_SF_Status_Head>Speeds and Feeds Source</BTN_SF_Status_Head>
+    <BTN_SF_Status_Body>
+● Yellow A
+Automatic Speeds and Feeds produced by internal data tables
+● Green M
+Manufacturer/Custom Speeds and Feeds suggested by [Brand Name]/[Series Name] of the tool for This Material
+● Green/Yellow M
+Partial Manufacturer/Custom Speeds and Feeds suggested by [Brand Name]/[Series] Name of the tool for This Material Group
+● You can edit and view chip load tables in Tool Information Dialog Window</BTN_SF_Status_Body>
+    <btn_Load_Tool_Head>Load Tool/Cut (Ctrl+L)</btn_Load_Tool_Head>
+    <btn_Load_Tool_Body>Load Tool/Cut from the Tool Data Base</btn_Load_Tool_Body>
+    <BTN_FSW_Edit_New_Tool_Head>New Tool (Ctrl+N)</BTN_FSW_Edit_New_Tool_Head>
+    <BTN_FSW_Edit_New_Tool_Body>Unload the Tool, but keep all of its geometry and information data</BTN_FSW_Edit_New_Tool_Body>
+    <btn_FSW_Edit_Tool_Head>Edit Tool Information (Ctrl+E)</btn_FSW_Edit_Tool_Head>
+    <btn_FSW_Edit_Tool_Body>Edit Tool Usage, Custom Speeds and Feeds, Manufacturer and Ordering information</btn_FSW_Edit_Tool_Body>
+    <btn_FSW_Add_Tool_Head>Add Tool (Ctrl+A)</btn_FSW_Add_Tool_Head>
+    <btn_FSW_Add_Tool_Body>Add this Tool to HSMAdvisor Data Base</btn_FSW_Add_Tool_Body>
+    <btn_Add_Cut_Head>Add Cut</btn_Add_Cut_Head>
+    <btn_Add_Cut_Body>Save these Cutting Parameters into the tool Data Base</btn_Add_Cut_Body>
+    <CMB_LIB_TOOL_Head>Tool Drop-Down List</CMB_LIB_TOOL_Head>
+    <CMB_Cut_Head>Cut Drop-Down List</CMB_Cut_Head>
+    <CMB_Cut_Body>Use to load a Cut attached to the currently loaded Tool
+Right Mouse click on drop-down box to choose displayed items and their order
+Select First Row to unload the current Cut and create a new one</CMB_Cut_Body>
+    <LB_Settings_Lease_Period_T_Head>Floating License Parking Period</LB_Settings_Lease_Period_T_Head>
+    <LB_Settings_Lease_Period_T_Body>Use only if you purchased Floating License.
+Set the amount of time this seat will remain parked on this computer
+During that time, no other computer will be able to request a seat from the occupied slot.
+Shorter Parking Period allows to change seats more frequently but requires frequent Internet connections
+Longer Parking Period allows to reduce the number of Internet connections but does not allow for frequent seat changes
+Warning: once a seat has been parked, it is impossible to decrease that parking period until the current lease runs out.</LB_Settings_Lease_Period_T_Body>
+    <PB_Machine_Power_Head>Spindle Power</PB_Machine_Power_Head>
+    <PB_Machine_Power_Body>Estimated Spindle Power Required For This Operation
+Material and MRR-dependent value
+Expressed in Horse Power or kiloWatts</PB_Machine_Power_Body>
+    <PB_Tool_Life_Head>Tool Life</PB_Tool_Life_Head>
+    <PB_Tool_Life_Body>Estimated difference in tool life between default and currently used cutting conditions
+This value shows relative life time of a cutting edge and not amount of material being removed by it</PB_Tool_Life_Body>
+    <PB_Mrr_Head>Material Removal Rate</PB_Mrr_Head>
+    <PB_Mrr_Body>A value of machining productivity
+Expressed in cubic Inches or centimeters of removed material per minute</PB_Mrr_Body>
+    <PB_Tool_Deflection_Head>Estimated Deflection Of The Cutter During Machining Operation</PB_Tool_Deflection_Head>
+    <PB_Tool_Deflection_Body>Tool Deflection is dependent on tool stick out, Engagement with material (DOC/WOC) and Material being cut
+It is recommended to keep tool deflection below 0.001'' or 0.025mm for conventional (No HSM and No Chip Thinning) machining operations
+Expressed in inches or millimeters</PB_Tool_Deflection_Body>
+    <PB_Tool_Torque_Head>Estimated torque percentage from maximum safe value for the given cutter</PB_Tool_Torque_Head>
+    <PB_Tool_Torque_Body>Tool Torque is dependent on Engagement with material (DOC/WOC) and Material being cut
+Expressed in Percent from a Theoretical Safe Value
+Theoretical Safe Value of 100% is calculated using safety factor of 2</PB_Tool_Torque_Body>
+    <LB_Feed_T_Head>Cutting Feed Rate</LB_Feed_T_Head>
+    <LB_Feed_T_Body>The relative velocity at which the cutter is advanced along the workpiece
+Feed Rate is calculated from the Chip Load, Number of Teeth and the Spindle Speed
+Expressed in inches per minute or millimeters per minute
+Enter your number and hit Enter to recalculate to this value
+CLICK to Reset to Default</LB_Feed_T_Body>
+    <LB_RPM_T_Head>Spindle Speed</LB_RPM_T_Head>
+    <LB_RPM_T_Body>Speed of rotation of a cutting tool (in case of milling machine) or a workpiece (in case of lathe)
+Spindle Speed is calculated from the Cutting Speed and the diameter of the cutter or a workpiece
+Expressed in revolutions per minute
+Enter your number and hit Enter to recalculate to this value
+CLICK to Reset to Default</LB_RPM_T_Body>
+    <LB_Flute_Len_T_Head>Flute Length</LB_Flute_Len_T_Head>
+    <LB_Flute_Len_T_Body>Length of the cutting portion of the tool
+Cutting Tools are weakest in their fluted portion
+Choose Tools with shortest possible flute length to minimize deflection and chatter
+CLICK to Reset to Default</LB_Flute_Len_T_Body>
+    <LB_Insert_Len_T_Head>Insert Length of the Turning Tool</LB_Insert_Len_T_Head>
+    <LB_Insert_Len_T_Body>Length of the cutting portion of the tool
+Click to Reset to Default</LB_Insert_Len_T_Body>
+    <LB_Helix_T_Head>Flute Helix Angle</LB_Helix_T_Head>
+    <LB_Helix_T_Body>Angle between the flute and center axis of the tool
+Higher helical angle reduces vibrations and chatter. It also improves surface finish and increases depth of cut and material removal rates
+Click to Reset to Default</LB_Helix_T_Body>
+    <LB_Shank_Dia_T_Head>Shank Diameter of the Cutter</LB_Shank_Dia_T_Head>
+    <LB_Shank_Dia_T_Body>Diameter of the portion of the tool that fits into the tool holder
+Larger Shank Diameter makes the tool more rigid. It increases depth of cut
+Select tools with increased shank dia in long-reach applications
+Click to Reset to Default</LB_Shank_Dia_T_Body>
+    <LB_HolderSize_T_Head>Size of the Turning Tool Body</LB_HolderSize_T_Head>
+    <LB_HolderSize_T_Body>Larger Holder size allows to use deeper depths of cut and higher feed rates
+Click to Reset to Default</LB_HolderSize_T_Body>
+    <LB_N_Flutes_T_Head>Effective Number of Cutting Edges</LB_N_Flutes_T_Head>
+    <LB_N_Flutes_T_Body>Effective Number of overlapping Flutes, Teeth or Inserts
+Tools with staggered cutting teeth or inserts have half of effective cutting edges than they appear to have</LB_N_Flutes_T_Body>
+    <LB_N_Starts_T_Head>Number of Starts on the tap</LB_N_Starts_T_Head>
+    <LB_N_Starts_T_Body>Default number is One</LB_N_Starts_T_Body>
+    <LB_N_Inserts_T_Head>Effective Number of Cutting Edges</LB_N_Inserts_T_Head>
+    <LB_N_Inserts_T_Body>Some tools may have more than one cutting edge removing material at the same time
+Default number is One</LB_N_Inserts_T_Body>
+    <LB_Tip_Dia_T_Head>Tip Diameter</LB_Tip_Dia_T_Head>
+    <LB_Tip_Dia_T_Body>The tip diameter of the cutter</LB_Tip_Dia_T_Body>
+    <LB_Tool_Dia_T_Head>Tool Diameter</LB_Tool_Dia_T_Head>
+    <LB_Tool_Dia_T_Body>The nominal diameter of the tool</LB_Tool_Dia_T_Body>
+    <PB_Machine_Torque_Head>Spindle Torque</PB_Machine_Torque_Head>
+    <PB_Machine_Torque_Body>Estimated Spindle Torque Required For This Operation
+A value dependent on multitude of factors such as material, feed rate and cutter engagement.
+Expressed in Foot-Pounds or N-M</PB_Machine_Torque_Body>
+    <LB_RPM_Plunge_T_Head>Plunge RPM</LB_RPM_Plunge_T_Head>
+    <LB_RPM_Plunge_T_Body>Recommended RPM to use for plunging into the material</LB_RPM_Plunge_T_Body>
+    <LB_DRL_Peck_T_Head>Drill Peck</LB_DRL_Peck_T_Head>
+    <LB_DRL_Peck_T_Body>
+● Recommended Pecking distance for the current tool type and size of the hole
+Click to reset to Default</LB_DRL_Peck_T_Body>
+    <LB_Turn_Dia_T_Head>Finished Turn Diameter</LB_Turn_Dia_T_Head>
+    <LB_Turn_Dia_T_Body>The diameter of the workpiece after the operation
+Rough diameter is used to calculate RPM for Profiling Turning Tools
+Rough_Diameter = Finished_Turn_Diameter + DOC x 2</LB_Turn_Dia_T_Body>
+    <btn_HSMA_Cloud_Login_Head>Login to HSMAdvisor Cloud Service</btn_HSMA_Cloud_Login_Head>
+    <btn_HSMA_Cloud_Login_Body>HSMAdvisor Cloud Service allows you to access various kind of data
+stored Online for and by HSMAdvisor Users
+● Upload and Download HSMAdvisor Machine Profiles</btn_HSMA_Cloud_Login_Body>
+    <LB_CutCloudRating_Head>Submit to Cut Cloud</LB_CutCloudRating_Head>
+    <LB_CutCloudRating_Body>Click to Rate this Cut and submit it to cloud.\nContribute your real-world experience and help this wonderful product become even better!</LB_CutCloudRating_Body>
+    <LB_CloudCutsIndicator_Head>Launch HSMAdvisor Cut Cloud</LB_CloudCutsIndicator_Head>
+    <LB_CloudCutsIndicator_Body>Click to access cuts stored in the Cloud\nA Place where real-world cutting data lives!</LB_CloudCutsIndicator_Body>
+    <PIC_Cloud_Head>Tool Library Cut Cloud Status</PIC_Cloud_Head>
+    <PIC_Cloud_Body>Tools in this Tool Library are synced with HSMAdvisor Cut Cloud.\nGo to Actions-&gt;Tool Library-&gt;Sync with HSMAdvisor Cut Cloud check box to enable or disable synchronization.\nChanges (deletes, updates) to tools in this library propagate to all devices.\nIf you want to keep a Tool offline, simply move it to a library that is not synchronized with the Cut Cloud.</PIC_Cloud_Body>
+    <PIC_Cloud_Body_NotLogged>This Tool Library is synced with the Cloud, but you are currently not logged in.\nPlease click on the Cloud icon in the tool bar area to log in.</PIC_Cloud_Body_NotLogged>
+    <PIC_Cloud_Toolbar_Head>HSMAdvisor Cut Cloud Status</PIC_Cloud_Toolbar_Head>
+    <PIC_Cloud_Toolbar_Body>You are currently logged in to the Cloud.\nThis allows you to upload Machine Profiles and sync your Tool Libraries with the Cloud!</PIC_Cloud_Toolbar_Body>
+    <PIC_Cloud_Toolbar_Body_BadToken>Your HSMAdvisor Cut Cloud session has expired, please log in again!</PIC_Cloud_Toolbar_Body_BadToken>
+    <PIC_Cloud_Toolbar_Body_NotLogged>You are currently not logged in to the Cloud.\nNo Machine Profile uploading or Tool Library syncing is possible until you do.\nPlease click on the cloud icon to log in.</PIC_Cloud_Toolbar_Body_NotLogged>
+    <LB_Inventory_Red_Head>Inventory Alert</LB_Inventory_Red_Head>
+    <LB_Inventory_Red_Body>Inventory is getting low on these tools:
+{x}
+Click to view all</LB_Inventory_Red_Body>
+    <LB_Inventory_Yellow_Head>Tools On Request</LB_Inventory_Yellow_Head>
+    <LB_Inventory_Yellow_Body>These Tools are currently On Request:
+{x}
+Click to view all</LB_Inventory_Yellow_Body>
+    <LB_Inventory_Green_Head>Inventory is Fine</LB_Inventory_Green_Head>
+    <LB_Inventory_Green_Body>No Tools are On Request</LB_Inventory_Green_Body>
+    <LB_License_Description>Thank you for trying out HSMAdvisor
+Below you can see a counter with number of days remaining in your trial period.
+Please click Purchase/Enter Key button to purchase your license key or contact us at support@zero-divide.net for assistance.</LB_License_Description>
+    <DGV_node_img>+</DGV_node_img>
+    <DGV_cuts>nC</DGV_cuts>
+    <DGV_node_text>nC</DGV_node_text>
+    <DGV_number>T#</DGV_number>
+    <DGV_child_text>T#</DGV_child_text>
+    <DGV_diameter>Size</DGV_diameter>
+    <DGV_corner_rad>Corner</DGV_corner_rad>
+    <DGV_flute_n>nZ</DGV_flute_n>
+    <DGV_flute_length>LOC</DGV_flute_length>
+    <DGV_ToolImage>Tool Icon</DGV_ToolImage>
+    <DGV_name>Type</DGV_name>
+    <DGV_material>Tool &amp; Work Material</DGV_material>
+    <DGV_tool_material>T. Material</DGV_tool_material>
+    <DGV_work_material>Work Material</DGV_work_material>
+    <DGV_coating>Coating</DGV_coating>
+    <DGV_brand_name>Brand</DGV_brand_name>
+    <DGV_series_name>Series</DGV_series_name>
+    <DGV_supplier>Supplier</DGV_supplier>
+    <DGV_supplier_pid>Supplier Part#</DGV_supplier_pid>
+    <DGV_comment>Comment</DGV_comment>
+    <DGV_rpm>RPM</DGV_rpm>
+    <DGV_feed>FEED</DGV_feed>
+    <DGV_sfm_adj>S%</DGV_sfm_adj>
+    <DGV_ipt_adj>F%</DGV_ipt_adj>
+    <DGV_doc>DOC</DGV_doc>
+    <DGV_woc>WOC</DGV_woc>
+    <DGV_sfm>Vc</DGV_sfm>
+    <DGV_ipt>Fz</DGV_ipt>
+    <DGV_stickout>StickOut</DGV_stickout>
+    <DGV_shank_dia>Shank Size</DGV_shank_dia>
+    <DGV_operation_type>Tool</DGV_operation_type>
+    <DGV_Operation>Operation</DGV_Operation>
+    <DGV_surface_finish>S. Finish</DGV_surface_finish>
+    <DGV_tool_life>Tool Life</DGV_tool_life>
+    <DGV_tool_life_h>Life hrs</DGV_tool_life_h>
+    <DGV_Rating>Rating</DGV_Rating>
+    <DGV_machine>Machine</DGV_machine>
+    <DGV_holder>Holder</DGV_holder>
+    <DGV_Mrr>MRR</DGV_Mrr>
+    <DGV_Qty>Stock</DGV_Qty>
+    <DGV_minQty>min. Stock</DGV_minQty>
+    <DGV_maxQty>max. Stock</DGV_maxQty>
+    <DGV_onOrderQty>On Order</DGV_onOrderQty>
+    <DGV_OrderQty>Request</DGV_OrderQty>
+    <DGV_Price>Price</DGV_Price>
+    <DGV_Received>Received</DGV_Received>
+    <DGV_Status>Status</DGV_Status>
+    <DGV_CloudStatus>Cloud</DGV_CloudStatus>
+    <DGV_Created_On>Created</DGV_Created_On>
+    <DGV_Updated_On>Updated</DGV_Updated_On>
+    <DGV_CAMToolpathType>CAM ToolPath</DGV_CAMToolpathType>
+    <CMB_Text_1>Any Operation Type</CMB_Text_1>
+    <CMB_Text_2>Any Surface Finish</CMB_Text_2>
+    <CMB_Text_3>Any Tool Life</CMB_Text_3>
+    <CMB_Text_4>All Types</CMB_Text_4>
+    <CMB_Text_5>All T. Materials</CMB_Text_5>
+    <CMB_Text_6>All Coatings</CMB_Text_6>
+    <CMB_Text_7>Cut Number</CMB_Text_7>
+    <CMB_Text_8>Turn Diameter (Lathe)</CMB_Text_8>
+    <CMB_Text_9>Tool Stick out</CMB_Text_9>
+    <CMB_Text_10>Work piece Material</CMB_Text_10>
+    <CMB_Text_11>Operation Type</CMB_Text_11>
+    <CMB_Text_12>Depth Of Cut</CMB_Text_12>
+    <CMB_Text_13>Width Of Cut</CMB_Text_13>
+    <CMB_Text_14>Surface Finish</CMB_Text_14>
+    <CMB_Text_15>Tool Life</CMB_Text_15>
+    <CMB_Text_16>Cut Comment</CMB_Text_16>
+    <CMB_Text_17>Machine</CMB_Text_17>
+    <CMB_Text_18>Tool Number</CMB_Text_18>
+    <CMB_Text_19>Number of Flutes</CMB_Text_19>
+    <CMB_Text_20>Diameter/Size</CMB_Text_20>
+    <CMB_Text_21>Corner Radius</CMB_Text_21>
+    <CMB_Text_22>Tool Stick out</CMB_Text_22>
+    <CMB_Text_23>Tool Type (Long)</CMB_Text_23>
+    <CMB_Text_24>Tool Type (Short)</CMB_Text_24>
+    <CMB_Text_25>Brand Name</CMB_Text_25>
+    <CMB_Text_26>Series Name</CMB_Text_26>
+    <CMB_Text_27>Tool Material</CMB_Text_27>
+    <CMB_Text_28>Tool Coating</CMB_Text_28>
+    <CMB_Text_29>Number of Cuts</CMB_Text_29>
+    <CMB_Text_30>Tool Comment</CMB_Text_30>
+    <CMB_Text_31>Holder</CMB_Text_31>
+    <SelectTool_DLG>Select Tool or Cut</SelectTool_DLG>
+    <EXP_Tool_Filter>Tool Filter</EXP_Tool_Filter>
+    <ERR_Warning>Warning:</ERR_Warning>
+    <ERR_Remedy>Remedy:</ERR_Remedy>
+    <ERR_MaxRPM>Resulting RPM was limited by Max RPM set in your machine limits</ERR_MaxRPM>
+    <ERR_MaxTapRPM>Resulting RPM was limited by Maximum Tapping RPM set in your machine limits</ERR_MaxTapRPM>
+    <ERR_Tap_Max_ToolRPM>Resulting RPM was limited by Max Tapping RPM set in your machine limits</ERR_Tap_Max_ToolRPM>
+    <ERR_Tap_ToolTorqueLimit>Tool Torque Safety Limit was exceeded</ERR_Tap_ToolTorqueLimit>
+    <ERR_Tap_ToolTorqueLimit_Remedy>Consider increasing pilot hole size</ERR_Tap_ToolTorqueLimit_Remedy>
+    <ERR_Tap_PowerCurve_Power>Machine Max Power was exceeded</ERR_Tap_PowerCurve_Power>
+    <ERR_Tap_PowerCurve_Power_Remedy>Adjust Cutting Speed or Use bigger pilot hole</ERR_Tap_PowerCurve_Power_Remedy>
+    <ERR_Tap_Machine_Power>Machine Max Power was exceeded</ERR_Tap_Machine_Power>
+    <ERR_Tap_Max_Torque>Machine Max Torque was exceeded.  No action was performed</ERR_Tap_Max_Torque>
+    <ERR_Tap_Max_Torque_Remedy>Use bigger pilot hole</ERR_Tap_Max_Torque_Remedy>
+    <ERR_Machine_Max_Feedrate>The Resulting Feed Rate was limited by Machine Max Feed Rate: {1}</ERR_Machine_Max_Feedrate>
+    <ERR_Machine_Max_Feedrate_Remedy>Consider reduсing cutting speed to avoid rubbing</ERR_Machine_Max_Feedrate_Remedy>
+    <ERR_Machine_Max_Tap_RPM>Resulting RPM was limited by the Max Tap RPM setting in your Machine Profile</ERR_Machine_Max_Tap_RPM>
+    <ERR_Machine_Max_Tap_RPM_Remedy />
+    <ERR_Tool_MaxRPM>Resulting RPM was limited by Max RPM set in your Tool Manufacturer's settings</ERR_Tool_MaxRPM>
+    <ERR_Tool_MaxRPM_Remedy />
+    <ERR_Tap_MinRPM>Resulting RPM is below minimum set in your machine limits, RPM was adjusted to match Min RPM</ERR_Tap_MinRPM>
+    <ERR_Tap_MinRPM_Remedy>Use carbide and/or coated tools to handle higher cutting speeds</ERR_Tap_MinRPM_Remedy>
+    <ERR_Tool_Length_PRM_Reduced>Resulting RPM was reduced because of the length of the tool</ERR_Tool_Length_PRM_Reduced>
+    <ERR_ThreadMill_MD_Required>Major thread diameter is required</ERR_ThreadMill_MD_Required>
+    <ERR_ThreadMill_MD_TooSmall>Thread Major Diameter is too small</ERR_ThreadMill_MD_TooSmall>
+    <ERR_Tool_Deflection_Limit>Tool Deflection Safety Limit was exceeded, Feed rate was reduced to prevent Cutter breakage</ERR_Tool_Deflection_Limit>
+    <ERR_Tool_Deflection_Limit_Remedy>Reduce cutter engagement with the workpiece</ERR_Tool_Deflection_Limit_Remedy>
+    <ERR_Tool_Torque_Limit>Tool Torque Safety Limit was exceeded, Feed rate was reduced</ERR_Tool_Torque_Limit>
+    <ERR_Tool_Torque_Limit_Remedy>Reduce cutter engagement with the workpiece</ERR_Tool_Torque_Limit_Remedy>
+    <ERR_DRL_Torque_Limit>Tool Torque Safety Limit was exceeded, Feed rate was reduced</ERR_DRL_Torque_Limit>
+    <ERR_DRL_Torque_Limit_Remedy />
+    <ERR_Machine_PowerCurve_Limit>Machine Power Curve was exceeded, Feed rate was reduced</ERR_Machine_PowerCurve_Limit>
+    <ERR_Machine_PowerCurve_Limit_Remedy>Adjust cutting speed or reduce cutter engagement with the workpiece</ERR_Machine_PowerCurve_Limit_Remedy>
+    <ERR_Machine_DRL_PowerCurve_Limit_Remedy />
+    <ERR_Machine_Power_Limit>Machine Power was exceeded, Feed rate was reduced</ERR_Machine_Power_Limit>
+    <ERR_Machine_Power_Limit_Remedy>Reduce cutter engagement with the workpiece</ERR_Machine_Power_Limit_Remedy>
+    <ERR_Machine_DRL_Power_Limit_Remedy />
+    <ERR_Machine_Torque_Limit>Machine Max Torque was exceeded, Feed rate was reduced</ERR_Machine_Torque_Limit>
+    <ERR_Machine_Torque_Limit_Remedy>Reduce cutter engagement with the workpiece</ERR_Machine_Torque_Limit_Remedy>
+    <ERR_Machine_MinRPM_Limit>Resulting RPM is below minimum set in your machine limits, RPM was adjusted to match Min RPM</ERR_Machine_MinRPM_Limit>
+    <ERR_Machine_MinRPM_Limit_Remedy>Use carbide and/or coated tools to handle higher cutting speeds</ERR_Machine_MinRPM_Limit_Remedy>
+    <ERR_Machine_Max_Force_Limit>Machine Max Cutting Force was exceeded, Feed rate was reduced</ERR_Machine_Max_Force_Limit>
+    <ERR_Machine_Max_Force_Limit_Remedy>Reduce cutter engagement with the workpiece</ERR_Machine_Max_Force_Limit_Remedy>
+    <ERR_PasswordsNoMatch>The two entered passwords do not match</ERR_PasswordsNoMatch>
+    <ERR_PasswordTooShort>Please enter your Password</ERR_PasswordTooShort>
+    <ERR_LoginTooShort>Please enter your Login Name</ERR_LoginTooShort>
+    <ERR_EmailTooShort>Please enter your Email address</ERR_EmailTooShort>
+    <LNG_Feed_rev>Feed/rev</LNG_Feed_rev>
+    <LNG_Power>Power</LNG_Power>
+    <LNG_Torque>Torque</LNG_Torque>
+    <LNG_Power_Curve>Power Curve</LNG_Power_Curve>
+    <LNG_coated> coated</LNG_coated>
+    <LNG_Tool_Usage>Tool Usage:</LNG_Tool_Usage>
+    <LNG_edit_new_tool>Edit New Tool</LNG_edit_new_tool>
+    <LNG_Generic_Size>Generic</LNG_Generic_Size>
+    <LNG_Hello>Hello!</LNG_Hello>
+    <LNG_License_Message>License Message</LNG_License_Message>
+    <LNG_days_left> days left</LNG_days_left>
+    <LNG_Expired>Limited</LNG_Expired>
+    <LNG_Busy>Busy</LNG_Busy>
+    <LNG_Trial>Trial</LNG_Trial>
+    <LNG_Permanent>Permanent</LNG_Permanent>
+    <LNG_Floating>Floating</LNG_Floating>
+    <LNG_Active>Active</LNG_Active>
+    <LNG_Fatal_Error>Fatal Error</LNG_Fatal_Error>
+    <LNG_Error>Error</LNG_Error>
+    <LNG_PleaseEnterField>Please enter the {1}</LNG_PleaseEnterField>
+    <LNG_ExceptionMessage>Error occurred: {1}</LNG_ExceptionMessage>
+    <LNG_InvalidEntry>Invalid Entry!</LNG_InvalidEntry>
+    <LNG_ResetToDefault>Reset To Default</LNG_ResetToDefault>
+    <LNG_Add>Add</LNG_Add>
+    <LNG_Save>Save</LNG_Save>
+    <LNG_Delete>Delete</LNG_Delete>
+    <LNG_Cancel>Cancel</LNG_Cancel>
+    <LNG_OK>OK</LNG_OK>
+    <LNG_TextTooLong>Text is too Long: {1} characters max</LNG_TextTooLong>
+    <LNG_Recommended_Peck>Recommended Peck: </LNG_Recommended_Peck>
+    <LNG_Breakthough_Amount>Breakthrough Amount: </LNG_Breakthough_Amount>
+    <LNG_Pilot_Hole_Dia>Recommended Pilot Hole Dia: </LNG_Pilot_Hole_Dia>
+    <LNG_Not_Required>(Not Required)</LNG_Not_Required>
+    <LNG_Material>Material</LNG_Material>
+    <LNG_Tool>Tool</LNG_Tool>
+    <LNG_Chip_Thickness>Chip Thickness</LNG_Chip_Thickness>
+    <LNG_Reference_Chipload>Reference Chip load</LNG_Reference_Chipload>
+    <LNG_Engagement>Engagement</LNG_Engagement>
+    <LNG_DOC>DOC</LNG_DOC>
+    <LNG_WOC>WOC</LNG_WOC>
+    <LNG_MRR>MRR</LNG_MRR>
+    <LNG_Max_Torque>Max Torque</LNG_Max_Torque>
+    <LNG_Cutting_Force>Cutting Force</LNG_Cutting_Force>
+    <LNG_Deflection>Deflection</LNG_Deflection>
+    <LNG_Max_Deflection>Max Deflection</LNG_Max_Deflection>
+    <LNG_Effective_Dia>Effective Dia</LNG_Effective_Dia>
+    <LNG_Cross_Section>Cross Section</LNG_Cross_Section>
+    <LNG_Library>Library</LNG_Library>
+    <LNG_Allowance />
+    <LNG_major_dia>Major Dia</LNG_major_dia>
+    <LNG_pitch_dia>Pitch Dia</LNG_pitch_dia>
+    <LNG_minor_dia_max>Minor Dia</LNG_minor_dia_max>
+    <LNG_Height>Height</LNG_Height>
+    <LNG_connecting_to_server>Connecting to Server...</LNG_connecting_to_server>
+    <LNG_connection_error>Error Connecting to Server</LNG_connection_error>
+    <LNG_connection_complete>Connection Complete</LNG_connection_complete>
+    <LNG_search_returned_nothing>Search returned Empty results</LNG_search_returned_nothing>
+    <LNG_search_too_restricted>Make search parameters less restrictive</LNG_search_too_restricted>
+    <LNG_search_ok>Search Successful</LNG_search_ok>
+    <LNG_LeadAngle>Lead Angle</LNG_LeadAngle>
+    <LNG_TipAngle>Tip Angle</LNG_TipAngle>
+    <LNG_TaperAngle>Taper Angle</LNG_TaperAngle>
+    <LNG_Edit_New_Cut>Edit New Cut</LNG_Edit_New_Cut>
+    <LNG_No_Tool_Selected>No Tool Selected</LNG_No_Tool_Selected>
+    <LNG_Crossfeed_Amount>Cross-Feed Amount</LNG_Crossfeed_Amount>
+    <LNG_ToolSyncedWithCloud>Tool '{1}' synced with the Cut Cloud</LNG_ToolSyncedWithCloud>
+    <LNG_TXT_License_Help_BOX_Trial_Active>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;""&gt;
+&lt;h3 style="text-align: center;"&gt;This is a 30 Day trial version of {pname}&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;This Trial has no functional limitations and works just as any unlimited fully-licensed version.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;After Your Trial expires...&lt;/h4&gt;
+&lt;p&gt;You will be limited to just one work-piece material.&lt;/p&gt;
+&lt;p&gt;All other functionality continues working:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Geometry Calculators and Reference Tabs&lt;/li&gt;
+&lt;li&gt;Tool Database Tab&lt;/li&gt;
+&lt;li&gt;Threads Reference Tap&lt;/li&gt;
+&lt;li&gt;Speeds and Feeds Tab with one available material.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Please Purchase a License to Unlock all features!&lt;/h4&gt;
+&lt;h4&gt;If you are connected to the Internet simply...&lt;/h4&gt;
+&lt;p&gt;Click on &lt;span style="color: #3366ff;"&gt;&lt;a style="color: #3366ff;" title="Open On-line Store" href="https://hsmadvisor.com/buy?CPUID={CPUID}" target="_blank"&gt;Purchase License&lt;/a&gt;&lt;/span&gt; link now.&lt;/p&gt;
+&lt;p&gt;Then in the new window select your Licensing option and proceed to checkout.&lt;br /&gt;Payment processing is automatic and immediate. You will be back up and running in no time!&lt;/p&gt;
+&lt;p&gt;We have many License options that will fit a shop of any size.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;If this computer is NOT connected to the Internet then...&lt;/h4&gt;
+&lt;p&gt;Write down your Computer ID key on a piece of paper.&lt;br /&gt;Then to go to https://hsmadvisor.com/buy/ enter your credentials and proceed to checkout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Please note that ...&lt;/h4&gt;
+&lt;p&gt;Floating License requires Internet connection at least every 30 days but you can use it on any number of Your computers.&lt;/p&gt;
+&lt;p&gt;Permanent License can run completely off-line but is locked to this particular computer by its "Computer ID".&lt;br /&gt;In order for you to get correct License Key, you need to install {pname} on the computer you are buying the License Key for.&lt;/p&gt;
+&lt;p&gt;After payment is processed you will receive email with your License Key and License Information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Also...&lt;/h4&gt;
+&lt;p&gt;If You have already purchased your license and want to Register this computer, please use &lt;span style="color: #3366ff;"&gt;Register Automatically&lt;/span&gt; link.&lt;/p&gt;
+&lt;p&gt;You can also register your computers using your web browser. For that please click &lt;span style="color: #3366ff;"&gt;View My License On-line&lt;/span&gt; link.&lt;/p&gt;
+&lt;p&gt;In case of any difficulties please let us know via email: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read here for various Licensing options: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;HSMAdvisor Licensing Options&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Trial_Active>
+    <LNG_TXT_License_Help_BOX_Trial_Expired>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;""&gt;
+&lt;h3 style="text-align: center;"&gt;Your 30 Day trial has expired&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;Until you purchase a License you are limited to only &lt;span style="text-decoration: underline; color: #800000;"&gt;one&lt;/span&gt; Material Type.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;If you are connected to the Internet simply...&lt;/h4&gt;
+&lt;p&gt;Click on &lt;span style="color: #3366ff;"&gt;&lt;a style="color: #3366ff;" title="Open On-line Store" href="https://hsmadvisor.com/buy?CPUID={CPUID}" target="_blank"&gt;Purchase License&lt;/a&gt;&lt;/span&gt; link now.&lt;/p&gt;
+&lt;p&gt;Then in the new window select your Licensing option and proceed to checkout.&lt;br /&gt;Payment processing is automatic and immediate. You will be back up and running in no time!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;If this computer is NOT connected to the Internet then...&lt;/h4&gt;
+&lt;p&gt;Write down your Computer ID key on a piece of paper.&lt;br /&gt;Then to go to https://hsmadvisor.com/buy/ enter your credentials and proceed to checkout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Please note that ...&lt;/h4&gt;
+&lt;p&gt;Floating License requires Internet connection at least every 30 days but you can use it on any number of Your computers.&lt;/p&gt;
+&lt;p&gt;Permanent License can run completely off-line but is locked to this particular computer by its "Computer ID".&lt;br /&gt;In order for you to get correct License Key, you need to install {pname} on the computer you are buying the License Key for.&lt;/p&gt;
+&lt;p&gt;After payment is processed you will receive email with your License Key and License Information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Also...&lt;/h4&gt;
+&lt;p&gt;If You have already purchased your license and want to Register this computer, please use &lt;span style="color: #3366ff;"&gt;Register Automatically&lt;/span&gt; link.&lt;/p&gt;
+&lt;p&gt;You can also register your computers using your web browser. For that please click &lt;span style="color: #3366ff;"&gt;View My License On-line&lt;/span&gt; link.&lt;/p&gt;
+&lt;p&gt;In case of any difficulties please let us know via email: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read here for various Licensing options: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;HSMAdvisor Licensing Options&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Trial_Expired>
+    <LNG_TXT_License_Help_BOX_Floating_Active>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;""&gt;
+&lt;h3 style="text-align: center;"&gt;You have an active Floating License&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;This license type allows you to use a single seat of &lt;strong&gt;{pname}&lt;/strong&gt; on multiple computers.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Some information about Your Floating License...&lt;/h4&gt;
+&lt;p&gt;First Name: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Last Name: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;Email: &lt;strong&gt;Hidden&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your Floating License Subscription expires on:&lt;strong&gt; {Licence_FloatingExpiresOn} ({Licence_FloatingTimeToExpire} left)&lt;br /&gt;&lt;/strong&gt;The Floating Seat is parked on this computer for another: &lt;strong&gt;{Licence_FloatingParkedFor}&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your License has &lt;strong&gt;{Licence_UsedKeys} of&lt;/strong&gt; &lt;strong&gt;{Licence_MaxKeys}&lt;/strong&gt; seats currently parked.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Did you know that...&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Floating License Parking Period&lt;/strong&gt; in Settings page controls how often {pname} needs to connect to the Internet and for how long a seat remains &lt;span style="text-decoration: underline;"&gt;parked&lt;/span&gt; on this computer and thus can not be used on another computer.&lt;/p&gt;
+&lt;p&gt;Default Floating License Parking Period&lt;strong&gt; &lt;/strong&gt;is just 10 minutes. This means that a single-seat License can be used on a different computer every 10 minutes.  License Parking Period can be increased up to 30 days. But in this case you will only be able to move your seat once a month.&lt;/p&gt;
+&lt;p&gt;If you accidentally set longer parking period than needed and become locked out from using it on another PC let us know via email: &lt;a href="mailto:support@zero-divide.net"&gt;support@zero-divide.net&lt;/a&gt; and we will fix it for you.&lt;/p&gt;
+&lt;p&gt;If you plan to use {pname} on multiple computers at the same time please contact us about buying &lt;strong&gt;additional seats&lt;/strong&gt;. There is a considerable multiple-seat discount available&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Also...&lt;/h4&gt;
+&lt;p&gt;If You want to use {pname} on another computer simply install it there. Then In the License Activation window enter your First Name, Last Name and the E-Mail address. Click &lt;span style="color: #3366ff;"&gt;Register Automatically&lt;/span&gt; link.&lt;/p&gt;
+&lt;p&gt;You can also view your License Information on-line. For that please click &lt;span style="color: #3366ff;"&gt;View My License On-line&lt;/span&gt; link.&lt;/p&gt;
+&lt;p&gt;In case of any difficulties please let us know via email: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read here for various Licensing options: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;HSMAdvisor Licensing Options&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Floating_Active>
+    <LNG_TXT_License_Help_BOX_Full_Active>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;""&gt;
+&lt;h3 style="text-align: center;"&gt;You have a Permanent License&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;This license type never expires and does not require Internet connection.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Some information about Your Permanent License...&lt;/h4&gt;
+&lt;p&gt;First Name: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Last Name: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;License Key: &lt;strong&gt;{U_Serial}&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Did you know that...&lt;/h4&gt;
+&lt;p&gt;Permanent License does not rely on Internet connection.&lt;br /&gt;Instead it uses this computer's unique Computer ID key to generate a License Key. Each one of your computers has different Computer ID key and thus will need a unique License Key.&lt;/p&gt;
+&lt;p&gt;If you plan to use {pname} on other computers please contact us about buying &lt;strong&gt;additional seats&lt;/strong&gt;. There is a considerable multiple-seat discount available&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Also...&lt;/h4&gt;
+&lt;p&gt;If You want to transfer your Permanent License to another computer then simply click &lt;span style="color: #3366ff;"&gt;Log Out&lt;/span&gt; link. This will remove your license from the current computer.&lt;br /&gt;Then install {pname} on your new computer and let us know via email that you would like to transfer your License. (Send us your old Computer ID as well)&lt;/p&gt;
+&lt;p&gt;We will clear things on our side and you will be able to register a new computer in one of the following ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Launch License Activation window and enter your First Name, Last Name and click &lt;span style="color: #3366ff;"&gt;Register Automatically&lt;/span&gt; link.&lt;/li&gt;
+&lt;li&gt;You can also register your new computer online. For that please click &lt;span style="color: #3366ff;"&gt;View My License On-line&lt;/span&gt; link.&lt;/li&gt;
+&lt;li&gt;Alternatively you can just email us your new Computer ID and we will send you the new License Key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In case of any difficulties please let us know via email: &lt;a href="mailto:support@zero-divide.net"&gt;support@zero-divide.net&lt;/a&gt;&lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;&lt;br /&gt;&lt;/a&gt;Please read here for various Licensing options: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;HSMAdvisor Licensing Options&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Full_Active>
+    <LNG_TXT_License_Help_BOX_Floating_Expired>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;""&gt;
+&lt;h3 style="text-align: center;"&gt;You have a Limited Floating License&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;{pname}&lt;/strong&gt; will function in limited mode until you &lt;a href="https://hsmadvisor.com/buy" target="_blank"&gt;Renew Your Subscription&lt;/a&gt;&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Some information about Your Floating License...&lt;/h4&gt;
+&lt;p&gt;First Name: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Last Name: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;Email: &lt;strong&gt;Hidden&lt;/strong&gt;
+&lt;br /&gt;Power Limit: &lt;strong&gt;{License_MaxHP}&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;Your Unlimited Floating License period expired on:&lt;strong&gt; {Licence_FloatingExpiresOn}&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Did you know that...&lt;/h4&gt;
+&lt;p&gt;You can purchase an &lt;a href="https://hsmadvisor.com/buy?shell_id=233&amp;article_id=4441" target="_blank"&gt;Unlimited Life-Time Floating License&lt;/a&gt; that will never expire and offer you support and updates indefinitely.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Also...&lt;/h4&gt;
+&lt;p&gt;In case of any difficulties or questions please let us know via email: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read here for various Licensing options: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;HSMAdvisor Licensing Options&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Floating_Expired>
+    <LNG_TXT_License_Help_BOX_Floating_Busy>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;""&gt;
+&lt;h3 style="text-align: center;"&gt;Your Floating License Seat is Busy&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;Some other computer is using this seat at the moment. Please close &lt;strong&gt;{pname}&lt;/strong&gt; on all other computers to be able to register this one.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;{pname}&lt;/strong&gt; will function in &lt;strong&gt;Trial&lt;/strong&gt; mode until a seat becomes available&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Some information about Your Floating License...&lt;/h4&gt;
+&lt;p&gt;First Name: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Last Name: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;Email: &lt;strong&gt;Hidden&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your Floating License Subscription expires on:&lt;strong&gt; {Licence_FloatingExpiresOn} &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Did you know that...&lt;/h4&gt;
+&lt;p&gt;You can purchase additional seats and prevent your self from ever being locked out. Please email us for special additional seats pricing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Also...&lt;/h4&gt;
+&lt;p&gt;In case of any difficulties or questions please let us know via email: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read here for various Licensing options: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;HSMAdvisor Licensing Options&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Floating_Busy>
+    <LNG_AddToolsToORder>Add Tools To Request</LNG_AddToolsToORder>
+    <LNG_AddToolsToORder_Prompt>Input the number of tools you need to Request in the '{x}' column</LNG_AddToolsToORder_Prompt>
+    <LNG_ToolsOnOrder>Tools On Request</LNG_ToolsOnOrder>
+    <LNG_ToolsOnOrder_prompt>Input the number of received tools into the 'Received' column</LNG_ToolsOnOrder_prompt>
+    <LNG_RPM>RPM</LNG_RPM>
+    <LNG_CustomSFExist>Custom Speeds and Feeds for this Tool Type, Brand and Series Name already esist!</LNG_CustomSFExist>
+    <LNG_Enter_Brand_And_Series>Specify Brand Name and Series Name</LNG_Enter_Brand_And_Series>
+    <DLG_PurchaseRequestPrompt>Adjust The Table below to display the information you need and click "Export Purchase Request"</DLG_PurchaseRequestPrompt>
+    <DLG_Text1>Select which columns will be visible in the Tool Table</DLG_Text1>
+    <DLG_Title1>Select Columns</DLG_Title1>
+    <DLG_Text2>Hello, Thank you for trying out HSMAdvisor
+Your 30 day trial period starts today.
+After the trial period has ended You will have to purchase a license key in order to continue using this program</DLG_Text2>
+    <DLG_Text3>The trial period for the this version has expired
+You have to purchase a license key in order to continue using this program</DLG_Text3>
+    <DLG_Text4>Warning: your trial period will expire soon!</DLG_Text4>
+    <DLG_Text5>Failed to load one or more data tables
+Do you want to reload default settings?</DLG_Text5>
+    <DLG_Text6>Select which columns will be visible in the 'Cut' drop-down list</DLG_Text6>
+    <DLG_Text7>Select which columns will be visible in the 'Tool' drop-down list</DLG_Text7>
+    <DLG_Text8>Save all changes and exit?</DLG_Text8>
+    <DLG_Title8>Save Machine Profiles</DLG_Title8>
+    <DLG_Text9>Please enter a new machine name</DLG_Text9>
+    <DLG_Title9>Name</DLG_Title9>
+    <DLG_Text10>Are you sure you want to remove this Machine Profile?
+All changes made here can be undone by pressing Cancel button</DLG_Text10>
+    <DLG_Title10>Remove Machine</DLG_Title10>
+    <DLG_Text11>Creating a new Machine Profile.
+Please enter the machine name</DLG_Text11>
+    <DLG_Title11>Name</DLG_Title11>
+    <DLG_Text12>Cloning Machine Profile.
+Please enter the new machine name</DLG_Text12>
+    <DLG_Text13>Thank you for purchasing HSMAdvisor
+You can now continue your work</DLG_Text13>
+    <DLG_Title14>Tool Data Base Export</DLG_Title14>
+    <DLG_Text14>Please select Tool Libraries You would like to Export</DLG_Text14>
+    <DLG_Title15>Tool Data Base Import</DLG_Title15>
+    <DLG_Text15>Please select Tool Libraries You would like to import
+You will be asked to provide new names for existing libraries\nExisting tools will only be overwritten if importing newer ones.</DLG_Text15>
+    <DLG_Title16>Name</DLG_Title16>
+    <DLG_Text16>already exists in the Tool Data Base
+Please select another name for the imported library</DLG_Text16>
+    <DLG_Text176>Import aborted by user</DLG_Text176>
+    <DLG_Title17>Name</DLG_Title17>
+    <DLG_Text17>Please enter a unique name for new Tool Library</DLG_Text17>
+    <DLG_Title18>Library Create Report</DLG_Title18>
+    <DLG_Text18>Tool Library "{1}" has been added to the Tool DB</DLG_Text18>
+    <DLG_Text19>Could not create new Library: a tool library with name "{1}" already exists in the Data Base</DLG_Text19>
+    <DLG_Title20>Delete WEB Page?</DLG_Title20>
+    <DLG_Text20>Are you sure you want to delete this WEB Page from your computer?</DLG_Text20>
+    <DLG_Title21>Can not delete unsaved WEB Pages</DLG_Title21>
+    <DLG_Text21>You can only delete WEB Pages that you saved to your computer</DLG_Text21>
+    <DLG_Title22>Exiting Tool Geometry Edit mode</DLG_Title22>
+    <DLG_Text22>Save Changes to the tool?</DLG_Text22>
+    <DLG_Title23>Reset Data Base Location to Default</DLG_Title23>
+    <DLG_Text23>myCutDB Location is already default
+Current default location is:</DLG_Text23>
+    <DLG_Title24>Nothing Selected</DLG_Title24>
+    <DLG_Text24>Please select Tools/Cuts which you want to alter</DLG_Text24>
+    <DLG_Title25>Confirm Delete Operation</DLG_Title25>
+    <DLG_Text25>Are you sure you want to delete selected record(s)?</DLG_Text25>
+    <DLG_Title26>Could not find Tool/Cut</DLG_Title26>
+    <DLG_Text26>Something is wrong. Can't find the referenced rows</DLG_Text26>
+    <DLG_Title27>Confirm Library delete</DLG_Title27>
+    <DLG_Text27>Are you sure you want to delete library {1} and all its tools?</DLG_Text27>
+    <DLG_Title29>Name</DLG_Title29>
+    <DLG_Text29>Please enter new name for</DLG_Text29>
+    <DLG_Title30>Rename Error</DLG_Title30>
+    <DLG_Text30>Can not rename library</DLG_Text30>
+    <DLG_Text300>New name already exists in the Tool Data Base</DLG_Text300>
+    <DLG_Title31>Confirm Tool Library Rename</DLG_Title31>
+    <DLG_Text31>Are you sure you want to rename library</DLG_Text31>
+    <DLG_Title32>Merge To Library</DLG_Title32>
+    <DLG_Text32>Select library you want to merge with</DLG_Text32>
+    <DLG_Title33>Please enter the name that will display in the "WEB Pages" tool-bar</DLG_Title33>
+    <DLG_Text33>Name</DLG_Text33>
+    <DLG_Title34>Error saving page</DLG_Title34>
+    <DLG_Text34>Can't save Web page</DLG_Text34>
+    <DLG_Title35>Wrong file name</DLG_Title35>
+    <DLG_Text35>File name you entered contains illegal characters</DLG_Text35>
+    <DLG_Title36>Floating License Verification Failed</DLG_Title36>
+    <DLG_Text36>Unable to verify your {pname} floating license
+Do you want to Retry?</DLG_Text36>
+    <DLG_Title37>Increase License Parking Period?</DLG_Title37>
+    <DLG_Text37>Are you sure you want to increase the License Parking Period?
+You will not be able to request this seat on another computer until the License Parking Period expires</DLG_Text37>
+    <DLG_Title38>Notice</DLG_Title38>
+    <DLG_Text38>The new License Parking Period will only apply after the current one expires
+Please contact Customer Support to release your seat if you need to transfer it and can not wait for it to expire</DLG_Text38>
+    <DLG_Title39>You are Up to Date</DLG_Title39>
+    <DLG_Text39>You have the latest version installed
+We will let you know when an update is available!</DLG_Text39>
+    <DLG_Title40>Update {1} is available!</DLG_Title40>
+    <DLG_Text40>An Update is available!
+Click to go to the Downloads Page</DLG_Text40>
+    <DLG_Title41>Select Tool/Cut from the Database</DLG_Title41>
+    <DLG_Text41>Are you sure you want to delete this Cut from the library?</DLG_Text41>
+    <DLG_Title42>Settings Write Failed</DLG_Title42>
+    <DLG_Text42>Failed to write one or more of data files</DLG_Text42>
+    <DLG_Text43>Could not save your Settings file
+Please make sure you have sufficient access rights</DLG_Text43>
+    <DLG_Title44>Merge Error</DLG_Title44>
+    <DLG_Text44>Can not merge libraries
+New name should not match the old one</DLG_Text44>
+    <DLG_Title45 />
+    <DLG_Text45>There is only ONE Library in the Tool Data Base
+Nothing to merge to</DLG_Text45>
+    <DLG_Title46>Merge Report</DLG_Title46>
+    <DLG_Text46>has been successfully merged to</DLG_Text46>
+    <DLG_Title47>Could not Move Tools</DLG_Title47>
+    <DLG_Text47>Please select Tools which you want to Move first</DLG_Text47>
+    <DLG_Title48>Move Tools To Library</DLG_Title48>
+    <DLG_Text48>Choose the Library where you want to Move the selected Tools</DLG_Text48>
+    <DLG_Title49>Could not Move Tool</DLG_Title49>
+    <DLG_Text49>Something is wrong. Can't find the row to move</DLG_Text49>
+    <DLG_Title50>Could not copy Tools</DLG_Title50>
+    <DLG_Text50>Please select Tools which you want to Copy first</DLG_Text50>
+    <DLG_Title51>Copy Tools To Library</DLG_Title51>
+    <DLG_Text51>Choose the Library where you want to Copy selected Tools\nTool Stock information will be reset to 0</DLG_Text51>
+    <DLG_Title52>Could not Copy Tool</DLG_Title52>
+    <DLG_Text52>Something is wrong. Can't find the row to copy</DLG_Text52>
+    <DLG_Title53>Create New Tool?</DLG_Title53>
+    <DLG_Text53>You can not directly add cuts to Generic Tools
+Create a new tool Record with the current tool data?</DLG_Text53>
+    <DLG_Title54>Could not edit Cut</DLG_Title54>
+    <DLG_Text54>You first have to load calculation in order to edit it</DLG_Text54>
+    <DLG_Title55>Could not delete tool</DLG_Title55>
+    <DLG_Text55>Please select Tool which you want to DELETE first</DLG_Text55>
+    <DLG_Title56>Confirm Delete</DLG_Title56>
+    <DLG_Text56>Are you sure you want to delete this tool from the library?</DLG_Text56>
+    <DLG_Title57>Abort program?</DLG_Title57>
+    <DLG_Text57>Are you sure you want to exit without saving ANY changes?
+The program will close and next time you run it, all the changes made in the current session will be undone.
+Press Yes to close the program and reverse all changes</DLG_Text57>
+    <DLG_Text58>File write failed: make sure you have sufficient privileges to create and write into files in the destination you have specified</DLG_Text58>
+    <DLG_Title59>Could not delete Cut</DLG_Title59>
+    <DLG_Text59>Please select Cut which you want to DELETE first</DLG_Text59>
+    <DLG_Title60>Error Printing this page</DLG_Title60>
+    <DLG_Text60>Can not print page:</DLG_Text60>
+    <DLG_Title61>Database Write Failed</DLG_Title61>
+    <DLG_Text61>Could not save your Tool Database
+Please Select another location</DLG_Text61>
+    <DLG_Title63>Tool Lib Async Write Error</DLG_Title63>
+    <DLG_Text63>Could not write to file:</DLG_Text63>
+    <DLG_Title64>License Error</DLG_Title64>
+    <DLG_Text64>Both First and Last Name have to be filled up and should contain at least 3 characters each
+Please make sure your credentials as well as your License Number are correct</DLG_Text64>
+    <DLG_Text65>The License Key does not match the First name, Last name and/or Computer ID you have entered
+Please make sure your credentials as well as your License Number are correct</DLG_Text65>
+    <DLG_Title66>License File Write Failed</DLG_Title66>
+    <DLG_Text66>License Key is OK but HSMAdvisor could not save your licence file
+Please make sure you have sufficient access rights</DLG_Text66>
+    <DLG_Title67>Password</DLG_Title67>
+    <DLG_Text67>This License is protected by a password.
+You need to enter it in order to register this seat.
+Please contact support@zero-divide.net for assistance</DLG_Text67>
+    <DLG_Title68>On-line Activation Message</DLG_Title68>
+    <DLG_Title69>Connection Error</DLG_Title69>
+    <DLG_Text69>Licensing Server returned unexpected response. See more info in Settings/Debug</DLG_Text69>
+    <DLG_Text70>Could not connect to the licensing server
+Please make sure a firewall is not blocking this connection</DLG_Text70>
+    <DLG_Text71>First Name, Last Name And E-Mail have to be filled up and should contain at least 3 characters each
+Please make sure to use the same credentials as you entered when making your purchase</DLG_Text71>
+    <DLG_Title73>Error loading Database</DLG_Title73>
+    <DLG_Text73>Error occurred while loading your Tool Database:</DLG_Text73>
+    <DLG_Text74>File is Empty</DLG_Text74>
+    <DLG_Title75>Reset myCutDB Location to Default</DLG_Title75>
+    <DLG_Text75>Are you sure you want to reset a current myCutDB location to default?
+Current location is:</DLG_Text75>
+    <DLG_Title76>Reset Speed and Feed Overrides</DLG_Title76>
+    <DLG_Text76>Are you sure you want to reset Speeds and Feeds in the selected rows to default?</DLG_Text76>
+    <DLG_Title78>Set Machine</DLG_Title78>
+    <DLG_Text78>Please select the machine from the list</DLG_Text78>
+    <DLG_Title79>Set Holder</DLG_Title79>
+    <DLG_Text79>Please select the Holder name from the list or enter a new one</DLG_Text79>
+    <DLG_Title80>Reset Cut Compensation Parameters</DLG_Title80>
+    <DLG_Text80>Are you sure you want to reset Chip Thinning, HSM Machining and Ramp parameters in the selected rows to default?</DLG_Text80>
+    <DLG_Title81>Comment</DLG_Title81>
+    <DLG_Text81>Enter the new Tool/Cut Comment</DLG_Text81>
+    <DLG_Title82>Brand Name</DLG_Title82>
+    <DLG_Text82>Enter the new Tool Brand Name</DLG_Text82>
+    <DLG_Title83>Series Name</DLG_Title83>
+    <DLG_Text83>Enter the new Tool Series Name</DLG_Text83>
+    <DLG_Title84>Supplier Name</DLG_Title84>
+    <DLG_Text84>Enter the new Tool Supplier Name</DLG_Text84>
+    <DLG_Title85>Supplier Part Number</DLG_Title85>
+    <DLG_Text85>Enter the new Tool Supplier Part Number</DLG_Text85>
+    <DLG_Title86>Tool Data Mismatch</DLG_Title86>
+    <DLG_Text86>The Tool appears to have been changed since it was last saved into myCutDB.
+Update HSMAdvisor Tool Record record with the new information?
+Click Cancel to treat as a new tool</DLG_Text86>
+    <DLG_Title87>Create a New Tool?</DLG_Title87>
+    <DLG_Text87>is not in the database yet.
+Do you want to Add a new tool to HSMAdvisor database?</DLG_Text87>
+    <DLG_Title88>Use Existing Tool?</DLG_Title88>
+    <DLG_Text88>A similar Tool Number {oldnumber} with Name '{oldname}' is already used by one of the toolpaths
+Do you want to use existing tool?
+
+Yes - Use Existing Tool #:{oldnumber} Name: {oldname}
+No  - Create a New Tool #:{number} Name: {name}</DLG_Text88>
+    <DLG_Text89>Please make sure you have Internet connection</DLG_Text89>
+    <DLG_Title90>Registration Successful</DLG_Title90>
+    <DLG_Text90>Thank you for registering at HSMAdvisor Cloud Services</DLG_Text90>
+    <DLG_Title91>HSMAdvisor Cloud Service</DLG_Title91>
+    <DLG_Text91>Machine successfully uploaded</DLG_Text91>
+    <DLG_Text92>Unable to connect to cloud
+Please contact technical support
+Error code:</DLG_Text92>
+    <DLG_Text93>{1} machine(s) downloaded</DLG_Text93>
+    <DLG_Text_PleaseCheckMachine>Please check a Machine Profile to Download it from the Cloud</DLG_Text_PleaseCheckMachine>
+    <DLG_Text94>Max RPM can not be Zero. Please enter the Max RPM value</DLG_Text94>
+    <DLG_Text95>Min RPM can not be Zero. Please enter the Min RPM value</DLG_Text95>
+    <DLG_Text96>Max RPM can not be below or equal to Min RPM. Please correct your input</DLG_Text96>
+    <DLG_Text97>Max Power can not be Zero. Please enter the Max Power value</DLG_Text97>
+    <DLG_Text98>Max Feed Rate can not be Zero. Please enter the Max Feed Rate value</DLG_Text98>
+    <DLG_Text99>Warning: This wizard will reset the current Power Curve Table\nProceed?</DLG_Text99>
+    <DLG_Text100>Enter the RPM where Power first reaches its Maximum</DLG_Text100>
+    <DLG_Text101>Enter the RPM where Power begins to taper off</DLG_Text101>
+    <DLG_Text102>Enter the Power at Maximum RPM</DLG_Text102>
+    <DLG_Text103>First Peak Power RPM must be between Min and Max RPM. Please correct your input</DLG_Text103>
+    <DLG_Text104>Last Peak Power RPM must be between First Peak Power RPM and Max RPM. Please correct your input</DLG_Text104>
+    <DLG_Text105>Power at Maximum RPM can not be lower than Machine Max Power. Please correct your input</DLG_Text105>
+    <DLG_Text106>Does this machine have Dual Drive spindle motor?
+Answer "No" is unsure</DLG_Text106>
+    <DLG_Text107>Enter how many items you intend To Order</DLG_Text107>
+    <DLG_Title107>Number of Items</DLG_Title107>
+    <DLG_Text108>Can not proceed- The item list is empty.
+Please set Request amount to the tools you would like to add to the request</DLG_Text108>
+    <DLG_Title109>Error loading Database</DLG_Title109>
+    <DLG_Text109>Backup Tool Database was loaded instead. Original Database will be written upon any changes made to the current one</DLG_Text109>
+    <DLG_Title110>Error loading Backup Database</DLG_Title110>
+    <DLG_Text110>Error loading your backup Tool Database:</DLG_Text110>
+    <DLG_Title111>Information Source Not specified</DLG_Title111>
+    <DLG_Text111>Please select the Information source before proceeding</DLG_Text111>
+    <DLG_Title112>Tool Information Not specified</DLG_Title112>
+    <DLG_Text112>To report this Cut as Tool Manufacturer-suggested, please enter the:
+Brand Name and Series Name in the Tool Manufacturer Information panel</DLG_Text112>
+    <DLG_Title113>Warning: Wrong Text Format</DLG_Title113>
+    <DLG_Text113>Text in Brand Name, Series Name and Comment is limited to 25 characters each.
+Text in Additional Operation Info is limited to 256 characters
+Long text will be cropped.</DLG_Text113>
+    <DLG_Title114>Set Speed and Feed Overrides</DLG_Title114>
+    <DLG_Text114>Please enter the Cutting Speed and Feed Override.
+Leave the field empty to skip setting the value.</DLG_Text114>
+    <DLG_Text115>Speed %</DLG_Text115>
+    <DLG_Text116>Feed %</DLG_Text116>
+    <DLG_Title117>Can Not Insert Operation</DLG_Title117>
+    <DLG_Text117>Selected Cut does not contain CAM Toolpath Data.
+It can not be Inserted into Operations Tree</DLG_Text117>
+    <DLG_Text118>No Cut was selected.
+Please select a Cut containing CAM Toolpath Data</DLG_Text118>
+    <DLG_Title119>Unable to Close</DLG_Title119>
+    <DLG_Text119>The current Tool Data Base is still being saved
+Unable to shut down HSMAdvisor until the process completes</DLG_Text119>
+    <DLG_Title120>Changes Not Saved</DLG_Title120>
+    <DLG_Text120>The changes to the current Tool Data Base were not saved\nDo You still want to shut down HSMAdvisor</DLG_Text120>
+    <DLG_Title121>Calculator is not available for this tool type</DLG_Title121>
+    <DLG_Text121>Scallop calculator is available for Ball Nose End Mills only</DLG_Text121>
+    <DLG_Title122>Are you sure you want to Change the Brand Name?</DLG_Title122>
+    <DLG_Text122>You are using Custom Speeds and Feeds Table that is associated with this Brand/Series Name combination\nAre you sure you want to change the Brand Name and disassociate this tool record from its custom Speed and Feed Table?</DLG_Text122>
+    <DLG_Title123>Brand Name and/or Series Name is missing</DLG_Title123>
+    <DLG_Text123>Please Specify Tool Brand Name AND Tool Series Name in Tool Info Tab</DLG_Text123>
+    <DLG_Text125>Diameter can not be less than Zero !\nPlease make sure every diameter cell is zero or larger.</DLG_Text125>
+    <DLG_Text126>Diameter can not be larger than {1} !\nPlease make sure every diameter cell is equal or smaller than {1}."</DLG_Text126>
+    <DLG_Title127>Delete the current Chipload Table?</DLG_Title127>
+    <DLG_Text127>This Wizard will reset the current chipload table\nProceed?</DLG_Text127>
+    <DLG_Text128>There was an error in your data\nCan Not proceed</DLG_Text128>
+    <DLG_Text129>Can Not leave the Name of the Tool Library empty!</DLG_Text129>
+    <DLG_Text130>Do you really want to reset this Custom Surface Speed to Default?\nSelect Yes to Proceed</DLG_Text130>
+    <DLG_Text131>Do you really want to reset Custom Chiploads to Default?\nSelect Yes to Proceed</DLG_Text131>
+    <DLG_Text132>Do you really want to Paste the Custom Chiploads and SFM to this Material?\nSelect Yes to Proceed</DLG_Text132>
+    <DLG_Title134>Clone/Resize Tool Wizard</DLG_Title134>
+    <DLG_Text134>This Wizard will generate a Size List based on the selected tool\nProceed?</DLG_Text134>
+    <DLG_Text135>Please Enter the Smallest Tool Diameter</DLG_Text135>
+    <DLG_Text136>Please Enter the Largest Tool Diameter</DLG_Text136>
+    <DLG_Text137>Please Enter the Tool Diameter Increment</DLG_Text137>
+    <DLG_Text138>Please Enter the New Tool Comment\nYou can use {d} as a place-holder the new diameter</DLG_Text138>
+    <DLG_Text139>Do you want to scale tool dimensions?\nIf you choose not to scale, only the diameter will change</DLG_Text139>
+    <DLG_Text140>Please Enter Chipload for the Minimum Tool Diameter\nMust be larger than 0</DLG_Text140>
+    <DLG_Text141>Please Enter Chipload for the Maximum Tool Diameter\nMust be equal to or larger than Minimum Chipload</DLG_Text141>
+    <DLG_Title142>Delete Custom Speeds and Feeds Table</DLG_Title142>
+    <DLG_Text142>Are you sure you want to delete the selected Custom Speeds and Feeds Table</DLG_Text142>
+    <DLG_Title143>Custom Speeds and Feeds Confirmation</DLG_Title143>
+    <DLG_Text143>Apply selected Speeds and Feeds tables to the current tool?</DLG_Text143>
+    <DLG_Title144>Order Tool Libraries</DLG_Title144>
+    <DLG_Text144>Change the display order of the Tool Libraries</DLG_Text144>
+    <DLG_Text145>Save changes to the current Library?</DLG_Text145>
+    <DLG_Title146>Overwrite existing?</DLG_Title146>
+    <DLG_Text146>You have already uploaded a machine with the same ID but different name: {1}\nAre you sure you want to owerwite it with this one?\nClick No to upload as a new machine!</DLG_Text146>
+    <DLG_Text147>Remove all rows from the current table?</DLG_Text147>
+    <DLG_Text148>You are trying to re-upload someone else's existing machine:\n{1}\nPlease Create a Copy and try again!</DLG_Text148>
+    <DLG_Title149>Password Reminder</DLG_Title149>
+  </controls>
+  <skv_fswizard_operation>
+    <value>-1</value>
+    <text>Not Set</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>0</value>
+    <text>Rough and Finish</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>1</value>
+    <text>Rough</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>2</value>
+    <text>Semi-Finish</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>3</value>
+    <text>Finish</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_finish>
+    <value>-1</value>
+    <text>Not Set</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>0</value>
+    <text>Normal for Operation</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>1</value>
+    <text>Very Poor</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>3</value>
+    <text>Poor</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>5</value>
+    <text>Average</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>7</value>
+    <text>Good</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>10</value>
+    <text>Very Good</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_life>
+    <value>-1</value>
+    <text>Not Set</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>0</value>
+    <text>Normal for Operation</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>1</value>
+    <text>Very Poor</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>3</value>
+    <text>Poor</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>5</value>
+    <text>Average</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>7</value>
+    <text>Good</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>10</value>
+    <text>Very Good</text>
+  </skv_fswizard_life>
+  <skv_fswizard_coolant>
+    <value>-1</value>
+    <text>Not Set</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>0</value>
+    <text>None</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>1</value>
+    <text>Air Blast</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>2</value>
+    <text>Mist</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>3</value>
+    <text>Flood</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>4</value>
+    <text>Hi-Pressure Though-Tool</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_rating>
+    <value>0</value>
+    <text>Unrated</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>1</value>
+    <text>Very Poor</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>2</value>
+    <text>Poor</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>3</value>
+    <text>Average</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>4</value>
+    <text>Good</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>5</value>
+    <text>Very Good</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_tool_type>
+    <id>1</id>
+    <name>Solid End Mill</name>
+    <short_name>SEM</short_name>
+        <priority>1</priority>
+        <usage />
+    </skv_fswizard_tool_type>
+    <skv_fswizard_tool_type>
+        <id>24</id>
+        <name>Solid Ball Mill</name>
+        <short_name>SBM</short_name>
+        <priority>1.1</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>2</id>
+    <name>HP/Roughing End Mill</name>
+    <short_name>SHPEM</short_name>
+    <usage>High Performance/Roughing Endmill requires rigid setup and machine
+Make sure your clamping and tool holding are adequate</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>3</id>
+    <name>Indexed End Mill</name>
+    <short_name>IEM</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+        <id>25</id>
+        <name>Indexed Ball Mill</name>
+        <short_name>IBM</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>5</id>
+    <name>Indexed Face Mill</name>
+    <short_name>IFM</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>9</id>
+    <name>Jobber twist Drill</name>
+    <short_name>DRL</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>10</id>
+    <name>Reamer</name>
+    <short_name>Ream</short_name>
+        <usage />
+    </skv_fswizard_tool_type>
+    <skv_fswizard_tool_type>
+        <id>4</id>
+        <name>High Feed Mill</name>
+        <short_name>HFEM</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>12</id>
+    <name>Hi-Helix Parabolic Drill</name>
+    <short_name>HiDRL</short_name>
+    <priority>2.1</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>13</id>
+    <name>Straight Flute for hard metal</name>
+    <short_name>DRL</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>14</id>
+    <name>Spade Drill</name>
+    <short_name>Spade</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>15</id>
+    <name>Thread Mill</name>
+    <short_name>TMill</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>7</id>
+    <name>Helical Indexed End Mill</name>
+    <short_name>HeliMill</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>6</id>
+    <name>V-bit Engraver</name>
+    <short_name>V-Bit</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>16</id>
+    <name>Turning-Profiling</name>
+    <short_name>Turn</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>17</id>
+    <name>Turning-Grooving</name>
+    <short_name>Groove</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>18</id>
+    <name>Turning-Boring</name>
+    <short_name>Turn-Bore</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>19</id>
+    <name>Tap</name>
+    <short_name>Tap</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>20</id>
+    <name>Forming Tap</name>
+    <short_name>Form Tap</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>21</id>
+    <name>Counterbore</name>
+    <short_name>C-Bore</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>22</id>
+    <name>Chamfer Mill</name>
+    <short_name>Chamfer</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>23</id>
+    <name>Indexed Drill</name>
+    <short_name>IDRL</short_name>
+    <priority>2.3</priority>
+    <usage>Assumed 1 effective flute (2 staggered inserts)\nCoolant-Through is highly recommended</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>26</id>
+    <name>Boring Head</name>
+    <short_name>Mill-Bore</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>27</id>
+    <name>T-Slot Cutter</name>
+    <short_name>T-Slot</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>28</id>
+    <name>Turning-Facing</name>
+    <short_name>Turn-Face</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>30</id>
+    <name>Countersink</name>
+    <short_name>C-Sink</short_name>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>29</id>
+    <name>Spot Drill</name>
+    <short_name>SPOT</short_name>
+    <usage>Spotting drills are used to start and locate holes. They create a shallow hole that helps prevent drill bits from deviating from center, when starting to drill.</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_stockstatus>
+    <value>0</value>
+    <text>In Stock</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value>1</value>
+    <text>Out of Stock</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value>2</value>
+    <text>On Order</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_machinetype>
+    <value>0</value>
+    <text>Any</text>
+  </skv_fswizard_machinetype>
+  <skv_fswizard_machinetype>
+    <value>1</value>
+    <text>Mill</text>
+  </skv_fswizard_machinetype>
+  <skv_fswizard_machinetype>
+    <value>2</value>
+    <text>Lathe</text>
+  </skv_fswizard_machinetype>
+  <skv_fswizard_machinetype>
+    <value>3</value>
+    <text>Router</text>
+  </skv_fswizard_machinetype>
+</language>

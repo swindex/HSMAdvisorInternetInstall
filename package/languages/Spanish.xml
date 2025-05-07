@@ -1,0 +1,1539 @@
+<?xml version="1.0" standalone="yes"?>
+<language>
+  <settings>
+    <lang_code />
+    <lang_scale_x />
+    <lang_scale_y />
+  </settings>
+  <controls>
+    <FSWIZARD_TAB>Velocidades y Avances</FSWIZARD_TAB>
+    <GRP_Static_Fields>Campo(Pegajoso) Estático</GRP_Static_Fields>
+    <settings_keep_Limit_Def>Limite de Desviación %</settings_keep_Limit_Def>
+    <settings_keep_productivity>Rendimiento</settings_keep_productivity>
+    <Label14>?</Label14>
+    <settings_keep_Limit_Torque>Limite de Torque %</settings_keep_Limit_Torque>
+    <settings_keep_max_RPM>RPM Máxima</settings_keep_max_RPM>
+    <settings_keep_max_feed>Avance Máximo</settings_keep_max_feed>
+    <settings_keep_max_torque>Torque Máximo</settings_keep_max_torque>
+    <settings_keep_max_HP>Potencia Máxima</settings_keep_max_HP>
+    <TAB_Tool_Database>Base de Datos de Herramientas</TAB_Tool_Database>
+    <BT_Library_More>Acciones</BT_Library_More>
+    <Tab_Threads>Machuelos y Roscas</Tab_Threads>
+    <LB_Machine_Overrides>Limites de la maquina actual</LB_Machine_Overrides>
+    <REFERENCE_TAB>Referencia</REFERENCE_TAB>
+    <GEOMETRY_TAB>Geometría</GEOMETRY_TAB>
+    <PLUGINS_TAB>Paginas WEB</PLUGINS_TAB>
+    <LB_Browse_Web>Buscar en la Web:</LB_Browse_Web>
+    <Plugins_BTN_Go>Ir</Plugins_BTN_Go>
+    <BTN_CustomSpeedsFeeds>Velocidades y Avances Personalizados</BTN_CustomSpeedsFeeds>
+    <TAB_Settings>Ajustes</TAB_Settings>
+    <LB_Input_T>Entrada</LB_Input_T>
+    <LB_Result_T>Resultado</LB_Result_T>
+    <LB_Lic_Status>Licencia</LB_Lic_Status>
+    <DB_Status_OK>Estado de la Base de Datos de Herramientas: OK</DB_Status_OK>
+    <DB_Status_OK_Text>Base de Datos Archivo:{x}
+Ultima operación concluida con éxito</DB_Status_OK_Text>
+    <DB_Status_Writing>Estado de la Base de Datos: Guardando</DB_Status_Writing>
+    <DB_Status_Writing_Text>Escribiendo a:{x}</DB_Status_Writing_Text>
+    <DB_Status_Writing_Error>Estado de la Base de Datos: Falla al guardar!
+</DB_Status_Writing_Error>
+    <DB_Status_Writing_Error_Text>Fallo al escribir archivo:{x}
+Con error:{y}</DB_Status_Writing_Error_Text>
+    <DB_Status_Reading>Estado de la Base de Datos: Leyendo
+</DB_Status_Reading>
+    <DB_Status_Reading_Text>Leyendo de:{x}</DB_Status_Reading_Text>
+    <DB_Status_Reading_Error>Estado de la Base de Datos: Fallo a la hora de lectura!
+</DB_Status_Reading_Error>
+    <DB_Status_Reading_Error_Text>Fallo al leer archivo:{x}
+Con error:{y}</DB_Status_Reading_Error_Text>
+    <btn_DDE_OK>OK</btn_DDE_OK>
+    <btn_DDE_Cancel>Cancelar</btn_DDE_Cancel>
+    <BT_Define_Machines>Editar</BT_Define_Machines>
+    <BTN_More_Materials>Más</BTN_More_Materials>
+    <LB_Machine>Máquina</LB_Machine>
+    <LB_Tool_Library>Librería de Herramientas </LB_Tool_Library>
+    <LB_Hardness_T>Dureza:</LB_Hardness_T>
+    <LB_Brinell>Brinell</LB_Brinell>
+    <LB_Max_RPM_T>RPM Máxima</LB_Max_RPM_T>
+    <LB_Max_Power_T>Potencia Máxima</LB_Max_Power_T>
+    <LB_Max_Power>Potencia</LB_Max_Power>
+    <LB_Max_Torque_T>Torque Máximo</LB_Max_Torque_T>
+    <LB_Max_Feed_T>Avance Máximo</LB_Max_Feed_T>
+    <btn_Capture>Captura</btn_Capture>
+    <BTN_FSW_Edit_New_Tool>Editar Nuevo</BTN_FSW_Edit_New_Tool>
+    <btn_Load_Tool>Cargar Herramienta/Corte</btn_Load_Tool>
+    <btn_FSW_Add_Tool>Agregar Herramienta</btn_FSW_Add_Tool>
+    <LB_Pitch>in</LB_Pitch>
+    <LB_Thread_Pitch>Paso de la Rosca</LB_Thread_Pitch>
+    <LB_Thread_Form>Forma de los Hilos</LB_Thread_Form>
+    <LB_Thread_Size>Tamaño</LB_Thread_Size>
+    <LB_Tap_dia_T>Diametro de Machielo</LB_Tap_dia_T>
+    <LB_Tip_Dia_T>Diametro de Punta</LB_Tip_Dia_T>
+    <LB_Turn_Dia_T>Diametro de Giro</LB_Turn_Dia_T>
+    <LB_N_Starts_T>N# de Inicios</LB_N_Starts_T>
+    <LB_N_Flutes_T>N# de Filos</LB_N_Flutes_T>
+    <LB_N_Inserts_T>N# de Insertos</LB_N_Inserts_T>
+    <LB_Len_T>Saliente de la Herramienta</LB_Len_T>
+    <LB_Corner_Rad_T>Radio en Esquinas</LB_Corner_Rad_T>
+    <check_BallNose>Cortador de Bola</check_BallNose>
+    <LB_Insert_Len_T>Largo del Inserto</LB_Insert_Len_T>
+    <LB_Flute_Len_T>Largo del Filo</LB_Flute_Len_T>
+    <LB_Leadangle_T>Ángulo de Avance</LB_Leadangle_T>
+    <LB_Shank_Dia_T>Diametro del Mango</LB_Shank_Dia_T>
+    <LB_HolderSize_T>Tamaño del porta Herramientas</LB_HolderSize_T>
+    <LB_Helix_T>Ángulo de Hélice</LB_Helix_T>
+    <LB_ShouldeR_Len_T>Largo del Hombro</LB_ShouldeR_Len_T>
+    <BTN_Reset_all>Reiniciar</BTN_Reset_all>
+    <LB_Tool_Type>Tipo de Herramienta</LB_Tool_Type>
+    <LB_DOC_T>DOC</LB_DOC_T>
+    <LD_DOC_Threadmill_T>DOC</LD_DOC_Threadmill_T>
+    <LB_DOC_RAD_T>DOC</LB_DOC_RAD_T>
+    <LB_DOC_GROOVE_T>WOC</LB_DOC_GROOVE_T>
+    <LB_WOC_T>WOC</LB_WOC_T>
+    <LB_WOC_Threadmill_T>WOC</LB_WOC_Threadmill_T>
+    <check_Slotting>Slot/Caja</check_Slotting>
+    <LB_DEG>Ángulo</LB_DEG>
+    <btn_Minicalc_Interpolation>Círculo/Rampa</btn_Minicalc_Interpolation>
+    <btn_Check_HSM>HSM</btn_Check_HSM>
+    <btn_check_Thinning>Adelgazamiento de Viruta</btn_check_Thinning>
+    <btn_minicalc_scallop>Crestas</btn_minicalc_scallop>
+    <Button1>Rampa</Button1>
+    <LB_TP_Thread_Type>Tipo de Hilo</LB_TP_Thread_Type>
+    <Label_Crossfeed_Angle>Ángulo de alimentación transversal del torno</Label_Crossfeed_Angle>
+    <LB_TP_Major_Diameter>Diametro Mayor</LB_TP_Major_Diameter>
+    <radio_Circle_Line>Línea Recta</radio_Circle_Line>
+    <LB_DRL_E_Dia_T>Diametro Efectivo</LB_DRL_E_Dia_T>
+    <LB_Depth_T>Profundidad</LB_Depth_T>
+    <LB_DRL_Peck_T>Picotear</LB_DRL_Peck_T>
+    <LB_Tap_Thread_PC_T>Porcentaje de Hilo</LB_Tap_Thread_PC_T>
+    <LB_Tap_Drill_Dia_T>Tamaño de Broca</LB_Tap_Drill_Dia_T>
+    <LB_Feed_PC_T>F</LB_Feed_PC_T>
+    <LB_Speed_PC_T>S</LB_Speed_PC_T>
+    <LB_Limit_Torque_PC_T>Limitar Torque</LB_Limit_Torque_PC_T>
+    <LB_LimitDef_PC_T>Limitar Desviación</LB_LimitDef_PC_T>
+    <LB_Tool_Max_RPM>RPM Máximo de la herramienta</LB_Tool_Max_RPM>
+    <LB_Ideal_Speed_T>Velocidad</LB_Ideal_Speed_T>
+    <LB_Ideal_Chipload_T>Carga de Viruta</LB_Ideal_Chipload_T>
+    <LB_RPM_T>RPM</LB_RPM_T>
+    <LB_Feed_T>Avance</LB_Feed_T>
+    <LB_Speed_T>Velocidad</LB_Speed_T>
+    <LB_RPM_Plunge_T>RPM de Perforación</LB_RPM_Plunge_T>
+    <LB_Plunge_T>Avance de
+Perforación</LB_Plunge_T>
+    <Tab_Cutting_Data>Datos de Corte</Tab_Cutting_Data>
+    <tab_warnings>Alertas</tab_warnings>
+    <tab_tool_paint>Herramienta</tab_tool_paint>
+    <btn_Filter_Reset>Reiniciar todo</btn_Filter_Reset>
+    <LB_Size>Medida</LB_Size>
+    <LB_ThreadForm>Forma de la Rosca</LB_ThreadForm>
+    <LB_ThreadClass>Clase</LB_ThreadClass>
+    <LB_Units>Unidades</LB_Units>
+    <GRP_Threads_External_Thread_Info>Información Externa de los Filos</GRP_Threads_External_Thread_Info>
+    <LB_MaxRad>Radio Máximo</LB_MaxRad>
+    <LB_ThreadPitch>Paso de la Rosca</LB_ThreadPitch>
+    <LB_ThreadCrestTruncate>Alto de la Cresta</LB_ThreadCrestTruncate>
+    <LB_ThreadRootTruncate>Raíz de la Cresta</LB_ThreadRootTruncate>
+    <Label_Root_Radius_T>Radio de la Raíz</Label_Root_Radius_T>
+    <GRP_Threads_External_Three_Wire>Medición de tres cables</GRP_Threads_External_Three_Wire>
+    <LB_Thread3Wire>Tecleea los valores conocidos y pulsa ENTER</LB_Thread3Wire>
+    <LB_ThreadWireDiameter>Diámetro del cable</LB_ThreadWireDiameter>
+    <LB_ThreadPitchDiameter>Diametro del Paso</LB_ThreadPitchDiameter>
+    <LB_ThreadMeasureOverWire>Medida sobre el cable</LB_ThreadMeasureOverWire>
+    <LB_ThreadWireDiaMin>Dia Min Alambre</LB_ThreadWireDiaMin>
+    <LB_ThreadWireDiaMax>Dia Max Alambre</LB_ThreadWireDiaMax>
+    <LB_ThreadWireDiaBest>Dia Optimo Alambre</LB_ThreadWireDiaBest>
+    <LB_DrillTapChart>Table de Broca/Machuela</LB_DrillTapChart>
+    <LB_ThreadRecPc>% Recomendado de Hilo</LB_ThreadRecPc>
+    <Radio_Threads_Cutting>Corte</Radio_Threads_Cutting>
+    <Radio_Threads_Forming>Formado</Radio_Threads_Forming>
+    <LB_ThreadTapHoleSize>Tamaño de Barreno para Machuelo</LB_ThreadTapHoleSize>
+    <LB_ThreadDesiredPC>% Deseado de Hilo</LB_ThreadDesiredPC>
+    <Licence_BT_Enter_Key>Comprar/Teclear Licencia</Licence_BT_Enter_Key>
+    <LB_LicenseLevel>Nivel de Licencia:</LB_LicenseLevel>
+    <btn_settings_open_user_folder>Abrir Carpeta de Usuario</btn_settings_open_user_folder>
+    <LB_Settings_Lease_Period_T>Periodo de Uso de Licencia Flotante</LB_Settings_Lease_Period_T>
+    <BT_E_Exit>Salida de Emergencia!</BT_E_Exit>
+    <btn_Font_Large>Ajustar Tamaño de Fuente y Estilo</btn_Font_Large>
+    <settings_check_for_updates>Checar por Actualizaciones al Inicio</settings_check_for_updates>
+    <settings_check_Help>Mostrar Ayuda de Herramienta</settings_check_Help>
+    <settings_check_swicth_to_warnings>En caso de error, cambiar a pestañas de alerta</settings_check_swicth_to_warnings>
+    <settings_check_reset_tooldata_upon_tooltype>Reiniciar Datos de Herramientas (ALTAMENTE Recomendado Seleccionar Esta Opción)</settings_check_reset_tooldata_upon_tooltype>
+    <settings_check_reset_overrides_upon_tooltype>Reiniciar Anulaciones de Velocidades/Avances </settings_check_reset_overrides_upon_tooltype>
+    <settings_check_reset_preformance_upon_tooltype>Reiniciar Desempeño del Cortador</settings_check_reset_preformance_upon_tooltype>
+    <settings_check_reset_limits_upon_tooltype>Reiniciar Limites de Seguridad de la Herramienta</settings_check_reset_limits_upon_tooltype>
+    <LB_Defaults_Text>Aquí puedes definir valores predeterminados para varias anulaciones y limites</LB_Defaults_Text>
+    <LB_Defaults_Speed>Velocidad de Corte (%S)
+</LB_Defaults_Speed>
+    <LB_Defaults_Feed>Carga de Viruta (%F)</LB_Defaults_Feed>
+    <LB_Defaults_Performance>Desempeño de la Herramienta
+</LB_Defaults_Performance>
+    <LB_Defaults_Torque>Limite de Torque (%)</LB_Defaults_Torque>
+    <LB_Defaults_Deflection>Limite de Desviación (%)</LB_Defaults_Deflection>
+    <GRP_Settings_Dropdown>Menú de Herramienta y corte desplegable</GRP_Settings_Dropdown>
+    <BTN_Settings_Edit_Tool_DropDown_Items>Editar Elementos de Herramienta desplegable</BTN_Settings_Edit_Tool_DropDown_Items>
+    <BTN_Settings_Edit_Cut_DropDown_Items>Editar Elementos de Corte desplegable	</BTN_Settings_Edit_Cut_DropDown_Items>
+    <LB_ToolCutDrowdowns_Hint>También puedes utilizar el botón derecho del ratón en "Corte y Herramientas desplegables" para editar elementos</LB_ToolCutDrowdowns_Hint>
+    <GRP_Settings_DB_Other>Otro</GRP_Settings_DB_Other>
+    <BTN_Set_DB_Location>Cargar Base de Datos...</BTN_Set_DB_Location>
+    <BTN_ResetDB_Location>Cargar Base de Datos Predeterminado</BTN_ResetDB_Location>
+    <chck_Shared_Database>Base de Datos Compartidos</chck_Shared_Database>
+    <settings_confirm_calculation_delete>Confirmar Supresión de Herramienta/Corte</settings_confirm_calculation_delete>
+    <settings_keep_machine_id>Maquina Pegajosa</settings_keep_machine_id>
+    <BTN_View_Reginfo>Ver información de Registro</BTN_View_Reginfo>
+    <btn_CutCloud>Iniciar CutCloud</btn_CutCloud>
+    <BT_Define_Tool_Type>Tipo de Herramienta</BT_Define_Tool_Type>
+    <BT_Define_Material>Material</BT_Define_Material>
+    <EXP_DDE_Integration>Integración CAM</EXP_DDE_Integration>
+    <EXP_Workpiece>Pieza de Trabajo</EXP_Workpiece>
+    <EXP_Tool_Data>Datos de Herramienta</EXP_Tool_Data>
+    <EXP_Cut>Datos de Corte</EXP_Cut>
+    <EXP_Comp>Compensación</EXP_Comp>
+    <EXP_Thread_Params>Parametros de la Rosca</EXP_Thread_Params>
+    <EXP_Drilling_Params>Parametros de Barrenado</EXP_Drilling_Params>
+    <EXP_Tapping_Data>Datos de roscado</EXP_Tapping_Data>
+    <EXP_Gages>Mediciones</EXP_Gages>
+    <PB_Machine_Power>Potencia:</PB_Machine_Power>
+    <PB_Machine_Torque>Torque:</PB_Machine_Torque>
+    <PB_Mrr>MRR:</PB_Mrr>
+    <PB_Tool_Life>Vida de Herramienta:</PB_Tool_Life>
+    <PB_Tool_Deflection>Desviación:</PB_Tool_Deflection>
+    <PB_Tool_Torque>Torque de la Herramienta:</PB_Tool_Torque>
+    <EXP_Overrides>Ajustes de Velocidades y Avances</EXP_Overrides>
+    <EXP_Tool_Limits>Límites de la Herramienta</EXP_Tool_Limits>
+    <EXP_CUT_Controls>Cortes Guardados</EXP_CUT_Controls>
+    <EXP_Limits>Cargar Límites</EXP_Limits>
+    <EXP_Man_Settings>Velocidades y Avances del Proveedor</EXP_Man_Settings>
+    <EXP_Speed_Feed>Velocidades y Avances</EXP_Speed_Feed>
+    <EXP_myCut_tool_DB_Tool_Filter>Filtro de Herramienta</EXP_myCut_tool_DB_Tool_Filter>
+    <EXP_Threads_Thread_Type>Rosca</EXP_Threads_Thread_Type>
+    <EXP_Threads_External>Rosca Externa / Medición de tres cables</EXP_Threads_External>
+    <EXP_Threads_Internal>Rosca Interna, Machuelo/Table de Barrenado</EXP_Threads_Internal>
+    <EXP_Settings_Licence_Trial>Licencia</EXP_Settings_Licence_Trial>
+    <EXP_Settings_General>General</EXP_Settings_General>
+    <EXP_Settings_Things_to_Reset>Campos y límites que restablecen a predeterminado cuando se cambia el tipo de herramienta</EXP_Settings_Things_to_Reset>
+    <EXP_Settings_Defaults>Predeterminados</EXP_Settings_Defaults>
+    <EXP_Settings_myCUT_DB_Settings>myCut Tool DB y Herramientas/Corte Configuración Desplegable</EXP_Settings_myCUT_DB_Settings>
+    <EXP_Settings_Licence_Full>Licencia</EXP_Settings_Licence_Full>
+    <LB_Tool_Filter>Filtro de Herramienta:</LB_Tool_Filter>
+    <btn_Ok>OK</btn_Ok>
+    <btn_Add>Agregar</btn_Add>
+    <btn_Cancel>Cancelar</btn_Cancel>
+    <btn_Save>Guardar</btn_Save>
+    <btn_Apply>Aplicar</btn_Apply>
+    <SFMToolStripMenuItem>Velociad de Corte</SFMToolStripMenuItem>
+    <ChiploadToolStripMenuItem>Carga de Viruta</ChiploadToolStripMenuItem>
+    <RPMToolStripMenuItem>RPM</RPMToolStripMenuItem>
+    <FeedrateToolStripMenuItem>Avance</FeedrateToolStripMenuItem>
+    <PlungeFeedToolStripMenuItem>Avance de Perforación</PlungeFeedToolStripMenuItem>
+    <DOCToolStripMenuItem>DOC</DOCToolStripMenuItem>
+    <WOCToolStripMenuItem>WOC</WOCToolStripMenuItem>
+    <PeckToolStripMenuItem>Picotear</PeckToolStripMenuItem>
+    <LoginForm>{pname} Activación de Licencia</LoginForm>
+    <LB_FirstName>Primer Nombre:</LB_FirstName>
+    <LB_SerialNumber>Numero de Licencia:</LB_SerialNumber>
+    <LB_LastName>Ultimo Nombre:</LB_LastName>
+    <LNK_Purchase_License>Comprar Licencia:</LNK_Purchase_License>
+    <LB_Computer_ID>ID de la Computadora:</LB_Computer_ID>
+    <LB_License_Level>Nivel de Licencia:</LB_License_Level>
+    <LB_Email>Correo Electrónico</LB_Email>
+    <LNK_Claim_Purchased_Keys>Ver mi licencia en linea</LNK_Claim_Purchased_Keys>
+    <LNK_Autoregister>Registrar Automáticamente</LNK_Autoregister>
+    <LNK_License_Logout>Cerrar Sesión</LNK_License_Logout>
+    <FRM_MachineDefinition>Definiciñon de Máquina</FRM_MachineDefinition>
+    <CHK_Mach_Stick_To_RPM>Los cálculos se ajustan a las RPM predefinidas de la tabla de curva de potencia</CHK_Mach_Stick_To_RPM>
+    <CHK_Mach_Stick_To_RPM_tooltip>Compruebe si desea forzar que el RPM calculado siempre coincida con el RPM predefinido de la tabla de curva de potencia</CHK_Mach_Stick_To_RPM_tooltip>
+    <GRP_Power_Curve>Curva de Potencia</GRP_Power_Curve>
+    <BTN_Power_Curve_Wizard>Asistente de Curvas de Potencia</BTN_Power_Curve_Wizard>
+    <BTN_Power_Curve_Wizard_tooltip>Iniciar asistente para estimar la Curva de Potencia</BTN_Power_Curve_Wizard_tooltip>
+    <LB_Mach_Notice>Valores de *RPM DEBEN de ser en un orden ascendente</LB_Mach_Notice>
+    <GRP_Machine_Info>Información de la Máquina </GRP_Machine_Info>
+    <BTN_Add_Mach>Agregar</BTN_Add_Mach>
+    <BTN_Add_Mach_tooltip>Crear una nueva definición de Máquina</BTN_Add_Mach_tooltip>
+    <BTN_Remove_Mach>Eliminar</BTN_Remove_Mach>
+    <BTN_Remove_Mach_tooltip>Eliminar la definición seleccionada de la lista</BTN_Remove_Mach_tooltip>
+    <BTN_clone_mach>Clonar</BTN_clone_mach>
+    <BTN_clone_mach_tooltip>Clonar definiciñon seleccionada</BTN_clone_mach_tooltip>
+    <BTN_Import_Mach>Importar</BTN_Import_Mach>
+    <BTN_Import_Mach_tooltip>Importar una definición de máquina desde un archivo externo</BTN_Import_Mach_tooltip>
+    <BTN_Export_Mach>Exportar</BTN_Export_Mach>
+    <BTN_Export_Mach_tooltip>Exportar una definición de máquina a un archivo externo</BTN_Export_Mach_tooltip>
+    <LB_Max_Tap_RPM>RPM Máxima para Machuelo</LB_Max_Tap_RPM>
+    <LB_Max_Tap_RPM_tooltip>Define las RPM máximas permitidas para machuelear en su máquina</LB_Max_Tap_RPM_tooltip>
+    <LB_Min_RPM_T>RPM mínima</LB_Min_RPM_T>
+    <LB_Min_RPM_T_tooltip>Mínima RPM del Husillo</LB_Min_RPM_T_tooltip>
+    <LB_Name>Nombre</LB_Name>
+    <LB_Warning_At_T>Advertencia en</LB_Warning_At_T>
+    <LB_Warning_At_T_tooltip>Generar advertencia siempre que la potencia o el par de torsión estén CERCA del máximo</LB_Warning_At_T_tooltip>
+    <CHK_Mach_Use_Curve>Utilizar Curva de Potencia</CHK_Mach_Use_Curve>
+    <CHK_Mach_Use_Curve_tooltip>Checar si quieres utilizar la compensación de Curva de Potencia
+Límites de Potencia Máxima y Torque Máximo variarán acorde a las RPM del Husillo</CHK_Mach_Use_Curve_tooltip>
+    <MiniCalc_Turn_Scallop>Calculadora de acabado superficial de torneado</MiniCalc_Turn_Scallop>
+    <LB_Surface_Roughness_T>Ra Rugosidad de la Superficie</LB_Surface_Roughness_T>
+    <LB_Scallop_T>Cresta</LB_Scallop_T>
+    <LB_Feed_per_Rev>Avance por Revolución</LB_Feed_per_Rev>
+    <MiniCalc_Interpolation>Interpolación Circular/Rampa</MiniCalc_Interpolation>
+    <MiniCalc_Scallop>Calculador de Crestas para Ball Mill</MiniCalc_Scallop>
+    <LB_Scallop_DOC>Cresta(DOC)</LB_Scallop_DOC>
+    <LB_Stepover>Pase Lateral (X,Y)</LB_Stepover>
+    <GRP_Interpolation_Params>Parámetro de Movimiento en Rampa</GRP_Interpolation_Params>
+    <LB_Circular_Units_Converted_T>Todas las unidades son convertidas a las unidades del diametro de la punta del cortador</LB_Circular_Units_Converted_T>
+    <LB_Feature_Type>Tipo de Función de Rampa</LB_Feature_Type>
+    <LB_Pilot_Hole_Dia>Diámetro del Barreno Piloto </LB_Pilot_Hole_Dia>
+    <LB_Stock_Dia_T>Diámetro del Stock</LB_Stock_Dia_T>
+    <LB_Fin_Hole_Dia>Diámetro del Barreno Terminado</LB_Fin_Hole_Dia>
+    <LB_Fin_Boss_Dia>Diametro Final del Extruido</LB_Fin_Boss_Dia>
+    <LB_Cutter_Dia_T>Diámetro del Cortador</LB_Cutter_Dia_T>
+    <LB_With_of_Cut_T>Ancho de Corte en Rampa</LB_With_of_Cut_T>
+    <LB_Angle_T>Ángulo</LB_Angle_T>
+    <LB_Pitch_DOC>Paso (Profundidad de Corte)</LB_Pitch_DOC>
+    <GRP_Helical_Params>Calculador de Ángulo para Rampa</GRP_Helical_Params>
+    <Radio_Ramp_Feed>Fresado en Rampa</Radio_Ramp_Feed>
+    <LB_Pass_Length>Largo del Pase</LB_Pass_Length>
+    <btn_CreatePR>Crear formulario de solicitud de compra</btn_CreatePR>
+    <btn_Close>Cerrar</btn_Close>
+    <btn_ApplyToStock>Aplicar lo Recibido al Stock</btn_ApplyToStock>
+    <btn_Save_Request>Salvar Solicitud</btn_Save_Request>
+    <LB_SetOrderQty>Ajustar cantidad de "Solicitud":</LB_SetOrderQty>
+    <LB_SetOrderQtyMax>Máxima Existencia</LB_SetOrderQtyMax>
+    <LB_SetOrderQtyMin>Mínima Existencia </LB_SetOrderQtyMin>
+    <LB_SetOrderQty0>Ajustar a 0</LB_SetOrderQty0>
+    <PurchaseRequest_DLG>Comprar Formulario de Solicitud</PurchaseRequest_DLG>
+    <btn_PrintPR>Exportar Solicitud de Compra</btn_PrintPR>
+    <Edit_Tool_Info>Editar Información de Herramienta</Edit_Tool_Info>
+    <LB_Series_Name>Nombre de Serie
+</LB_Series_Name>
+    <LB_Brand_Name>Nombre de la Marca</LB_Brand_Name>
+    <LB_Insert_Name>Insertar Nombre</LB_Insert_Name>
+    <LB_Brand_Series>Tabla Personalizada</LB_Brand_Series>
+    <LB_Additional_Tool_Info>Información Adicional de la Herramienta</LB_Additional_Tool_Info>
+    <LB_Number_On_Hand>En Existencia</LB_Number_On_Hand>
+    <LB_Number_On_Hand_tooltip>Number de Herramientas actualmente en Existencia</LB_Number_On_Hand_tooltip>
+    <LB_Stock_Min>Existencia Mínima</LB_Stock_Min>
+    <LB_Stock_Min_tooltip>Cantidad Mínima de Existencia para mostrar Alarma</LB_Stock_Min_tooltip>
+    <LB_Stock_Opt>Existencia Máxima</LB_Stock_Opt>
+    <LB_Stock_Opt_tooltip>Cantidad óptima de suministro</LB_Stock_Opt_tooltip>
+    <LB_Number_On_Order>Actualmente en Solicitud</LB_Number_On_Order>
+    <LB_Number_On_Order_tooltip>Numero de Herramientas actualmente en Solicitud</LB_Number_On_Order_tooltip>
+    <LB_Price>Precio</LB_Price>
+    <btn_Copy_Data>Copiar Datos</btn_Copy_Data>
+    <btn_Paste_Data>Pegar Datos</btn_Paste_Data>
+    <btn_Copy_Data_tooltip />
+    <btn_Paste_Data_tooltip />
+    <btn_Add_ToOrder>Agregar Herramienta a Solicitud</btn_Add_ToOrder>
+    <LB_Tool_Supplier>Proveedor de Herramienta</LB_Tool_Supplier>
+    <LB_Tool_Location>Ubicación (Cajón,Gabinete,Caja)</LB_Tool_Location>
+    <LB_Supplier_Part_ID>Numero de Parte del Proveedor</LB_Supplier_Part_ID>
+    <LB_Tool_Record_Type>Tipo de Registro</LB_Tool_Record_Type>
+    <CHK_Generic>Generico - Geometría de Herramienta Editable</CHK_Generic>
+    <TAB_Tool_Info>Información de la Herramienta</TAB_Tool_Info>
+    <Tab_Speeds_and_Feeds>Velocidades y Avances</Tab_Speeds_and_Feeds>
+    <CHK_SF_Auto>Velocidades y Avances Automaticos</CHK_SF_Auto>
+    <CHK_SF_Custom>Velocidades y Avances Personalizados</CHK_SF_Custom>
+    <LB_Chipload_T>Carga de
+Viruta</LB_Chipload_T>
+    <LB_Material_T>Material</LB_Material_T>
+    <LB_SFM>SFM</LB_SFM>
+    <btn_Reset_SFM>Reiniciar</btn_Reset_SFM>
+    <CustomSpeedsFeeds>Velocidades y Avances Personalizados</CustomSpeedsFeeds>
+    <LB_Custom_Tables>Tablas Personalizadas</LB_Custom_Tables>
+    <LB_SAF_Message>Especificar Nombre de la Marca y Nombre de Serie en la info de Herramienta</LB_SAF_Message>
+    <btn_Reset_IPT>Reiniciar</btn_Reset_IPT>
+    <BTN_Generate_Sizes>Generad Medidas</BTN_Generate_Sizes>
+    <btn_Reset_IPT_Table>Reiniciar</btn_Reset_IPT_Table>
+    <Edit_Cut_Info>Editar Información de Corte</Edit_Cut_Info>
+    <LB_Number>T#</LB_Number>
+    <LB_Offset_Length>L#</LB_Offset_Length>
+    <LB_Offset_Dia>D#</LB_Offset_Dia>
+    <LB_Additional_OP_Info>Información adicional de la operación</LB_Additional_OP_Info>
+    <LB_Holder>Porta-Herramienta</LB_Holder>
+    <Tab_Tool_Geometry>Geometría de la Herramienta</Tab_Tool_Geometry>
+    <btn_HSMA_Cloud_Login>Acceso a la Nube HSMAdvisor
+</btn_HSMA_Cloud_Login>
+    <GRP_Cloud_Service>Servicios de Nube HSMAdvisor</GRP_Cloud_Service>
+    <BTN_Upload_Machine>Subir</BTN_Upload_Machine>
+    <BTN_Upload_Machine_tooltip>Subir perfil actual de la máquina a la Nube</BTN_Upload_Machine_tooltip>
+    <BTN_Download_Machine>Descarga</BTN_Download_Machine>
+    <BTN_Download_Machine_tooltip>Descarga perfiles de maquinas desde la Nube</BTN_Download_Machine_tooltip>
+    <CHK_Private_Machine>Máquina Privada</CHK_Private_Machine>
+    <CHK_Private_Machine_tooltip>Subiendo esta Máquina como Privado no permite que los demás usuarios la descarguen</CHK_Private_Machine_tooltip>
+    <LB_Register_About_Cloud>Registrate en HSMAdvisor Cloud para accesar perfiles de Máquinas, Nube de corte entre otras.</LB_Register_About_Cloud>
+    <CutCloudFeedback>Retroalimentación de Corte en la Nube</CutCloudFeedback>
+    <EXP_OptionsAbout>Opciones/Acerca de</EXP_OptionsAbout>
+    <CHK_CutCloudF_Save_Params>Guardad Parametros de Retroalimentación en el Corte</CHK_CutCloudF_Save_Params>
+    <LB_CutCloudAbout>Enviar retroalimentación de tu experiencia cortando en las condiciones actuales con esta herramienta.
+Bueno o Malo - Haz saber a todos como fue tu resultado!</LB_CutCloudAbout>
+    <LB_Op_Comment>Comentarios de la Operación</LB_Op_Comment>
+    <LB_Op_Rating>Califica este Corte</LB_Op_Rating>
+    <LB_Coolant>Refrigerante</LB_Coolant>
+    <btn_Send>Enviar</btn_Send>
+    <AddToolToolStripMenuItem>Agregar Nueva Herramienta</AddToolToolStripMenuItem>
+    <EditToolInfoToolStripMenuItem>Editar Información de la Herramienta</EditToolInfoToolStripMenuItem>
+    <EditToolDataToolStripMenuItem>Editar Geometría de la Herramienta</EditToolDataToolStripMenuItem>
+    <DeleteToolToolStripMenuItem>Borrar Herramienta</DeleteToolToolStripMenuItem>
+    <SaveToolToolStripMenuItem>Guardar Herramienta</SaveToolToolStripMenuItem>
+    <OpenToolDatabaseToolStripMenuItem>Abrir Base de Datos de Herramientas...</OpenToolDatabaseToolStripMenuItem>
+    <CreateNewToolLibrary>Crear una Nueva Librerñia de Herramientas</CreateNewToolLibrary>
+    <ImportStripMenuItem>Importar</ImportStripMenuItem>
+    <ExportToolStripMenuItem>Exportar</ExportToolStripMenuItem>
+    <ExportAsXmlFileToolStripMenuItem>Exportar como Archivo XML</ExportAsXmlFileToolStripMenuItem>
+    <ImportFromXMLFileToolStripMenuItem>Importar de Archivo XML</ImportFromXMLFileToolStripMenuItem>
+    <LoadToolStripMenuItem>Cargar</LoadToolStripMenuItem>
+    <ViewInformationToolStripMenuItem>Ver información</ViewInformationToolStripMenuItem>
+    <CopyToolToAnotherLibraryToolStripMenuItem>Copiar a ...</CopyToolToAnotherLibraryToolStripMenuItem>
+    <MoveToolToAnotherLibraryToolStripMenuItem>Mover a ...</MoveToolToAnotherLibraryToolStripMenuItem>
+    <DeleteCutInfoToolStripMenuItem>Borrar</DeleteCutInfoToolStripMenuItem>
+    <ToolWizardsToolStripMenuItem>Editación rápida en Masa</ToolWizardsToolStripMenuItem>
+    <ResetSFOverridesToolStripMenuItem>Reiniciar Anulaciones de Velocidades y Avances</ResetSFOverridesToolStripMenuItem>
+    <ResetCutDataToolStripMenuItem>Reiniciar Datos de Corte</ResetCutDataToolStripMenuItem>
+    <SetMachineToolStripMenuItem>Definir Máquina</SetMachineToolStripMenuItem>
+    <SetHolderToolStripMenuItem>Definir Porta-Herramientas</SetHolderToolStripMenuItem>
+    <SetCommentToolStripMenuItem>Definir Comentario</SetCommentToolStripMenuItem>
+    <SetBrandNameToolStripMenuItem>Definir Nombre de Marca</SetBrandNameToolStripMenuItem>
+    <SetSeriesNameToolStripMenuItem>Definir Nombre de Series</SetSeriesNameToolStripMenuItem>
+    <SetSupplierToolStripMenuItem>Definir Nombre del Proveedor</SetSupplierToolStripMenuItem>
+    <SetSupplierPartNumberToolStripMenuItem>Definir Numero de Parte del Proveedor</SetSupplierPartNumberToolStripMenuItem>
+    <RenameToolLibraryToolStripMenuItem>Renombrar Librería de Herramientas</RenameToolLibraryToolStripMenuItem>
+    <MergeToolLibrariesToolStripMenuItem>Unir Librería de Herramientas con otra</MergeToolLibrariesToolStripMenuItem>
+    <InsertBatchToolListToolStripMenuItem>Insertar lista de herramientas por lotes</InsertBatchToolListToolStripMenuItem>
+    <DeleteCurrentToolLibraryToolStripMenuItem>Borrar Librería de Herramientas</DeleteCurrentToolLibraryToolStripMenuItem>
+    <AddCutToolStripMenuItem>Agregar Corte</AddCutToolStripMenuItem>
+    <CutInfoToolStripMenuItem>Editar Información de Corte</CutInfoToolStripMenuItem>
+    <DeleteCutToolStripMenuItem>Borrar Corte</DeleteCutToolStripMenuItem>
+    <SaveCutToolStripMenuItem>Guardar Corte</SaveCutToolStripMenuItem>
+    <ToolStripMenuItem11>Exportar</ToolStripMenuItem11>
+    <DeletePluginToolStripMenuItem>Borrar Página WEB</DeletePluginToolStripMenuItem>
+    <CloseTabToolStripMenuItem>Cerrar Pestaña</CloseTabToolStripMenuItem>
+    <SavePageOnDiskToolStripMenuItem>Salvar Página en Disco</SavePageOnDiskToolStripMenuItem>
+    <radio_Circle_Internal>Interno(Barreno)</radio_Circle_Internal>
+    <radio_Circle_External>Externo(Extruido)</radio_Circle_External>
+    <LB_Cutting_Speed_T>Velociad de Corte</LB_Cutting_Speed_T>
+    <CHK_Expand_All>Expander Todas las Herramientas</CHK_Expand_All>
+    <LB_Operation>Operación</LB_Operation>
+    <LB_Surface_Finish>Acabado de la Superficie</LB_Surface_Finish>
+    <LB_Tool_Life>Vida de la Herramienta</LB_Tool_Life>
+    <LB_Units_T>Unidades</LB_Units_T>
+    <LB_Comment>Comentario</LB_Comment>
+    <LB_Show_Tree_ToolTip>Mostrar/Esconder Arbol de Contenidos de la Base de Herramientas</LB_Show_Tree_ToolTip>
+    <LB_Feed_PC_T_Head>Anulación de Carga de Viruta</LB_Feed_PC_T_Head>
+    <LB_Feed_PC_T_Body>● 30% - Acabados / Muy poco Desbaste
+● 50% - Semi-Acabado / Desbaste Ligero
+● 100% - Desbaste Normal
+● 150% - Desbaste Pesado: Tomar Precaución
+● 200% - Desbaste Muy Pesado en condiciones muy rigidas: Tomar extrema Precaución</LB_Feed_PC_T_Body>
+    <LB_Max_Feed_T_Head>Avance Máximo Deseado para tu máquina</LB_Max_Feed_T_Head>
+    <LB_Max_Feed_T_Body>Si este límite es alcanzado, La velocidad del husillo es reducida para alcanzar la carga de la viruta calculada</LB_Max_Feed_T_Body>
+    <PB_Tool_Deflection_Slider_Head>Limite de Seguridad para la Desviación del Cortador</PB_Tool_Deflection_Slider_Head>
+    <PB_Tool_Deflection_Slider_Body>Te permite limitar la desviación del cortador
+Cuando la desviación de un cortador excede un porcentaje especificado, la carga de viruta es reducida para prevenir una fractura en la herramienta
+● 70% es el valor predeterminado seguro (Puedes cambiarlo en Ajustes-&gt;Predeterminados)
+● 100% es un valor máximo seguro para desviación
+● 200% es un valor maximo de desviación para supervivencia
+Click para Reiniciar a los Predeterminados
+</PB_Tool_Deflection_Slider_Body>
+    <PB_Tool_Torque_Slider_Head>Límite de Seguridad de Torque para el Cortador</PB_Tool_Torque_Slider_Head>
+    <PB_Tool_Torque_Slider_Body>Te permite limitar el torque en el cortador reduciendo la carga de viruta automaticamente
+Cuando el torque en el cortador excede el porcentaje especificado, la carga de viruta es reducida para prevenir una fractura en la herramienta
+● 70% es un valor seguro (Puedes cambiarlo en Ajustes-&gt;Predeterminados)
+● 100% es un valor máximo seguro
+● 200% es un valor maximo de torque para supervivencia
+Click para Reiniciar a los Predeterminados
+</PB_Tool_Torque_Slider_Body>
+    <LB_Max_RPM_T_Head>Limite de RPM de la Maquina</LB_Max_RPM_T_Head>
+    <LB_Max_RPM_T_Body>Te permite limitar la velocidad del husillo
+El avance se reducirá acorde, pero la carga de la viruta se mantendrá igual</LB_Max_RPM_T_Body>
+    <LB_Max_Power_T_Head>Potencia al Máximo de la Herramienta</LB_Max_Power_T_Head>
+    <LB_Max_Power_T_Body>Te permite limitar la potencia requerida para realizar un corte
+Los RPM y Avances serán reducidos para mantener la potencia calculada requerida por debajo de este numero</LB_Max_Power_T_Body>
+    <LB_Max_Torque_T_Head>Torque al Máximo de la Herramienta
+</LB_Max_Torque_T_Head>
+    <LB_Max_Torque_T_Body>Te permite limitar el torque requerido para relizar un corte
+El Avance será reducido para mantener la potencia calculada requerida por debajo de este numero</LB_Max_Torque_T_Body>
+    <LB_WOC_T_Head>Ancho Radial de Corte</LB_WOC_T_Head>
+    <LB_WOC_T_Body>Utilizando poco (WOC) te permite usar el adelgazamiento de viruta radial que habilita Avances más rápidos
+CLICK para restablecer a predeterminados</LB_WOC_T_Body>
+    <LB_WOC_Threadmill_T_Head>Ancho de Corte</LB_WOC_Threadmill_T_Head>
+    <LB_WOC_Threadmill_T_Body>Profundidad Radial de Hilo por cada lado</LB_WOC_Threadmill_T_Body>
+    <LB_DOC_T_Head>Profundiad de Corte Axial</LB_DOC_T_Head>
+    <LB_DOC_T_Body>Utilizando poco (DOC)  en conjunto con herramientas con radio significante on ángulo de avance
+te permite incrementar el Avance cuando el Adelgazamiento de Viruta y/o HSM estén habilitados.
+CLICK oara restablecer a predeterminados</LB_DOC_T_Body>
+    <LB_DOC_Threadmill_T_Head>Profundidad de Corte Axial
+</LB_DOC_Threadmill_T_Head>
+    <LB_DOC_Threadmill_T_Body>Profundidad Máxima de pasada de Roscado</LB_DOC_Threadmill_T_Body>
+    <LB_DOC_GROOVE_T_Head>Ancho de Corte</LB_DOC_GROOVE_T_Head>
+    <LB_DOC_GROOVE_T_Body>Ancho de Corte de Ranurado</LB_DOC_GROOVE_T_Body>
+    <LB_Leadangle_T_Lead_Head>Ángulo de Avance</LB_Leadangle_T_Lead_Head>
+    <LB_Leadangle_T_Lead_Body>El Ángulo de Avance es el ángulo entre el filo de corte y el plano perpendicular al eje del cortador
+Valores comunes:
+● 90 - Borde Recto Regular
+● 45 - ángulo común para face mills
+● 5-30: High feed mills
+Ángulos más pequeños permiten incrementar los avances
+CLICK para reiniciar al valor predeterminado de esta herramienta</LB_Leadangle_T_Lead_Body>
+    <LB_Leadangle_T_Taper_Head>Ángulo de Conicidad
+</LB_Leadangle_T_Taper_Head>
+    <LB_Leadangle_T_Taper_Body>Ángulo entre el filo del cortador y el eje del cortador
+CLICK para reiniciar al valor predeterminado de este tipo de herramienta</LB_Leadangle_T_Taper_Body>
+    <LB_Leadangle_T_Tip_Head>Ángulo de la punta (ángulo incluido)</LB_Leadangle_T_Tip_Head>
+    <LB_Leadangle_T_Tip_Body>Doble del Ángulo entre el filo y el eje del cortador
+CLICK para reiniciar al valor predeterminado de este tipo de herramienta</LB_Leadangle_T_Tip_Body>
+    <PNL_MaxPerformance_Head>Desempeño Máximo</PNL_MaxPerformance_Head>
+    <PNL_MaxPerformance_Body>● Requiere cortadores pesados de alto rendimiento, soportes, instalación rígida de máquina y herramienta.
+● La profundidad de corte recomendada aumenta
+● La Profundidad de corte recomendada NO se reduce para compensar el aumento de saliente y la longitud del filo del cortador
+● La velocidad de avance será mínimamente reducida por un enganche aumentado, por lo tanto aumentando así la carga lateral en el cortador, Desviación y Torque
+● Desviación y Torque serán limitados únicamente por los valores límite de seguridad de la Herramienta
+Asegúrese de que su trabajo de sujeción, herramienta y máquina estén adecuadas para el trabajo
+Asegúrese de que la seguridad de la herramienta y los límites de la máquina están correctamente configurados</PNL_MaxPerformance_Body>
+    <PNL_MinPerformance_Head>Desempeño Mínimo</PNL_MinPerformance_Head>
+    <PNL_MinPerformance_Body>● Para los casos en que la sujeción de trabajo, la herramienta o la maquinaria no son suficientemente rígidas para utilizar la herramienta a su máximo potencial
+● Recomendado para condiciones de corte inestables
+● La Profundidad de corte recomendada se reduce para compensar el aumento de saliente y la longitud del filo del cortador
+● Cuando se utiliza DOC mayor que el recomendado, el Avance se reducirá hasta en un 50%
+● Cualquier incremento adicional en la carga del cortador se reflejará en el incremento de la desviación
+Asegúrese de que su límite de seguridad de desviación de la herramienta esté configurado correctamente</PNL_MinPerformance_Body>
+    <LB_Depth_T_Head>Profundidad del Barreno</LB_Depth_T_Head>
+    <LB_Depth_T_Body>● El picoteo podrá ser requerido a la hora de barrenar agujero muy profundos
+● La distancia de picoteo recomendada cambiará acorde a la profundiad del barreno
+● En casos cuando la profundiad es menor al largo de la punta,
+El diámetro efectivo será menor que el diámetro de la broca
+Click para restablecer a predeterminados</LB_Depth_T_Body>
+    <LB_DRL_E_Dia_T_Head>Diámetro Efectivo</LB_DRL_E_Dia_T_Head>
+    <LB_DRL_E_Dia_T_Body> ● Diámetro efectivo del barreno a una profundiad especificada</LB_DRL_E_Dia_T_Body>
+    <LB_Speed_PC_T_Head>Anulación de Velocidades de Corte</LB_Speed_PC_T_Head>
+    <LB_Speed_PC_T_Body>El Programa ajustará las velocidades de corte de acuerdo a las condiciones de corte
+Cualquier anulación puesta aquí se agregará por encima
+● 30% - Muy alto desbaste y/o instalación inestable
+● 50% - Alto desbaste y/o instalación inestable
+● 100% - Desbaste normal/Semi-Acabado en instalaciones estables
+● 150% - Acabados medios en instalaciones estables
+● 200% - Acabado Ligero en instalaciones estables</LB_Speed_PC_T_Body>
+    <LB_TP_Major_Diameter_Head>Diámetro de la Rosca</LB_TP_Major_Diameter_Head>
+    <LB_TP_Major_Diameter_Body>Diámetro mayor de la Rosca
+Requerido para calcular adecuadamente la reducción de avance para tomar en cuenta la diferencia entre la troyectoria de la herramienta y el radio de la herramienta</LB_TP_Major_Diameter_Body>
+    <LB_DOC_RAD_T_Head>Profundiad de Corte</LB_DOC_RAD_T_Head>
+    <LB_DOC_RAD_T_Body>Para Torneado-Perfilado: Profundidad de Corte Radial
+Para Torneado-Ranurado: Ancho de Corte Axial
+Click para reiniciar predeterminados</LB_DOC_RAD_T_Body>
+    <LB_Len_T_Head>Saliente de la Herramienta</LB_Len_T_Head>
+    <LB_Len_T_Body>Distancia de la punta de la herramienta hasta el Porta-Herramientas
+Para herramental integrado y </LB_Len_T_Body>
+    <LB_Corner_Rad_T_Head>Radio de la Esquina</LB_Corner_Rad_T_Head>
+    <LB_Corner_Rad_T_Body>Click para reinicar a predeterminados</LB_Corner_Rad_T_Body>
+    <BT_MyCut_Tool_More_Head>Acciones de la Herramienta</BT_MyCut_Tool_More_Head>
+    <BT_MyCut_Tool_More_Body>Los registros de herramientas contienen datos para todos los campos excepto los datos de la máquina y el material de la pieza
+Añadir nueva herramienta - se puede agregar una nueva herramienta después de que se seleccione 'Herramienta nueva' en la lista desplegable Herramienta
+Editar información de herramientas - Editar el fabricante de la Herramienta, el proveedor y la información de uso
+Editar la geometría de la herramienta - permite que los campos de geometría de la herramienta estén disponibles para su edición
+Herramienta Eliminar - quita la herramienta seleccionada de la biblioteca
+Guardar herramienta - sólo puede guardar los cambios realizados en la geometría de la herramienta mientras está en el modo "Editar geometría de herramientas"
+
+Cuando se carga una herramienta desde la Basde de Datos, la mayoría de los campos de entrada responsables del material de la herramienta y la geometría se desactivan.
+Para habilitar estos campos necesitas descargar la herramienta actual seleccionando "Nueva Herramienta" del menu desplegable "Herramienta"</BT_MyCut_Tool_More_Body>
+    <BT_myCut_Cut_More_Head>Acciones del Cortador</BT_myCut_Cut_More_Head>
+    <BT_myCut_Cut_More_Body>Registro de Corte mantiene datos de todos los campos menos de la geometría de la herramienta
+Agregar Nuevo Corte - Agrega un nuevo Corte a la herramienta seleccionada
+Editar info de Corte - Editar información de Corte seleccionada
+Borrar Corte - Borrar Corte seleccionado de la librería
+Guardar Corte - Guarda los cambios hechos al Corte seleccionado
+
+Los Datos de Corte contienen tal información como material de la pieza, profundidad y ancho de corte, tanto como las velocidades, avances y anulaciones de productividad
+Cada herramienta puede tener cualquier numero de cortes anexado a esta</BT_myCut_Cut_More_Body>
+    <Input_Depth_Head />
+    <Input_Depth_Body />
+    <btn_check_Thinning_Head>Habilitar/Deshabilitar Adelgazamiento de Viruta</btn_check_Thinning_Head>
+    <btn_check_Thinning_Body>Seleccionar para habilitar adelgazamiento de viruta axial y radial
+● Te permite compensar el efecto de adelgazamiento de viruta que ocurre en enganches radiales y axiales lentos
+● El ancho de corte usual para maquinado HSM es de 6-12% o 30-40 grados 
+● Corriendo a bajos enganches se mejora la productividad y vida de la herramienta
+● Habilitar el adelgazamienta de viruta NO es recomendado para acabados ya que deteriora la superficie de acabado
+</btn_check_Thinning_Body>
+    <btn_Check_HSM_Head>Habilitar/Deshabilitar Maquinado HSM</btn_Check_HSM_Head>
+    <btn_Check_HSM_Body>Seleccionar para habilitar velocidades de Maquinado de Alta Velocidad
+● Te permite incrementar la velocidad de corte en enganches radiales bajos
+● El ancho de corte usual para maquinado HSM es de 6-12% o 30-40 grados 
+● Corriendo a bajos enganches se mejora la productividad y vida de la herramienta
+● HSM puede ser utilizado para ambos desbaste y acabados ya que permite incrementar la velocidad de corte sin sacrificar la vida de la herramienta
+</btn_Check_HSM_Body>
+    <Panel_Tool_Manufacturer_Settings_Tip_Head>Configuración personalizada del fabricante de herramientas</Panel_Tool_Manufacturer_Settings_Tip_Head>
+    <Panel_Tool_Manufacturer_Settings_Tip_Body>● Aquí puedes ajustar los parametro más imporatntes para igualar a los valores recomendadios del fabricante
+</Panel_Tool_Manufacturer_Settings_Tip_Body>
+    <LB_Tool_Max_RPM_Head>RPM máxima permitida para esta herramienta</LB_Tool_Max_RPM_Head>
+    <LB_Tool_Max_RPM_Body>Puedes limitar los maximos RPM para esta herramienta
+● Deja el campo en blanco si deaseas utilizar el RPM Max de la máquina
+● Click para reiniciar el campo a cero</LB_Tool_Max_RPM_Body>
+    <LB_Ideal_Chipload_T_Head>Recomendado del Fabricante / Carga de Viruta personalizada</LB_Ideal_Chipload_T_Head>
+    <LB_Ideal_Chipload_T_Body>Aquí puedes especificar el recomendado del fabricante o la carga de viruta ideal
+● La carga de viruta personalizada es activa solo para un record de corte particular y es salvado en mycutDB
+● Click para reiniciar este campo a predeterminados</LB_Ideal_Chipload_T_Body>
+    <LB_Ideal_Speed_T_Head>Recomendado del Fabricante / Velocidades de Corte Personalizado</LB_Ideal_Speed_T_Head>
+    <LB_Ideal_Speed_T_Body>Aquí puedes especificar el recomendado del fabricante o la Velocidad de Corte ideal
+● La velocidad de corte personalizada esta activa solo para un record de Corte particular y es salvado en myCut DB
+● Click para reiniciar este campo a predeterminados</LB_Ideal_Speed_T_Body>
+    <BTN_Reset_all_Head>Reiniciar todo a predeterminados</BTN_Reset_all_Head>
+    <BTN_Reset_all_Body>Todos los campos se restableceran a predeterminados
+La herramienta actual será descargada
+La geometría de la herramienta y el enganche serán puestos a predeterminados para el tipo de cortador actual
+Los limites de seguridad de la herramienta serán predeterminados al 70%
+Anulaciones de Velocidades y Avances serán al 100%</BTN_Reset_all_Body>
+    <BTN_More_Materials_Head>Referencia del Material</BTN_More_Materials_Head>
+    <BTN_More_Materials_Body>Iniciar la tabla de referencia del material</BTN_More_Materials_Body>
+    <LB_Chipload_T_Head>Carga de Viruta/ Avance Por Revolución</LB_Chipload_T_Head>
+    <LB_Chipload_T_Body>Carga de Viruta: Avance de la herramienta por diente por una revolución
+Avance por Revolución: Avance de la herramienta por una revolución
+● Expresado en Pulgadas o Milímetros
+●  Muestra la Carga de Viruta recomendada o Avance por Revolución después de ser afectada por factores como
+anulación de avance, carga del material, HSM y Adelgazamiento de Viruta
+Teclea tu numero y presiona enter para recalcular sobre este valor
+Click para cambiar entre Carga de Viruta y Avance por Revolución en la pantalla</LB_Chipload_T_Body>
+    <LB_Speed_T_Head>Velocidad de Corte</LB_Speed_T_Head>
+    <LB_Speed_T_Body>Material, valor dependiente de Herramienta y Recubrimiento .
+● Muestra la velocidad de corte recomendada después de ser afectada por parametros como:
+Anulación de Velocidad de Corte, Largo de la Herramienta, carga del material y HSM_
+Pero antes límites como las RPM Máxima de la máquina
+Expresado en Sueprficie metros por minuto o Superficie Pie por Minuto
+
+Teclea tu número y presiona enter para recalcular sobre este valor
+Click para reiniciar a predeterminados</LB_Speed_T_Body>
+    <check_Slotting_Head>Slotting/ Cambio de Caja</check_Slotting_Head>
+    <check_Slotting_Body>CHECAR para forzar el uso de todo el ancho del cortador
+● Recomendado no solo para slotting pero también para hacer cajas
+
+Para Ball Nose End Mill:
+Habilita compensación de diámetro de punta axial
+● CHECAR para para maquinado plano (0-60grados piso)
+● DESELECCIONAR para maquinado lateral y para maquinado de paredes empinadas (60-90grados pared)</check_Slotting_Body>
+    <settings_keep_machine_id_Head>Máquina Pegajosa</settings_keep_machine_id_Head>
+    <settings_keep_machine_id_Body>Porfavor checar si NO quieres que la máquina cambie cuando un corte que contiene otra máquina esstá cargado de la base de datos</settings_keep_machine_id_Body>
+    <LB_Plunge_T_Head>Avance de Perforación</LB_Plunge_T_Head>
+    <LB_Plunge_T_Body>Avance de perforación Teórico basado en los parametros seleccionados de Perforado/Rampa
+● Usar extrema precaución: No toda herramienta es diseñada para perforación o rampa en ángulos pronunciados - Consulta a tu fabricante de herramientas
+● Un ángulo de rampa seguro para la mayoría de cortadores sólidos es entre 3-5 grados; para casi todos los cortadores de pastillas es entre 1.5-2 grados
+● Click para reiniciar a predeterminados</LB_Plunge_T_Body>
+    <chck_Shared_Database_Head>Habilita/Deshabilita la Base de Datos de Herramienta compartidos</chck_Shared_Database_Head>
+    <chck_Shared_Database_Body>Especifica si estarás compartiendo esta Base de Datos de Herramientas con otros usuarios al mismo tiempo
+● Si mas de una instancia de HSMAdvisor estará utilizando esta base de datos al mismo tiempo, Necesitas tener esta opcion habilitada en todas las instancias
+● Si dejas esta opción deseleccionada, la ultima instancia de HSMAdvisor al cerrar sobre escribirá todos los cambios hechos por otras instancias</chck_Shared_Database_Body>
+    <BTN_Set_DB_Location_Head>Definir ubicación de la Base de Datos de Herramientas myCut</BTN_Set_DB_Location_Head>
+    <BTN_Set_DB_Location_Body>Puedes especificar una ubicación personalizada para myCut DB
+Por predeterminado la base de datos myCut está localizada en la carpeta de instalación en el archivo user_tool_libe.tooldb.xml
+● Utilizando esto puedes cambiar entre base de datos al instante
+● Apuntando esta ubicación a un disco compartido permitirá más de una instancia de HSMAdvisor accesar la base de datos al mismo tiempo
+Puedes iniciar Exportando tu Base de Datos a una ubicación de disco compartido
+Después debes poner la ubicación personalizada en la configuración de todos los archivos de asientos de HSMAdvisor
+No olvides la opción "Habilitar Base de Datos Compartida" para que las instancias de HSMAdvisor utilicen el mismo archivo en tiempo real</BTN_Set_DB_Location_Body>
+    <BTN_SF_Status_Head>Origen de las Velocidades y Avances</BTN_SF_Status_Head>
+    <BTN_SF_Status_Body>● Amarillo A
+Velocidades y Avances automáticos producidos por tablas de datos internos
+● Verde M
+Fabricante/Velocidades y Avances Personalizados sugeridos por [Nombre de la Marca]/[Nombre de Serie] de la herramienta para este material
+● Verde/Amarillo M
+Parcial Fabricante/Velocidades y Avances Personalizados sugeridos por [Nombre de la Marca]/[Nombre de Serie] Nombre de la herramienta para este grupo de material
+● Puedes editar y ver las tablas de  Carga de Viruta en dialogo de información de herramienta</BTN_SF_Status_Body>
+    <CMB_LIB_TOOL_Head>Lista desplegable de Herramienta</CMB_LIB_TOOL_Head>
+    <CMB_LIB_TOOL_Body>Utilizar para cargar una herramienta rapidamente de la librería actual
+Haga clic con el botón derecho del ratón en el cuadro desplegable para elegir los elementos visualizados y su orden
+Seleccione la primera fila para descargar la herramienta actual y Crear / Editar una nueva</CMB_LIB_TOOL_Body>
+    <CMB_Cut_Head>Lista desplegable de Corte</CMB_Cut_Head>
+    <CMB_Cut_Body>Utilizar para cargar un corte conectado a la herramienta cargada actualmente
+Haga clic con el botón derecho del ratón en el cuadro desplegable para elegir los elementos visualizados y su orden
+Seleccione Primera fila para descargar el corte actual y crear uno nuevo</CMB_Cut_Body>
+    <LB_Settings_Lease_Period_T_Head>Periodo de estacionamiento de licencia flotante</LB_Settings_Lease_Period_T_Head>
+    <LB_Settings_Lease_Period_T_Body>Utilizar solo si has comprado una licencia flotante.
+Define la cantidad de tiempo que este asiento permanecerá estacionario en esta computadora
+Durante ese tiempo, ninguna otra computadora será capáz de solicitar  un asiento del lugar ocupado
+Periodos de estacionado pequeños permiten cambiar asientos mas frecuentemente pero requiere conexiones a internet constantes
+Periodos de estacionado mayores permiten reducir el numero de conexiones a internet pero no permite un cambio de asientos frecuentes
+Alerta: una vez que un asiento ha sido estacionado, es imposible minimizar el periodo de estacionado hasta que este termine</LB_Settings_Lease_Period_T_Body>
+    <PB_Machine_Power_Head>Potencia del Husillo</PB_Machine_Power_Head>
+    <PB_Machine_Power_Body>Potencia estimada del husillo es requerida para esta operación
+Material y valor dependiente de MRR
+Expresado en Caballos de Fuerza o KiloWatts</PB_Machine_Power_Body>
+    <PB_Tool_Life_Head>Vida de la Herramienta</PB_Tool_Life_Head>
+    <PB_Tool_Life_Body>Diferencia de vida de Herramienta estimada entre el predeterminado y las condiciones actuales de corte
+Este valor muestra el tiempo de vida relativo de sus aristas de corte y no la cantidad de material removida por esta</PB_Tool_Life_Body>
+    <PB_Mrr_Head>Tasa de eliminación de material</PB_Mrr_Head>
+    <PB_Mrr_Body>Un valor de productividad del maquinado
+Expresado en Pulgada cubicas o centímetros de material removido por minuto</PB_Mrr_Body>
+    <PB_Tool_Deflection_Head>Desviación estimada del cortador durante la operación de maquinado</PB_Tool_Deflection_Head>
+    <PB_Tool_Deflection_Body>La Desviación de la Herramienta es dependiente del saliente de la Herramienta, El Enganche con el material (DOC/WOC) y el material siendo cortado
+Es recomendado mantener la desviación de la herramienta por debajo del 0.001" ó 0.025mm para operaciones de maquinado convencional (no HSM y no Adelgazamiento de Viruta) 
+Expresado en pulgadas ó milímetros</PB_Tool_Deflection_Body>
+    <PB_Tool_Torque_Head>Porcentaje de Torque estiamdo del valor máximo seguro para el cortador dado</PB_Tool_Torque_Head>
+    <PB_Tool_Torque_Body>El Torque de la Herramienta es dependiente en el Enganche con el material (DOC/WOC) y el material siendo cortado
+Expresado en porcentaje de una valor teórico seguro
+El valor teórico seguro de 100% es calculado utilizando un factor seguro de 2</PB_Tool_Torque_Body>
+    <LB_Feed_T_Head>Avance de Corte</LB_Feed_T_Head>
+    <LB_Feed_T_Body>La velocidad relativa a la cual el cortador avanza sobre la pieza de trabajo
+El Avance es calculado de la Carga de Viruta, Numero de Dientes y velocidad del husillo
+Expresado en pulgadas por minuto o milímetros por minuto
+Teclea tu número y presiona enter para recalcular sobre este valor 
+CLICK para reiniciar a predeterminados</LB_Feed_T_Body>
+    <LB_RPM_T_Head>Velocidad del Husillo</LB_RPM_T_Head>
+    <LB_RPM_T_Body>Velocidad de rotación de la herramienta de corte (en caso de una fresadora) o pieza de trabajo (en caso de un torno)
+La velocidad el husillo es calculada de la velocidad de corte y el diámtro del cortador o la pieza de trabajo
+Expresado en revoluciones por minuto
+Teclea tu número y presiona enter para recalcular sobre este valor
+CLICK para reiniciar a predeterminados</LB_RPM_T_Body>
+    <LB_Flute_Len_T_Head>Largo del Filo</LB_Flute_Len_T_Head>
+    <LB_Flute_Len_T_Body>Largo de la porción de corte de la herramienta
+Las herramientas de corte son más debiles en su porción donde hay filos
+Escoge herramientas con el menor largo de filo posible para minimizar desviación y fractura
+CLICK para reiniciar a predeterminados</LB_Flute_Len_T_Body>
+    <LB_Insert_Len_T_Head>Inserta el largo de la herramienta de torneado</LB_Insert_Len_T_Head>
+    <LB_Insert_Len_T_Body>Largo de porción de corte de la herramienta
+click para reiniciar a predeterminados</LB_Insert_Len_T_Body>
+    <LB_Helix_T_Head>Ángulo de Hélice del Filo</LB_Helix_T_Head>
+    <LB_Helix_T_Body>Ángulo entre el filo y el centro del eje de la herramienta
+Ángulos Helicoidales mayores reducen vibraciones y fracturas. También mejora el acabado de la superficie e incrementa la profundidad de corte y la velocidad de sustracción del material</LB_Helix_T_Body>
+    <LB_Shank_Dia_T_Head>Diámetro del Mango del Cortador</LB_Shank_Dia_T_Head>
+    <LB_Shank_Dia_T_Body>Porción del diámetro de la herramienta que entra en el porta-herramienta
+Un diámetro de mango mayor hace a la herramienta más rígida. Esto incrementa la profundidad de corte
+</LB_Shank_Dia_T_Body>
+    <LB_HolderSize_T_Head>Medida del cuerpo de la herramienta de torneado</LB_HolderSize_T_Head>
+    <LB_HolderSize_T_Body>Tamaños de Porta-herramientas  más grandes permiten utilizar mayores profundidades de corte y avances mas rápidos
+Click para reiniciar a predeterminados</LB_HolderSize_T_Body>
+    <LB_N_Flutes_T_Head>Numero efectivo de Aristas de Corte</LB_N_Flutes_T_Head>
+    <LB_N_Flutes_T_Body>Número efectivo de filos superpuestos, Dientes o insteros
+Las herramientas con dientes de corte escalonados o insertos tienen la mitad de los bordes de corte eficaces a los que parecen tener</LB_N_Flutes_T_Body>
+    <LB_N_Starts_T_Head>Numero de inicios en el Machuelo</LB_N_Starts_T_Head>
+    <LB_N_Starts_T_Body>El numero predeterminado es uno</LB_N_Starts_T_Body>
+    <LB_N_Inserts_T_Head>Numero efectivo de Aristas de Corte</LB_N_Inserts_T_Head>
+    <LB_N_Inserts_T_Body>Algunas herramientas podrán tener mas de una arista de corte removiendo material al mismo tiempo
+Numero predeterminado es 1
+</LB_N_Inserts_T_Body>
+    <LB_Tip_Dia_T_Head>Diámetro de la Punta</LB_Tip_Dia_T_Head>
+    <LB_Tip_Dia_T_Body>Diámetro de la punta del cortador</LB_Tip_Dia_T_Body>
+    <PB_Machine_Torque_Head>Torque del Husillo</PB_Machine_Torque_Head>
+    <PB_Machine_Torque_Body>Torque del husillo estimado requerido para esta operación
+Un valor dependiente en multiples factores tanto como el material, avances y enganche del cortador
+Expresado en Pie-Libras o N-M</PB_Machine_Torque_Body>
+    <LB_RPM_Plunge_T_Head>RPM de Perforación</LB_RPM_Plunge_T_Head>
+    <LB_RPM_Plunge_T_Body>RPM recomandada para perforar sobre el material</LB_RPM_Plunge_T_Body>
+    <LB_DRL_Peck_T_Head>Picoteo de Broca</LB_DRL_Peck_T_Head>
+    <LB_DRL_Peck_T_Body>● Distancia recomendada de picoteo para el tipo de herramienta actual y tamaño del barreno
+Click para reiniciar a predeterminados</LB_DRL_Peck_T_Body>
+    <LB_Turn_Dia_T_Head>Diámetro final de Torneado</LB_Turn_Dia_T_Head>
+    <LB_Turn_Dia_T_Body>El diámetro de la pieza de trabajo después de la operación
+Diámetro de desbaste es utilizado para calcular las RPM para el perfilado de las herramientas de torneado
+Rough_Diameter = Finished_Turn_Diameter + DOC x 2
+</LB_Turn_Dia_T_Body>
+    <btn_HSMA_Cloud_Login_Head>Incia sesión en HSMAdvisor Cloud Service</btn_HSMA_Cloud_Login_Head>
+    <btn_HSMA_Cloud_Login_Body>HSMAdvisor Cloud Service te permite accesar varios tipos de datos
+guardados en linea por y para usuarios de HSMAdvisor
+● Sube y Descarga Perfiles de Máquina de HSMAdvisor </btn_HSMA_Cloud_Login_Body>
+    <LB_CutCloudRating_Head>Subir Corte a la Nube</LB_CutCloudRating_Head>
+    <LB_CutCloudRating_Body>Click apra calificar este corte y subirlo a la nube.\n¡Contribuye tu experiencia del mundo real y ayudanos a que este maravilloso producto sea aun mejor!</LB_CutCloudRating_Body>
+    <LB_CloudCutsIndicator_Head>Cargar HSMAdvisor Cut Cloud</LB_CloudCutsIndicator_Head>
+    <LB_CloudCutsIndicator_Body>Click para accesar cortes guardados en el cloud\n¡Un lugar donde los datos de corte del mundo real viven!</LB_CloudCutsIndicator_Body>
+    <LB_Inventory_Red_Head>Alerta de inventario</LB_Inventory_Red_Head>
+    <LB_Inventory_Red_Body>El inventario se está quedando sin estas herramientas:
+{x}
+Click para ver todas</LB_Inventory_Red_Body>
+    <LB_Inventory_Yellow_Head>No hay Herramientas en Solicitud</LB_Inventory_Yellow_Head>
+    <LB_Inventory_Yellow_Body>Estas Herramientas están actualmente en Solicitud:
+{x}
+Click para ver todas</LB_Inventory_Yellow_Body>
+    <LB_Inventory_Green_Head>Inventario está bien</LB_Inventory_Green_Head>
+    <LB_Inventory_Green_Body>No hay Herramientas en Solicitud</LB_Inventory_Green_Body>
+    <LB_License_Description>Gracias por probar HSMAdivsor
+Abajo podrás ver un contador con un número de días restantes en tu periodo de prueba.
+Por favor click en el botón Comprar/Teclear Licencia para comprar tu llave de licencia o contactanos en support@zero-divide.net para mayor asistencia.
+</LB_License_Description>
+    <DGV_node_img>+</DGV_node_img>
+    <DGV_cuts>nC</DGV_cuts>
+    <DGV_node_text>nC</DGV_node_text>
+    <DGV_tool_number>T#</DGV_tool_number>
+    <DGV_child_text>T#</DGV_child_text>
+    <DGV_diameter>Tamaño</DGV_diameter>
+    <DGV_corner_rad>Esquina</DGV_corner_rad>
+    <DGV_flute_n>nZ</DGV_flute_n>
+    <DGV_name>Tipo</DGV_name>
+    <DGV_material>Herramienta y Material de trabajo</DGV_material>
+    <DGV_tool_material>T. Material</DGV_tool_material>
+    <DGV_work_material>Material de Trabajo</DGV_work_material>
+    <DGV_coating>Recubrimiento</DGV_coating>
+    <DGV_brand_name>Marca</DGV_brand_name>
+    <DGV_series_name>Series</DGV_series_name>
+    <DGV_supplier>Proveedor</DGV_supplier>
+    <DGV_supplier_pid>Parte del Proveedor#</DGV_supplier_pid>
+    <DGV_comment>Comentario</DGV_comment>
+    <DGV_rpm>RPM</DGV_rpm>
+    <DGV_feed>AVANCE</DGV_feed>
+    <DGV_sfm_adj>S%</DGV_sfm_adj>
+    <DGV_ipt_adj>F%</DGV_ipt_adj>
+    <DGV_doc>DOC</DGV_doc>
+    <DGV_woc>WOC</DGV_woc>
+    <DGV_stickout>Saliente</DGV_stickout>
+    <DGV_shank_dia>Tamaño del Mango</DGV_shank_dia>
+    <DGV_operation_type>Herramienta/Operacón</DGV_operation_type>
+    <DGV_Operation>Operación</DGV_Operation>
+    <DGV_surface_finish>S. Acabado</DGV_surface_finish>
+    <DGV_tool_life>Vida de la Herramienta</DGV_tool_life>
+    <DGV_Rating>Calificación</DGV_Rating>
+    <DGV_machine>Máquina</DGV_machine>
+    <DGV_holder>Porta-Herramientas</DGV_holder>
+    <DGV_Mrr>MRR</DGV_Mrr>
+    <DGV_Qty>Existencia</DGV_Qty>
+    <DGV_minQty>min. Existencia</DGV_minQty>
+    <DGV_maxQty>max. Existencia</DGV_maxQty>
+    <DGV_onOrderQty>Requerido</DGV_onOrderQty>
+    <DGV_OrderQty>Solicitar</DGV_OrderQty>
+    <DGV_Price>Precio</DGV_Price>
+    <DGV_Received>Recibidos</DGV_Received>
+    <DGV_Status>Estatus</DGV_Status>
+    <CMB_Text_1>Cualquier tipo de Operación</CMB_Text_1>
+    <CMB_Text_2>Cualquier Acabado de Superficie</CMB_Text_2>
+    <CMB_Text_3>Cualquier vida de la Herramienta</CMB_Text_3>
+    <CMB_Text_4>Todos los tipos</CMB_Text_4>
+    <CMB_Text_5>Todos los T. Materiales</CMB_Text_5>
+    <CMB_Text_6>Todos los Recubrimientos</CMB_Text_6>
+    <CMB_Text_7>Número de Corte</CMB_Text_7>
+    <CMB_Text_8>Diámetro de Torneado(Torno)</CMB_Text_8>
+    <CMB_Text_9>Saliente de la Herramienta</CMB_Text_9>
+    <CMB_Text_10>Material de Pieza de Trabajo</CMB_Text_10>
+    <CMB_Text_11>Tipo de Operación</CMB_Text_11>
+    <CMB_Text_12>Profundidad de Corte</CMB_Text_12>
+    <CMB_Text_13>Ancho de Corte</CMB_Text_13>
+    <CMB_Text_14>Acabado de Superficie</CMB_Text_14>
+    <CMB_Text_15>Vida de la Herramienta</CMB_Text_15>
+    <CMB_Text_16>Comentario del Corte</CMB_Text_16>
+    <CMB_Text_17>Máquina</CMB_Text_17>
+    <CMB_Text_18>Número de la Herramienta</CMB_Text_18>
+    <CMB_Text_19>Numero de Filos</CMB_Text_19>
+    <CMB_Text_20>Diámetro/Tamaño</CMB_Text_20>
+    <CMB_Text_21>Radio de la Esquina</CMB_Text_21>
+    <CMB_Text_22>Saliente de la Herramienta</CMB_Text_22>
+    <CMB_Text_23>Tipo de Herramienta (Largo)</CMB_Text_23>
+    <CMB_Text_24>Tipo de Herramienta (Corto)</CMB_Text_24>
+    <CMB_Text_25>Nombre de la Marca</CMB_Text_25>
+    <CMB_Text_26>Nombre de la Serie</CMB_Text_26>
+    <CMB_Text_27>Material de la Herramienta</CMB_Text_27>
+    <CMB_Text_28>Recubrimiento de la Herramienta</CMB_Text_28>
+    <CMB_Text_29>Número de Cortes</CMB_Text_29>
+    <CMB_Text_30>Comentario de la Herramienta</CMB_Text_30>
+    <CMB_Text_31>Porta-Herramienta</CMB_Text_31>
+    <SelectTool_DLG>Seleccionar Herramienta ó Corte</SelectTool_DLG>
+    <EXP_Tool_Filter>Librería de Herramienta</EXP_Tool_Filter>
+    <ERR_Warning>Alerta:</ERR_Warning>
+    <ERR_Remedy>Remedio:</ERR_Remedy>
+    <ERR_MaxRPM>Las RPM resultantes fueron limitadas por las RPM Máximas establecido en los límites de su máquina</ERR_MaxRPM>
+    <ERR_MaxTapRPM>Las RPM resultantes fueron limitadas por las RPM Máximas de Roscado definidas en los limites de la máquina</ERR_MaxTapRPM>
+    <ERR_Tap_Max_ToolRPM>Las RPM resultantes fueron limitadas por las RPM Max de Roscado definidas en los limites de la máquina</ERR_Tap_Max_ToolRPM>
+    <ERR_Tap_ToolTorqueLimit>Límite de Seguridad de Torque fue excedido</ERR_Tap_ToolTorqueLimit>
+    <ERR_Tap_ToolTorqueLimit_Remedy>Considerar incrementar el tamaño del agujero piloto</ERR_Tap_ToolTorqueLimit_Remedy>
+    <ERR_Tap_PowerCurve_Power>Potencia máxima de la máquina fue excedida, La velocidad de Corte fue reducida</ERR_Tap_PowerCurve_Power>
+    <ERR_Tap_PowerCurve_Power_Remedy>Ajustar Velocidad de Corte o Utilizar Agujero piloto más grande</ERR_Tap_PowerCurve_Power_Remedy>
+    <ERR_Tap_Machine_Power>La Potencia max de la máquina fue excedida, La velocidad de corte se redujo</ERR_Tap_Machine_Power>
+    <ERR_Tap_Max_Torque>El Torque max de la máquina fue excedida, No se realizó alguna acción</ERR_Tap_Max_Torque>
+    <ERR_Tap_Max_Torque_Remedy>Utiliza un Agujero piloto más grande</ERR_Tap_Max_Torque_Remedy>
+    <ERR_Machine_Max_Feedrate>El Avance máximo de la máquina fue excedido, La velocidad del Husillo fue reducida para igualar la carga de la viruta calculada</ERR_Machine_Max_Feedrate>
+    <ERR_Machine_Max_Feedrate_Remedy />
+    <ERR_Tool_MaxRPM>Las RPM resultantes fueron limitadas por las RPM Máximas establecidas en la configuración del Fabricante de la Herramienta</ERR_Tool_MaxRPM>
+    <ERR_Tool_MaxRPM_Remedy />
+    <ERR_Tap_MinRPM>Las RPM resultantes están por debajo del mínimo establecido en tus límites de máquina, Las RPM fueron ajustadas para igualar a las RPM mínimas</ERR_Tap_MinRPM>
+    <ERR_Tap_MinRPM_Remedy>Utilziar carburo y/o herramientas recubiertas para manejar mayores velocidades de corte</ERR_Tap_MinRPM_Remedy>
+    <ERR_Tool_Length_PRM_Reduced>Las RPM resultantes fueron reducidas por el largo de la herramienta</ERR_Tool_Length_PRM_Reduced>
+    <ERR_ThreadMill_MD_Required>El diámetro de la rosca mayor es requerido</ERR_ThreadMill_MD_Required>
+    <ERR_ThreadMill_MD_TooSmall>El diámetro de la Rosca mayor es muy chico</ERR_ThreadMill_MD_TooSmall>
+    <ERR_Tool_Deflection_Limit>El límite de desviación de la herramienta fue excedido, El Avance fue reducido para prevenir fractura del cortador</ERR_Tool_Deflection_Limit>
+    <ERR_Tool_Deflection_Limit_Remedy>Reducir el enganche del cortador sobre la pieza de trabajo</ERR_Tool_Deflection_Limit_Remedy>
+    <ERR_Tool_Torque_Limit>El límite de Torque de la herramienta fue excedido, El avance fue reducido</ERR_Tool_Torque_Limit>
+    <ERR_Tool_Torque_Limit_Remedy>Reducir el enganche del cortador sobre la pieza de trabajo	</ERR_Tool_Torque_Limit_Remedy>
+    <ERR_DRL_Torque_Limit>El límite de Torque de la herramienta fue excedido, El avance fue reducido	</ERR_DRL_Torque_Limit>
+    <ERR_DRL_Torque_Limit_Remedy />
+    <ERR_Machine_PowerCurve_Limit>La curva de potencia de la máquina fue excedida, El Avance fue reducido</ERR_Machine_PowerCurve_Limit>
+    <ERR_Machine_PowerCurve_Limit_Remedy>Ajustar velocidades de corte o reducir el enganche del cortador en la pieza de trabajo</ERR_Machine_PowerCurve_Limit_Remedy>
+    <ERR_Machine_DRL_PowerCurve_Limit_Remedy />
+    <ERR_Machine_Power_Limit>El límite de potencia de la maquina fue excedido, El avance fue reducido</ERR_Machine_Power_Limit>
+    <ERR_Machine_Power_Limit_Remedy>Reducir el enganche del cortador sobre la pieza de trabajo</ERR_Machine_Power_Limit_Remedy>
+    <ERR_Machine_DRL_Power_Limit_Remedy />
+    <ERR_Machine_Torque_Limit>El torque máximo fue excedido, el avance fue reducido</ERR_Machine_Torque_Limit>
+    <ERR_Machine_Torque_Limit_Remedy>Reducir el enganche del cortador sobre la pieza de trabajo</ERR_Machine_Torque_Limit_Remedy>
+    <ERR_Machine_MinRPM_Limit>Las RPM resultantes están por debajo del mínimo establecido en tus límites de máquina, Las RPM fueron ajustadas para igualar a las RPM mínimas</ERR_Machine_MinRPM_Limit>
+    <ERR_Machine_MinRPM_Limit_Remedy>Utilizar carburo y/o herramientas con recubrimiento para manejar altas velocidades de corte</ERR_Machine_MinRPM_Limit_Remedy>
+    <ERR_PasswordsNoMatch>Las dos contraseñas tecleadas no corresponden</ERR_PasswordsNoMatch>
+    <ERR_PasswordTooShort>Por favor Teclea tu contraseña
+</ERR_PasswordTooShort>
+    <ERR_LoginTooShort>Por favor Teclea tu nombre de usuario
+</ERR_LoginTooShort>
+    <ERR_EmailTooShort>Por favor Teclea tu Correo Electrónico</ERR_EmailTooShort>
+    <LNG_Feed_rev>Avance/Rev</LNG_Feed_rev>
+    <LNG_Power>Potencia</LNG_Power>
+    <LNG_Torque>Torque</LNG_Torque>
+    <LNG_Power_Curve>Curva de Potencia</LNG_Power_Curve>
+    <LNG_coated>Recubrimiento</LNG_coated>
+    <LNG_Tool_Usage>Uso de la Herramienta:</LNG_Tool_Usage>
+    <LNG_edit_new_tool>Editar Nueva Herramienta</LNG_edit_new_tool>
+    <LNG_Generic_Size>Generico</LNG_Generic_Size>
+    <LNG_Hello>¡Hola!</LNG_Hello>
+    <LNG_License_Message>Mensaje de Licencia</LNG_License_Message>
+    <LNG_days_left>Días restantes</LNG_days_left>
+    <LNG_Expired>Expirado</LNG_Expired>
+    <LNG_Busy>Ocupado</LNG_Busy>
+    <LNG_Trial>Prueba</LNG_Trial>
+    <LNG_Permanent>Permanente</LNG_Permanent>
+    <LNG_Floating>Flotante</LNG_Floating>
+    <LNG_Active>Activo</LNG_Active>
+    <LNG_Fatal_Error>Error Fatal</LNG_Fatal_Error>
+    <LNG_Error>Error</LNG_Error>
+    <LNG_InvalidEntry>¡Entrada no Valida!</LNG_InvalidEntry>
+    <LNG_ResetToDefault>Reiniciar a los Predeterminados</LNG_ResetToDefault>
+    <LNG_Add>Agregar</LNG_Add>
+    <LNG_Save>Guardar</LNG_Save>
+    <LNG_Delete>Borrar</LNG_Delete>
+    <LNG_Cancel>Cancelar</LNG_Cancel>
+    <LNG_OK>OK</LNG_OK>
+    <LNG_TextTooLong>El Texto es muy largo:{1} Caracteres max</LNG_TextTooLong>
+    <LNG_Recommended_Peck>Picoteo Recomendado:</LNG_Recommended_Peck>
+    <LNG_Breakthough_Amount>Cantidad de penetración:</LNG_Breakthough_Amount>
+    <LNG_Pilot_Hole_Dia>Diámetro Recomendado del Agujero Piloto:</LNG_Pilot_Hole_Dia>
+    <LNG_Not_Required>(No requerido)</LNG_Not_Required>
+    <LNG_Material>Material</LNG_Material>
+    <LNG_Tool>Herramienta</LNG_Tool>
+    <LNG_Chip_Thickness>Espesor de Viruta</LNG_Chip_Thickness>
+    <LNG_Reference_Chipload>Referencia de Carga de Viruta</LNG_Reference_Chipload>
+    <LNG_Engagement>Enganche</LNG_Engagement>
+    <LNG_DOC>DOC</LNG_DOC>
+    <LNG_WOC>WOC</LNG_WOC>
+    <LNG_MRR>MRR</LNG_MRR>
+    <LNG_Max_Torque>Torque Máximo</LNG_Max_Torque>
+    <LNG_Cutting_Force>Fuerza de Corte</LNG_Cutting_Force>
+    <LNG_Deflection>Desviación</LNG_Deflection>
+    <LNG_Max_Deflection>Desviación Máxima</LNG_Max_Deflection>
+    <LNG_Effective_Dia>Diámetro Efectivo</LNG_Effective_Dia>
+    <LNG_Cross_Section>Sección Transversal</LNG_Cross_Section>
+    <LNG_Library>Librería</LNG_Library>
+    <LNG_Allowance />
+    <LNG_major_dia>Diámetro Mayor</LNG_major_dia>
+    <LNG_pitch_dia>Diámetro del Paso</LNG_pitch_dia>
+    <LNG_minor_dia_max>Diámetro Menor</LNG_minor_dia_max>
+    <LNG_Height>Altura</LNG_Height>
+    <LNG_connecting_to_server>Conectando a Servidor...</LNG_connecting_to_server>
+    <LNG_connection_error>Error al Conectarse al Servidor</LNG_connection_error>
+    <LNG_connection_complete>Conección Completada</LNG_connection_complete>
+    <LNG_search_returned_nothing>La busqueda regresó un resultado Vacío</LNG_search_returned_nothing>
+    <LNG_search_too_restricted>Hacer los parámetros de busqueda menos estrictos</LNG_search_too_restricted>
+    <LNG_search_ok>Busqueda exitosa</LNG_search_ok>
+    <LNG_LeadAngle>Ángulo de Avance</LNG_LeadAngle>
+    <LNG_TipAngle>Ángulo de Punta</LNG_TipAngle>
+    <LNG_TaperAngle>Ángulo de Conicidad</LNG_TaperAngle>
+    <LNG_Edit_New_Cut>Editar Nuevo Corte</LNG_Edit_New_Cut>
+    <LNG_No_Tool_Selected>No hay Herramienta seleccionada</LNG_No_Tool_Selected>
+    <LNG_Crossfeed_Amount>Cantidad de Avance Transversal</LNG_Crossfeed_Amount>
+    <LNG_TXT_License_Help_BOX_Trial_Active>&lt;!DOCTYPE html&gt;
+			&lt;html&gt;
+			&lt;head&gt;
+			&lt;/head&gt;
+			&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;""&gt;
+			&lt;h3 style="text-align: center;"&gt;Esta es una version prueba de 30 días de{pNombre}&lt;/h3&gt;
+			&lt;p style="text-align: center;"&gt;Esta prueba no tiene limitación de funciones y trabaja como cualquier &amp;nbsp;versión de licencia ilimitada.&lt;/p&gt;
+			&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+			&lt;h4&gt;Después de que tu prueba acabe...&lt;/h4&gt;
+			&lt;p&gt;Serás limitado a un solo tipo de material de trabajo.&lt;/p&gt;
+			&lt;p&gt;Todas las demás funcionalidades siguen funcionando:&lt;/p&gt;
+			&lt;ul&gt;
+			&lt;li&gt;Calculador de gemoetrías y la pestaña de referencias&lt;/li&gt;
+			&lt;li&gt;Base de Datos&lt;/li&gt;
+			&lt;li&gt;Roscas Y machuelos&lt;/li&gt;
+			&lt;li&gt;Velocidades y Avances con un solo material.&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+			&lt;h4&gt;Por favore&amp;nbsp;Compra una licencia para&amp;nbsp;Desbloquear todas las funciones!&lt;/h4&gt;
+			&lt;h4&gt;si estás coenctado a internet simplemente...&lt;/h4&gt;
+			&lt;p&gt;Click en &lt;span style="color: #3366ff;"&gt;&lt;a style="color: #3366ff;" title="Abrir tienda en linea" href="http://hsmadvisor.com/index.php?page=buy&amp;amp;CPUID=&amp;amp;l_brkt;CPUID&amp;amp;r_brkt;" target="_blank"&gt;Comprar Licencia&lt;/a&gt;&lt;/span&gt;&amp;nbsp;link now.&lt;/p&gt;
+			&lt;p&gt;Luego en la nueva ventana seleccionar la opción de licencia y proceder a la compra.&lt;br /&gt;El proceso de pago es automatico y de inmediato. estarás listo para volver en poco tiempo!&lt;/p&gt;
+			&lt;p&gt;Tenemos varias opciones de licencia las cuales se ajustan a cualquier tamaño de tienda.&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+			&lt;h4&gt;Si la computadora NO está conectada al internet entonces...&lt;/h4&gt;
+			&lt;p&gt;Escribe tu ID de computadora en cualquier pedazo de papel.&lt;br /&gt;Luego visita http://hsmadvisor.com/buy/ teclea tus credenciales y procede a la compra.&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+			&lt;h4&gt;Por favor tome en cuenta que...&lt;/h4&gt;
+			&lt;p&gt;Las licencias flotantes requieren conexión a internet por lo menos cada 30 días pero la puedes usar en cualquier numer de computadoras.&lt;/p&gt;
+			&lt;p&gt;Las licencias permanentes pueden correr completamente offline pero están ligadas&amp;nbsp;a esta computadora en particular por su "ID de computadora".&lt;br /&gt;Para obtener la licencia correcta, necesitas instalar &amp;amp;l_brkt;pNombre&amp;amp;r_brkt; en la computadora que vayas a utilizar la licencia.&lt;/p&gt;
+			&lt;p&gt;After payment is processed you will receive email with your License Key and License Information.&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+			&lt;h4&gt;Also...&lt;/h4&gt;
+			&lt;p&gt;If You have already purchased your license and want to Register this computer, please use &lt;span style="color: #3366ff;"&gt;Register Automatically&lt;/span&gt; link.&lt;/p&gt;
+			&lt;p&gt;You can also register your computers using your web browser.&amp;nbsp;For that please click &lt;span style="color: #3366ff;"&gt;View My License On-line&lt;/span&gt; link.&lt;/p&gt;
+			&lt;p&gt;In case of any difficulties please let us know via email: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+			&lt;p&gt;Please read here for various Licensing options: &lt;a href="http://hsmadvisor.com/index.php?page=help&amp;amp;shell_id=241&amp;amp;article_id=4417" target="_blank"&gt;HSMAdvisor Licensing Options&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;/body&gt;
+			&lt;/html&gt;</LNG_TXT_License_Help_BOX_Trial_Active>
+    <LNG_TXT_License_Help_BOX_Trial_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Active />
+    <LNG_TXT_License_Help_BOX_Full_Active />
+    <LNG_TXT_License_Help_BOX_Floating_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Busy />
+    <LNG_AddToolsToORder>Agregar Herramienta a Solicitud</LNG_AddToolsToORder>
+    <LNG_AddToolsToORder_Prompt>Teclea el numero de herramientas que requieres solicitar en la '{x}' columna</LNG_AddToolsToORder_Prompt>
+    <LNG_ToolsOnOrder>Herramientas en Solicitud</LNG_ToolsOnOrder>
+    <LNG_ToolsOnOrder_prompt>Teclea el numero de herramientas recibidas en la columna de "Recibidos"</LNG_ToolsOnOrder_prompt>
+    <LNG_RPM>RPM</LNG_RPM>
+    <LNG_Enter_Brand_And_Series>Especifica Nombre de la Marca y Nombre de Series</LNG_Enter_Brand_And_Series>
+    <DLG_PurchaseRequestPrompt>Ajusta la tabla de abajo para mostrar la información que necesitas y click en "</DLG_PurchaseRequestPrompt>
+    <DLG_Text1>Selecciona cual columna será visible en la tabla de herramientas</DLG_Text1>
+    <DLG_Title1>Seleccionar Columnas</DLG_Title1>
+    <DLG_Text2>Hola, Gracias por probar HSMAdvisor
+Tu prueba de 30 días empieza hoy.
+Después de que la prueba termine, Tendrás que comprar una llave de licencia para poder continuando este programa</DLG_Text2>
+    <DLG_Text3>El periodo de prueba para esta versión ha expirado
+Tendrás que comprar una lalve de licencia para continuar usando este programa</DLG_Text3>
+    <DLG_Text4>Alerta: ¡Tu periodo de prueba terminará pronto!</DLG_Text4>
+    <DLG_Text5>Fallo al cargar una o mas tablas de datos
+¿Desea recargar los valores predeterminados?</DLG_Text5>
+    <DLG_Text6>Selecciona que columnas serán visibles en el menu desplegable "Corte"</DLG_Text6>
+    <DLG_Text7>Selecciona que columnas serán visibles en el menu desplegable "Herramienta"</DLG_Text7>
+    <DLG_Text8>¿Guardar todos los cambios y salir?</DLG_Text8>
+    <DLG_Title8>Guardar definiciones de máquina</DLG_Title8>
+    <DLG_Text9>Por favor teclea una nueva máquina</DLG_Text9>
+    <DLG_Title9>Nombre</DLG_Title9>
+    <DLG_Text10>¿Está seguro que desea remover esta máquinad de la definición?
+Todos los cambios hechos aquí podrá anularlos presionando el botón de cancelar</DLG_Text10>
+    <DLG_Title10>Remover máquina</DLG_Title10>
+    <DLG_Text11>Creando una nueva definición de máquina.
+Por favor teclea el nombre de la máquina</DLG_Text11>
+    <DLG_Title11>Nombre</DLG_Title11>
+    <DLG_Text12>Clonando definición de máquina.
+Por favor teclea el nuevo nombre de la máquina</DLG_Text12>
+    <DLG_Text13>Gracis por comprar HSMAdvisor
+Ya puedes continuar trabajando</DLG_Text13>
+    <DLG_Title14>Exportar Base de Datos de Herramientas</DLG_Title14>
+    <DLG_Text14>Por favor selecciona las librerías de Herramientas que desea exportar</DLG_Text14>
+    <DLG_Title15>Importar Base de Datos de Herramientas</DLG_Title15>
+    <DLG_Text15>Por favor selecciona las librerías de herramientas que desea importar
+Serás preguntado seleccionar nuevos nombres para las librerías existentes</DLG_Text15>
+    <DLG_Title16>Nombre</DLG_Title16>
+    <DLG_Text16>Ya existe en la Base de Datos de Herramientas
+Por favor selecciona otro nombre para la librería importada</DLG_Text16>
+    <DLG_Text176>Importación abortada por el usuario</DLG_Text176>
+    <DLG_Title17>Nombre</DLG_Title17>
+    <DLG_Text17>Por favor teclea un nombre unico para la nueva librería de herramientas</DLG_Text17>
+    <DLG_Title18>Reporte de creación de librería</DLG_Title18>
+    <DLG_Text18>Libreria de Herramientas "{1}" ha sido añadida a la base de datos de herramientas</DLG_Text18>
+    <DLG_Text19>No se pudo crear una nueva librería: una librería de herramientas con nombre "{1}" ya existe en la base de datos</DLG_Text19>
+    <DLG_Title20>¿Borrar página WEB?</DLG_Title20>
+    <DLG_Text20>¿Estás seguro que deseas borrar esta página WEB de tu computadora?</DLG_Text20>
+    <DLG_Title21>No se pudo borrar página WEB no salvada</DLG_Title21>
+    <DLG_Text21>Solamente puedes borrar páginas WEB que hayas salvado en tu computadora</DLG_Text21>
+    <DLG_Title22>Saliendo del modo de edición de geometría de herramienta</DLG_Title22>
+    <DLG_Text22>¿Guardar cambios a la herramienta?</DLG_Text22>
+    <DLG_Title23>Reiniciar ubicación de myCutDB a predeterminado</DLG_Title23>
+    <DLG_Text23>La ubicación de myCutDB ya está predeterminada
+La ubicación predeterminada actual es:</DLG_Text23>
+    <DLG_Title24>Nada seleccionado</DLG_Title24>
+    <DLG_Text24>Seleccione Herramientas / Cortes que desea modificar</DLG_Text24>
+    <DLG_Title25>Confirmar operación de borrado</DLG_Title25>
+    <DLG_Text25>¿Está seguro de que desea eliminar los registros seleccionados?</DLG_Text25>
+    <DLG_Title26>No se pudo econtrar Herramienta/Corte</DLG_Title26>
+    <DLG_Text26>Algo está mal. No se pueden encontrar las filas referenciadas</DLG_Text26>
+    <DLG_Title27>Confirmar eliminación de librería</DLG_Title27>
+    <DLG_Text27>¿Estás seguro que deseas eliminar la librería</DLG_Text27>
+    <DLG_Text277>Y todas sus herramientas?</DLG_Text277>
+    <DLG_Title28>Borrar reporte</DLG_Title28>
+    <DLG_Text28>Y todas las herramientas han sido eliminadas</DLG_Text28>
+    <DLG_Title29>Nombre</DLG_Title29>
+    <DLG_Text29>Ingrese un nuevo nombre para</DLG_Text29>
+    <DLG_Title30>Renombrar error</DLG_Title30>
+    <DLG_Text30>No se pudo renombrar  librería</DLG_Text30>
+    <DLG_Text300>Nuevo nombre ya existe en la Base de Datos de Herramientas</DLG_Text300>
+    <DLG_Title31>Confirmar renombre de la librería de herramientas</DLG_Title31>
+    <DLG_Text31>¿Estás seguro que quieres renombrar la librería?
+</DLG_Text31>
+    <DLG_Title32>Combinar con Librería</DLG_Title32>
+    <DLG_Text32>Selecciona la librería con la cual quieres combinar</DLG_Text32>
+    <DLG_Title33>Por favor tecle el nombre que se mostrará en la pestaña "Páginas WEB"</DLG_Title33>
+    <DLG_Text33>Nombre</DLG_Text33>
+    <DLG_Title34>Error al salvar página</DLG_Title34>
+    <DLG_Text34>No se pudo salvar página</DLG_Text34>
+    <DLG_Title35>Nombre de archivo erroneo</DLG_Title35>
+    <DLG_Text35 />
+    <DLG_Title36 />
+    <DLG_Text36 />
+    <DLG_Title37 />
+    <DLG_Text37 />
+    <DLG_Title38>Noticia</DLG_Title38>
+    <DLG_Text38 />
+    <DLG_Title39 />
+    <DLG_Text39 />
+    <DLG_Title40 />
+    <DLG_Title400 />
+    <DLG_Text40 />
+    <DLG_Title41 />
+    <DLG_Text41 />
+    <DLG_Title42 />
+    <DLG_Text42 />
+    <DLG_Text43 />
+    <DLG_Title44 />
+    <DLG_Text44 />
+    <DLG_Title45 />
+    <DLG_Text45 />
+    <DLG_Title46 />
+    <DLG_Text46 />
+    <DLG_Title47 />
+    <DLG_Text47 />
+    <DLG_Title48 />
+    <DLG_Text48 />
+    <DLG_Title49 />
+    <DLG_Text49 />
+    <DLG_Title50 />
+    <DLG_Text50 />
+    <DLG_Title51 />
+    <DLG_Text51 />
+    <DLG_Title52 />
+    <DLG_Text52 />
+    <DLG_Title53 />
+    <DLG_Text53 />
+    <DLG_Title54 />
+    <DLG_Text54 />
+    <DLG_Title55 />
+    <DLG_Text55 />
+    <DLG_Title56 />
+    <DLG_Text56 />
+    <DLG_Title57 />
+    <DLG_Text57 />
+    <DLG_Text58 />
+    <DLG_Title59 />
+    <DLG_Text59 />
+    <DLG_Title60 />
+    <DLG_Text60 />
+    <DLG_Title61 />
+    <DLG_Text61 />
+    <DLG_Title63 />
+    <DLG_Text63 />
+    <DLG_Title64 />
+    <DLG_Text64 />
+    <DLG_Text65 />
+    <DLG_Title66 />
+    <DLG_Text66 />
+    <DLG_Title67 />
+    <DLG_Text67 />
+    <DLG_Title68 />
+    <DLG_Title69 />
+    <DLG_Text69 />
+    <DLG_Text70 />
+    <DLG_Text71 />
+    <DLG_Title73 />
+    <DLG_Text73 />
+    <DLG_Text74 />
+    <DLG_Title75 />
+    <DLG_Text75 />
+    <DLG_Title76 />
+    <DLG_Text76 />
+    <DLG_Title77 />
+    <DLG_Text77 />
+    <DLG_Title78 />
+    <DLG_Text78 />
+    <DLG_Title79 />
+    <DLG_Text79 />
+    <DLG_Title80 />
+    <DLG_Text80 />
+    <DLG_Title81 />
+    <DLG_Text81 />
+    <DLG_Title82 />
+    <DLG_Text82 />
+    <DLG_Title83 />
+    <DLG_Text83 />
+    <DLG_Title84 />
+    <DLG_Text84 />
+    <DLG_Title85 />
+    <DLG_Text85 />
+    <DLG_Title86 />
+    <DLG_Text86 />
+    <DLG_Title87 />
+    <DLG_Text87 />
+    <DLG_Title88 />
+    <DLG_Text88 />
+    <DLG_Text89 />
+    <DLG_Title90 />
+    <DLG_Text90 />
+    <DLG_Title91 />
+    <DLG_Text91 />
+    <DLG_Text92 />
+    <DLG_Text93 />
+    <DLG_Text_PleaseCheckMachine />
+    <DLG_Text94 />
+    <DLG_Text95 />
+    <DLG_Text96 />
+    <DLG_Text97 />
+    <DLG_Text98 />
+    <DLG_Text99 />
+    <DLG_Text100 />
+    <DLG_Text101 />
+    <DLG_Text102 />
+    <DLG_Text103 />
+    <DLG_Text104 />
+    <DLG_Text105 />
+    <DLG_Text106 />
+    <DLG_Text107 />
+    <DLG_Text108 />
+    <DLG_Title109 />
+    <DLG_Text109 />
+    <DLG_Title110 />
+    <DLG_Text110 />
+    <DLG_Title111 />
+    <DLG_Text111 />
+    <DLG_Title112 />
+    <DLG_Text112 />
+    <DLG_Title113 />
+    <DLG_Text113 />
+    <DLG_Title114 />
+    <DLG_Text114 />
+    <DLG_Text115 />
+    <DLG_Text116 />
+    <DLG_Title117 />
+    <DLG_Text117 />
+    <DLG_Text118 />
+    <DLG_Title119 />
+    <DLG_Text119 />
+    <DLG_Title120 />
+    <DLG_Text120 />
+    <DLG_Title121>La Calculadora no está disponible para este tipo de herramienta</DLG_Title121>
+    <DLG_Text121>La calculadora de Crestas está solo disponible para Cortadores Ball Nose</DLG_Text121>
+    <DLG_Title122>¿Estás seguro que deseas cambiar el nombre de Marca?</DLG_Title122>
+    <DLG_Text122>Está utilizando la tabla de velocidades y Avances personalizadas que está asociada con esta combinación de Marca /Serie ¿Está seguro de que desea cambiar el nombre de marca y desasociar este registro de herramienta de su tabla personalizada de Velocidades y Avances?</DLG_Text122>
+    <DLG_Title123>Nombre de marca y/o nombre de la serie falta</DLG_Title123>
+    <DLG_Text123>Por favor, especifique el nombre de la marca de fábrica de la herramienta y el nombre de la serie de herramientas en la pestaña de Información de la herramienta</DLG_Text123>
+    <DLG_Text125>!El diámetro no puede ser menor a cero!\n Cerciórese que cada celda del diámetro sea cero o más grande.</DLG_Text125>
+    <DLG_Text126>El diámetro no puede ser mayor a {1}!\n Asegúrese de que cada celda de diámetro sea igual o menor a {1}."</DLG_Text126>
+    <DLG_Title127>¿Eliminar la tabla de carga de viruta actual?</DLG_Title127>
+    <DLG_Text127>Este Asistente restablecerá la tabla de carga de viruta actual\n ¿Continuar?</DLG_Text127>
+    <DLG_Text128>Hubo un error en en tus datos\n No se pudo proceder</DLG_Text128>
+    <DLG_Text129>¡No puede dejar vacío el nombre de la librería de herramientas!</DLG_Text129>
+    <DLG_Text130>¿Realmente desea restablecer esta velocidad de superficie personalizada a predeterminada?\n Seleccione Sí para continuar</DLG_Text130>
+    <DLG_Text131>¿Realmente desea restablecer el valor personalizado de carga de viruta?\n Seleccione Sí para continuar</DLG_Text131>
+    <DLG_Text132>¿Realmente desea pegar las cargas de viruta personalizadas y el SFM en este material? \n Seleccione Sí para continuar</DLG_Text132>
+    <DLG_Title134>Clonar/escalar asistente de herramientas</DLG_Title134>
+    <DLG_Text134>Este asistente generará una lista de tamaños basada en la herramienta seleccionada \n ¿Continuar?</DLG_Text134>
+    <DLG_Text135>Introduzca el diámetro de herramienta más pequeño</DLG_Text135>
+    <DLG_Text136>Introduzca el diámetro más grande de la herramienta</DLG_Text136>
+    <DLG_Text137>Ingrese el Incremento del Diámetro de la Herramienta</DLG_Text137>
+    <DLG_Text138>Por favor ingrese el nuevo comentario de la herramienta\n Usted puede usar {d} como plantilla del nuevo diámetro</DLG_Text138>
+    <DLG_Text139>¿Desea escalar las dimensiones de la herramienta? \n Si elige no escalar, solo el diámetro cambiará</DLG_Text139>
+    <DLG_Text140>Por favor teclea la carga de viruta para el diámetro mínimo de la herramienta/Debe ser mayor a 0</DLG_Text140>
+    <DLG_Text141>Ingrese la carga de la viruta para el diámetro máximo de la herramienta\n Debe ser igual o mayor que la carga de viruta mínima</DLG_Text141>
+    <DLG_Title142>Borar table personalizada de Velocidades y Avances</DLG_Title142>
+    <DLG_Text142>¿Está seguro de que desea eliminar la tabla seleccionada de Velocidades y Avances personalizadas?</DLG_Text142>
+    <DLG_Title143>Confirmación de Velocidades y Avances personalizados</DLG_Title143>
+    <DLG_Text143>¿Aplicar tablas de Velocidades y Avances seleccionados a la herramienta actual?</DLG_Text143>
+  </controls>
+  <skv_fswizard_operation>
+    <value />
+    <text>No Configurado</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Desbaste y Acabado</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Desbaste</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Semi-Acabado</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Acabado</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_finish>
+    <value />
+    <text>No Configurado</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Normal para la Operación</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Muy Mal
+</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Mal</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Promedio</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Bien</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Muy Bien</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_life>
+    <value />
+    <text>No Configurado
+</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Normal para la Operación</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Muy Mal</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Mal</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Promedio</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Bien</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Muy Bien</text>
+  </skv_fswizard_life>
+  <skv_fswizard_coolant>
+    <value />
+    <text>No Configurado
+</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Ninguno</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Aire a presión</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Niebla</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Flujo</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Alta presión, A través de la Herramienta</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_rating>
+    <value />
+    <text>Sin Calificar</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Muy Mal</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Mal</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Promedio</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Bien</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Muy Bien</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text />
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text />
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text />
+  </skv_fswizard_stockstatus>
+</language>

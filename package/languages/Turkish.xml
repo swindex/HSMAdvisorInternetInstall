@@ -1,0 +1,1308 @@
+<?xml version="1.0" standalone="yes"?>
+<language>
+  <settings>
+    <lang_code />
+    <lang_scale_x />
+    <lang_scale_y />
+  </settings>
+  <controls>
+    <FSWIZARD_TAB>Devir ve İlerleme</FSWIZARD_TAB>
+    <GRP_Static_Fields />
+    <settings_keep_Limit_Def />
+    <settings_keep_productivity>Performans</settings_keep_productivity>
+    <Label14 />
+    <settings_keep_Limit_Torque>Sınır Torku %</settings_keep_Limit_Torque>
+    <settings_keep_max_RPM>Maks. Devir</settings_keep_max_RPM>
+    <settings_keep_max_feed>Mak.s İlerleme Oranı</settings_keep_max_feed>
+    <settings_keep_max_torque>Maks. Tork</settings_keep_max_torque>
+    <settings_keep_max_HP />
+    <TAB_Tool_Database>Takım Veri Tabanı</TAB_Tool_Database>
+    <BT_Library_More />
+    <Tab_Threads />
+    <LB_Machine_Overrides>Geçerli Makinanın Sınırları</LB_Machine_Overrides>
+    <REFERENCE_TAB />
+    <GEOMETRY_TAB>Geometri</GEOMETRY_TAB>
+    <PLUGINS_TAB />
+    <LB_Browse_Web />
+    <Plugins_BTN_Go>Başla</Plugins_BTN_Go>
+    <BTN_CustomSpeedsFeeds />
+    <TAB_Settings>Ayarlar</TAB_Settings>
+    <LB_Input_T>Girdi</LB_Input_T>
+    <LB_Result_T />
+    <LB_Lic_Status>Lisans</LB_Lic_Status>
+    <DB_Status_OK />
+    <DB_Status_OK_Text>Takım Veri Tabanı:{x}</DB_Status_OK_Text>
+    <ML_Status_OK_Text>Makina Veritabanı:{x}</ML_Status_OK_Text>
+    <DB_Status_Writing />
+    <DB_Status_Writing_Text />
+    <DB_Status_Writing_Error>Veritabanı Durumu: Kaydetme Başarısız!</DB_Status_Writing_Error>
+    <DB_Status_Writing_Error_Text />
+    <DB_Status_Reading>Veritabanı Durumu: Okuma</DB_Status_Reading>
+    <DB_Status_Reading_Text />
+    <DB_Status_Reading_Error>Veritabanı Durumu: Okuma Başarısız!</DB_Status_Reading_Error>
+    <DB_Status_Reading_Error_Text />
+    <btn_DDE_OK>Tamam</btn_DDE_OK>
+    <btn_DDE_Cancel>İptal</btn_DDE_Cancel>
+    <BT_Define_Machines>Düzenle</BT_Define_Machines>
+    <BTN_Edit_Family>Düzenle</BTN_Edit_Family>
+    <BTN_More_Materials />
+    <LB_Machine>Makina</LB_Machine>
+    <LB_Tool_Library>Takım Kütüphanesi</LB_Tool_Library>
+    <LB_Hardness_T>Sertlik:</LB_Hardness_T>
+    <LB_Brinell />
+    <LB_Max_RPM_T>Maks. Devir</LB_Max_RPM_T>
+    <LB_Max_Power_T>Maks. Güç</LB_Max_Power_T>
+    <LB_Max_Power />
+    <LB_Max_Torque_T>Maks. Tork</LB_Max_Torque_T>
+    <LB_Max_Feed_T>Maks. İlerleme</LB_Max_Feed_T>
+    <LB_ToolType>Takım Tipi</LB_ToolType>
+    <btn_Capture />
+    <BTN_FSW_Edit_New_Tool>Yeni Düzenle</BTN_FSW_Edit_New_Tool>
+    <btn_Load_Tool>Takımı Seçiniz</btn_Load_Tool>
+    <btn_FSW_Add_Tool>Takım Ekle</btn_FSW_Add_Tool>
+    <LB_Pitch />
+    <LB_Thread_Pitch />
+    <LB_Thread_Form />
+    <LB_Thread_Size>Boyut</LB_Thread_Size>
+    <LB_Tap_dia_T>Diş Çekme Çapı </LB_Tap_dia_T>
+    <LB_Tip_Dia_T>Takım Ucu Çapı</LB_Tip_Dia_T>
+    <LB_Turn_Dia_T>Torna Çapı </LB_Turn_Dia_T>
+    <LB_N_Starts_T />
+    <LB_N_Flutes_T>Kesme Ağzı Sayısı</LB_N_Flutes_T>
+    <LB_N_Inserts_T />
+    <LB_Len_T />
+    <LB_Corner_Rad_T>Köşe Radyüsü</LB_Corner_Rad_T>
+    <check_BallNose />
+    <check_TaperShoulder />
+    <LB_Insert_Len_T>Uzunluk Girin</LB_Insert_Len_T>
+    <LB_Flute_Len_T>Kesme Ağızı Yüksekliği</LB_Flute_Len_T>
+    <LB_Leadangle_T>Kesme Yönünde Talaş Açısı</LB_Leadangle_T>
+    <LB_Shank_Dia_T>Giriş Açısı</LB_Shank_Dia_T>
+    <LB_HolderSize_T />
+    <LB_Helix_T>Heliks Açısı</LB_Helix_T>
+    <LB_ShouldeR_Len_T>Omuz/Sap Boyu</LB_ShouldeR_Len_T>
+    <LB_Shoulder_Dia_T>Omuz/Sap Çapı</LB_Shoulder_Dia_T>
+    <BTN_Reset_all>Sıfırla</BTN_Reset_all>
+    <LB_Tool_Type>Takım Tipi</LB_Tool_Type>
+    <LB_DOC_T>Kesme Derinliği</LB_DOC_T>
+    <LD_DOC_Threadmill_T>Kesme Derinliği</LD_DOC_Threadmill_T>
+    <LB_DOC_RAD_T>Kesme Derinliği</LB_DOC_RAD_T>
+    <LB_DOC_GROOVE_T>Kesme Genişliği</LB_DOC_GROOVE_T>
+    <LB_WOC_T>Kesme Genişliği</LB_WOC_T>
+    <LB_WOC_Threadmill_T>Kesme Genişliği</LB_WOC_Threadmill_T>
+    <check_Slotting>Kanal/Cep-Havuz</check_Slotting>
+    <LB_DEG />
+    <btn_Minicalc_Interpolation>Dairesel/Eğimli</btn_Minicalc_Interpolation>
+    <btn_Check_HSM>HSM-Yüksek Hızlı</btn_Check_HSM>
+    <btn_check_Thinning>İnce Talaş</btn_check_Thinning>
+    <btn_minicalc_scallop>Eşit Paso</btn_minicalc_scallop>
+    <Button1 />
+    <LB_TP_Thread_Type>Diş Açma Türleri</LB_TP_Thread_Type>
+    <Label_Crossfeed_Angle />
+    <LB_TP_Major_Diameter>En büyük çap</LB_TP_Major_Diameter>
+    <radio_Circle_Line>Düz Çizgi </radio_Circle_Line>
+    <LB_DRL_E_Dia_T>Geçerli Çap</LB_DRL_E_Dia_T>
+    <LB_Depth_T>Derinlik</LB_Depth_T>
+    <LB_DRL_Peck_T />
+    <LB_Tap_Thread_PC_T>Diş Açma Yüzdesi</LB_Tap_Thread_PC_T>
+    <LB_Tap_Drill_Dia_T>Delme Boyutu</LB_Tap_Drill_Dia_T>
+    <LB_Feed_PC_T>F</LB_Feed_PC_T>
+    <LB_Speed_PC_T>S</LB_Speed_PC_T>
+    <LB_Limit_Torque_PC_T>Sınır Torku</LB_Limit_Torque_PC_T>
+    <LB_LimitDef_PC_T>Sınır Sapması</LB_LimitDef_PC_T>
+    <LB_Tool_Max_RPM>Takım Maks. Devri</LB_Tool_Max_RPM>
+    <LB_Ideal_Speed_T>Kesme Hızı</LB_Ideal_Speed_T>
+    <LB_Ideal_Chipload_T>Talaşyükü</LB_Ideal_Chipload_T>
+    <LB_RPM_T>Devir</LB_RPM_T>
+    <LB_Feed_T>İlerleme Hızı</LB_Feed_T>
+    <LB_Speed_T>Kesme Hızı</LB_Speed_T>
+    <LB_RPM_Plunge_T />
+    <LB_Plunge_T />
+    <Tab_Cutting_Data>İşleme Verisi</Tab_Cutting_Data>
+    <tab_warnings>Uyarılar</tab_warnings>
+    <tab_tool_paint>Takım</tab_tool_paint>
+    <btn_Filter_Reset />
+    <LB_Size>Boyut</LB_Size>
+    <LB_ThreadForm />
+    <LB_ThreadClass />
+    <LB_Units />
+    <GRP_Threads_External_Thread_Info />
+    <LB_MaxRad />
+    <LB_ThreadPitch />
+    <LB_ThreadCrestTruncate />
+    <LB_ThreadRootTruncate />
+    <Label_Root_Radius_T />
+    <GRP_Threads_External_Three_Wire />
+    <LB_Thread3Wire />
+    <LB_ThreadWireDiameter />
+    <LB_ThreadPitchDiameter />
+    <LB_ThreadMeasureOverWire />
+    <LB_ThreadWireDiaMin />
+    <LB_ThreadWireDiaMax />
+    <LB_ThreadWireDiaBest />
+    <LB_DrillTapChart />
+    <LB_ThreadRecPc />
+    <Radio_Threads_Cutting>İşleme</Radio_Threads_Cutting>
+    <Radio_Threads_Forming />
+    <LB_ThreadTapHoleSize>Diş Çekme Delik Boyutu</LB_ThreadTapHoleSize>
+    <LB_ThreadDesiredPC />
+    <Licence_BT_Enter_Key />
+    <LB_LicenseLevel>Lisans Seviyesi:</LB_LicenseLevel>
+    <btn_settings_open_user_folder />
+    <LB_Settings_Lease_Period_T />
+    <BT_E_Exit />
+    <btn_Font_Large />
+    <settings_check_for_updates />
+    <settings_check_Help />
+    <settings_check_swicth_to_warnings />
+    <settings_check_reset_tooldata_upon_tooltype />
+    <settings_check_reset_overrides_upon_tooltype />
+    <settings_check_reset_preformance_upon_tooltype />
+    <settings_check_reset_limits_upon_tooltype />
+    <LB_Defaults_Text />
+    <LB_Defaults_Speed>Kesme Hızı (S%)</LB_Defaults_Speed>
+    <LB_Defaults_Feed>Talaş Yükü (F%)</LB_Defaults_Feed>
+    <LB_Defaults_Performance>Takım Performansı </LB_Defaults_Performance>
+    <LB_Defaults_Torque />
+    <LB_Defaults_Deflection>Sapma Sınırı (%)</LB_Defaults_Deflection>
+    <GRP_Settings_Dropdown />
+    <BTN_Settings_Edit_Tool_DropDown_Items />
+    <BTN_Settings_Edit_Cut_DropDown_Items />
+    <LB_ToolCutDrowdowns_Hint />
+    <GRP_Settings_DB_Other>Diğer</GRP_Settings_DB_Other>
+    <BTN_Set_DB_Location />
+    <BTN_MachineDB_Location />
+    <chck_Shared_Database />
+    <settings_confirm_calculation_delete />
+    <settings_keep_machine_id />
+    <BTN_View_Reginfo />
+    <btn_CutCloud />
+    <BT_Define_Tool_Type>Takım Tipi</BT_Define_Tool_Type>
+    <BT_Define_Material>Malzeme</BT_Define_Material>
+    <BTN_Manage_Machines>Makinaların Yönetimi</BTN_Manage_Machines>
+    <EXP_DDE_Integration>CAM Entegrasyonu</EXP_DDE_Integration>
+    <EXP_Workpiece>Malzeme Türü</EXP_Workpiece>
+    <EXP_Tool_Data>Takım Verisi</EXP_Tool_Data>
+    <EXP_Cut>Kesme Verisi</EXP_Cut>
+    <EXP_Comp>Telafi</EXP_Comp>
+    <EXP_Thread_Params>Diş Açma Parametreleri</EXP_Thread_Params>
+    <EXP_Drilling_Params>Delik Delme Parametreleri</EXP_Drilling_Params>
+    <EXP_Tapping_Data />
+    <EXP_Gages>Ayarları Hesaplama Sonuçları</EXP_Gages>
+    <PB_Machine_Power>Güç:</PB_Machine_Power>
+    <PB_Machine_Torque>Tork:</PB_Machine_Torque>
+    <PB_Mrr>Malzeme Kaldırma Oranı:</PB_Mrr>
+    <PB_Tool_Life>Takım Ömrü</PB_Tool_Life>
+    <PB_Tool_Deflection>Sapma</PB_Tool_Deflection>
+    <PB_Tool_Torque>Takım Torku</PB_Tool_Torque>
+    <EXP_Overrides>Devir ve İlerleme Ayarları</EXP_Overrides>
+    <EXP_Tool_Limits>Takım Sınırları</EXP_Tool_Limits>
+    <EXP_CUT_Controls>Kesme Kaydedildi</EXP_CUT_Controls>
+    <EXP_Limits />
+    <EXP_Man_Settings>Üretici Devir ve İlerlemeleri</EXP_Man_Settings>
+    <EXP_Speed_Feed>Devir ve İlerleme</EXP_Speed_Feed>
+    <EXP_myCut_tool_DB_Tool_Filter />
+    <EXP_Threads_Thread_Type>Diş Açma</EXP_Threads_Thread_Type>
+    <EXP_Threads_External />
+    <EXP_Threads_Internal />
+    <EXP_Settings_Licence_Trial>Lisans</EXP_Settings_Licence_Trial>
+    <EXP_Settings_General>Genel</EXP_Settings_General>
+    <EXP_Settings_Things_to_Reset xml:space="preserve"> </EXP_Settings_Things_to_Reset>
+    <EXP_Settings_Defaults />
+    <EXP_Settings_myCUT_DB_Settings />
+    <EXP_Settings_Licence_Full>Lisans</EXP_Settings_Licence_Full>
+    <LB_Tool_Filter />
+    <btn_Ok>Tamam</btn_Ok>
+    <btn_Add />
+    <btn_Cancel>İptal</btn_Cancel>
+    <btn_Save>Kaydet</btn_Save>
+    <btn_Apply />
+    <SFMToolStripMenuItem>Kesme Hızı (Devri)</SFMToolStripMenuItem>
+    <ChiploadToolStripMenuItem>Talaş Yükü</ChiploadToolStripMenuItem>
+    <RPMToolStripMenuItem>Devir</RPMToolStripMenuItem>
+    <FeedrateToolStripMenuItem>İlerleme Oranı</FeedrateToolStripMenuItem>
+    <PlungeFeedToolStripMenuItem />
+    <DOCToolStripMenuItem>Kesme Derinliği</DOCToolStripMenuItem>
+    <WOCToolStripMenuItem>Kesme Genişliği</WOCToolStripMenuItem>
+    <PeckToolStripMenuItem />
+    <LoginForm />
+    <LB_FirstName>İlk İsim:</LB_FirstName>
+    <LB_SerialNumber>Lisans Anahtarı:</LB_SerialNumber>
+    <LB_LastName>Son İsim:</LB_LastName>
+    <LNK_Purchase_License />
+    <LB_Computer_ID />
+    <LB_License_Level>Lisans Seviyesi:</LB_License_Level>
+    <LB_Email />
+    <LNK_Claim_Purchased_Keys />
+    <LNK_Autoregister />
+    <LNK_License_Logout>Çıkış Yap</LNK_License_Logout>
+    <FRM_MachineDefinition>Makina Tanımı</FRM_MachineDefinition>
+    <CHK_Mach_Stick_To_RPM />
+    <CHK_Mach_Stick_To_RPM_tooltip />
+    <GRP_Power_Curve />
+    <BTN_Power_Curve_Wizard />
+    <BTN_Power_Curve_Wizard_tooltip />
+    <LB_Mach_Notice />
+    <GRP_Machine_Info>Makina Bilgisi</GRP_Machine_Info>
+    <BTN_Add_Mach />
+    <BTN_Add_Mach_tooltip />
+    <BTN_Remove_Mach />
+    <BTN_Remove_Mach_tooltip />
+    <BTN_clone_mach />
+    <BTN_clone_mach_tooltip />
+    <BTN_Import_Mach />
+    <BTN_Import_Mach_tooltip />
+    <BTN_Export_Mach />
+    <BTN_Export_Mach_tooltip />
+    <BTN_Open>Aç</BTN_Open>
+    <LB_Max_Tap_RPM />
+    <LB_Max_Tap_RPM_tooltip />
+    <LB_Min_RPM_T>Minimum Devir</LB_Min_RPM_T>
+    <LB_Min_RPM_T_tooltip>Minimum İş Mili Devri</LB_Min_RPM_T_tooltip>
+    <LB_Name>İsim</LB_Name>
+    <LB_Warning_At_T />
+    <LB_Warning_At_T_tooltip />
+    <CHK_Mach_Use_Curve />
+    <CHK_Mach_Use_Curve_tooltip />
+    <MiniCalc_Turn_Scallop />
+    <LB_Surface_Roughness_T />
+    <LB_Scallop_T>Eşit Paso</LB_Scallop_T>
+    <LB_Feed_per_Rev>Devir başına ilerleme</LB_Feed_per_Rev>
+    <MiniCalc_Interpolation />
+    <MiniCalc_Scallop />
+    <LB_Scallop_DOC>Eşit Paso (Kesme Derinliği)</LB_Scallop_DOC>
+    <LB_Stepover />
+    <GRP_Interpolation_Params />
+    <LB_Circular_Units_Converted_T />
+    <LB_Feature_Type />
+    <LB_Pilot_Hole_Dia />
+    <LB_Stock_Dia_T>Stok Çapı </LB_Stock_Dia_T>
+    <LB_Fin_Hole_Dia>Bitmiş Delik Çapı</LB_Fin_Hole_Dia>
+    <LB_Fin_Boss_Dia />
+    <LB_Cutter_Dia_T>Kesici Çapı</LB_Cutter_Dia_T>
+    <LB_With_of_Cut_T />
+    <LB_Angle_T />
+    <LB_Pitch_DOC />
+    <GRP_Helical_Params />
+    <Radio_Ramp_Feed />
+    <LB_Pass_Length />
+    <btn_CreatePR />
+    <btn_Close />
+    <btn_ApplyToStock />
+    <btn_Save_Request />
+    <LB_SetOrderQty />
+    <LB_SetOrderQtyMax>Maks. Stok </LB_SetOrderQtyMax>
+    <LB_SetOrderQtyMin />
+    <LB_SetOrderQty0>0'a Ayarla</LB_SetOrderQty0>
+    <PurchaseRequest_DLG />
+    <btn_PrintPR />
+    <Edit_Tool_Info>Takım Bilgisi Düzenle</Edit_Tool_Info>
+    <LB_Series_Name />
+    <LB_Brand_Name />
+    <LB_Insert_Name>İsim Girin</LB_Insert_Name>
+    <LB_Brand_Series>Özelleştirilmiş Liste</LB_Brand_Series>
+    <LB_Additional_Tool_Info>İlave Takım Bilgisi</LB_Additional_Tool_Info>
+    <LB_Number_On_Hand />
+    <LB_Number_On_Hand_tooltip />
+    <LB_Stock_Min>Stok Min.</LB_Stock_Min>
+    <LB_Stock_Min_tooltip />
+    <LB_Stock_Opt>Stok Maks.</LB_Stock_Opt>
+    <LB_Stock_Opt_tooltip />
+    <LB_Number_On_Order />
+    <LB_Number_On_Order_tooltip />
+    <LB_Price />
+    <btn_Copy_Data />
+    <btn_Paste_Data />
+    <btn_Copy_Data_tooltip />
+    <btn_Paste_Data_tooltip />
+    <btn_Add_ToOrder />
+    <LB_Tool_Supplier />
+    <LB_Tool_Location />
+    <LB_Supplier_Part_ID />
+    <LB_Tool_Record_Type />
+    <CHK_Generic />
+    <TAB_Tool_Info>Takım Bilgisi</TAB_Tool_Info>
+    <Tab_Speeds_and_Feeds>Devir ve İlerleme</Tab_Speeds_and_Feeds>
+    <CHK_SF_Auto />
+    <CHK_SF_Custom />
+    <LB_Chipload_T>Talaş Yükü</LB_Chipload_T>
+    <LB_Material_T>Malzeme</LB_Material_T>
+    <LB_SFM />
+    <btn_Reset_SFM />
+    <CustomSpeedsFeeds />
+    <LB_Custom_Tables>Özelleştirilmiş Listeler</LB_Custom_Tables>
+    <LB_SAF_Message />
+    <btn_Reset_IPT />
+    <BTN_Generate_Sizes>Boyut Oluştur</BTN_Generate_Sizes>
+    <btn_Reset_IPT_Table />
+    <Edit_Cut_Info>Kesme Bilgisini Düzenle</Edit_Cut_Info>
+    <LB_Number />
+    <LB_Offset_Length />
+    <LB_Offset_Dia>D#</LB_Offset_Dia>
+    <LB_Additional_OP_Info>İlave Operasyon Bilgisi</LB_Additional_OP_Info>
+    <LB_Holder>Tutucu</LB_Holder>
+    <Tab_Tool_Geometry>Takım Geometrisi</Tab_Tool_Geometry>
+    <btn_HSMA_Cloud_Login />
+    <GRP_Cloud_Service />
+    <BTN_Upload_Machine>Yükleme</BTN_Upload_Machine>
+    <BTN_Upload_Machine_tooltip />
+    <BTN_Download_Machine />
+    <BTN_Download_Machine_tooltip />
+    <CHK_Private_Machine />
+    <CHK_Private_Machine_tooltip />
+    <LB_Register_About_Cloud />
+    <CutCloudFeedback />
+    <EXP_OptionsAbout />
+    <CHK_CutCloudF_Save_Params />
+    <LB_CutCloudAbout />
+    <LB_Op_Comment>Operasyon Açıklaması</LB_Op_Comment>
+    <LB_Op_Rating>Bu Kesimi Puanla</LB_Op_Rating>
+    <LB_Coolant>Soğutma</LB_Coolant>
+    <btn_Send>Gönder</btn_Send>
+    <AddToolToolStripMenuItem />
+    <EditToolInfoToolStripMenuItem>Takım Bilgisi Düzenle</EditToolInfoToolStripMenuItem>
+    <EditToolDataToolStripMenuItem>Takım Geometrisi Düzenle</EditToolDataToolStripMenuItem>
+    <DeleteToolToolStripMenuItem />
+    <SaveToolToolStripMenuItem>Takımı Kaydet</SaveToolToolStripMenuItem>
+    <OpenToolDatabaseToolStripMenuItem>Takım Veritabanını Aç...</OpenToolDatabaseToolStripMenuItem>
+    <CreateNewToolLibrary>Yeni Takım Kütüphanesi Oluştur</CreateNewToolLibrary>
+    <ImportStripMenuItem />
+    <ExportToolStripMenuItem />
+    <ExportAsXmlFileToolStripMenuItem />
+    <ImportFromXMLFileToolStripMenuItem />
+    <LoadToolStripMenuItem />
+    <ViewInformationToolStripMenuItem />
+    <CopyToolToAnotherLibraryToolStripMenuItem />
+    <MoveToolToAnotherLibraryToolStripMenuItem />
+    <DeleteCutInfoToolStripMenuItem>Sil</DeleteCutInfoToolStripMenuItem>
+    <ToolWizardsToolStripMenuItem />
+    <ResetSFOverridesToolStripMenuItem />
+    <ResetCutDataToolStripMenuItem />
+    <SetMachineToolStripMenuItem />
+    <SetHolderToolStripMenuItem />
+    <SetCommentToolStripMenuItem />
+    <SetBrandNameToolStripMenuItem />
+    <SetSeriesNameToolStripMenuItem />
+    <SetSupplierToolStripMenuItem />
+    <SetSupplierPartNumberToolStripMenuItem />
+    <RenameToolLibraryToolStripMenuItem />
+    <MergeToolLibrariesToolStripMenuItem />
+    <InsertBatchToolListToolStripMenuItem />
+    <DeleteCurrentToolLibraryToolStripMenuItem />
+    <AddCutToolStripMenuItem>Kesme Ekle</AddCutToolStripMenuItem>
+    <CutInfoToolStripMenuItem>Kesme Bilgisini Düzenle</CutInfoToolStripMenuItem>
+    <DeleteCutToolStripMenuItem />
+    <SaveCutToolStripMenuItem>Kesmeyi Kaydet</SaveCutToolStripMenuItem>
+    <ToolStripMenuItem11 />
+    <DeletePluginToolStripMenuItem />
+    <CloseTabToolStripMenuItem />
+    <SavePageOnDiskToolStripMenuItem />
+    <radio_Circle_Internal>İç(Delik)</radio_Circle_Internal>
+    <radio_Circle_External />
+    <LB_Cutting_Speed_T>Kesme Hızı (Devri)</LB_Cutting_Speed_T>
+    <CHK_Expand_All />
+    <LB_Operation>Operasyon</LB_Operation>
+    <LB_Surface_Finish>Yüzey Finiş</LB_Surface_Finish>
+    <LB_Tool_Life>Takım Ömrü</LB_Tool_Life>
+    <LB_Units_T />
+    <LB_Comment>Açıklama</LB_Comment>
+    <LB_Show_Tree_ToolTip />
+    <LB_Feed_PC_T_Head />
+    <LB_Feed_PC_T_Body />
+    <LB_Max_Feed_T_Head />
+    <LB_Max_Feed_T_Body />
+    <PB_Tool_Deflection_Slider_Head />
+    <PB_Tool_Deflection_Slider_Body />
+    <PB_Tool_Torque_Slider_Head />
+    <PB_Tool_Torque_Slider_Body />
+    <LB_Max_RPM_T_Head />
+    <LB_Max_RPM_T_Body />
+    <LB_Max_Power_T_Head />
+    <LB_Max_Power_T_Body />
+    <LB_Max_Torque_T_Head />
+    <LB_Max_Torque_T_Body />
+    <LB_WOC_T_Head />
+    <LB_WOC_T_Body />
+    <LB_WOC_Threadmill_T_Head />
+    <LB_WOC_Threadmill_T_Body />
+    <LB_DOC_T_Head />
+    <LB_DOC_T_Body />
+    <LB_DOC_Threadmill_T_Head />
+    <LB_DOC_Threadmill_T_Body />
+    <LB_DOC_GROOVE_T_Head />
+    <LB_DOC_GROOVE_T_Body />
+    <LB_Leadangle_T_Lead_Head>Kesme Yönünde Talaş Açısı</LB_Leadangle_T_Lead_Head>
+    <LB_Leadangle_T_Lead_Body />
+    <LB_Leadangle_T_Taper_Head />
+    <LB_Leadangle_T_Taper_Body />
+    <LB_Leadangle_T_Tip_Head>Takım Ucu Açısı (Açı Dahil)</LB_Leadangle_T_Tip_Head>
+    <LB_Leadangle_T_Tip_Body />
+    <PNL_MaxPerformance_Head>Maks. Performans</PNL_MaxPerformance_Head>
+    <PNL_MaxPerformance_Body />
+    <PNL_MinPerformance_Head>Minimum Performans</PNL_MinPerformance_Head>
+    <PNL_MinPerformance_Body />
+    <LB_Depth_T_Head />
+    <LB_Depth_T_Body />
+    <LB_DRL_E_Dia_T_Head>Geçerli Çap</LB_DRL_E_Dia_T_Head>
+    <LB_DRL_E_Dia_T_Body />
+    <LB_Speed_PC_T_Head />
+    <LB_Speed_PC_T_Body />
+    <LB_TP_Major_Diameter_Head>Diş Açma Çapı</LB_TP_Major_Diameter_Head>
+    <LB_TP_Major_Diameter_Body />
+    <LB_DOC_RAD_T_Head>Kesme Derinliği</LB_DOC_RAD_T_Head>
+    <LB_DOC_RAD_T_Body />
+    <LB_Len_T_Head />
+    <LB_Len_T_Body />
+    <LB_Corner_Rad_T_Head />
+    <LB_Corner_Rad_T_Body />
+    <BT_MyCut_Tool_More_Head />
+    <BT_MyCut_Tool_More_Body />
+    <BT_myCut_Cut_More_Head />
+    <BT_myCut_Cut_More_Body />
+    <Input_Depth_Head />
+    <Input_Depth_Body />
+    <btn_check_Thinning_Head />
+    <btn_check_Thinning_Body />
+    <btn_Check_HSM_Head />
+    <btn_Check_HSM_Body />
+    <Panel_Tool_Manufacturer_Settings_Tip_Head />
+    <Panel_Tool_Manufacturer_Settings_Tip_Body />
+    <LB_Tool_Max_RPM_Head />
+    <LB_Tool_Max_RPM_Body />
+    <LB_Ideal_Chipload_T_Head />
+    <LB_Ideal_Chipload_T_Body />
+    <LB_Ideal_Speed_T_Head />
+    <LB_Ideal_Speed_T_Body />
+    <BTN_Reset_all_Head />
+    <BTN_Reset_all_Body />
+    <BTN_More_Materials_Head />
+    <BTN_More_Materials_Body />
+    <LB_Chipload_T_Head>Talaş Yükü / Dönüş Başına İlerleme</LB_Chipload_T_Head>
+    <LB_Chipload_T_Body />
+    <LB_Speed_T_Head>Kesme Hızı (Devri)</LB_Speed_T_Head>
+    <LB_Speed_T_Body />
+    <check_Slotting_Head />
+    <check_Slotting_Body />
+    <settings_keep_machine_id_Head />
+    <settings_keep_machine_id_Body />
+    <LB_Plunge_T_Head />
+    <LB_Plunge_T_Body />
+    <chck_Shared_Database_Head />
+    <chck_Shared_Database_Body />
+    <BTN_Set_DB_Location_Head />
+    <BTN_Set_DB_Location_Body />
+    <BTN_SF_Status_Head>Devir ve İlerleme Kaynağı</BTN_SF_Status_Head>
+    <BTN_SF_Status_Body />
+    <btn_Load_Tool_Head />
+    <btn_Load_Tool_Body />
+    <BTN_FSW_Edit_New_Tool_Head>Yeni Takım (Ctrl+N)</BTN_FSW_Edit_New_Tool_Head>
+    <BTN_FSW_Edit_New_Tool_Body />
+    <btn_FSW_Edit_Tool_Head>Takım Bilgisi Düzenle</btn_FSW_Edit_Tool_Head>
+    <btn_FSW_Edit_Tool_Body />
+    <btn_FSW_Add_Tool_Head />
+    <btn_FSW_Add_Tool_Body />
+    <btn_Add_Cut_Head>Kesme Ekle</btn_Add_Cut_Head>
+    <btn_Add_Cut_Body />
+    <CMB_LIB_TOOL_Head />
+    <CMB_Cut_Head />
+    <CMB_Cut_Body />
+    <LB_Settings_Lease_Period_T_Head />
+    <LB_Settings_Lease_Period_T_Body />
+    <PB_Machine_Power_Head>İş Mili Gücü</PB_Machine_Power_Head>
+    <PB_Machine_Power_Body />
+    <PB_Tool_Life_Head>Takım Ömrü</PB_Tool_Life_Head>
+    <PB_Tool_Life_Body />
+    <PB_Mrr_Head>Malzeme Kaldırma Oranı </PB_Mrr_Head>
+    <PB_Mrr_Body />
+    <PB_Tool_Deflection_Head />
+    <PB_Tool_Deflection_Body />
+    <PB_Tool_Torque_Head />
+    <PB_Tool_Torque_Body />
+    <LB_Feed_T_Head>İşleme İlerleme Oranı</LB_Feed_T_Head>
+    <LB_Feed_T_Body />
+    <LB_RPM_T_Head>İş Mili Hızı</LB_RPM_T_Head>
+    <LB_RPM_T_Body />
+    <LB_Flute_Len_T_Head>Kesme Ağızı Yüksekliği</LB_Flute_Len_T_Head>
+    <LB_Flute_Len_T_Body />
+    <LB_Insert_Len_T_Head>Torna Takımın Uzunluğunu Girin</LB_Insert_Len_T_Head>
+    <LB_Insert_Len_T_Body />
+    <LB_Helix_T_Head />
+    <LB_Helix_T_Body />
+    <LB_Shank_Dia_T_Head />
+    <LB_Shank_Dia_T_Body />
+    <LB_HolderSize_T_Head />
+    <LB_HolderSize_T_Body />
+    <LB_N_Flutes_T_Head />
+    <LB_N_Flutes_T_Body />
+    <LB_N_Starts_T_Head />
+    <LB_N_Starts_T_Body />
+    <LB_N_Inserts_T_Head />
+    <LB_N_Inserts_T_Body />
+    <LB_Tip_Dia_T_Head>Takım Ucu Çapı</LB_Tip_Dia_T_Head>
+    <LB_Tip_Dia_T_Body />
+    <PB_Machine_Torque_Head>İş Mili Torku</PB_Machine_Torque_Head>
+    <PB_Machine_Torque_Body />
+    <LB_RPM_Plunge_T_Head />
+    <LB_RPM_Plunge_T_Body />
+    <LB_DRL_Peck_T_Head />
+    <LB_DRL_Peck_T_Body />
+    <LB_Turn_Dia_T_Head />
+    <LB_Turn_Dia_T_Body />
+    <btn_HSMA_Cloud_Login_Head />
+    <btn_HSMA_Cloud_Login_Body />
+    <LB_CutCloudRating_Head />
+    <LB_CutCloudRating_Body />
+    <LB_CloudCutsIndicator_Head />
+    <LB_CloudCutsIndicator_Body />
+    <LB_Inventory_Red_Head />
+    <LB_Inventory_Red_Body />
+    <LB_Inventory_Yellow_Head />
+    <LB_Inventory_Yellow_Body />
+    <LB_Inventory_Green_Head />
+    <LB_Inventory_Green_Body />
+    <LB_License_Description />
+    <DGV_node_img />
+    <DGV_cuts />
+    <DGV_node_text />
+    <DGV_tool_number />
+    <DGV_child_text />
+    <DGV_diameter>Boyut</DGV_diameter>
+    <DGV_corner_rad />
+    <DGV_flute_n />
+    <DGV_name>Tip </DGV_name>
+    <DGV_material>Takım &amp; Çalışma Malzemesi</DGV_material>
+    <DGV_tool_material>T. Malzeme</DGV_tool_material>
+    <DGV_work_material>Çalışma Malzemesi</DGV_work_material>
+    <DGV_coating />
+    <DGV_brand_name />
+    <DGV_series_name />
+    <DGV_supplier />
+    <DGV_supplier_pid />
+    <DGV_comment>Açıklama</DGV_comment>
+    <DGV_rpm>Devir</DGV_rpm>
+    <DGV_feed>İlerleme Hızı</DGV_feed>
+    <DGV_sfm_adj>S%</DGV_sfm_adj>
+    <DGV_ipt_adj />
+    <DGV_doc>Kesme Derinliği</DGV_doc>
+    <DGV_woc>Kesme Genişliği</DGV_woc>
+    <DGV_stickout />
+    <DGV_shank_dia />
+    <DGV_operation_type />
+    <DGV_Operation>Operasyon</DGV_Operation>
+    <DGV_surface_finish>S.Finiş</DGV_surface_finish>
+    <DGV_tool_life>Takım Ömrü</DGV_tool_life>
+    <DGV_Rating />
+    <DGV_machine>Makina</DGV_machine>
+    <DGV_holder />
+    <DGV_Mrr>Malzeme Kaldırma Oranı</DGV_Mrr>
+    <DGV_Qty>Stok</DGV_Qty>
+    <DGV_minQty />
+    <DGV_maxQty>Maks. Tork </DGV_maxQty>
+    <DGV_onOrderQty />
+    <DGV_OrderQty />
+    <DGV_Price />
+    <DGV_Received />
+    <DGV_Status>Durum </DGV_Status>
+    <CMB_Text_1 />
+    <CMB_Text_2 />
+    <CMB_Text_3 />
+    <CMB_Text_4 />
+    <CMB_Text_5 />
+    <CMB_Text_6 />
+    <CMB_Text_7>Kesme Numarası</CMB_Text_7>
+    <CMB_Text_8>Torna Çapı (Torna)</CMB_Text_8>
+    <CMB_Text_9 />
+    <CMB_Text_10>İş Parçası Malzemesi</CMB_Text_10>
+    <CMB_Text_11>Operasyon Tipi</CMB_Text_11>
+    <CMB_Text_12>Kesme Derinliği</CMB_Text_12>
+    <CMB_Text_13 />
+    <CMB_Text_14>Yüzey Finiş </CMB_Text_14>
+    <CMB_Text_15>Takım Ömrü</CMB_Text_15>
+    <CMB_Text_16 />
+    <CMB_Text_17>Makina</CMB_Text_17>
+    <CMB_Text_18>Takım Sayısı</CMB_Text_18>
+    <CMB_Text_19>Takım Ağızı Sayısı</CMB_Text_19>
+    <CMB_Text_20>Çap/Boyut</CMB_Text_20>
+    <CMB_Text_21 />
+    <CMB_Text_22 />
+    <CMB_Text_23>Takım Tipi (Uzun)</CMB_Text_23>
+    <CMB_Text_24>Takım Tipi (Kısa)</CMB_Text_24>
+    <CMB_Text_25 />
+    <CMB_Text_26 />
+    <CMB_Text_27>Takım Malzemesi</CMB_Text_27>
+    <CMB_Text_28>Takım Kaplaması</CMB_Text_28>
+    <CMB_Text_29>Paso Sayısı</CMB_Text_29>
+    <CMB_Text_30>Takım Açıklaması</CMB_Text_30>
+    <CMB_Text_31 />
+    <SelectTool_DLG>Takımı veya Kesiciyi Seç </SelectTool_DLG>
+    <EXP_Tool_Filter>Takım Kütüphanesi</EXP_Tool_Filter>
+    <ERR_Warning>Uyarı:</ERR_Warning>
+    <ERR_Remedy>Çözüm:</ERR_Remedy>
+    <ERR_MaxRPM />
+    <ERR_MaxTapRPM />
+    <ERR_Tap_Max_ToolRPM />
+    <ERR_Tap_ToolTorqueLimit>Takım Torku Güvenli Limiti aşıldı</ERR_Tap_ToolTorqueLimit>
+    <ERR_Tap_ToolTorqueLimit_Remedy />
+    <ERR_Tap_PowerCurve_Power />
+    <ERR_Tap_PowerCurve_Power_Remedy />
+    <ERR_Tap_Machine_Power />
+    <ERR_Tap_Max_Torque />
+    <ERR_Tap_Max_Torque_Remedy />
+    <ERR_Machine_Max_Feedrate />
+    <ERR_Machine_Max_Feedrate_Remedy />
+    <ERR_Tool_MaxRPM />
+    <ERR_Tool_MaxRPM_Remedy />
+    <ERR_Tap_MinRPM />
+    <ERR_Tap_MinRPM_Remedy />
+    <ERR_Tool_Length_PRM_Reduced />
+    <ERR_ThreadMill_MD_Required />
+    <ERR_ThreadMill_MD_TooSmall />
+    <ERR_Tool_Deflection_Limit />
+    <ERR_Tool_Deflection_Limit_Remedy>Takımın iş parçası üzerindeki pasoyu azaltınız</ERR_Tool_Deflection_Limit_Remedy>
+    <ERR_Tool_Torque_Limit>Takım Torku Güvenli Limiti aşıldı. İlerleme hızı düşürüldü</ERR_Tool_Torque_Limit>
+    <ERR_Tool_Torque_Limit_Remedy>Takımın iş parçası üzerindeki pasoyu azaltınız</ERR_Tool_Torque_Limit_Remedy>
+    <ERR_DRL_Torque_Limit>Takım Torku Güvenli Limiti aşıldı. İlerleme hızı düşürüldü	</ERR_DRL_Torque_Limit>
+    <ERR_DRL_Torque_Limit_Remedy />
+    <ERR_Machine_PowerCurve_Limit />
+    <ERR_Machine_PowerCurve_Limit_Remedy />
+    <ERR_Machine_DRL_PowerCurve_Limit_Remedy />
+    <ERR_Machine_Power_Limit />
+    <ERR_Machine_Power_Limit_Remedy>Takımın iş parçası üzerindeki pasoyu azaltınız</ERR_Machine_Power_Limit_Remedy>
+    <ERR_Machine_DRL_Power_Limit_Remedy />
+    <ERR_Machine_Torque_Limit />
+    <ERR_Machine_Torque_Limit_Remedy>Takımın iş parçası üzerindeki pasoyu azaltınız</ERR_Machine_Torque_Limit_Remedy>
+    <ERR_Machine_MinRPM_Limit />
+    <ERR_Machine_MinRPM_Limit_Remedy />
+    <ERR_PasswordsNoMatch />
+    <ERR_PasswordTooShort />
+    <ERR_LoginTooShort />
+    <ERR_EmailTooShort />
+    <LNG_Feed_rev>mm/devir</LNG_Feed_rev>
+    <LNG_Power>Güç</LNG_Power>
+    <LNG_Torque>Tork</LNG_Torque>
+    <LNG_Power_Curve />
+    <LNG_coated />
+    <LNG_Tool_Usage />
+    <LNG_edit_new_tool>Yeni Takım Düzenle</LNG_edit_new_tool>
+    <LNG_Generic_Size />
+    <LNG_Hello />
+    <LNG_License_Message />
+    <LNG_days_left />
+    <LNG_Expired>Sınırlı</LNG_Expired>
+    <LNG_Busy />
+    <LNG_Trial />
+    <LNG_Permanent />
+    <LNG_Floating />
+    <LNG_Active />
+    <LNG_Fatal_Error />
+    <LNG_Error />
+    <LNG_InvalidEntry />
+    <LNG_ResetToDefault />
+    <LNG_Add />
+    <LNG_Save>Kaydet</LNG_Save>
+    <LNG_Delete>Sil</LNG_Delete>
+    <LNG_Cancel>İptal</LNG_Cancel>
+    <LNG_OK>Tamam</LNG_OK>
+    <LNG_TextTooLong />
+    <LNG_Recommended_Peck />
+    <LNG_Breakthough_Amount />
+    <LNG_Pilot_Hole_Dia />
+    <LNG_Not_Required />
+    <LNG_Material>Malzeme</LNG_Material>
+    <LNG_Tool>Takım</LNG_Tool>
+    <LNG_Chip_Thickness>Talaş Kalınlığı</LNG_Chip_Thickness>
+    <LNG_Reference_Chipload>Referans Talaş Yükleme</LNG_Reference_Chipload>
+    <LNG_Engagement />
+    <LNG_DOC>Kesme Derinliği</LNG_DOC>
+    <LNG_WOC>Kesme Genişliği</LNG_WOC>
+    <LNG_MRR>Malzeme Kaldırma Oranı</LNG_MRR>
+    <LNG_Max_Torque>Maks. Tork</LNG_Max_Torque>
+    <LNG_Cutting_Force>Kesme Gücü</LNG_Cutting_Force>
+    <LNG_Deflection>Sapma</LNG_Deflection>
+    <LNG_Max_Deflection>Maks. Sapma</LNG_Max_Deflection>
+    <LNG_Effective_Dia>Geçerli Çap</LNG_Effective_Dia>
+    <LNG_Cross_Section>Enine Kesit</LNG_Cross_Section>
+    <LNG_Library>Kütüphane</LNG_Library>
+    <LNG_Allowance />
+    <LNG_major_dia />
+    <LNG_pitch_dia />
+    <LNG_minor_dia_max />
+    <LNG_Height>Yükseklik</LNG_Height>
+    <LNG_connecting_to_server />
+    <LNG_connection_error />
+    <LNG_connection_complete />
+    <LNG_search_returned_nothing />
+    <LNG_search_too_restricted />
+    <LNG_search_ok>Arama Başarılı </LNG_search_ok>
+    <LNG_LeadAngle>Kesme Yönünde Talaş Açısı</LNG_LeadAngle>
+    <LNG_TipAngle>Takım Ucu Açısı</LNG_TipAngle>
+    <LNG_TaperAngle />
+    <LNG_Edit_New_Cut>Yeni Kesme Düzenle</LNG_Edit_New_Cut>
+    <LNG_No_Tool_Selected>Seçili Takım Yok </LNG_No_Tool_Selected>
+    <LNG_Crossfeed_Amount />
+    <LNG_TXT_License_Help_BOX_Trial_Active />
+    <LNG_TXT_License_Help_BOX_Trial_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Active />
+    <LNG_TXT_License_Help_BOX_Full_Active />
+    <LNG_TXT_License_Help_BOX_Floating_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Busy />
+    <LNG_AddToolsToORder />
+    <LNG_AddToolsToORder_Prompt />
+    <LNG_ToolsOnOrder />
+    <LNG_ToolsOnOrder_prompt />
+    <LNG_RPM>Devir</LNG_RPM>
+    <LNG_Enter_Brand_And_Series />
+    <DLG_PurchaseRequestPrompt />
+    <DLG_Text1 />
+    <DLG_Title1>Sütunları Seç</DLG_Title1>
+    <DLG_Text2 />
+    <DLG_Text3 />
+    <DLG_Text4 />
+    <DLG_Text5 />
+    <DLG_Text6 />
+    <DLG_Text7 />
+    <DLG_Text8 />
+    <DLG_Title8 />
+    <DLG_Text9 />
+    <DLG_Title9>İsim</DLG_Title9>
+    <DLG_Text10 />
+    <DLG_Title10 />
+    <DLG_Text11 />
+    <DLG_Title11>İsim</DLG_Title11>
+    <DLG_Text12 />
+    <DLG_Text13 />
+    <DLG_Title14 />
+    <DLG_Text14 />
+    <DLG_Title15 />
+    <DLG_Text15 />
+    <DLG_Title16>İsim</DLG_Title16>
+    <DLG_Text16 />
+    <DLG_Text176 />
+    <DLG_Title17>İsim</DLG_Title17>
+    <DLG_Text17 />
+    <DLG_Title18 />
+    <DLG_Text18 />
+    <DLG_Text19 />
+    <DLG_Title20 />
+    <DLG_Text20 />
+    <DLG_Title21 />
+    <DLG_Text21 />
+    <DLG_Title22 />
+    <DLG_Text22 />
+    <DLG_Title23 />
+    <DLG_Text23 />
+    <DLG_Title24>Seçilen Bir şey Yok </DLG_Title24>
+    <DLG_Text24 />
+    <DLG_Title25 />
+    <DLG_Text25 />
+    <DLG_Title26 />
+    <DLG_Text26 />
+    <DLG_Title27 />
+    <DLG_Text27 />
+    <DLG_Title29>İsim</DLG_Title29>
+    <DLG_Text29 />
+    <DLG_Title30 />
+    <DLG_Text30 />
+    <DLG_Text300 />
+    <DLG_Title31 />
+    <DLG_Text31 />
+    <DLG_Title32 />
+    <DLG_Text32 />
+    <DLG_Title33 />
+    <DLG_Text33>İsim</DLG_Text33>
+    <DLG_Title34 />
+    <DLG_Text34 />
+    <DLG_Title35 />
+    <DLG_Text35 />
+    <DLG_Title36 />
+    <DLG_Text36 />
+    <DLG_Title37 />
+    <DLG_Text37 />
+    <DLG_Title38 />
+    <DLG_Text38 />
+    <DLG_Title39 />
+    <DLG_Text39 />
+    <DLG_Title40>Güncelleme</DLG_Title40>
+    <DLG_Text40 />
+    <DLG_Title41 />
+    <DLG_Text41 />
+    <DLG_Title42>Yazma Hatası Ayarları</DLG_Title42>
+    <DLG_Text42 />
+    <DLG_Text43 />
+    <DLG_Title44 />
+    <DLG_Text44 />
+    <DLG_Title45 />
+    <DLG_Text45 />
+    <DLG_Title46 />
+    <DLG_Text46 />
+    <DLG_Title47 />
+    <DLG_Text47 />
+    <DLG_Title48 />
+    <DLG_Text48 />
+    <DLG_Title49 />
+    <DLG_Text49 />
+    <DLG_Title50 />
+    <DLG_Text50 />
+    <DLG_Title51 />
+    <DLG_Text51 />
+    <DLG_Title52 />
+    <DLG_Text52 />
+    <DLG_Title53>Yeni Takım Oluştur</DLG_Title53>
+    <DLG_Text53 />
+    <DLG_Title54 />
+    <DLG_Text54 />
+    <DLG_Title55 />
+    <DLG_Text55 />
+    <DLG_Title56 />
+    <DLG_Text56 />
+    <DLG_Title57 />
+    <DLG_Text57 />
+    <DLG_Text58 />
+    <DLG_Title59 />
+    <DLG_Text59 />
+    <DLG_Title60 />
+    <DLG_Text60 />
+    <DLG_Title61>Veritabanı Yazma Başarısız</DLG_Title61>
+    <DLG_Text61 />
+    <DLG_Title63 />
+    <DLG_Text63 />
+    <DLG_Title64>Lisans Hatası</DLG_Title64>
+    <DLG_Text64 />
+    <DLG_Text65 />
+    <DLG_Title66 />
+    <DLG_Text66 />
+    <DLG_Title67 />
+    <DLG_Text67 />
+    <DLG_Title68>Tamam</DLG_Title68>
+    <DLG_Title69 />
+    <DLG_Text69 />
+    <DLG_Text70 />
+    <DLG_Text71 />
+    <DLG_Title73 />
+    <DLG_Text73 />
+    <DLG_Text74>Dosya Boş</DLG_Text74>
+    <DLG_Title75 />
+    <DLG_Text75 />
+    <DLG_Title76 />
+    <DLG_Text76 />
+    <DLG_Title77 />
+    <DLG_Text77 />
+    <DLG_Title78 />
+    <DLG_Text78 />
+    <DLG_Title79 />
+    <DLG_Text79 />
+    <DLG_Title80 />
+    <DLG_Text80 />
+    <DLG_Title81>Açıklama</DLG_Title81>
+    <DLG_Text81 />
+    <DLG_Title82 />
+    <DLG_Text82 />
+    <DLG_Title83 />
+    <DLG_Text83 />
+    <DLG_Title84 />
+    <DLG_Text84 />
+    <DLG_Title85 />
+    <DLG_Text85 />
+    <DLG_Title86 />
+    <DLG_Text86 />
+    <DLG_Title87>Yeni Bir Takım Oluştur?</DLG_Title87>
+    <DLG_Text87 />
+    <DLG_Title88>Yeni Bir Takım Oluştur?</DLG_Title88>
+    <DLG_Text88 />
+    <DLG_Text89 />
+    <DLG_Title90 />
+    <DLG_Text90 />
+    <DLG_Title91 />
+    <DLG_Text91 />
+    <DLG_Text92 />
+    <DLG_Text93 />
+    <DLG_Text_PleaseCheckMachine />
+    <DLG_Text94 />
+    <DLG_Text95 />
+    <DLG_Text96 />
+    <DLG_Text97 />
+    <DLG_Text98 />
+    <DLG_Text99 />
+    <DLG_Text100 />
+    <DLG_Text101 />
+    <DLG_Text102 />
+    <DLG_Text103 />
+    <DLG_Text104 />
+    <DLG_Text105 />
+    <DLG_Text106 />
+    <DLG_Text107 />
+    <DLG_Text108 />
+    <DLG_Title109 />
+    <DLG_Text109 />
+    <DLG_Title110 />
+    <DLG_Text110 />
+    <DLG_Title111 />
+    <DLG_Text111 />
+    <DLG_Title112>Takım Bilgisi Belirtilmedi</DLG_Title112>
+    <DLG_Text112 />
+    <DLG_Title113 />
+    <DLG_Text113 />
+    <DLG_Title114 />
+    <DLG_Text114 />
+    <DLG_Text115>Kesme Hızı %</DLG_Text115>
+    <DLG_Text116>İlerleme Hızı %</DLG_Text116>
+    <DLG_Title117 />
+    <DLG_Text117 />
+    <DLG_Text118 />
+    <DLG_Title119 />
+    <DLG_Text119 />
+    <DLG_Title120 />
+    <DLG_Text120 />
+    <DLG_Title121 />
+    <DLG_Text121 />
+    <DLG_Title122 />
+    <DLG_Text122 />
+    <DLG_Title123 />
+    <DLG_Text123 />
+    <DLG_Text125 />
+    <DLG_Text126 />
+    <DLG_Title127 />
+    <DLG_Text127 />
+    <DLG_Text128 />
+    <DLG_Text129 />
+    <DLG_Text130 />
+    <DLG_Text131 />
+    <DLG_Text132 />
+    <DLG_Title134 />
+    <DLG_Text134 />
+    <DLG_Text135 />
+    <DLG_Text136 />
+    <DLG_Text137 />
+    <DLG_Text138 />
+    <DLG_Text139 />
+    <DLG_Text140 />
+    <DLG_Text141 />
+    <DLG_Title142 />
+    <DLG_Text142 />
+    <DLG_Title143 />
+    <DLG_Text143 />
+    <DLG_Title144 />
+    <DLG_Text144 />
+    <DLG_Text145 />
+    <DLG_Title146 />
+    <DLG_Text146 />
+  </controls>
+  <skv_fswizard_operation>
+    <value />
+    <text>Ayarlanmadı </text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Kaba ve Finiş</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Kaba</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Yarı-Finiş</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Finiş </text>
+  </skv_fswizard_operation>
+  <skv_fswizard_finish>
+    <value />
+    <text>Ayarlanmadı</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Operasyon için normal</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Çok Zayıf</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Zayıf</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Orta</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>İyi</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Çok iyi</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_life>
+    <value />
+    <text>Ayarlanmadı</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Operasyon için normal</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Çok Zayıf</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Zayıf</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Orta</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>İyi</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Çok iyi </text>
+  </skv_fswizard_life>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Ayarlanmadı</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Yok </text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Hava üfleme</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Buhar</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Akışkan</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Takım içinden yüksek basınç </text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_rating>
+    <value />
+    <text>Derecesiz</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Çok zayıf</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Zayıf</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Orta</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>İyi</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Çok iyi</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>SOLID Parmak Freze</name>
+    <short_name>SEM</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>SOLID Küre Freze</name>
+    <short_name>SBM</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>HP/Kaba Parmak Frezesi</name>
+    <short_name>SHPEM</short_name>
+    <priority />
+    <usage>Yüksek Performanslı/Kaba Parmak Freze, sağlam bağlanma ve işleme gerekir.  Bağlama sisteminizin ve Takım tutucunuzun uygun olduğundan emin olunuz </usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>İndekslenmiş Parmak Freze</name>
+    <short_name>IEM</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>İndekslenmiş Küre Freze</name>
+    <short_name>IBM</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>İndekslenmiş Alın-Yüzey Frezesi</name>
+    <short_name>IFM</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name>DRL</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Rayba</name>
+    <short_name>Raybalama</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Yüksek Hızlı Freze</name>
+    <short_name>HFEM</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Yüksek Helisli Parabolik Matkap</name>
+    <short_name>HiDRL</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Sert malzeme için düz ağız</name>
+    <short_name>DRL</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name />
+    <short_name />
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text>Stokta</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text>Stok Dışı</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text>Siparişte</text>
+  </skv_fswizard_stockstatus>
+</language>

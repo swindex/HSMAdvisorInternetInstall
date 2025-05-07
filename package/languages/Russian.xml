@@ -1,0 +1,1816 @@
+<?xml version="1.0" standalone="yes"?>
+<language>
+  <settings>
+    <lang_code>RU</lang_code>
+    <lang_scale_x>1</lang_scale_x>
+    <lang_scale_y>1</lang_scale_y>
+  </settings>
+  <controls>
+    <TXT_TranslatedBy>Оригинальный язык HSMAdvisor разработан Эльдаром Герфановым.</TXT_TranslatedBy>
+    <LB_Type>Тип</LB_Type>
+    <CHK_DefaultForTooltypes>Сделать по умолчанию для поддерживаемых типов инструментов.</CHK_DefaultForTooltypes>
+    <CHK_DefaultForTooltypes_tooltip>Автоматически выбрать эту машину при выборе любого из поддерживаемых типов инструментов.</CHK_DefaultForTooltypes_tooltip>
+    <FSWIZARD_TAB>Скорости и Подачи</FSWIZARD_TAB>
+    <GRP_Static_Fields>Статичные значения</GRP_Static_Fields>
+    <settings_keep_Limit_Def>Огрнч. Изгиб</settings_keep_Limit_Def>
+    <settings_keep_productivity>Производительность</settings_keep_productivity>
+    <Label14>?</Label14>
+    <settings_keep_Limit_Torque>Огрнч. Момент %</settings_keep_Limit_Torque>
+    <settings_keep_max_RPM>Макс. об/мин</settings_keep_max_RPM>
+    <settings_keep_max_feed>Макс Подача</settings_keep_max_feed>
+    <settings_keep_max_torque>Макс Момент</settings_keep_max_torque>
+    <settings_keep_max_HP>Макс мощность</settings_keep_max_HP>
+    <TAB_Tool_Database>База Данных Инструментов</TAB_Tool_Database>
+    <BT_Library_More>Функции</BT_Library_More>
+    <Tab_Threads>Резьбы</Tab_Threads>
+    <LB_Machine_Overrides>Показатели Машины</LB_Machine_Overrides>
+    <REFERENCE_TAB>Справка</REFERENCE_TAB>
+    <GEOMETRY_TAB>Геометрия</GEOMETRY_TAB>
+    <PLUGINS_TAB>WEB Страницы</PLUGINS_TAB>
+    <LB_Browse_Web>Откр. Ссылку</LB_Browse_Web>
+    <Plugins_BTN_Go>GO</Plugins_BTN_Go>
+    <BTN_CustomSpeedsFeeds>Польз. Скорости и Подачи</BTN_CustomSpeedsFeeds>
+    <TAB_Settings>Установки</TAB_Settings>
+    <LB_Input_T>Ввод</LB_Input_T>
+    <LB_Result_T>Результат</LB_Result_T>
+    <LB_Lic_Status>Лицензия</LB_Lic_Status>
+    <DB_Status_OK>Статус Файла Базы Данных: OK</DB_Status_OK>
+    <DB_Status_OK_Text>Файл Базы Данных Инструмента:{x}</DB_Status_OK_Text>
+    <ML_Status_OK_Text>Файл Базы Данных:{x}	</ML_Status_OK_Text>
+    <DB_Status_Writing>Статус Файла Базы Данных: Идёт Запись</DB_Status_Writing>
+    <DB_Status_Writing_Text>Запись в:{x}</DB_Status_Writing_Text>
+    <DB_Status_Writing_Error>Статус Файла Базы Данных: Ошибка Записи!</DB_Status_Writing_Error>
+    <DB_Status_Writing_Error_Text>Ошибка Записи Файла:{x}
+Текст Ошибки:{y}</DB_Status_Writing_Error_Text>
+    <DB_Status_Reading>Статус Файла Базы Данных: Чтение</DB_Status_Reading>
+    <DB_Status_Reading_Text>Чтение из:{x}</DB_Status_Reading_Text>
+    <DB_Status_Reading_Error>Статус Файла Базы Данных: Ошибка Чтения!</DB_Status_Reading_Error>
+    <DB_Status_Reading_Error_Text>Ошибка записи файла:{x}
+Текст Ошибки:{y}</DB_Status_Reading_Error_Text>
+    <btn_DDE_OK>OK</btn_DDE_OK>
+    <btn_DDE_Cancel>Отмена</btn_DDE_Cancel>
+    <BT_Define_Machines>Ред.</BT_Define_Machines>
+    <BTN_Edit>Ред.</BTN_Edit>
+    <BTN_Edit_Family>Ред.</BTN_Edit_Family>
+    <BTN_More_Materials>Ещё</BTN_More_Materials>
+    <LB_Machine>Машина</LB_Machine>
+    <LB_Tool_Library>Библиотека</LB_Tool_Library>
+    <LB_Library>Библиотека	</LB_Library>
+    <LB_Hardness_T>Твёрдость:</LB_Hardness_T>
+    <LB_Brinell>Бринелл</LB_Brinell>
+    <LB_Max_RPM_T>Макс об/мин</LB_Max_RPM_T>
+    <LB_Max_Power_T>Макс мощность</LB_Max_Power_T>
+    <LB_Max_Power>ЛС</LB_Max_Power>
+    <LB_Max_Torque_T>Макс Момент</LB_Max_Torque_T>
+    <LB_Max_Feed_T>Макс Подача</LB_Max_Feed_T>
+    <LB_ToolType>Тип Инструмента</LB_ToolType>
+    <btn_Capture>Захват</btn_Capture>
+    <PIC_RPM_Plunge_Lock_tooltip />
+    <BTN_FSW_Edit_New_Tool>Новый</BTN_FSW_Edit_New_Tool>
+    <btn_Load_Tool>Загрузить...</btn_Load_Tool>
+    <btn_FSW_Add_Tool>Доб. Инструмент</btn_FSW_Add_Tool>
+    <LB_Pitch>in</LB_Pitch>
+    <LB_Thread_Pitch>Шаг</LB_Thread_Pitch>
+    <LB_Thread_Form>Форма</LB_Thread_Form>
+    <LB_Thread_Size>Размер</LB_Thread_Size>
+    <LB_Tap_dia_T>Диам. метчика</LB_Tap_dia_T>
+    <LB_Tip_Dia_T>Диаметр</LB_Tip_Dia_T>
+    <LB_Tool_Dia_T>Диаметр кончика</LB_Tool_Dia_T>
+    <LB_Turn_Dia_T>Диаметр</LB_Turn_Dia_T>
+    <LB_N_Starts_T>Число спиралей</LB_N_Starts_T>
+    <LB_N_Flutes_T>№ Зубьев</LB_N_Flutes_T>
+    <LB_N_Inserts_T>№ Пластин</LB_N_Inserts_T>
+    <LB_Len_T>Вылет инстр.</LB_Len_T>
+    <LB_Corner_Rad_T>Радиус угла</LB_Corner_Rad_T>
+    <LB_MaxForce>Максимальная сила резания</LB_MaxForce>
+    <LB_MaxForce_tooltip>Максимально допустимая сила резания.
+Скорость подачи будет ограничена, чтобы сила резания оставалась ниже этого значения.</LB_MaxForce_tooltip>
+    <check_BallNose>Сферическая</check_BallNose>
+    <check_TaperShoulder>Конусная шейка</check_TaperShoulder>
+    <LB_Insert_Len_T>Высота пластины</LB_Insert_Len_T>
+    <LB_Flute_Len_T>Высота реж. части</LB_Flute_Len_T>
+    <LB_Leadangle_T>Угол наклона режущей кромки</LB_Leadangle_T>
+    <LB_Shank_Dia_T>Диаметр хвостовика</LB_Shank_Dia_T>
+    <LB_HolderSize_T>Размер державки</LB_HolderSize_T>
+    <LB_Helix_T>Угол спирали</LB_Helix_T>
+    <LB_ShouldeR_Len_T>Длинна шейки</LB_ShouldeR_Len_T>
+    <LB_Shoulder_Dia_T>Диаметр шейки</LB_Shoulder_Dia_T>
+    <BTN_Reset_all>Сбросить</BTN_Reset_all>
+    <LB_Tool_Type>Тип Инструмента</LB_Tool_Type>
+    <LB_DOC_T>Глубина</LB_DOC_T>
+    <LD_DOC_Threadmill_T>Глубина</LD_DOC_Threadmill_T>
+    <LB_DOC_RAD_T>Глубина</LB_DOC_RAD_T>
+    <LB_DOC_GROOVE_T>Ширина</LB_DOC_GROOVE_T>
+    <LB_WOC_T>Ширина</LB_WOC_T>
+    <LB_WOC_Threadmill_T>Ширина</LB_WOC_Threadmill_T>
+    <check_Slotting>Паз</check_Slotting>
+    <LB_DEG>Град.</LB_DEG>
+    <btn_Minicalc_Interpolation>Интерполяция/Рампа</btn_Minicalc_Interpolation>
+    <btn_Check_HSM>HSM</btn_Check_HSM>
+    <btn_check_Thinning>Утончение</btn_check_Thinning>
+    <btn_minicalc_scallop>Шероховатость</btn_minicalc_scallop>
+    <Button1>Рампа</Button1>
+    <LB_TP_Thread_Type>Тип Резьбы</LB_TP_Thread_Type>
+    <Label_Crossfeed_Angle>Угол ручной подачи</Label_Crossfeed_Angle>
+    <LB_TP_Major_Diameter>Наружный Диаметр</LB_TP_Major_Diameter>
+    <radio_Circle_Line>Зигзаг</radio_Circle_Line>
+    <LB_DRL_E_Dia_T>Эффективный Диам.</LB_DRL_E_Dia_T>
+    <LB_CSNK_E_Dia_T>Диам. фаски</LB_CSNK_E_Dia_T>
+    <LB_Depth_T>Глубина</LB_Depth_T>
+    <LB_DRL_Peck_T>Проход</LB_DRL_Peck_T>
+    <LB_Tap_Thread_PC_T>Процент Резьбы</LB_Tap_Thread_PC_T>
+    <LB_Tap_Drill_Dia_T>Размер Сверла</LB_Tap_Drill_Dia_T>
+    <LB_Feed_PC_T>F</LB_Feed_PC_T>
+    <LB_Speed_PC_T>S</LB_Speed_PC_T>
+    <LB_Limit_Torque_PC_T>Огранч. Момент</LB_Limit_Torque_PC_T>
+    <LB_LimitDef_PC_T>Огранч. Изгиб</LB_LimitDef_PC_T>
+    <LB_Tool_Max_RPM>Макс об/мин</LB_Tool_Max_RPM>
+    <LB_Ideal_Speed_T>Скорость</LB_Ideal_Speed_T>
+    <LB_Ideal_Chipload_T>Подача/Зуб</LB_Ideal_Chipload_T>
+    <LB_RPM_T>Об/мин</LB_RPM_T>
+    <LB_Feed_T>Подача</LB_Feed_T>
+    <LB_Speed_T>Скорость</LB_Speed_T>
+    <LB_RPM_Plunge_T>Об/мин Z</LB_RPM_Plunge_T>
+    <LB_Plunge_T>Подача Z</LB_Plunge_T>
+    <Tab_Cutting_Data>Данные Резания</Tab_Cutting_Data>
+    <tab_warnings>Внимание!</tab_warnings>
+    <tab_tool_paint>Инструмент</tab_tool_paint>
+    <btn_Filter_Reset>Сбросить</btn_Filter_Reset>
+    <LB_Size>Размер</LB_Size>
+    <LB_ThreadForm>Форма Резьбы</LB_ThreadForm>
+    <LB_ThreadClass>Класс Резьбы</LB_ThreadClass>
+    <LB_Units>Единицы</LB_Units>
+    <GRP_Threads_External_Thread_Info>Внешняя Резьба</GRP_Threads_External_Thread_Info>
+    <LB_MaxRad>Макс Рад</LB_MaxRad>
+    <LB_ThreadPitch>Шаг</LB_ThreadPitch>
+    <LB_ThreadCrestTruncate>Отрезание Вершины</LB_ThreadCrestTruncate>
+    <LB_ThreadRootTruncate>Отрезание Ложбины</LB_ThreadRootTruncate>
+    <Label_Root_Radius_T>Радиус Ложбины</Label_Root_Radius_T>
+    <GRP_Threads_External_Three_Wire>Измерение Тремя Проводами</GRP_Threads_External_Three_Wire>
+    <LB_Thread3Wire>Введите известные значения</LB_Thread3Wire>
+    <LB_ThreadWireDiameter>Диаметр Пров</LB_ThreadWireDiameter>
+    <LB_ThreadPitchDiameter>Диаметр Шага</LB_ThreadPitchDiameter>
+    <LB_ThreadMeasureOverWire>Размер на проволочках</LB_ThreadMeasureOverWire>
+    <LB_ThreadWireDiaMin>Мин Диам. Пров</LB_ThreadWireDiaMin>
+    <LB_ThreadWireDiaMax>Макс Диам. Пров</LB_ThreadWireDiaMax>
+    <LB_ThreadWireDiaBest>Лучший Диам. Пров</LB_ThreadWireDiaBest>
+    <LB_DrillTapChart>Сверла/Метчики</LB_DrillTapChart>
+    <LB_ThreadRecPc>Реком. процент резьбы</LB_ThreadRecPc>
+    <Radio_Threads_Cutting>Резание</Radio_Threads_Cutting>
+    <Radio_Threads_Forming>Накатывание</Radio_Threads_Forming>
+    <LB_ThreadTapHoleSize>Размер Сверла</LB_ThreadTapHoleSize>
+    <LB_ThreadDesiredPC>Ожид. Процент Резьбы</LB_ThreadDesiredPC>
+    <Licence_BT_Enter_Key>Купить/Ввести Код</Licence_BT_Enter_Key>
+    <LB_LicenseLevel>Уровень Лицензии:</LB_LicenseLevel>
+    <btn_settings_open_user_folder>Открыть Папку Пользователя</btn_settings_open_user_folder>
+    <LB_Settings_Lease_Period_T>Период Плавающей Лицензии</LB_Settings_Lease_Period_T>
+    <BT_E_Exit>Аварийный Выход</BT_E_Exit>
+    <btn_Font_Large>Выбрать Шрифт</btn_Font_Large>
+    <settings_check_for_updates>Проверять Обновления</settings_check_for_updates>
+    <settings_check_Help>Показывать Подсказки</settings_check_Help>
+    <settings_check_swicth_to_warnings>При Ошибке переключиться на вкладку Внимание</settings_check_swicth_to_warnings>
+    <settings_check_reset_tooldata_upon_tooltype>Сбросить Данные Инструмента</settings_check_reset_tooldata_upon_tooltype>
+    <settings_check_reset_overrides_upon_tooltype>Сбросить Ручные Скорость и Подачи</settings_check_reset_overrides_upon_tooltype>
+    <settings_check_reset_preformance_upon_tooltype>Сбросить Производительность</settings_check_reset_preformance_upon_tooltype>
+    <settings_check_reset_limits_upon_tooltype>Сбросить Ограничения Инструмента</settings_check_reset_limits_upon_tooltype>
+    <LB_Defaults_Text>Установить параметры по умолчанию</LB_Defaults_Text>
+    <LB_Defaults_Speed>Скорость (S%)</LB_Defaults_Speed>
+    <LB_Defaults_Feed>Подача на зуб (F%)</LB_Defaults_Feed>
+    <LB_Defaults_Performance>Производ. Инструмента</LB_Defaults_Performance>
+    <LB_Defaults_Torque>Огранич. Момент</LB_Defaults_Torque>
+    <LB_Defaults_Deflection>Огранич. Изгиб</LB_Defaults_Deflection>
+    <GRP_Settings_Dropdown>Списки Инструментов и Параметров</GRP_Settings_Dropdown>
+    <BTN_Settings_Edit_Tool_DropDown_Items>Колонки Выпадающего Списка Инструментов</BTN_Settings_Edit_Tool_DropDown_Items>
+    <BTN_Settings_Edit_Cut_DropDown_Items>Колонки Выпадающего Списка Параметров</BTN_Settings_Edit_Cut_DropDown_Items>
+    <LB_ToolCutDrowdowns_Hint>Чтобы выбрать колонки можно кликнуть правой кнопкой мыши на самих выпадающих списках,</LB_ToolCutDrowdowns_Hint>
+    <GRP_Settings_DB_Other>Другие</GRP_Settings_DB_Other>
+    <BTN_Set_DB_Location>Открыть Базу Данных Инструмента</BTN_Set_DB_Location>
+    <BTN_MachineDB_Location>Открыть Базу Данных Машин</BTN_MachineDB_Location>
+    <chck_Shared_Database>Совместная База Данных</chck_Shared_Database>
+    <settings_confirm_calculation_delete>Подтверждение Удаления Инструмента</settings_confirm_calculation_delete>
+    <settings_keep_machine_id>Оставлять Машину</settings_keep_machine_id>
+    <BTN_View_Reginfo>Смотреть Рег. Информацию</BTN_View_Reginfo>
+    <btn_CutCloud>Запустить CutCloud</btn_CutCloud>
+    <BT_Define_Tool_Type>Тип Инструмента</BT_Define_Tool_Type>
+    <BT_Define_Material>Материал</BT_Define_Material>
+    <BTN_Manage_Machines>Ред. список моих машин</BTN_Manage_Machines>
+    <EXP_DDE_Integration>CAM Интеграция</EXP_DDE_Integration>
+    <EXP_Workpiece>Заготовка Машина</EXP_Workpiece>
+    <EXP_Tool_Data>Инструмент</EXP_Tool_Data>
+    <EXP_Cut>Параметры Резания</EXP_Cut>
+    <LB_Cutting_Parameters>Параметры</LB_Cutting_Parameters>
+    <EXP_Comp>Компенсация</EXP_Comp>
+    <EXP_Thread_Params>Параметры Резьбы</EXP_Thread_Params>
+    <EXP_Drilling_Params>Параметры Сверления</EXP_Drilling_Params>
+    <EXP_Tapping_Data>Параметры Метчика</EXP_Tapping_Data>
+    <EXP_Gages>Показатели</EXP_Gages>
+    <PB_Machine_Power>Мощность:</PB_Machine_Power>
+    <PB_Machine_Torque>Момент:</PB_Machine_Torque>
+    <PB_Machine_Force>Сила резания:</PB_Machine_Force>
+    <PB_Mrr>MRR:</PB_Mrr>
+    <PB_Tool_Life>Стойкость:</PB_Tool_Life>
+    <PB_Tool_Deflection>Изгиб:</PB_Tool_Deflection>
+    <PB_Tool_Torque>Момент:</PB_Tool_Torque>
+    <EXP_Overrides>Настройка Скоростей и Подач</EXP_Overrides>
+    <EXP_Tool_Limits>Ограничение нагрузки</EXP_Tool_Limits>
+    <EXP_CUT_Controls>Сохр. Параметры</EXP_CUT_Controls>
+    <EXP_Limits>Ограничители Нагрузки</EXP_Limits>
+    <EXP_Man_Settings>Скорости и Подачи Производителя</EXP_Man_Settings>
+    <EXP_Speed_Feed>Скорости и Подачи</EXP_Speed_Feed>
+    <EXP_myCut_tool_DB_Tool_Filter>Фильтр</EXP_myCut_tool_DB_Tool_Filter>
+    <EXP_Threads_Thread_Type>Резьба</EXP_Threads_Thread_Type>
+    <EXP_Threads_External>Внешняя Резьба/Измерения</EXP_Threads_External>
+    <EXP_Threads_Internal>Внутренняя Резьба</EXP_Threads_Internal>
+    <EXP_Settings_Licence_Trial>Лицензия</EXP_Settings_Licence_Trial>
+    <EXP_Settings_General>Общие</EXP_Settings_General>
+    <EXP_Settings_Things_to_Reset>Поля, сбрасываемые при смене Инструмента</EXP_Settings_Things_to_Reset>
+    <EXP_Settings_Defaults>По Умолчанию</EXP_Settings_Defaults>
+    <EXP_Settings_myCUT_DB_Settings>Установка Базы Данных</EXP_Settings_myCUT_DB_Settings>
+    <EXP_Settings_Licence_Full>Лицензия</EXP_Settings_Licence_Full>
+    <LB_Tool_Filter>Фильтр:</LB_Tool_Filter>
+    <LB_ToolShankDia>Диаметр хвостовика инструмента</LB_ToolShankDia>
+    <LB_Machine_Interface>Интерфейс шпинделя машины</LB_Machine_Interface>
+    <LB_ProductURL>URL продукта</LB_ProductURL>
+    <btn_Ok>OK</btn_Ok>
+    <btn_Delete>Удалить</btn_Delete>
+    <btn_Add>Добавить</btn_Add>
+    <btn_Cancel>Отмена</btn_Cancel>
+    <btn_Save>Сохранить</btn_Save>
+    <btn_Apply>Применить</btn_Apply>
+    <SFMToolStripMenuItem>Скорость Резания</SFMToolStripMenuItem>
+    <ChiploadToolStripMenuItem>Подача/зуб</ChiploadToolStripMenuItem>
+    <RPMToolStripMenuItem>Об/мин</RPMToolStripMenuItem>
+    <FeedrateToolStripMenuItem>Скорость Подачи</FeedrateToolStripMenuItem>
+    <PlungeFeedToolStripMenuItem>Скорость Погружения</PlungeFeedToolStripMenuItem>
+    <DOCToolStripMenuItem>Глубина Резания</DOCToolStripMenuItem>
+    <WOCToolStripMenuItem>Ширина Резания</WOCToolStripMenuItem>
+    <PeckToolStripMenuItem>Глубина Прохода</PeckToolStripMenuItem>
+    <LoginForm>{pname} Активация Лицензии</LoginForm>
+    <LB_FirstName>Имя: </LB_FirstName>
+    <LB_SerialNumber>Лицензионный Ключ:</LB_SerialNumber>
+    <LB_LastName>Фамилия:</LB_LastName>
+    <LNK_Purchase_License>Купить</LNK_Purchase_License>
+    <LB_Computer_ID>Идентификатор Компьютера:</LB_Computer_ID>
+    <LB_License_Level>Тип Лицензии:</LB_License_Level>
+    <LB_Email>E-mail</LB_Email>
+    <LB_Login>Логин</LB_Login>
+    <LB_Password>Пароль</LB_Password>
+    <LB_Password2>Повторите пароль</LB_Password2>
+    <LB_CloudUsername>Логин/Электронная почта</LB_CloudUsername>
+    <LB_CloudPassword>Password</LB_CloudPassword>
+    <LNK_Claim_Purchased_Keys>Посмотреть Лицензию On-Line</LNK_Claim_Purchased_Keys>
+    <LNK_Autoregister>Регистрировать Автоматически</LNK_Autoregister>
+    <LNK_License_Logout>Выйти</LNK_License_Logout>
+    <FRM_MachineDefinition>Профиль Машины</FRM_MachineDefinition>
+    <CHK_Mach_Stick_To_RPM>Расчёты сводятся с оборотами из таблицы Кривой Мощности</CHK_Mach_Stick_To_RPM>
+    <CHK_Mach_Stick_To_RPM_tooltip>Включите если хотите чтоб скорость шпинделя всегда равнялась ближайшей скорости из таблицы Кривой Мощности</CHK_Mach_Stick_To_RPM_tooltip>
+    <GRP_Power_Curve>Кривая Мощности</GRP_Power_Curve>
+    <BTN_Power_Curve_Wizard>Мастер Кривой Мощности</BTN_Power_Curve_Wizard>
+    <BTN_Power_Curve_Wizard_tooltip>Запустить Мастер чтоб построить график Кривой Мощности</BTN_Power_Curve_Wizard_tooltip>
+    <LB_Mach_Notice>* Значения Об/мин должны быть в увеличивающемся порядке</LB_Mach_Notice>
+    <GRP_Machine_Info>Информация о Машине</GRP_Machine_Info>
+    <GRP_Select_Machine>Выбрать машину</GRP_Select_Machine>
+    <BTN_Add_Mach>Доб.</BTN_Add_Mach>
+    <BTN_Add_Mach_tooltip>Создать новый Профиль Машины</BTN_Add_Mach_tooltip>
+    <BTN_Remove_Mach>Удалить</BTN_Remove_Mach>
+    <BTN_Remove_Mach_tooltip>Удалить выбранный Профиль Машины</BTN_Remove_Mach_tooltip>
+    <BTN_clone_mach>Копи.</BTN_clone_mach>
+    <BTN_clone_mach_tooltip>Создать копию выбранного Профиля Машины</BTN_clone_mach_tooltip>
+    <BTN_Import_Mach>Импорт</BTN_Import_Mach>
+    <BTN_Import_Mach_tooltip>Импорт Профиль Машины из файла</BTN_Import_Mach_tooltip>
+    <BTN_Export_Mach>Экспорт</BTN_Export_Mach>
+    <BTN_Export_Mach_tooltip>Экспорт Профиль Машины из файла</BTN_Export_Mach_tooltip>
+    <BTN_Open>Открыть</BTN_Open>
+    <LB_Max_Tap_RPM>Об. Метчика</LB_Max_Tap_RPM>
+    <LB_Max_Tap_RPM_tooltip>Установите Максимальные обороты Метчика для вашей машины</LB_Max_Tap_RPM_tooltip>
+    <LB_Min_RPM_T>Мин Об Шпинд.</LB_Min_RPM_T>
+    <LB_Min_RPM_T_tooltip>Минимальные обороты Шпинделя</LB_Min_RPM_T_tooltip>
+    <LB_Name>Имя</LB_Name>
+    <LB_Warning_At_T>Предел %</LB_Warning_At_T>
+    <LB_Warning_At_T_tooltip>Предупредить когда Мощность или Крутящий момент превышает этот процент от максимального значения</LB_Warning_At_T_tooltip>
+    <CHK_Mach_Use_Curve>Использовать Кривую Мощности</CHK_Mach_Use_Curve>
+    <CHK_Mach_Use_Curve_tooltip>Включите чтоб динамично ограничивать мощность в зависимости от графика Кривой Мощности и оборотов Шпинделя</CHK_Mach_Use_Curve_tooltip>
+    <MiniCalc_Turn_Scallop>Калькулятор Токарной Чистоты Поверхности</MiniCalc_Turn_Scallop>
+    <LB_Surface_Roughness_T>Ra шероховатость поверхности</LB_Surface_Roughness_T>
+    <LB_Scallop_T>Шероховатость</LB_Scallop_T>
+    <LB_Feed_per_Rev>Подача на оборот</LB_Feed_per_Rev>
+    <MiniCalc_Interpolation>Круговая Интерполяция/Рампа</MiniCalc_Interpolation>
+    <MiniCalc_Scallop>Сферическая Фреза: Калькулятор Шероховатости Поверхности</MiniCalc_Scallop>
+    <LB_Scallop_DOC>Высота (Глубина)</LB_Scallop_DOC>
+    <LB_Stepover>Шаг</LB_Stepover>
+    <GRP_Interpolation_Params>Параметры внутренней интерполяции</GRP_Interpolation_Params>
+    <GRP_External_Interpolation_Params>Параметры внешней интерполяции</GRP_External_Interpolation_Params>
+    <GRP_Line_Ramping_Params>Параметры прямой рампы</GRP_Line_Ramping_Params>
+    <LB_LineRamp_FullSlot_Text>При погружении по зигзагу, предполагается контакт всего профиля фрезы с материалом</LB_LineRamp_FullSlot_Text>
+    <LB_Circular_Units_Converted_T>Все Система Измерения зависит от поля "Диаметр"</LB_Circular_Units_Converted_T>
+    <LB_Feature_Type>Тип погружения/рампы</LB_Feature_Type>
+    <LB_Pilot_Hole_Dia>Диаметр пилотного отверстия</LB_Pilot_Hole_Dia>
+    <LB_Stock_Dia_T>Диаметр заготовки</LB_Stock_Dia_T>
+    <LB_Fin_Hole_Dia>Диаметр отверстия</LB_Fin_Hole_Dia>
+    <LB_Fin_Boss_Dia>Диаметр выступа</LB_Fin_Boss_Dia>
+    <LB_Cutter_Dia_T>Диаметр фрезы</LB_Cutter_Dia_T>
+    <LB_With_of_Cut_T>Ширина резания рампы</LB_With_of_Cut_T>
+    <LB_Pass_Len>Длинна прохода</LB_Pass_Len>
+    <LB_Angle_T>Угол</LB_Angle_T>
+    <LB_Pitch_DOC>Шаг (Глубина Резания)</LB_Pitch_DOC>
+    <GRP_Helical_Params>Калькулятор угла рампы</GRP_Helical_Params>
+    <Radio_Ramp_Feed>Рамп-Фрезерование</Radio_Ramp_Feed>
+    <Radio_Ramp_Feed_tooltip>Настройки круговой интерполяции и рампы применяются к скорости подачи фрезерования.</Radio_Ramp_Feed_tooltip>
+    <Radio_Ramp_Plunge>Рамп-Погружение</Radio_Ramp_Plunge>
+    <Radio_Ramp_Plunge_tooltip>Настройки круговой интерполяции и рампы влияют только на скорость подачи погружения.</Radio_Ramp_Plunge_tooltip>
+    <LB_Pass_Length>Длинна Прохода</LB_Pass_Length>
+    <btn_CreatePR>Создать Форму Заказа Инструмента</btn_CreatePR>
+    <btn_Close>Закрыть</btn_Close>
+    <btn_ApplyToStock>Добавить Полученное в Инвентарь</btn_ApplyToStock>
+    <btn_Save_Request>Сохранить Заказ</btn_Save_Request>
+    <LB_SetOrderQty>Установите Число "Заказать":</LB_SetOrderQty>
+    <LB_SetOrderQtyMax>Макс в Наличии</LB_SetOrderQtyMax>
+    <LB_SetOrderQtyMin>Мин. в Наличии</LB_SetOrderQtyMin>
+    <LB_SetOrderQty0>Установить 0</LB_SetOrderQty0>
+    <PurchaseRequest_DLG>Форму Заказа Инструмента</PurchaseRequest_DLG>
+    <btn_PrintPR>Экспортировать Заказ Инструмента</btn_PrintPR>
+    <Edit_Tool_Info>Редактор Информации об Инструменте</Edit_Tool_Info>
+    <LB_Series_Name>Имя Модели</LB_Series_Name>
+    <LB_Brand_Name>Имя Производителя</LB_Brand_Name>
+    <LB_Insert_Name>Пластина</LB_Insert_Name>
+    <LB_Brand_Series>Польз. Таблица</LB_Brand_Series>
+    <LB_Additional_Tool_Info>Дополнительная Информация Инструмента</LB_Additional_Tool_Info>
+    <LB_Number_On_Hand>В Наличии</LB_Number_On_Hand>
+    <LB_Number_On_Hand_tooltip>Количество Инструмента В Наличии</LB_Number_On_Hand_tooltip>
+    <LB_Stock_Min>Мин. в Наличии</LB_Stock_Min>
+    <LB_Stock_Min_tooltip>Минимальное количество в наличии, которое вызывает оповещение</LB_Stock_Min_tooltip>
+    <LB_Stock_Opt>Оптимально в Наличии</LB_Stock_Opt>
+    <LB_Stock_Opt_tooltip>Достаточное Количество Инструмента</LB_Stock_Opt_tooltip>
+    <LB_Number_On_Order>Заказано</LB_Number_On_Order>
+    <LB_Number_On_Order_tooltip>Общее Количество Инструмента, которое сейчас заказано.</LB_Number_On_Order_tooltip>
+    <LB_Price>Цена</LB_Price>
+    <btn_Clear_Table />
+    <btn_Copy_Data>Копировать</btn_Copy_Data>
+    <btn_Paste_Data>Вставить</btn_Paste_Data>
+    <btn_Copy_Data_tooltip>Копировать Данные в Буфер Обмена</btn_Copy_Data_tooltip>
+    <btn_Paste_Data_tooltip>Вставить Данные из Буфера Обмена</btn_Paste_Data_tooltip>
+    <LB_ToOrder />
+    <btn_Add_ToOrder>Добавить в Заказ</btn_Add_ToOrder>
+    <LB_Tool_Supplier>Поставщик Инструмента</LB_Tool_Supplier>
+    <LB_Tool_Location>Нахождение (Шкаф-Ящик-Бин)</LB_Tool_Location>
+    <LB_Supplier_Part_ID>Номер Инструмента Поставщика</LB_Supplier_Part_ID>
+    <LB_Tool_Record_Type>Тип Записи</LB_Tool_Record_Type>
+    <CHK_Generic>Общий - редактируемая геометрия инструмента</CHK_Generic>
+    <TAB_Tool_Info>Информация Инструмента</TAB_Tool_Info>
+    <Tab_Speeds_and_Feeds>Скорости и Подачи</Tab_Speeds_and_Feeds>
+    <CHK_SF_Auto>Автоматические Скорости и Подачи</CHK_SF_Auto>
+    <CHK_SF_Custom>Пользовательские Скорости и Подачи</CHK_SF_Custom>
+    <LB_Chipload_T>Подача/Зуб</LB_Chipload_T>
+    <LB_Material_T>Материал</LB_Material_T>
+    <LB_SFM>SFM</LB_SFM>
+    <btn_Reset_SFM>Сброс</btn_Reset_SFM>
+    <CustomSpeedsFeeds>Польз. Таблицы</CustomSpeedsFeeds>
+    <LB_Custom_Tables>Польз. Таблицы</LB_Custom_Tables>
+    <LB_SAF_Message>Введите Имя Производителя и Имя Модели в Информацию об Инструменте</LB_SAF_Message>
+    <btn_Reset_IPT>Сброс</btn_Reset_IPT>
+    <BTN_Generate_Sizes>Создать Размеры</BTN_Generate_Sizes>
+    <btn_Reset_IPT_Table>Сброс</btn_Reset_IPT_Table>
+    <Edit_Cut_Info>Редактор Операции</Edit_Cut_Info>
+    <LB_Number>T#</LB_Number>
+    <LB_Offset_Length>L#</LB_Offset_Length>
+    <LB_Offset_Dia>D#</LB_Offset_Dia>
+    <LB_Additional_OP_Info>Доп. Информация Параметров</LB_Additional_OP_Info>
+    <LB_Holder>Патрон</LB_Holder>
+    <Tab_Tool_Geometry>Геометрия Инструмента</Tab_Tool_Geometry>
+    <btn_HSMA_Cloud_Login>Логин в HSMAdvisor Облако</btn_HSMA_Cloud_Login>
+    <GRP_Cloud_Service>HSMAdvisor Облачный Сервис</GRP_Cloud_Service>
+    <BTN_Upload_Machine>Отправить</BTN_Upload_Machine>
+    <BTN_Upload_Machine_tooltip>Отправить Машину в Облако</BTN_Upload_Machine_tooltip>
+    <BTN_Download_Machine>Загрузить</BTN_Download_Machine>
+    <BTN_Download_Machine_tooltip>Загрузить Машину из Облака</BTN_Download_Machine_tooltip>
+    <CHK_Private_Machine>Личная Машина</CHK_Private_Machine>
+    <CHK_Private_Machine_tooltip>Отметьте машину как частную чтобы не позволять другим пользователям загружать её</CHK_Private_Machine_tooltip>
+    <LB_Register_About_Cloud>Зарегистрируйтесь на Облаке HSMAdvisor  чтоб получить доступ к Профилям Машин и Облаку Параметров Резания</LB_Register_About_Cloud>
+    <LB_Reset_About_Cloud>Вы успешно вошли в свою учетную запись, используя временный пароль. В целях безопасности необходимо, чтобы вы сменили этот временный пароль на новый по вашему выбору. Пожалуйста, укажите ваш новый пароль ниже.</LB_Reset_About_Cloud>
+    <LB_Remind_About_Cloud>Для сброса пароля и восстановления доступа к вашей учетной записи, пожалуйста, укажите адрес электронной почты, связанный с вашей учетной записью. Мы отправим временный пароль на этот адрес электронной почты.</LB_Remind_About_Cloud>
+    <CutCloudFeedback>Добавить в Облако Параметров Резания</CutCloudFeedback>
+    <EXP_OptionsAbout>Options/About</EXP_OptionsAbout>
+    <CHK_CutCloudF_Save_Params>Save Feedback Parameters in the Cut</CHK_CutCloudF_Save_Params>
+    <LB_CutCloudAbout>Send feedback about your experience cutting in the curent conditions with this tool.
+Good or Bad - let everybody know how did it go!</LB_CutCloudAbout>
+    <LB_Op_Comment>Комментарий Операции</LB_Op_Comment>
+    <LB_Op_Rating>Rate This Cut</LB_Op_Rating>
+    <LB_Coolant>Coolant</LB_Coolant>
+    <btn_Send>Send</btn_Send>
+    <AddToolToolStripMenuItem>Добавить Инструмент</AddToolToolStripMenuItem>
+    <EditToolInfoToolStripMenuItem>Ред. Информацию о Резце</EditToolInfoToolStripMenuItem>
+    <EditToolDataToolStripMenuItem>Ред. Геометрию Инструмента</EditToolDataToolStripMenuItem>
+    <DeleteToolToolStripMenuItem>Удалить Инструмент</DeleteToolToolStripMenuItem>
+    <SaveToolToolStripMenuItem>Сохранить Инструмент</SaveToolToolStripMenuItem>
+    <OpenToolDatabaseToolStripMenuItem>Загрузить Базу Данных</OpenToolDatabaseToolStripMenuItem>
+    <CreateNewToolLibrary>Создать Новую Библиотеку ...</CreateNewToolLibrary>
+    <ImportStripMenuItem>Импорт</ImportStripMenuItem>
+    <ExportToolStripMenuItem>Экспорт</ExportToolStripMenuItem>
+    <ExportAsXmlFileToolStripMenuItem>Экспорт в XML файл</ExportAsXmlFileToolStripMenuItem>
+    <ImportFromXMLFileToolStripMenuItem>Импорт из XML файла</ImportFromXMLFileToolStripMenuItem>
+    <LoadToolStripMenuItem>Загрузить</LoadToolStripMenuItem>
+    <ViewInformationToolStripMenuItem>Ред. Информацию</ViewInformationToolStripMenuItem>
+    <CopyToolToAnotherLibraryToolStripMenuItem>Копировать в...</CopyToolToAnotherLibraryToolStripMenuItem>
+    <MoveToolToAnotherLibraryToolStripMenuItem>Переместить в...</MoveToolToAnotherLibraryToolStripMenuItem>
+    <DeleteCutInfoToolStripMenuItem>Удалить</DeleteCutInfoToolStripMenuItem>
+    <ToolWizardsToolStripMenuItem>Массовый Редактор</ToolWizardsToolStripMenuItem>
+    <ResetSFOverridesToolStripMenuItem>Сбросить Настройки Скорости и Подачи</ResetSFOverridesToolStripMenuItem>
+    <ResetCutDataToolStripMenuItem>Сбросить Параметры Резания</ResetCutDataToolStripMenuItem>
+    <SetMachineToolStripMenuItem>Установить Машину</SetMachineToolStripMenuItem>
+    <SetHolderToolStripMenuItem>Установить Патрон</SetHolderToolStripMenuItem>
+    <SetCommentToolStripMenuItem>Установить Комментарий</SetCommentToolStripMenuItem>
+    <SetBrandNameToolStripMenuItem>Установить Имя Производителя</SetBrandNameToolStripMenuItem>
+    <SetSeriesNameToolStripMenuItem>Установить Имя Модели</SetSeriesNameToolStripMenuItem>
+    <SetSupplierToolStripMenuItem>Установить Имя Поставщика</SetSupplierToolStripMenuItem>
+    <SetSupplierPartNumberToolStripMenuItem>Установить Номер Продукта</SetSupplierPartNumberToolStripMenuItem>
+    <RenameToolLibraryToolStripMenuItem>Переименовать Библиотеку</RenameToolLibraryToolStripMenuItem>
+    <MergeToolLibrariesToolStripMenuItem>Объединить Библиотеку с другой...</MergeToolLibrariesToolStripMenuItem>
+    <InsertBatchToolListToolStripMenuItem>Вставить лист Инструментов</InsertBatchToolListToolStripMenuItem>
+    <DeleteCurrentToolLibraryToolStripMenuItem>Удалить Библиотеку</DeleteCurrentToolLibraryToolStripMenuItem>
+    <AddCutToolStripMenuItem>Добавить Параметры Резания</AddCutToolStripMenuItem>
+    <CutInfoToolStripMenuItem>Ред. Информацию о параметрах</CutInfoToolStripMenuItem>
+    <DeleteCutToolStripMenuItem>Удалить Параметры Резания</DeleteCutToolStripMenuItem>
+    <SaveCutToolStripMenuItem>Сохранить Параметры Резания</SaveCutToolStripMenuItem>
+    <ToolStripMenuItem11>Экспорт</ToolStripMenuItem11>
+    <DeletePluginToolStripMenuItem>Удалить WEB Страницу</DeletePluginToolStripMenuItem>
+    <CloseTabToolStripMenuItem>Закрыть Вкладку</CloseTabToolStripMenuItem>
+    <SavePageOnDiskToolStripMenuItem>Сохранить Страницу</SavePageOnDiskToolStripMenuItem>
+    <radio_Circle_Internal>Внутренняя спираль (отверстие)</radio_Circle_Internal>
+    <radio_Circle_External>Внешняя спираль (выступ)</radio_Circle_External>
+    <LB_Cutting_Speed_T>Скорость Резания</LB_Cutting_Speed_T>
+    <CHK_Expand_All>Открыть Все Инструменты</CHK_Expand_All>
+    <LB_Operation>Операция</LB_Operation>
+    <LB_Surface_Finish>Чистота</LB_Surface_Finish>
+    <LB_Tool_Life>Стойкость</LB_Tool_Life>
+    <LB_Units_T>Единицы</LB_Units_T>
+    <LB_Comment>Коммент.</LB_Comment>
+    <LB_Show_Tree_ToolTip>Показать/Спрятать Дерево Содержимого Базы Данных Инструментов</LB_Show_Tree_ToolTip>
+    <txt_data_help_label_Head>Данные о резке</txt_data_help_label_Head>
+    <txt_data_help_label_Body>Используйте кнопку "Печать текущей вкладки" на нижней строке состояния, чтобы напечатать документ отчета о расчете.</txt_data_help_label_Body>
+    <LB_Feed_PC_T_Head>Настройка Подачи</LB_Feed_PC_T_Head>
+    <LB_Feed_PC_T_Body>Программа сама решает лучшую подачу для выбранного инструмента и условий.
+Вы можете настроить желаемую скорость подачи в зависимости от ваших предпочтений
+● 30% - Чистовая / Очень лёгкая черновая
+● 50% - Полу-Чистовая / Лёгкая черновая
+● 100% - Обычная Черновая
+● 150% - Тяжёлая черновая: Будьте осторожны
+● 200% - Очень Тяжёлая черновая: Будьте Очень Осторожны</LB_Feed_PC_T_Body>
+    <LB_Max_Feed_T_Head>Максимальная скорость подачи</LB_Max_Feed_T_Head>
+    <LB_Max_Feed_T_Body>Если этот предел достигнут, скорость резания будет уменьшена чтоб сохранить расчетную подачу на зуб</LB_Max_Feed_T_Body>
+    <PB_Tool_Deflection_Slider_Head>Ограничитель Изгиба Фрезы</PB_Tool_Deflection_Slider_Head>
+    <PB_Tool_Deflection_Slider_Body>Позволяет ограничить изгиб фрезы
+Ограничивает подачу когда изгиб превышает установленное значение
+● 70% Безопасное значение по умолчанию (Можно поменять в Установки-&gt;По Умолчанию)
+● 100% Максимальный безопасный изгиб
+● 200% Максимально-допустимый расчётный изгиб
+Кликните чтоб сбросить по умолчанию</PB_Tool_Deflection_Slider_Body>
+    <PB_Tool_Torque_Slider_Head>Ограничитель Крутящего момента Фрезы/сверла</PB_Tool_Torque_Slider_Head>
+    <PB_Tool_Torque_Slider_Body>Позволяет ограничить крутящий момент действующий на Фрезу/сверло
+Ограничивает подачу когда крутящий момент превышает установленное значение
+● 70% Безопасное значение по умолчанию (Можно поменять в Установки-&gt;По Умолчанию)
+● 100% Максимальный безопасный момент
+● 200% Максимально-допустимый расчётный момент
+Кликните чтоб сбросить по умолчанию</PB_Tool_Torque_Slider_Body>
+    <PB_Machine_CuttingForce_Head>Сила резания</PB_Machine_CuttingForce_Head>
+    <PB_Machine_CuttingForce_Body>Отображает связь между силой резания инструмента и максимальной силой резания машины, установленной в профиле машины.</PB_Machine_CuttingForce_Body>
+    <LB_Max_RPM_T_Head>Максимальная Скорость Шпинделя</LB_Max_RPM_T_Head>
+    <LB_Max_RPM_T_Body>Максимальная Скорость Вращения Шпинделя для выбранной машины.
+Скорость подачи стола будет ограничена чтоб сохранить расчётное значение подачи на зуб.</LB_Max_RPM_T_Body>
+    <LB_Max_Power_T_Head>Максимальная Выходная мощность на Шпинделе</LB_Max_Power_T_Head>
+    <LB_Max_Power_T_Body>Максимальная Выходная мощность на Шпинделе для выбранной машины.
+Ограничивает нагрузку на шпиндель в пределах рабочей зоны.
+Скорость Вращения Шпинделя и скорость подачи стола будут ограничены чтобы держать расчётную мощность ниже этого значения</LB_Max_Power_T_Body>
+    <LB_Max_Torque_T_Head>Максимальный Выходной Крутящий Момент на Шпинделе</LB_Max_Torque_T_Head>
+    <LB_Max_Torque_T_Body>Максимальный Выходной Крутящий Момент на Шпинделе
+Ограничивает нагрузку на шпиндель в пределах рабочей зоны.
+Скорость подачи стола будет ограничена чтобы держать расчётный Крутящий Момент ниже этого значения</LB_Max_Torque_T_Body>
+    <LB_WOC_T_Head>Ширина Резания</LB_WOC_T_Head>
+    <LB_WOC_T_Body>Выбор маленькой ширины резания позволяет использовать Утончение Стружки и HSM обработку
+Кликните чтоб сбросить по умолчанию</LB_WOC_T_Body>
+    <LB_WOC_Threadmill_T_Head>Ширина Резания</LB_WOC_Threadmill_T_Head>
+    <LB_WOC_Threadmill_T_Body>Радиальная глубина резьбы за проход
+Кликните чтоб сбросить по умолчанию</LB_WOC_Threadmill_T_Body>
+    <LB_DOC_T_Head>Глубина Резания</LB_DOC_T_Head>
+    <LB_DOC_T_Body>Глубина Резания за проход
+Когда используются фрезы с большим радиусом кромки или маленьким углом атаки,
+можно добиться увеличения скорости подачи путём включения Утончения и/или HSM
+Кликните чтоб сбросить по умолчанию</LB_DOC_T_Body>
+    <LB_DOC_Threadmill_T_Head>Глубина Резания</LB_DOC_Threadmill_T_Head>
+    <LB_DOC_Threadmill_T_Body>Максимальная глубина резания за проход,
+Кликните чтоб сбросить по умолчанию</LB_DOC_Threadmill_T_Body>
+    <LB_DOC_GROOVE_T_Head>Ширина Резания</LB_DOC_GROOVE_T_Head>
+    <LB_DOC_GROOVE_T_Body>Ширина Резания за Проход</LB_DOC_GROOVE_T_Body>
+    <LB_Leadangle_T_Lead_Head>Угол наклона реж. кромки</LB_Leadangle_T_Lead_Head>
+    <LB_Leadangle_T_Lead_Body>Угол между режущей кромкой и плоскостью, перпендикулярной, оси вращения фрезы
+Типичные значения:
+● 90 - Обыкновенные пальчиковые цилиндрические фрезы
+● 45 - Типичный угол для торцевых фрез с пластинами
+● 5-30: Фрезы для работы с высокой подачей
+Меньшие углы при использовании Утончения дадут более высокую скорость подачи
+
+Кликните чтоб сбросить по умолчанию</LB_Leadangle_T_Lead_Body>
+    <LB_Leadangle_T_Taper_Head>Угол к Оси</LB_Leadangle_T_Taper_Head>
+    <LB_Leadangle_T_Taper_Body>Угол, образованный осью фрезы/сверла и главной режущей кромкой
+
+Кликните чтоб сбросить по умолчанию</LB_Leadangle_T_Taper_Body>
+    <LB_Leadangle_T_Tip_Head>Полный Угол (Угол При Вершине)</LB_Leadangle_T_Tip_Head>
+    <LB_Leadangle_T_Tip_Body>Удвоенный угол, образованный осью фрезы/сверла и главной режущей кромкой
+
+Кликните чтоб сбросить по умолчанию</LB_Leadangle_T_Tip_Body>
+    <PNL_MaxPerformance_Head>Максимальная Производительность</PNL_MaxPerformance_Head>
+    <PNL_MaxPerformance_Body>● Требует высоко-производительный инструмент, мощный патрон, стабильный зажим и мощную машину.
+● Рекомендуется Большая глубина резания
+● Глубина Резания не уменьшается при использовании фрез с большим вылетом.
+● Изгиб и Крутящий Момент будут только ограничены параметрами в "Ограничителях Нагрузки"
+
+Убедитесь в адекватности зажима заготовки и фрезы
+Убедитесь в правильности выбранных параметров в "Ограничителях Нагрузки"</PNL_MaxPerformance_Body>
+    <PNL_MinPerformance_Head>Минимальная Производительность</PNL_MinPerformance_Head>
+    <PNL_MinPerformance_Body>● Для случаев когда зажим Инструмента, заготовки или мощность машины не позволяют использовать Инструмент на полную мощность 
+● Рекомендуется для нестабильных ситуаций
+● Рекомендуемая Глубина Резания уменьшена чтобы полностью компенсировать вылет Инструмента
+● Когда Глубина Резания больше рекомендуемой, скорость подачи стола будет уменьшена до 50%
+
+Убедитесь в правильности выбранных параметров в "Ограничителях Нагрузки"</PNL_MinPerformance_Body>
+    <LB_Depth_T_Head>Глубина Отверстия</LB_Depth_T_Head>
+    <LB_Depth_T_Body>● Может потребоваться несколько проходов для сверления глубоких отверстий
+● Рекомендованная глубина прохода будет меняться в зависимости от глубины отверстия
+Кликните чтоб сбросить по умолчанию</LB_Depth_T_Body>
+    <LB_DRL_E_Dia_T_Head>Эффективный Диаметр</LB_DRL_E_Dia_T_Head>
+    <LB_DRL_E_Dia_T_Body> ● Эффективный Диаметр отверстия при выбранной глубине,</LB_DRL_E_Dia_T_Body>
+    <LB_Speed_PC_T_Head>Настройка Скорости Резания</LB_Speed_PC_T_Head>
+    <LB_Speed_PC_T_Body>Программа сама решает лучшую скорость резания для выбранного инструмента и условий.
+Вы можете настроить желаемую скорость резания в зависимости от ваших предпочтений
+● 30% - Очень Тяжёлая Черновая и/или нестабильный зажим
+● 50% - Тяжёлая Черновая и/или нестабильный зажим
+● 100% - Лёгкая Черновая и/или Полу-Чистовая при стабильном зажиме
+● 150% - Средняя Чистовая при стабильном зажиме
+● 200% - Лёгкая Чистовая при стабильном зажиме
+
+Кликните чтоб сбросить по умолчанию
+</LB_Speed_PC_T_Body>
+    <LB_TP_Major_Diameter_Head>Диаметр Резьбы</LB_TP_Major_Diameter_Head>
+    <LB_TP_Major_Diameter_Body>Наружный Диаметр резьбы
+Необходим чтоб рассчитать правильную контурную скорость</LB_TP_Major_Diameter_Body>
+    <LB_DOC_RAD_T_Head>Глубина Резания</LB_DOC_RAD_T_Head>
+    <LB_DOC_RAD_T_Body>Для Профильного точения: Глубина Прохода
+Для Канавок: Ширина Прохода
+
+Кликните чтоб сбросить по умолчанию</LB_DOC_RAD_T_Body>
+    <LB_Len_T_Head>Вылет Инструмента</LB_Len_T_Head>
+    <LB_Len_T_Body>Расстояние от торца Фрезы/Сверла до патрона
+Для интегрированных фрез используйте расстояние до шпинделя
+Кликните чтоб сбросить по умолчанию</LB_Len_T_Body>
+    <LB_Corner_Rad_T_Head>Радиус Кромки</LB_Corner_Rad_T_Head>
+    <LB_Corner_Rad_T_Body>Радиус Округления Режущей Кромки
+
+Кликните чтоб сбросить по умолчанию</LB_Corner_Rad_T_Body>
+    <BT_MyCut_Tool_More_Head>Операции с Инструментом</BT_MyCut_Tool_More_Head>
+    <BT_MyCut_Tool_More_Body>Записи Инструментов хранят всю информацию кроме Машины и Материала Заготовки
+Добавить Инструмент - Новый Инструмент может быть добавлен после выбора Первую Строку в выпадающем списке
+Редактировать Информацию Инструмента - Редактировать наименование и рекомендации производителя, а также инвентаризацию.
+Редактировать Геометрию Инструмента - Позволяет редактировать поля с геометрией Инструмента
+Удалить Инструмент - Удалить выбранный Инструмент из Базы Инструментов
+Сохранить Инструмент - Сохранить изменения в геометрии Инструмента
+
+Чтоб поменять геометрию или тип Инструмента выберите Первую Строку из выпадающего списка, либо кликните "Сбросить"</BT_MyCut_Tool_More_Body>
+    <BT_myCut_Cut_More_Head>Операции с Параметрами Резания</BT_myCut_Cut_More_Head>
+    <BT_myCut_Cut_More_Body>Записи с Параметрами Резания содержат данные для всех полей, кроме геометрии инструмента
+Добавить Параметры - Добавить новую запись с Параметры к выбранному инструменту
+Редактировать Параметры - Редактировать информацию выбранной Записи Параметров
+Удалить Параметры - Удалить выбранную Запись Параметров из библиотеки
+Сохранить Параметры - Сохранить изменения, сделанные в выбранной Записи Параметров
+
+Записи с Параметрами Резания содержит такую информацию, как материал заготовки, глубины и ширины реза, а также скорость, подача и продуктивность.
+Каждый инструмент может содержать любое количество Записей Параметров Резания.</BT_myCut_Cut_More_Body>
+    <Input_Depth_Head />
+    <Input_Depth_Body />
+    <btn_check_Thinning_Head>Включить/Выключить Расчёт Утончения Стружки</btn_check_Thinning_Head>
+    <btn_check_Thinning_Body>Включите для принятия в расчёт осевого и радиального Утончения Стружки
+● Позволяет увеличить подачу стола и тем-самым компенсировать эффект Утончения Стружки при малой Ширине Резания и/или Глубине, меньшей, чем радиус кромки
+● Типичная Ширина Резания для HSM фрезеровки: 6-12% или 30-40 градусов
+● Не рекомендуется при Чистовой обработке</btn_check_Thinning_Body>
+    <btn_Check_HSM_Head>Включить/Выключить HSM - Высоко-Скоростное Фрезерование</btn_Check_HSM_Head>
+    <btn_Check_HSM_Body>Включите для принятия в расчёт Утончения Стружки при расчёте Скорости Резания
+● HSM - Высоко-Скоростное Фрезерование позволяет увеличить Скорость Резания при маленькой Ширине Резания
+● Типичная Ширина Резания для HSM фрезеровки: 6-12% или 30-40 градусов
+● Может быть использовано при Грубой (вместе в Утончением) и Чистовой обработке
+</btn_Check_HSM_Body>
+    <Panel_Tool_Manufacturer_Settings_Tip_Head>Настройки Производителя Инструмента</Panel_Tool_Manufacturer_Settings_Tip_Head>
+    <Panel_Tool_Manufacturer_Settings_Tip_Body>● Here you can adjust the most important parameters to match the manufacturer-recommended settings
+● Tool Max Об/мин is saved both with the Tool and the Cut
+● Cutting Speed and Chip load are material-dependent and saved with the Cut
+● Click to reset these fields to default
+</Panel_Tool_Manufacturer_Settings_Tip_Body>
+    <LB_Tool_Max_RPM_Head>Максимальная скорость Вращения, рекомендованная производителем</LB_Tool_Max_RPM_Head>
+    <LB_Tool_Max_RPM_Body>Используйте если производитель требует ограничить скорость вращения.
+Оставте значение пустым если не хотите использовать.
+
+Кликните чтоб установить ноль</LB_Tool_Max_RPM_Body>
+    <LB_Ideal_Chipload_T_Head>Подача на зуб, рекомендованная производителем Инструмента</LB_Ideal_Chipload_T_Head>
+    <LB_Ideal_Chipload_T_Body>Вы можете установить Подачу на Зуб, рекомендованную производителем Инструмента
+●Подачу на Зуб будет активна только для одной Записи Параметров
+
+Кликните чтоб сбросить по умолчанию</LB_Ideal_Chipload_T_Body>
+    <LB_Ideal_Speed_T_Head>Скорость Резания, рекомендованная производителем Инструмента</LB_Ideal_Speed_T_Head>
+    <LB_Ideal_Speed_T_Body>Вы можете установить Скорость Резания, рекомендованную производителем Инструмента
+● Скорость резания будет активна только для одной Записи Параметров
+
+Кликните чтоб сбросить по умолчанию</LB_Ideal_Speed_T_Body>
+    <BTN_Reset_all_Head>Сбросить всё по умолчанию</BTN_Reset_all_Head>
+    <BTN_Reset_all_Body>Все поля будут сброшены по умолчанию
+Выбранный Инструмент будет оставлен как есть
+Геометрия Инструмента будет сброшена по умолчанию
+Ограничители Инструмента Будут сброшены
+Настройка Скоростей и Подач будет сброшена</BTN_Reset_all_Body>
+    <BTN_More_Materials_Head>Таблица Соответствия Материалов</BTN_More_Materials_Head>
+    <BTN_More_Materials_Body>Открыть таблицу, чтоб найти замену материалу, не присутствующему в списке</BTN_More_Materials_Body>
+    <LB_Chipload_T_Head>Подача на Зуб / Подача на Оборот</LB_Chipload_T_Head>
+    <LB_Chipload_T_Body>Подача на Зуб: Подача на каждый Зуб на один Оборот вала Шпинделя
+Подача на Оборот: Подача на один Оборот вала Шпинделя
+● Выражается в миллиметрах или дюймах
+
+Кликните чтоб переключится между двумя режимами.</LB_Chipload_T_Body>
+    <LB_Speed_T_Head>Скорость Резания</LB_Speed_T_Head>
+    <LB_Speed_T_Body>Отображает рекомендованную скорость резания для выбранного Материала Заготовки и Инструмента
+
+Кликните чтоб сбросить по умолчанию</LB_Speed_T_Body>
+    <check_Slotting_Head>Паз / Карман</check_Slotting_Head>
+    <check_Slotting_Body>Используйте не только при обработке паза, но и в других случаях, когда возможна полная ширина резания
+
+Для Сферических Фрез:
+Включает расчёт Эффективного диаметра
+● Включите для обработки пологих участков (0-60 градусов)
+● Выключите для обработки стенок (60-90 градусов)</check_Slotting_Body>
+    <settings_keep_machine_id_Head>Удерживать Машину</settings_keep_machine_id_Head>
+    <settings_keep_machine_id_Body>Включите если хотите чтоб Машина не менялась при загрузке Инструментов из библиотеки</settings_keep_machine_id_Body>
+    <LB_Plunge_T_Head>Скорость подачи стола при Погружении</LB_Plunge_T_Head>
+    <LB_Plunge_T_Body>Теоретическая Скорость подачи стола при Погружении в зависимости от выбранных параметров Рампа/Ширины Резания
+● Пользуйтесь с осторожностью: Не каждая фреза способна на крутые углы погружения - согласуйте с производителем
+● Безопасный Угол Погружения для большинства цельных фрез: 3-5 градусов; Для фрез с сменными пластинами: 1.5-2 градуса
+● Кликните чтоб сбросить по умолчанию</LB_Plunge_T_Body>
+    <chck_Shared_Database_Head>Оптимизировать для Совместного Использования БД</chck_Shared_Database_Head>
+    <chck_Shared_Database_Body>Выберите Совместное Использование чтоб включить сжатие файла и оптимальный алгоритм записи для сетевых подключений.</chck_Shared_Database_Body>
+    <BTN_Set_DB_Location_Head>Открыть Базу Данных Инструмента</BTN_Set_DB_Location_Head>
+    <BTN_Set_DB_Location_Body>По умолчанию Базуа Данных Инструмента содержится по адресу:
+C:\User\UserName\AppData\Roaming\HSMAdvisor\user_tool_lib.tooldb.xml
+Можно выбрать другую базу данных "на лету"
+
+Если поместить файл базы данных на общем сетевом ресурсе, то ей может пользоваться множество клиентов одновременно.
+</BTN_Set_DB_Location_Body>
+    <BTN_SF_Status_Head>Источник Скоростей и Подач</BTN_SF_Status_Head>
+    <BTN_SF_Status_Body>● Желтая A
+Полностью автоматический результат
+● Зеленая M
+Результат расчитывается исходя из [Имя Производителя]/[Имя Серии] инструмента и выбранного материала заготовки
+● Зеленая/Желтая M
+Результат расчитывается исходя из [Имя Производителя]/[Имя Серии] инструмента и Группы выбранного материала заготовки
+
+Вы можете редактировать Пользовательские Скорости и Подачи</BTN_SF_Status_Body>
+    <btn_Load_Tool_Head>Загрузить Инструмент/Параметры</btn_Load_Tool_Head>
+    <btn_Load_Tool_Body>Загрузить Инструмент/Параметры из базы данных инструментов</btn_Load_Tool_Body>
+    <BTN_FSW_Edit_New_Tool_Head>Новый Инструмент (Ctrl+N)</BTN_FSW_Edit_New_Tool_Head>
+    <BTN_FSW_Edit_New_Tool_Body>Выгрузить инструмент, но сохранить всю его геометрию и информацию</BTN_FSW_Edit_New_Tool_Body>
+    <btn_FSW_Edit_Tool_Head>Редактировать Информацию об Инструменте (Ctrl+E)</btn_FSW_Edit_Tool_Head>
+    <btn_FSW_Edit_Tool_Body>Редактировать Информацию о Инструменте, Настраиваемые Скорости и Подачи, Информацию о Производителе и Заказе</btn_FSW_Edit_Tool_Body>
+    <btn_FSW_Add_Tool_Head>Добавить Инструмент (Ctrl+A)</btn_FSW_Add_Tool_Head>
+    <btn_FSW_Add_Tool_Body>Добавить этот Инструмент в базу данных HSMAdvisor</btn_FSW_Add_Tool_Body>
+    <btn_Add_Cut_Head>Добавить Параметры</btn_Add_Cut_Head>
+    <btn_Add_Cut_Body>Сохранить эти параметры резания в базе данных инструментов</btn_Add_Cut_Body>
+    <CMB_LIB_TOOL_Head>Выпадающий Список Инструмента</CMB_LIB_TOOL_Head>
+    <CMB_Cut_Head>Выпадающий Список Параметров Реза</CMB_Cut_Head>
+    <CMB_Cut_Body>Используйте для загрузки Параметров, прикреплённых к текущему инструменту
+Кликните Правой кнопкой мыши на раскрывающемся списке для выбора отображаемых элементов
+Выберите Первую строку, чтобы выгрузить текущий Параметр и создать новый</CMB_Cut_Body>
+    <LB_Settings_Lease_Period_T_Head>Период Плавающей Лицензии</LB_Settings_Lease_Period_T_Head>
+    <LB_Settings_Lease_Period_T_Body>Используйте только если вы приобрели плавающую лицензию.
+Установите количество времени, это место будет оставаться припаркованным на этом компьютере
+В это время ни один другой компьютер не сможет запросить это место.
+Более короткий Период парковки позволяет менять места чаще, но требует частых подключений к Интернету
+Более длинный Период парковки позволяет уменьшить число подключений к Интернету, но не позволяет частой смене места
+Внимание: пока место припарковано, невозможно поменять период парковки.</LB_Settings_Lease_Period_T_Body>
+    <PB_Machine_Power_Head>Мощность Шпинделя</PB_Machine_Power_Head>
+    <PB_Machine_Power_Body>Расчётная мощность шпинделя, необходимая для выбранной операции
+Выражена в Лошадиных Силах либо в киловатт/часах</PB_Machine_Power_Body>
+    <PB_Tool_Life_Head>Стойкость Инструмента</PB_Tool_Life_Head>
+    <PB_Tool_Life_Body>Расчётная разница времени жизни Инструмента между параметрами по умолчанию и текущими параметрами резания</PB_Tool_Life_Body>
+    <PB_Mrr_Head>MRR - Выборка Материала в Минуту</PB_Mrr_Head>
+    <PB_Mrr_Body>Значение Продуктивности Металлообработки
+Выражена в кубических дюймах, либо сантиметров выбранного материала в минуту</PB_Mrr_Body>
+    <PB_Tool_Deflection_Head>Расчётный Изгиб Фрезы</PB_Tool_Deflection_Head>
+    <PB_Tool_Deflection_Body>Изгиб зависит от вылета и нагрузки на фрезу,
+Рекомендуется держать изгиб до 0.001'' или 0.025mm при обычном фрезеровании (Без HSM и без Утончения)</PB_Tool_Deflection_Body>
+    <PB_Tool_Torque_Head>Расчётный Крутящий Момент, действующий на Фрезу</PB_Tool_Torque_Head>
+    <PB_Tool_Torque_Body>Крутящий Момент зависит от площади соприкосновения с заготовкой, подачи и обрабатываемого материала
+Выражен в процентах от теоретического безопасного момента на данную фрезу</PB_Tool_Torque_Body>
+    <LB_Feed_T_Head>Скорость подачи стола</LB_Feed_T_Head>
+    <LB_Feed_T_Body>Скорость движения Инструмента относительно заготовки
+Рассчитывается из Подачи на Зуб, Числа Зубьев и Скорости Вращения Шпинделя
+Выражается в дюймах или миллиметрах в минуту
+
+Кликните чтоб сбросить по умолчанию    </LB_Feed_T_Body>
+    <LB_RPM_T_Head>Скорость Вращения Шпинделя</LB_RPM_T_Head>
+    <LB_RPM_T_Body>Скорость Вращения Фрезы/Сверла или Заготовки
+Скорость выражается в Оборотах в Минуту и рассчитывается из Диаметра и Скорости Резания
+
+Кликните чтоб сбросить по умолчанию    </LB_RPM_T_Body>
+    <LB_Flute_Len_T_Head>Высота Режущей Части</LB_Flute_Len_T_Head>
+    <LB_Flute_Len_T_Body>Высота Режущей Части Фрезы или Сверла
+Кликните чтоб сбросить по умолчанию</LB_Flute_Len_T_Body>
+    <LB_Insert_Len_T_Head>Высота Режущей Части</LB_Insert_Len_T_Head>
+    <LB_Insert_Len_T_Body>Высота Режущей Части Пластины
+Кликните чтоб сбросить по умолчанию    </LB_Insert_Len_T_Body>
+    <LB_Helix_T_Head>Угол Канавки</LB_Helix_T_Head>
+    <LB_Helix_T_Body>Угол между канавкой и осью фрезы/сверла
+Кликните чтоб сбросить по умолчанию    </LB_Helix_T_Body>
+    <LB_Shank_Dia_T_Head>Диаметр Хвостовика</LB_Shank_Dia_T_Head>
+    <LB_Shank_Dia_T_Body>Диаметр Хвостовика Фрезы или Сверла
+Кликните чтоб сбросить по умолчанию    </LB_Shank_Dia_T_Body>
+    <LB_HolderSize_T_Head>Размер Тела Инструмента</LB_HolderSize_T_Head>
+    <LB_HolderSize_T_Body>Большой Размер Инструмента позволяет большую глубину резания и высокую подачу
+Кликните чтоб сбросить по умолчанию</LB_HolderSize_T_Body>
+    <LB_N_Flutes_T_Head>Эффективное число Режущих Кромок</LB_N_Flutes_T_Head>
+    <LB_N_Flutes_T_Body>Эффективное число пересвистывающихся Режущих Кромок, Зубьев или Пластин</LB_N_Flutes_T_Body>
+    <LB_N_Starts_T_Head>Число Стартов Метчика</LB_N_Starts_T_Head>
+    <LB_N_Starts_T_Body>По умолчанию - 1</LB_N_Starts_T_Body>
+    <LB_N_Inserts_T_Head>Эффективное число Пластин</LB_N_Inserts_T_Head>
+    <LB_N_Inserts_T_Body>Некоторые Инструменты имею долее одной пластины, убирающей ту же самую область заготовки
+По умолчанию - 1</LB_N_Inserts_T_Body>
+    <LB_Tip_Dia_T_Head>Диаметр Фрезы/Сверла</LB_Tip_Dia_T_Head>
+    <LB_Tip_Dia_T_Body>Концевой диаметр фрезы или сверла
+</LB_Tip_Dia_T_Body>
+    <LB_Tool_Dia_T_Head />
+    <LB_Tool_Dia_T_Body />
+    <PB_Machine_Torque_Head>Крутящий Момент На Шпинделе</PB_Machine_Torque_Head>
+    <PB_Machine_Torque_Body>расчётный Крутящий Момент На Шпинделе, при выполнении операции
+Зависит от множества факторов вроде материала заготовки, геометрии Инструмента и глубины/ширины резания.
+
+Выражается в N-M или lb-ft</PB_Machine_Torque_Body>
+    <LB_RPM_Plunge_T_Head>Скорость Шпинделя при Погружении</LB_RPM_Plunge_T_Head>
+    <LB_RPM_Plunge_T_Body>Рекомендуемая скорость шпинделя в Об/мин при погружении на глубину резания</LB_RPM_Plunge_T_Body>
+    <LB_DRL_Peck_T_Head>Глубина за Проход</LB_DRL_Peck_T_Head>
+    <LB_DRL_Peck_T_Body>● Рекомендованная глубина за каждый проход сверла
+Кликните чтоб сбросить по умолчанию</LB_DRL_Peck_T_Body>
+    <LB_Turn_Dia_T_Head>Диаметр Точения</LB_Turn_Dia_T_Head>
+    <LB_Turn_Dia_T_Body>Диаметр Заготовки после прохода
+На самом деле для расчёта скорости используется диаметр До точения:
+Rough_Diameter = Finished_Turn_Diameter + DOC x 2</LB_Turn_Dia_T_Body>
+    <btn_HSMA_Cloud_Login_Head>Войти в сервис HSMAdvisor Cloud Service</btn_HSMA_Cloud_Login_Head>
+    <btn_HSMA_Cloud_Login_Body>HSMAdvisor Cloud Service позволяет пользователям обмениваться различной информацией</btn_HSMA_Cloud_Login_Body>
+    <LB_CutCloudRating_Head>Отправить в HSMAdvisor Облако</LB_CutCloudRating_Head>
+    <LB_CutCloudRating_Body>Кликните чтоб оценить выбранные Параметры и отправить их в Облако.\nПоделитесь своим опытом с другими и сделайте HSMAdvisor еще лучше!</LB_CutCloudRating_Body>
+    <LB_CloudCutsIndicator_Head>Открыть HSMAdvisor Облако</LB_CloudCutsIndicator_Head>
+    <LB_CloudCutsIndicator_Body>Кликните чтоб получить доступ к Параметрам, сохранённым в Облаке</LB_CloudCutsIndicator_Body>
+    <PIC_Cloud_Head>Статус облака резки в библиотеке инструментов</PIC_Cloud_Head>
+    <PIC_Cloud_Body>Инструменты в этой библиотеке синхронизированы с облаком HSMAdvisor.
+Перейдите к Действия-&gt;Библиотека инструментов-&gt;Флажок Синхронизация с облаком HSMAdvisor, чтобы включить или отключить синхронизацию.
+Изменения (удаления, обновления) инструментов в этой библиотеке распространяются на все устройства.
+Если вы хотите оставить инструмент офлайн, просто переместите его в библиотеку, которая не синхронизирована с облаком.</PIC_Cloud_Body>
+    <PIC_Cloud_Body_NotLogged>Эта библиотека инструментов синхронизирована с облаком, но вы в настоящее время не вошли в систему.
+Пожалуйста, щелкните на иконке облака в области панели инструментов, чтобы войти в систему.</PIC_Cloud_Body_NotLogged>
+    <PIC_Cloud_Toolbar_Head>Статус облака HSMAdvisor</PIC_Cloud_Toolbar_Head>
+    <PIC_Cloud_Toolbar_Body>В настоящее время вы вошли в систему в облако.
+Это позволяет вам загружать профили оборудования и синхронизировать свои библиотеки инструментов с облаком!</PIC_Cloud_Toolbar_Body>
+    <PIC_Cloud_Toolbar_Body_BadToken>Ваша сессия в облаке HSMAdvisor истекла, пожалуйста, выполните вход снова!</PIC_Cloud_Toolbar_Body_BadToken>
+    <PIC_Cloud_Toolbar_Body_NotLogged>В настоящее время вы не вошли в облако HSMAdvisor.
+Нельзя загружать профили оборудования или синхронизировать библиотеки инструментов до входа.
+Пожалуйста, нажмите на иконку облака, чтобы войти.</PIC_Cloud_Toolbar_Body_NotLogged>
+    <LB_Inventory_Red_Head>Обратите Внимание на Инвентарь</LB_Inventory_Red_Head>
+    <LB_Inventory_Red_Body>Следующие Инструменты заканчивается:
+{x}
+Кликните чтоб посмотреть все</LB_Inventory_Red_Body>
+    <LB_Inventory_Yellow_Head>Заказанный Инвентарь</LB_Inventory_Yellow_Head>
+    <LB_Inventory_Yellow_Body>Следующие Инструменты сейчас заказаны
+{x}
+Кликните чтоб посмотреть все</LB_Inventory_Yellow_Body>
+    <LB_Inventory_Green_Head>Инвентарь в Норме</LB_Inventory_Green_Head>
+    <LB_Inventory_Green_Body>Нет Заказанных Инструментов</LB_Inventory_Green_Body>
+    <LB_License_Description>Привет! Спасибо за интерес к HSMAdvisor
+Снизу можно увидеть сколько дней осталось в вашем пробном периоде.
+Пожалуйста кликните кнопку Купить/Ввести Код чтоб обзавестись лицензией.
+По всем вопросам обращайтесь по адресу: support@zero-divide.net</LB_License_Description>
+    <DGV_node_img>+</DGV_node_img>
+    <DGV_cuts>nC</DGV_cuts>
+    <DGV_node_text>nC</DGV_node_text>
+    <DGV_number>T#</DGV_number>
+    <DGV_child_text>T#</DGV_child_text>
+    <DGV_diameter>Размер</DGV_diameter>
+    <DGV_corner_rad>Рад. Кромки</DGV_corner_rad>
+    <DGV_flute_n>nZ</DGV_flute_n>
+    <DGV_flute_length>Высота рабочей части</DGV_flute_length>
+    <DGV_ToolImage>Иконка инструмента</DGV_ToolImage>
+    <DGV_name>Тип</DGV_name>
+    <DGV_material>Материал Инструмента/Заготовки</DGV_material>
+    <DGV_tool_material>Материал Инструмента</DGV_tool_material>
+    <DGV_work_material>Материал Заготовки</DGV_work_material>
+    <DGV_coating>Покрытие</DGV_coating>
+    <DGV_brand_name>Производитель</DGV_brand_name>
+    <DGV_series_name>Модель</DGV_series_name>
+    <DGV_supplier>Поставщик</DGV_supplier>
+    <DGV_supplier_pid>Номер Поставщика#</DGV_supplier_pid>
+    <DGV_comment>Коммент</DGV_comment>
+    <DGV_rpm>Об/мин</DGV_rpm>
+    <DGV_feed>Подача</DGV_feed>
+    <DGV_sfm_adj>S%</DGV_sfm_adj>
+    <DGV_ipt_adj>F%</DGV_ipt_adj>
+    <DGV_doc>Глубина</DGV_doc>
+    <DGV_woc>Ширина</DGV_woc>
+    <DGV_sfm />
+    <DGV_ipt />
+    <DGV_stickout>Вылет</DGV_stickout>
+    <DGV_shank_dia>Диам. Хвост</DGV_shank_dia>
+    <DGV_operation_type>Инструмент/Оп</DGV_operation_type>
+    <DGV_Operation>Операция</DGV_Operation>
+    <DGV_surface_finish>Чистота</DGV_surface_finish>
+    <DGV_tool_life>Стойкость</DGV_tool_life>
+    <DGV_tool_life_h />
+    <DGV_Rating>Рейтинг</DGV_Rating>
+    <DGV_machine>Машина</DGV_machine>
+    <DGV_holder>Патрон</DGV_holder>
+    <DGV_Mrr>Mrr</DGV_Mrr>
+    <DGV_Qty>В наличии</DGV_Qty>
+    <DGV_minQty>Мин. в наличии</DGV_minQty>
+    <DGV_maxQty>Макс в наличии</DGV_maxQty>
+    <DGV_onOrderQty>Заказано</DGV_onOrderQty>
+    <DGV_OrderQty>Заказать</DGV_OrderQty>
+    <DGV_Price>Цена</DGV_Price>
+    <DGV_Received>Получено</DGV_Received>
+    <DGV_Status>Статус</DGV_Status>
+    <DGV_CloudStatus>Облако</DGV_CloudStatus>
+    <DGV_Created_On>Создано</DGV_Created_On>
+    <DGV_Updated_On>Обновлено</DGV_Updated_On>
+    <DGV_CAMToolpathType>Операция CAM</DGV_CAMToolpathType>
+    <CMB_Text_1>Любой Тип Операции</CMB_Text_1>
+    <CMB_Text_2>Любая Чистота</CMB_Text_2>
+    <CMB_Text_3>Любая Стойкость</CMB_Text_3>
+    <CMB_Text_4>Все Типы Инструмента</CMB_Text_4>
+    <CMB_Text_5>Все Материалы Инструмента</CMB_Text_5>
+    <CMB_Text_6>Все Покрытия</CMB_Text_6>
+    <CMB_Text_7>Номер в Инструмента в Параметрах</CMB_Text_7>
+    <CMB_Text_8>Диаметр Заготовки (Точение)</CMB_Text_8>
+    <CMB_Text_9>Длинна/Вылет Инструмента</CMB_Text_9>
+    <CMB_Text_10>Материал Заготовки</CMB_Text_10>
+    <CMB_Text_11>Тип Операции</CMB_Text_11>
+    <CMB_Text_12>Глубина Резания</CMB_Text_12>
+    <CMB_Text_13>Ширина Резания</CMB_Text_13>
+    <CMB_Text_14>Чистота</CMB_Text_14>
+    <CMB_Text_15>Стойкость</CMB_Text_15>
+    <CMB_Text_16>Комментарий Параметра</CMB_Text_16>
+    <CMB_Text_17>Машина</CMB_Text_17>
+    <CMB_Text_18>Номер Инструмента</CMB_Text_18>
+    <CMB_Text_19>Число Зубьев/Пластин</CMB_Text_19>
+    <CMB_Text_20>Диаметр/Размер</CMB_Text_20>
+    <CMB_Text_21>Радиус Кромки</CMB_Text_21>
+    <CMB_Text_22>Длинна/Вылет Инструмента</CMB_Text_22>
+    <CMB_Text_23>Тип Инструмента (Длинное Описание)</CMB_Text_23>
+    <CMB_Text_24>Тип Инструмента (Короткое Описание)</CMB_Text_24>
+    <CMB_Text_25>Имя Производителя</CMB_Text_25>
+    <CMB_Text_26>Имя Модели</CMB_Text_26>
+    <CMB_Text_27>Материал Инструмента</CMB_Text_27>
+    <CMB_Text_28>Покрытие</CMB_Text_28>
+    <CMB_Text_29>Число Параметров</CMB_Text_29>
+    <CMB_Text_30>Комментарий Инструмента</CMB_Text_30>
+    <CMB_Text_31>Патрон</CMB_Text_31>
+    <SelectTool_DLG>Выберите Инструмент или Параметры</SelectTool_DLG>
+    <EXP_Tool_Filter>Библиотека:</EXP_Tool_Filter>
+    <ERR_Warning>Внимание:</ERR_Warning>
+    <ERR_Remedy>Рецепт:</ERR_Remedy>
+    <ERR_MaxRPM>Обороты Шпинделя были ограничены максимальными оборотами, выставленными в настройках машины</ERR_MaxRPM>
+    <ERR_MaxTapRPM>Обороты Шпинделя были ограничены максимальными оборотами метчика, выставленными в настройках машины</ERR_MaxTapRPM>
+    <ERR_Tap_Max_ToolRPM>Обороты Шпинделя были ограничены максимальными оборотами метчика, выставленными в настройках машины</ERR_Tap_Max_ToolRPM>
+    <ERR_Tap_ToolTorqueLimit>Максимальный Крутящий Момент Инструмента был превышен</ERR_Tap_ToolTorqueLimit>
+    <ERR_Tap_ToolTorqueLimit_Remedy>Подумайте об увеличении пилотного отверстия</ERR_Tap_ToolTorqueLimit_Remedy>
+    <ERR_Tap_PowerCurve_Power>Превышена Максимальная Мощность Машины: Скорость Резания была уменьшена</ERR_Tap_PowerCurve_Power>
+    <ERR_Tap_PowerCurve_Power_Remedy>Измените Скорость Резания или Подумайте об увеличении пилотного отверстия</ERR_Tap_PowerCurve_Power_Remedy>
+    <ERR_Tap_Machine_Power>Превышена Максимальная Мощность Машины: Скорость Резания была уменьшена</ERR_Tap_Machine_Power>
+    <ERR_Tap_Max_Torque>Превышена Максимальный Крутящий Момент Машины. Ничего не предпринято</ERR_Tap_Max_Torque>
+    <ERR_Tap_Max_Torque_Remedy>Подумайте об увеличении пилотного отверстия</ERR_Tap_Max_Torque_Remedy>
+    <ERR_Machine_Max_Feedrate>Максимальная скорость подачи стола Машины превышена: Скорость Шпинделя была уменьшена</ERR_Machine_Max_Feedrate>
+    <ERR_Machine_Max_Feedrate_Remedy>Рекомендуется снизить скорость резания, чтобы избежать затупления,</ERR_Machine_Max_Feedrate_Remedy>
+    <ERR_Machine_Max_Tap_RPM>Обороты были ограничены настройкой максимальных оборотов в минуту для резьбонарезания в профиле вашей машины.</ERR_Machine_Max_Tap_RPM>
+    <ERR_Machine_Max_Tap_RPM_Remedy />
+    <ERR_Tool_MaxRPM>Обороты Шпинделя были ограничены максимальными оборотами, выставленными в настройках Производителя Инструмента</ERR_Tool_MaxRPM>
+    <ERR_Tool_MaxRPM_Remedy />
+    <ERR_Tap_MinRPM>Обороты Шпинделя были ограничены минимальными оборотами, выставленными в настройках машины</ERR_Tap_MinRPM>
+    <ERR_Tap_MinRPM_Remedy>Используйте Метчики с Покрытиями, способные выдерживать большие скорости резания</ERR_Tap_MinRPM_Remedy>
+    <ERR_Tool_Length_PRM_Reduced>Обороты Шпинделя были ограничены длинной Инструмента</ERR_Tool_Length_PRM_Reduced>
+    <ERR_ThreadMill_MD_Required>Нужен Главный Диаметр Резьбы</ERR_ThreadMill_MD_Required>
+    <ERR_ThreadMill_MD_TooSmall>Главный Диаметр Резьбы слишком маленький</ERR_ThreadMill_MD_TooSmall>
+    <ERR_Tool_Deflection_Limit>Предел Изгиба Инструмента превышен, скорость подачи стола уменьшена чтоб предотвратить поломку Инструмента</ERR_Tool_Deflection_Limit>
+    <ERR_Tool_Deflection_Limit_Remedy>Уменьшите площадь резания</ERR_Tool_Deflection_Limit_Remedy>
+    <ERR_Tool_Torque_Limit>Максимальный Крутящий Момент Инструмента был превышен, скорость подачи стола уменьшена</ERR_Tool_Torque_Limit>
+    <ERR_Tool_Torque_Limit_Remedy>Уменьшите площадь резания</ERR_Tool_Torque_Limit_Remedy>
+    <ERR_DRL_Torque_Limit>Максимальный Крутящий Момент Инструмента был превышен, скорость подачи стола уменьшена</ERR_DRL_Torque_Limit>
+    <ERR_DRL_Torque_Limit_Remedy />
+    <ERR_Machine_PowerCurve_Limit>Превышена Мощность по Кривой Мощности Машины, скорость подачи стола уменьшена</ERR_Machine_PowerCurve_Limit>
+    <ERR_Machine_PowerCurve_Limit_Remedy>Измените Скорость Резания или Уменьшите площадь резания</ERR_Machine_PowerCurve_Limit_Remedy>
+    <ERR_Machine_DRL_PowerCurve_Limit_Remedy />
+    <ERR_Machine_Power_Limit>Превышена Мощность Машины, скорость подачи стола уменьшена</ERR_Machine_Power_Limit>
+    <ERR_Machine_Power_Limit_Remedy>Уменьшите площадь резания</ERR_Machine_Power_Limit_Remedy>
+    <ERR_Machine_DRL_Power_Limit_Remedy />
+    <ERR_Machine_Torque_Limit>Максимальный Крутящий Момент машины превышен, скорость подачи стола уменьшена</ERR_Machine_Torque_Limit>
+    <ERR_Machine_Torque_Limit_Remedy>Уменьшите площадь резания</ERR_Machine_Torque_Limit_Remedy>
+    <ERR_Machine_MinRPM_Limit>Обороты Шпинделя были ограничены минимальными оборотами, выставленными в настройках машины</ERR_Machine_MinRPM_Limit>
+    <ERR_Machine_MinRPM_Limit_Remedy>Используйте Твердосплавные Инструменты и Покрытия, способные выдерживать большие скорости резания</ERR_Machine_MinRPM_Limit_Remedy>
+    <ERR_Machine_Max_Force_Limit>Превышена максимальная сила резания машины, скорость подачи была снижена.</ERR_Machine_Max_Force_Limit>
+    <ERR_Machine_Max_Force_Limit_Remedy>Уменьшите взаимодействие режущего инструмента с заготовкой.</ERR_Machine_Max_Force_Limit_Remedy>
+    <ERR_PasswordsNoMatch>Два введённых пароля не совпадают</ERR_PasswordsNoMatch>
+    <ERR_PasswordTooShort>Пожалуйста введите пароль</ERR_PasswordTooShort>
+    <ERR_LoginTooShort>Пожалуйста введите логин</ERR_LoginTooShort>
+    <ERR_EmailTooShort>Пожалуйста введите email	</ERR_EmailTooShort>
+    <LNG_Feed_rev>Подача/об</LNG_Feed_rev>
+    <LNG_Power>Мощность</LNG_Power>
+    <LNG_Torque>Крут. Момент</LNG_Torque>
+    <LNG_Power_Curve>Кривая Мощности</LNG_Power_Curve>
+    <LNG_coated> покрытие</LNG_coated>
+    <LNG_Tool_Usage>Использование Инструмента</LNG_Tool_Usage>
+    <LNG_edit_new_tool>Редактируем Новый Инструмент</LNG_edit_new_tool>
+    <LNG_Generic_Size>Общий</LNG_Generic_Size>
+    <LNG_Hello>Привет!</LNG_Hello>
+    <LNG_License_Message>Сообщение Лицензии</LNG_License_Message>
+    <LNG_days_left> дней осталось</LNG_days_left>
+    <LNG_Expired>Просрочена</LNG_Expired>
+    <LNG_Busy>Занята</LNG_Busy>
+    <LNG_Trial>Пробная</LNG_Trial>
+    <LNG_Permanent>Постоянная</LNG_Permanent>
+    <LNG_Floating>Плавающая</LNG_Floating>
+    <LNG_Active>Рабочая</LNG_Active>
+    <LNG_Fatal_Error>Критическая Ошибка</LNG_Fatal_Error>
+    <LNG_Error>Ошибка</LNG_Error>
+    <LNG_PleaseEnterField>Пожалуйста, введите {1}.</LNG_PleaseEnterField>
+    <LNG_ExceptionMessage>Произошла ошибка: {1}</LNG_ExceptionMessage>
+    <LNG_InvalidEntry>Недопустимое Значение</LNG_InvalidEntry>
+    <LNG_ResetToDefault>Сбросить по умолчанию</LNG_ResetToDefault>
+    <LNG_Add>Добавить</LNG_Add>
+    <LNG_Save>Сохранить</LNG_Save>
+    <LNG_Delete>Удалить</LNG_Delete>
+    <LNG_Cancel>Отмена</LNG_Cancel>
+    <LNG_OK>OK</LNG_OK>
+    <LNG_TextTooLong>Слишком Длинный Текст: Максимум {1} символов</LNG_TextTooLong>
+    <LNG_Recommended_Peck>Рек, Глубина Прохода:</LNG_Recommended_Peck>
+    <LNG_Breakthough_Amount>Высота Кромки: </LNG_Breakthough_Amount>
+    <LNG_Pilot_Hole_Dia>Рек. Диаметр Сверла:</LNG_Pilot_Hole_Dia>
+    <LNG_Not_Required>(Необязательно)</LNG_Not_Required>
+    <LNG_Material>Материал</LNG_Material>
+    <LNG_Tool>Инструмент</LNG_Tool>
+    <LNG_Chip_Thickness>Толщина Стружки</LNG_Chip_Thickness>
+    <LNG_Reference_Chipload>Исходная Подача/зуб</LNG_Reference_Chipload>
+    <LNG_Engagement>Площадь Резания</LNG_Engagement>
+    <LNG_DOC>Глубина Резания </LNG_DOC>
+    <LNG_WOC>Ширина Резания </LNG_WOC>
+    <LNG_MRR>MRR</LNG_MRR>
+    <LNG_Max_Torque>Макс Момент</LNG_Max_Torque>
+    <LNG_Cutting_Force>Сила Резания</LNG_Cutting_Force>
+    <LNG_Deflection>Изгиб</LNG_Deflection>
+    <LNG_Max_Deflection>Макс Изгиб</LNG_Max_Deflection>
+    <LNG_Effective_Dia>Эффективный Диам.</LNG_Effective_Dia>
+    <LNG_Cross_Section>Площадь Резания</LNG_Cross_Section>
+    <LNG_Library>Библиотека</LNG_Library>
+    <LNG_Allowance>Допуск</LNG_Allowance>
+    <LNG_major_dia>Наружный Диаметр</LNG_major_dia>
+    <LNG_pitch_dia>Pitch Dia</LNG_pitch_dia>
+    <LNG_minor_dia_max>Внутренний Диам.</LNG_minor_dia_max>
+    <LNG_Height>Высота</LNG_Height>
+    <LNG_connecting_to_server>Connecting to Server...</LNG_connecting_to_server>
+    <LNG_connection_error>Ошибка Соединения с Сервером</LNG_connection_error>
+    <LNG_connection_complete>Connection Complete</LNG_connection_complete>
+    <LNG_search_returned_nothing>Search returned Empty results</LNG_search_returned_nothing>
+    <LNG_search_too_restricted>Make search parameters less restrictive</LNG_search_too_restricted>
+    <LNG_search_ok>Search Successful</LNG_search_ok>
+    <LNG_LeadAngle>Угол наклона реж. кромки</LNG_LeadAngle>
+    <LNG_TipAngle>Полный Угол</LNG_TipAngle>
+    <LNG_TaperAngle>Угол к Оси</LNG_TaperAngle>
+    <LNG_Edit_New_Cut>Работаем с Новыми Параметрами</LNG_Edit_New_Cut>
+    <LNG_No_Tool_Selected>Инструмент Не Выбран</LNG_No_Tool_Selected>
+    <LNG_Crossfeed_Amount>Расстояние подачи</LNG_Crossfeed_Amount>
+    <LNG_ToolSyncedWithCloud>Инструмент '{1}' синхронизирован с облаком</LNG_ToolSyncedWithCloud>
+    <LNG_TXT_License_Help_BOX_Trial_Active>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;"&gt;
+&lt;h3 style="text-align: center;"&gt;Это 30-дневная пробная версия {pname}&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;Эта пробная версия не имеет функциональных ограничений и работает так же, как любая неограниченная лицензированная версия.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;После окончания пробного периода...&lt;/h4&gt;
+&lt;p&gt;Вы будете ограничены только одним материалом для работы.&lt;/p&gt;
+&lt;p&gt;Вся остальная функциональность продолжит работать:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Калькуляторы геометрии и вкладки справки&lt;/li&gt;
+&lt;li&gt;Вкладка базы данных инструментов&lt;/li&gt;
+&lt;li&gt;Вкладка справочника резьб&lt;/li&gt;
+&lt;li&gt;Вкладка скоростей и подач с одним доступным материалом.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Пожалуйста, приобретите лицензию, чтобы разблокировать все функции!&lt;/h4&gt;
+&lt;h4&gt;Если у вас есть доступ к Интернету, просто...&lt;/h4&gt;
+&lt;p&gt;Нажмите на &lt;span style="color: #3366ff;"&gt;&lt;a style="color: #3366ff;" title="Открыть интернет-магазин" href="https://hsmadvisor.com/buy?CPUID={CPUID}" target="_blank"&gt;Купить лицензию&lt;/a&gt;&lt;/span&gt; ссылку сейчас.&lt;/p&gt;
+&lt;p&gt;Затем в новом окне выберите ваш лицензионный вариант и перейдите к оформлению заказа.&lt;br /&gt;Обработка платежа происходит автоматически и мгновенно. Вы сможете снова работать в кратчайшие сроки!&lt;/p&gt;
+&lt;p&gt;У нас есть много лицензионных вариантов, подходящих для любого размера мастерской.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Если этот компьютер НЕ подключен к Интернету, то...&lt;/h4&gt;
+&lt;p&gt;Запишите ключ идентификатора вашего компьютера на листе бумаги.&lt;br /&gt;Затем перейдите на https://hsmadvisor.com/buy/, введите ваши учетные данные и перейдите к оформлению заказа.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Обратите внимание, что...&lt;/h4&gt;
+&lt;p&gt;Плавающая лицензия требует подключения к Интернету как минимум раз в 30 дней, но вы можете использовать её на любом количестве ваших компьютеров.&lt;/p&gt;
+&lt;p&gt;Постоянная лицензия может работать полностью офлайн, но привязана к этому конкретному компьютеру по его "идентификатору компьютера".&lt;br /&gt;Чтобы получить правильный лицензионный ключ, вам нужно установить {pname} на компьютер, для которого вы покупаете лицензионный ключ.&lt;/p&gt;
+&lt;p&gt;После обработки платежа вы получите электронное письмо с вашим лицензионным ключом и лицензионной информацией.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Также...&lt;/h4&gt;
+&lt;p&gt;Если вы уже приобрели лицензию и хотите зарегистрировать этот компьютер, пожалуйста, используйте ссылку &lt;span style="color: #3366ff;"&gt;Зарегистрировать автоматически&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Вы также можете зарегистрировать ваши компьютеры, используя веб-браузер. Для этого нажмите ссылку &lt;span style="color: #3366ff;"&gt;Посмотреть мою лицензию онлайн&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;В случае любых затруднений, пожалуйста, сообщите нам по электронной почте: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Пожалуйста, прочитайте здесь о различных вариантах лицензирования: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;Варианты лицензирования HSMAdvisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Trial_Active>
+    <LNG_TXT_License_Help_BOX_Trial_Expired>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;"&gt;
+&lt;h3 style="text-align: center;"&gt;Ваш 30-дневный пробный период истек&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;До приобретения лицензии вы ограничены только &lt;span style="text-decoration: underline; color: #800000;"&gt;одним&lt;/span&gt; типом материала.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Если у вас есть доступ к Интернету, просто...&lt;/h4&gt;
+&lt;p&gt;Нажмите на &lt;span style="color: #3366ff;"&gt;&lt;a style="color: #3366ff;" title="Открыть интернет-магазин" href="https://hsmadvisor.com/buy?CPUID={CPUID}" target="_blank"&gt;Купить лицензию&lt;/a&gt;&lt;/span&gt; ссылку сейчас.&lt;/p&gt;
+&lt;p&gt;Затем в новом окне выберите ваш лицензионный вариант и перейдите к оформлению заказа.&lt;br /&gt;Обработка платежа происходит автоматически и мгновенно. Вы сможете снова работать в кратчайшие сроки!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Если этот компьютер НЕ подключен к Интернету, то...&lt;/h4&gt;
+&lt;p&gt;Запишите ключ идентификатора вашего компьютера на листе бумаги.&lt;br /&gt;Затем перейдите на https://hsmadvisor.com/buy/, введите ваши учетные данные и перейдите к оформлению заказа.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Обратите внимание, что...&lt;/h4&gt;
+&lt;p&gt;Плавающая лицензия требует подключения к Интернету как минимум раз в 30 дней, но вы можете использовать её на любом количестве ваших компьютеров.&lt;/p&gt;
+&lt;p&gt;Постоянная лицензия может работать полностью офлайн, но привязана к этому конкретному компьютеру по его "идентификатору компьютера".&lt;br /&gt;Чтобы получить правильный лицензионный ключ, вам нужно установить {pname} на компьютер, для которого вы покупаете лицензионный ключ.&lt;/p&gt;
+&lt;p&gt;После обработки платежа вы получите электронное письмо с вашим лицензионным ключом и лицензионной информацией.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Также...&lt;/h4&gt;
+&lt;p&gt;Если вы уже приобрели лицензию и хотите зарегистрировать этот компьютер, пожалуйста, используйте ссылку &lt;span style="color: #3366ff;"&gt;Зарегистрировать автоматически&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Вы также можете зарегистрировать ваши компьютеры, используя веб-браузер. Для этого нажмите ссылку &lt;span style="color: #3366ff;"&gt;Посмотреть мою лицензию онлайн&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;В случае любых затруднений, пожалуйста, сообщите нам по электронной почте: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Пожалуйста, прочитайте здесь о различных вариантах лицензирования: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;Варианты лицензирования HSMAdvisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Trial_Expired>
+    <LNG_TXT_License_Help_BOX_Floating_Active>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;"&gt;
+&lt;h3 style="text-align: center;"&gt;У вас активна плавающая лицензия&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;Этот тип лицензии позволяет использовать одно место &lt;strong&gt;{pname}&lt;/strong&gt; на нескольких компьютерах.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Некоторая информация о вашей плавающей лицензии...&lt;/h4&gt;
+&lt;p&gt;Имя: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Фамилия: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;Электронная почта: &lt;strong&gt;Скрыто&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Срок действия вашей подписки на плавающую лицензию истекает:&lt;strong&gt; {Licence_FloatingExpiresOn} ({Licence_FloatingTimeToExpire} осталось)&lt;br /&gt;&lt;/strong&gt;Место на этом компьютере зарезервировано еще на: &lt;strong&gt;{Licence_FloatingParkedFor}&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ваша лицензия имеет &lt;strong&gt;{Licence_UsedKeys} из&lt;/strong&gt; &lt;strong&gt;{Licence_MaxKeys}&lt;/strong&gt; мест, зарезервированных в данный момент.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Знаете ли вы, что...&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Период парковки плавающей лицензии&lt;/strong&gt; на странице настроек контролирует, как часто {pname} должен подключаться к Интернету и как долго место остается &lt;span style="text-decoration: underline;"&gt;зарезервированным&lt;/span&gt; на этом компьютере, и, следовательно, не может использоваться на другом компьютере.&lt;/p&gt;
+&lt;p&gt;Период парковки плавающей лицензии по умолчанию&lt;strong&gt; &lt;/strong&gt;составляет всего 10 минут. Это означает, что лицензию на одно место можно использовать на другом компьютере каждые 10 минут. Период парковки лицензии можно увеличить до 30 дней. Но в этом случае вы сможете перемещать место только раз в месяц.&lt;/p&gt;
+&lt;p&gt;Если вы случайно установили более длинный период парковки, чем нужно, и не можете использовать его на другом ПК, сообщите нам по электронной почте: &lt;a href="mailto:support@zero-divide.net"&gt;support@zero-divide.net&lt;/a&gt;, и мы исправим это для вас.&lt;/p&gt;
+&lt;p&gt;Если вы планируете использовать {pname} на нескольких компьютерах одновременно, пожалуйста, свяжитесь с нами по поводу покупки &lt;strong&gt;дополнительных мест&lt;/strong&gt;. Доступна значительная скидка на несколько мест.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Также...&lt;/h4&gt;
+&lt;p&gt;Если вы хотите использовать {pname} на другом компьютере, просто установите его там. Затем в окне активации лицензии введите ваше имя, фамилию и адрес электронной почты. Нажмите на ссылку &lt;span style="color: #3366ff;"&gt;Зарегистрировать автоматически&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Вы также можете просмотреть информацию о вашей лицензии онлайн. Для этого нажмите на ссылку &lt;span style="color: #3366ff;"&gt;Посмотреть мою лицензию онлайн&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;В случае любых затруднений, пожалуйста, сообщите нам по электронной почте: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Пожалуйста, прочитайте здесь о различных вариантах лицензирования: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;Варианты лицензирования HSMAdvisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Floating_Active>
+    <LNG_TXT_License_Help_BOX_Full_Active>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;"&gt;
+&lt;h3 style="text-align: center;"&gt;У вас постоянная лицензия&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;Этот тип лицензии никогда не истекает и не требует подключения к Интернету.&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Некоторая информация о вашей постоянной лицензии...&lt;/h4&gt;
+&lt;p&gt;Имя: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Фамилия: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;Лицензионный ключ: &lt;strong&gt;{U_Serial}&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Знаете ли вы, что...&lt;/h4&gt;
+&lt;p&gt;Постоянная лицензия не зависит от подключения к Интернету.&lt;br /&gt;Вместо этого она использует уникальный идентификатор компьютера для генерации лицензионного ключа. У каждого вашего компьютера свой идентификатор компьютера, и, следовательно, ему потребуется уникальный лицензионный ключ.&lt;/p&gt;
+&lt;p&gt;Если вы планируете использовать {pname} на других компьютерах, пожалуйста, свяжитесь с нами по поводу покупки &lt;strong&gt;дополнительных мест&lt;/strong&gt;. Доступна значительная скидка на несколько мест.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Также...&lt;/h4&gt;
+&lt;p&gt;Если вы хотите перенести вашу постоянную лицензию на другой компьютер, просто нажмите на ссылку &lt;span style="color: #3366ff;"&gt;Выйти&lt;/span&gt;. Это удалит вашу лицензию с текущего компьютера.&lt;br /&gt;Затем установите {pname} на новом компьютере и сообщите нам по электронной почте, что вы хотите перенести лицензию. (Отправьте нам также ваш старый идентификатор компьютера)&lt;/p&gt;
+&lt;p&gt;Мы уладим все с нашей стороны, и вы сможете зарегистрировать новый компьютер одним из следующих способов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Запустите окно активации лицензии, введите ваше имя, фамилию и нажмите на ссылку &lt;span style="color: #3366ff;"&gt;Зарегистрировать автоматически&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Вы также можете зарегистрировать ваш новый компьютер онлайн. Для этого нажмите на ссылку &lt;span style="color: #3366ff;"&gt;Посмотреть мою лицензию онлайн&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Или вы можете просто отправить нам по электронной почте ваш новый идентификатор компьютера, и мы вышлем вам новый лицензионный ключ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В случае любых затруднений, пожалуйста, сообщите нам по электронной почте: &lt;a href="mailto:support@zero-divide.net"&gt;support@zero-divide.net&lt;/a&gt;&lt;br /&gt;Пожалуйста, прочитайте здесь о различных вариантах лицензирования: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;Варианты лицензирования HSMAdvisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Full_Active>
+    <LNG_TXT_License_Help_BOX_Floating_Expired>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;"&gt;
+&lt;h3 style="text-align: center;"&gt;У вас ограниченная плавающая лицензия&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;{pname}&lt;/strong&gt; будет работать в ограниченном режиме, пока вы не &lt;a href="https://hsmadvisor.com/buy" target="_blank"&gt;обновите подписку&lt;/a&gt;&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Некоторая информация о вашей плавающей лицензии...&lt;/h4&gt;
+&lt;p&gt;Имя: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Фамилия: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;Электронная почта: &lt;strong&gt;Скрыто&lt;/strong&gt;&lt;br /&gt;Ограничение мощности: &lt;strong&gt;{License_MaxHP}&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Период действия вашей неограниченной плавающей лицензии истек:&lt;strong&gt; {Licence_FloatingExpiresOn}&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Знаете ли вы, что...&lt;/h4&gt;
+&lt;p&gt;Вы можете приобрести &lt;a href="https://hsmadvisor.com/buy?shell_id=233&amp;article_id=4441" target="_blank"&gt;неограниченную бессрочную плавающую лицензию&lt;/a&gt;, которая никогда не истечет и будет предоставлять вам поддержку и обновления на неограниченный срок.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Также...&lt;/h4&gt;
+&lt;p&gt;В случае любых трудностей или вопросов, пожалуйста, сообщите нам по электронной почте: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Пожалуйста, прочитайте здесь о различных вариантах лицензирования: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;Варианты лицензирования HSMAdvisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Floating_Expired>
+    <LNG_TXT_License_Help_BOX_Floating_Busy>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body style="font-size:14px;font-family: sans-serif;color: #080808;background-color: #fafafa;"&gt;
+&lt;h3 style="text-align: center;"&gt;Ваше место в плавающей лицензии занято&lt;/h3&gt;
+&lt;p style="text-align: center;"&gt;В данный момент это место используется на другом компьютере. Пожалуйста, закройте &lt;strong&gt;{pname}&lt;/strong&gt; на всех других компьютерах, чтобы зарегистрировать этот.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;{pname}&lt;/strong&gt; будет работать в режиме &lt;strong&gt;Trial&lt;/strong&gt;, пока место не освободится&lt;/p&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Некоторая информация о вашей плавающей лицензии...&lt;/h4&gt;
+&lt;p&gt;Имя: &lt;strong&gt;{U_First_Name}&lt;/strong&gt;&lt;br /&gt;Фамилия: &lt;strong&gt;{U_Last_Name}&lt;/strong&gt;&lt;br /&gt;Электронная почта: &lt;strong&gt;Скрыто&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Срок действия вашей подписки на плавающую лицензию истекает:&lt;strong&gt; {Licence_FloatingExpiresOn} &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Знаете ли вы, что...&lt;/h4&gt;
+&lt;p&gt;Вы можете приобрести дополнительные места и никогда больше не оказаться заблокированным. Пожалуйста, напишите нам по электронной почте для получения специальных цен на дополнительные места.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="margin: 10px; padding: 10px; background-color: #fff;"&gt;
+&lt;h4&gt;Также...&lt;/h4&gt;
+&lt;p&gt;В случае любых трудностей или вопросов, пожалуйста, сообщите нам по электронной почте: &lt;a href="mailto:support@zero-divide.net" target="_blank"&gt;support@zero-divide.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Пожалуйста, прочитайте здесь о различных вариантах лицензирования: &lt;a href="https://hsmadvisor.com/help?shell_id=241&amp;article_id=4417" target="_blank"&gt;Варианты лицензирования HSMAdvisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</LNG_TXT_License_Help_BOX_Floating_Busy>
+    <LNG_AddToolsToORder>Добавить Инструмент к Заказу</LNG_AddToolsToORder>
+    <LNG_AddToolsToORder_Prompt>Введите Число запрашиваемых инструментов в колонку '{x}' </LNG_AddToolsToORder_Prompt>
+    <LNG_ToolsOnOrder>Инструмент заказан</LNG_ToolsOnOrder>
+    <LNG_ToolsOnOrder_prompt>Введите Число полученных инструментов в колонку 'Получено'</LNG_ToolsOnOrder_prompt>
+    <LNG_RPM>Об/мин</LNG_RPM>
+    <LNG_CustomSFExist>Настройки скоростей и подач для этого типа инструмента, бренда и названия серии уже существуют!</LNG_CustomSFExist>
+    <LNG_Enter_Brand_And_Series>Введите Имя Производителя and Имя Модели в Информации об Инструменте</LNG_Enter_Brand_And_Series>
+    <DLG_PurchaseRequestPrompt>Настройте таблицу снизу на показ той информации, которая вам нужна и нажмите "Экспортировать Заказ Инструмента"</DLG_PurchaseRequestPrompt>
+    <DLG_Text1>Выберите Колонки, отображаемые в Таблице Инструментов</DLG_Text1>
+    <DLG_Title1>Выберите Колонки</DLG_Title1>
+    <DLG_Text2>Привет, Спасибо за опробование HSMAdvisor
+Ваш 30-и дневный Пробный Период начинается сейчас
+После того, как ваш Пробный Период закончится, вам нужно будет купить Лицензию, чтобы использовать все функции</DLG_Text2>
+    <DLG_Text3>Ваш 30-и дневный Пробный Период закончился
+Вам нужно будет купить Лицензию, чтобы использовать все функции</DLG_Text3>
+    <DLG_Text4>Внимание: ваш Пробный Период истекает в ближайшее время!</DLG_Text4>
+    <DLG_Text5>Failed to load one or more data tables
+Do you want to reload default settings?</DLG_Text5>
+    <DLG_Text6>Выберите колонки, видимые в выпадающем списке Сохранённых Параметров</DLG_Text6>
+    <DLG_Text7>Выберите колонки, видимые в выпадающем списке Инструментов</DLG_Text7>
+    <DLG_Text8>Сохранить всё и выйти?</DLG_Text8>
+    <DLG_Title8>Сохранить Профиль Машины</DLG_Title8>
+    <DLG_Text9>Введите новое Имя Машины</DLG_Text9>
+    <DLG_Title9>Имя</DLG_Title9>
+    <DLG_Text10>Вы точно хотите удалить этот Профиль Машины?
+Любые изменения могут быть отменены нажатием кнопки Отменить</DLG_Text10>
+    <DLG_Title10>Удалить Машину</DLG_Title10>
+    <DLG_Text11>Введите новое Имя Машины</DLG_Text11>
+    <DLG_Title11>Имя</DLG_Title11>
+    <DLG_Text12>Введите новое Имя Машины</DLG_Text12>
+    <DLG_Text13>Thank you for purchasing HSMAdvisor
+You can now continue your work</DLG_Text13>
+    <DLG_Title14>Экспорт Файла Базы Данных</DLG_Title14>
+    <DLG_Text14>Please select Tool Libraries You would like to Export</DLG_Text14>
+    <DLG_Title15>Импорт Файла Базы Данных</DLG_Title15>
+    <DLG_Text15>Выберите Библиотеки, которые вы хотите Импортировать</DLG_Text15>
+    <DLG_Title16>Имя</DLG_Title16>
+    <DLG_Text16>{1} уже присутствует в Базе Данных
+Пожалуйста введите другое Имя</DLG_Text16>
+    <DLG_Text176>Импорт прерван</DLG_Text176>
+    <DLG_Title17>Имя</DLG_Title17>
+    <DLG_Text17>Введите уникальное имя для новой Библиотеки Резцов</DLG_Text17>
+    <DLG_Title18>Создание Библиотеки</DLG_Title18>
+    <DLG_Text18>Библиотека {1} добавлена в Базу Данных</DLG_Text18>
+    <DLG_Text19>Невозможно создать Библиотеку.
+Библиотека с именем "{1}" уже присутствует в Базе Данных</DLG_Text19>
+    <DLG_Title20>Удалить Страницу?</DLG_Title20>
+    <DLG_Text20>Вы точно хотите удалить эту страницу?</DLG_Text20>
+    <DLG_Title21>Невозможно удалить несохраненную страницу</DLG_Title21>
+    <DLG_Text21>Можно Удалять только сохраненные страницы</DLG_Text21>
+    <DLG_Title22>Exiting Tool Geometry Edit mode</DLG_Title22>
+    <DLG_Text22>Save Changes to the tool?</DLG_Text22>
+    <DLG_Title23>Reset myCutDB Location to Default</DLG_Title23>
+    <DLG_Text23>myCutDB Location is already default
+Current default location is:</DLG_Text23>
+    <DLG_Title24>Nothing Selected</DLG_Title24>
+    <DLG_Text24>Please select Tools/Cuts which you want to alter</DLG_Text24>
+    <DLG_Title25>Confirm Delete Operation</DLG_Title25>
+    <DLG_Text25>Are you sure you want to delete selected Records?</DLG_Text25>
+    <DLG_Title26>Could not find Tool/Cut</DLG_Title26>
+    <DLG_Text26>Something is wrong. Can't find the referenced rows</DLG_Text26>
+    <DLG_Title27>Confirm Library delete</DLG_Title27>
+    <DLG_Text27>Are you sure you want to delete library</DLG_Text27>
+    <DLG_Title29>Name</DLG_Title29>
+    <DLG_Text29>Введите новое имя для</DLG_Text29>
+    <DLG_Title30>Ошибка переименования</DLG_Title30>
+    <DLG_Text30>Can not rename library</DLG_Text30>
+    <DLG_Text300>New name already exists in the Tool Data Base</DLG_Text300>
+    <DLG_Title31>Подтвердите Переименование Библиотеки</DLG_Title31>
+    <DLG_Text31>Are you sure you want to rename library</DLG_Text31>
+    <DLG_Title32>Объединить Библиотеки</DLG_Title32>
+    <DLG_Text32>Выберите Библиотеку, с которой хотите Объеденить</DLG_Text32>
+    <DLG_Title33>Введите Имя, отображаемое на Панели WEB Страниц</DLG_Title33>
+    <DLG_Text33>Имя</DLG_Text33>
+    <DLG_Title34>Ошибка</DLG_Title34>
+    <DLG_Text34>Невозможно сохранить Страницу</DLG_Text34>
+    <DLG_Title35>Неверное имя файла</DLG_Title35>
+    <DLG_Text35>Имя файла содержит запрещённые символы</DLG_Text35>
+    <DLG_Title36>Ошибка Проверки Плавающей Лицензии</DLG_Title36>
+    <DLG_Text36>Не получилось проверить вашу Плавающую Лицензию
+Попробовать еще раз?</DLG_Text36>
+    <DLG_Title37>Увеличить период парковки лицензии на этом компьютере?
+Внимание: пока место припарковано, невозможно поменять время парковки.
+</DLG_Title37>
+    <DLG_Text37>Вы точно хотите Увеличить период парковки лицензии на этом компьютере?
+You will not be able to request this seat on another computer until the License Parking Period expires</DLG_Text37>
+    <DLG_Title38>Внимание</DLG_Title38>
+    <DLG_Text38>The new License Parking Period will only apply after the current one expires
+Please contact Customer Support to release your seat if you need to transfer it and can not wait for it to expire</DLG_Text38>
+    <DLG_Title39>Последнее Обновление Установлено</DLG_Title39>
+    <DLG_Text39>Последнее Обновление Установлено
+Мы дадим вам знать когда появится более свежая версия</DLG_Text39>
+    <DLG_Title40>Доступно oбновление {1}!</DLG_Title40>
+    <DLG_Text40>Доступно Обновление!
+Кликните чтоб перейти на страницу с загрузками</DLG_Text40>
+    <DLG_Title41>Select Tool/Cut form the Database</DLG_Title41>
+    <DLG_Text41>Are you sure you want to delete this Cut from the library?</DLG_Text41>
+    <DLG_Title42>Ошибка записи Установок</DLG_Title42>
+    <DLG_Text42>Ошибка записи одного или более файлов</DLG_Text42>
+    <DLG_Text43>Не получилось записать файл Установок
+Убедитесь в том, что обладаете необходимыми правами записи</DLG_Text43>
+    <DLG_Title44>Ошибка Объединения</DLG_Title44>
+    <DLG_Text44>Can not merge libraries
+New name should not match the old one</DLG_Text44>
+    <DLG_Title45 />
+    <DLG_Text45>There is only ONE Library in the Tool Data Base
+Nothing to merge to</DLG_Text45>
+    <DLG_Title46>Результат Объединения</DLG_Title46>
+    <DLG_Text46>успешно объединена с</DLG_Text46>
+    <DLG_Title47>Could not Move Tools</DLG_Title47>
+    <DLG_Text47>Please select Tools which you want to Move first</DLG_Text47>
+    <DLG_Title48>Переместить инструмент в другую библиотеку</DLG_Title48>
+    <DLG_Text48>Chose the Library where you want to Move selected Tools</DLG_Text48>
+    <DLG_Title49>Could not Move Tool</DLG_Title49>
+    <DLG_Text49>Something is wrong. Can't find the row to move</DLG_Text49>
+    <DLG_Title50>Could not copy Tools</DLG_Title50>
+    <DLG_Text50>Please select Tools which you want to Copy first</DLG_Text50>
+    <DLG_Title51>Copy Tools To Library</DLG_Title51>
+    <DLG_Text51>Choose the Library where you want to Copy selected Tools</DLG_Text51>
+    <DLG_Title52>Could not Copy Tool</DLG_Title52>
+    <DLG_Text52>Something is wrong. Can't find the row to copy</DLG_Text52>
+    <DLG_Title53>Создать Новый Инструмент?</DLG_Title53>
+    <DLG_Text53>Вы не можете напрямую добавлять Параметры в Обобщённый Инструмент
+Создать новый Инструмент с текущими Параметрами?</DLG_Text53>
+    <DLG_Title54>Ошибка Редактирования Параметра</DLG_Title54>
+    <DLG_Text54>You first have to load calculation in order to edit it</DLG_Text54>
+    <DLG_Title55>Ошибка Удаления Инструмента</DLG_Title55>
+    <DLG_Text55>Выделите Инструмент, который вы хотите Удалить</DLG_Text55>
+    <DLG_Title56>Подтвердите Удаление</DLG_Title56>
+    <DLG_Text56>Вы точно хотите Удалить этот Инструмент из Базы Данных?</DLG_Text56>
+    <DLG_Title57>Экстренно Выйти?</DLG_Title57>
+    <DLG_Text57>Вы уверены, что хотите выйти без сохранения изменений?
+Программа закроется, и в следующий раз вы запустите её, все изменения, сделанные в текущей сессии, будут отменены.
+
+Нажмите Да, чтобы закрыть программу и обратить вспять все изменения</DLG_Text57>
+    <DLG_Text58>Ошибка записи: Убедитесь в том. что имеете достаточные права записи</DLG_Text58>
+    <DLG_Title59>Ошибка Удаления Параметра</DLG_Title59>
+    <DLG_Text59>Выделите Параметр, который вы хотите Удалить</DLG_Text59>
+    <DLG_Title60>Ошибка Печати Страницы</DLG_Title60>
+    <DLG_Text60>Ошибка Печати:</DLG_Text60>
+    <DLG_Title61>Ошибка Записи Файла Базы Данных</DLG_Title61>
+    <DLG_Text61>Пожалуйста выберите Другое место для записи Файла</DLG_Text61>
+    <DLG_Title63>Ошибка Записи Файла Базы Данных</DLG_Title63>
+    <DLG_Text63>Невозможно Записать Файл:</DLG_Text63>
+    <DLG_Title64>Ошибка Лицензии</DLG_Title64>
+    <DLG_Text64>Имя, Фамилия обязательны и должны состоять из минимум 2-х латинских символов. 
+Убедитесь в правильности введённых данных.</DLG_Text64>
+    <DLG_Text65>Лицензионный ключ не подходит к введённым Имени, Фамилии и/или Идентификатору Компьютера:
+Убедитесь в правильности введённых данных.</DLG_Text65>
+    <DLG_Title66>Ошибка записи лицензии на диск</DLG_Title66>
+    <DLG_Text66>Лицензионный Ключ подходит, но не получилось запасать файл с ключём на диск
+Убедитесь в том, что обладаете необходимыми правами записи</DLG_Text66>
+    <DLG_Title67>Пароль</DLG_Title67>
+    <DLG_Text67>Эта лицензия защищена паролем
+Введите его, чтоб зарегистрировать этот компьютер
+Если забыли пароль - напишите в support@zero-divide.net для помощи</DLG_Text67>
+    <DLG_Title68>Сообщение Активации через Интернет</DLG_Title68>
+    <DLG_Title69>Ошибка Соединения</DLG_Title69>
+    <DLG_Text69>Получен неожиданный ответ от Лицензионного Сервера
+Убедитесь, что присутствует соединение с Интернетом и Файрвол не блокирует это соединение</DLG_Text69>
+    <DLG_Text70>Не получилось соединиться с Лицензионным Сервером
+Убедитесь, что присутствует соединение с Интернетом и Файрвол не блокирует это соединение</DLG_Text70>
+    <DLG_Text71>Имя, Фамилия и  E-Mail обязательны и должны состоять из минимум 2-х латинских символов. 
+Убедитесь в правильности введенных данных.</DLG_Text71>
+    <DLG_Title73>Error loading Database</DLG_Title73>
+    <DLG_Text73>Error occurred while loading your Tool Database:</DLG_Text73>
+    <DLG_Text74>Файл Пуст</DLG_Text74>
+    <DLG_Title75>Reset myCutDB Location to Default</DLG_Title75>
+    <DLG_Text75>Are you sure you want to reset a current myCutDB location to default?
+Current location is:</DLG_Text75>
+    <DLG_Title76>Reset Speed and Feed Overrides</DLG_Title76>
+    <DLG_Text76>Are you sure you want to reset Speeds and Feeds in the selected rows to default?</DLG_Text76>
+    <DLG_Title78>Set Machine</DLG_Title78>
+    <DLG_Text78>Please select the machine from the list</DLG_Text78>
+    <DLG_Title79>Set патрон</DLG_Title79>
+    <DLG_Text79>Please select the патрон name from the list or enter a new one</DLG_Text79>
+    <DLG_Title80>Reset Cut Compensation Parameters</DLG_Title80>
+    <DLG_Text80>Are you sure you want to reset Chip Thinning, HSM Machining and Ramp parameters in the selected rows to default?</DLG_Text80>
+    <DLG_Title81>Комментарий</DLG_Title81>
+    <DLG_Text81>Введите новый Комментарий Инструмента/Операции</DLG_Text81>
+    <DLG_Title82>Имя Производителя</DLG_Title82>
+    <DLG_Text82>Введите новое Имя Производителя Инструмента</DLG_Text82>
+    <DLG_Title83>Имя Модели</DLG_Title83>
+    <DLG_Text83>Введите новое Имя Модели Резца</DLG_Text83>
+    <DLG_Title84>Supplier Name</DLG_Title84>
+    <DLG_Text84>Введите новое Tool Supplier Name</DLG_Text84>
+    <DLG_Title85>Supplier Part Number</DLG_Title85>
+    <DLG_Text85>Введите новое Tool Supplier Part Number</DLG_Text85>
+    <DLG_Title86>Неподходящие Данные Инструмента</DLG_Title86>
+    <DLG_Text86>The Tool appears to have been changed since it was last saved into myCutDB.
+Update HSMAdvisor Tool Record record with the new information?
+Click Cancel to treat as a new tool</DLG_Text86>
+    <DLG_Title87>Create a New Tool?</DLG_Title87>
+    <DLG_Text87> is not in the database yet.
+Do you want to Add a new tool to HSMAdvisor database?</DLG_Text87>
+    <DLG_Title88>Create a New Tool?</DLG_Title88>
+    <DLG_Text88>{name} is already used by one of the toolpaths with Tool Number {oldnumber}
+Do you want to use existing tool?
+
+Yes - Use Existing Tool #{oldnumber} 
+No  - Create a New Tool #{number}</DLG_Text88>
+    <DLG_Text89>Please make sure you have Internet connection</DLG_Text89>
+    <DLG_Title90>Registration Successful</DLG_Title90>
+    <DLG_Text90>Thank you for registering at HSMAdvisor Cloud Services</DLG_Text90>
+    <DLG_Title91>HSMAdvisor Cloud Service</DLG_Title91>
+    <DLG_Text91>Профиль Машины Успешно Закачан на Сервер</DLG_Text91>
+    <DLG_Text92>Невозможно соединиться с облаком
+Сообщите в службу поддержки
+Код Ошибки:</DLG_Text92>
+    <DLG_Text93>Профиль Машины Успешно Закачан</DLG_Text93>
+    <DLG_Text_PleaseCheckMachine>Please check a Machine Profile to Download it from the Cloud</DLG_Text_PleaseCheckMachine>
+    <DLG_Text94>Максимальные Об/мин должны быть больше 0</DLG_Text94>
+    <DLG_Text95>Минимальные Об/мин должны быть больше 0</DLG_Text95>
+    <DLG_Text96>Максимальные Об/мин должны быть больше Минимальных</DLG_Text96>
+    <DLG_Text97>Максимальная мощность должна быть больше 0</DLG_Text97>
+    <DLG_Text98>Максимальная скорость подачи стола должна быть больше 0</DLG_Text98>
+    <DLG_Text99>Внимание: Этот мастер сбросит текущую таблицу Кривой Мощности
+Продолжить?</DLG_Text99>
+    <DLG_Text100>Введите обороты шпинделя где Мощность в первый раз достигает максимум</DLG_Text100>
+    <DLG_Text101>Введите обороты шпинделя где Мощность начинает понижаться</DLG_Text101>
+    <DLG_Text102>Введите Мощность при максимальных оборотах шпинделя</DLG_Text102>
+    <DLG_Text103>Обороты шпинделя должны быть между Минимальным и Максимальным значением для этой машины</DLG_Text103>
+    <DLG_Text104>Обороты шпинделя должны быть между Предидущим значением и Максимальным значением для этой машины
+</DLG_Text104>
+    <DLG_Text105>Мощность при максимальных оборотах шпинделя не должна быть ниже Максимального значения для этой машины</DLG_Text105>
+    <DLG_Text106>Шпиндель типа Dual Drive?
+Выберите "Нет" если не уверены</DLG_Text106>
+    <DLG_Text107>Введите число для заказа инструмента</DLG_Text107>
+    <DLG_Title107 />
+    <DLG_Text108>Can not proceed- The item list is empty.
+Please set Request amount to the tools you would like to add to the request</DLG_Text108>
+    <DLG_Title109>Ошибка при чтении Базы Данных</DLG_Title109>
+    <DLG_Text109>Backup Tool Database was loaded instead. Original Database will be written upon any changes made to the current one</DLG_Text109>
+    <DLG_Title110>Error loading Backup Database</DLG_Title110>
+    <DLG_Text110>Error loading your backup Tool Database:</DLG_Text110>
+    <DLG_Title111>Information Source Not specified</DLG_Title111>
+    <DLG_Text111>Please select the Information source before proceeding</DLG_Text111>
+    <DLG_Title112>Пропущена Информация Инструмента</DLG_Title112>
+    <DLG_Text112>Для того, чтобы отправить эти параметры как Рекомендованные производителем, пожалуйста введите Имя Производителя и Модель Резца на панели Информация Производителя</DLG_Text112>
+    <DLG_Title113>Предупреждение: Неправильный формат текста</DLG_Title113>
+    <DLG_Text113>Text in Brand Name, Series Name and Comment is limited to 25 characters each.
+Text in Additional Operation Info is limited to 256 characters
+Long text will be cropped.
+  </DLG_Text113>
+    <DLG_Title114>Set Speed and Feed Overrides</DLG_Title114>
+    <DLG_Text114>Please enter the Cutting Speed and Feed Override.
+Leave the field empty to skip setting the value.
+  </DLG_Text114>
+    <DLG_Text115>Speed %</DLG_Text115>
+    <DLG_Text116>Подача %</DLG_Text116>
+    <DLG_Title117>Can Not Insert Operation</DLG_Title117>
+    <DLG_Text117>Selected Cut does not contain CAM Toolpath Data.
+It can not be Inserted into Operations Tree
+  </DLG_Text117>
+    <DLG_Text118>No Cut was selected.
+Please select a Cut containing CAM Toolpath Data
+  </DLG_Text118>
+    <DLG_Title119>Невозможно Закрыть</DLG_Title119>
+    <DLG_Text119>Текущая База Данных по-прежнему сохраняются
+Невозможно закрыть HSMAdvisor, пока процесс не завершится</DLG_Text119>
+    <DLG_Title120>Изменения не сохранены</DLG_Title120>
+    <DLG_Text120>The changes to the current Tool Data Base were not saved\nDo You still want to shut down HSMAdvisor</DLG_Text120>
+    <DLG_Title121>Calculator is not available for this tool type</DLG_Title121>
+    <DLG_Text121>Scallop calculator is available for Ball Nose End Mills only</DLG_Text121>
+    <DLG_Title122>Are you sure you want to Change the Brand Name?</DLG_Title122>
+    <DLG_Text122>Вы используете пользовательские скорости резания и подачи стола, которые связанны с этим брендом / моделью инструмента
+Вы уверены, что хотите изменить Имя Производителя/Модель и разъединить этот Параметр от его пользовательской скорости и подачи стола?</DLG_Text122>
+    <DLG_Title123>Brand Name and/or Series Name is missing</DLG_Title123>
+    <DLG_Text123>Пожалуйста, укажите Марку и Модель Инструмента в </DLG_Text123>
+    <DLG_Text125>Диаметр не может быть менее 0!
+Пожалуйста, убедитесь, что каждое значение в колонке диаметр больше чем 0</DLG_Text125>
+    <DLG_Text126>Диаметр не может быть более {1} !
+Пожалуйста, убедитесь, что каждое значение в колонке диаметр не более {1}."</DLG_Text126>
+    <DLG_Title127>Сбросить текущую таблицу Подач на Зуб
+</DLG_Title127>
+    <DLG_Text127>Этот Мастер сбросит текущую таблицу Подач на Зуб
+Продолжить?</DLG_Text127>
+    <DLG_Text128>Ошибка в ваших данных
+Невозможно продолжить</DLG_Text128>
+    <DLG_Text129>Невозможно оставить имя библиотеки инструмента пустым!</DLG_Text129>
+    <DLG_Text130>Вы действительно сбросить пользовательскую Скорость Резания этого материала?
+Выберите Да, чтобы продолжить</DLG_Text130>
+    <DLG_Text131>Вы действительно сбросить пользовательские Подачи на Зуб этого материала?
+Выберите Да, чтобы продолжить</DLG_Text131>
+    <DLG_Text132>Вы действительно хотите вставить пользовательские  Подачи на Зуб и Скорость Резания  к этому материалу?
+Выберите Да, чтобы продолжить</DLG_Text132>
+    <DLG_Title134>Мастер Клонирования / Изменения Размера Инструмента</DLG_Title134>
+    <DLG_Text134>Этот мастер создаст список размеров на основе выбранного инструмента
+Продолжить?</DLG_Text134>
+    <DLG_Text135>Пожалуйста, введите Наименьший диаметр инструмента</DLG_Text135>
+    <DLG_Text136>Пожалуйста, введите Наибольший диаметр инструмента</DLG_Text136>
+    <DLG_Text137>Пожалуйста, введите инкремент диаметра инструмента</DLG_Text137>
+    <DLG_Text138>Введите новый Комментарий Инструмента
+Можно использовать {d} как замещение для диаметра</DLG_Text138>
+    <DLG_Text139>Вы хотите масштабировать размеры инструмента? 
+Если вы решили не масштабировать, изменится только диаметр</DLG_Text139>
+    <DLG_Text140>Пожалуйста, введите подачу на зуб для Наименьшего диаметра инструмента</DLG_Text140>
+    <DLG_Text141>Пожалуйста, введите Подачу на Зуб для Наибольшего диаметра инструмента
+Должна быть больше наименьшей подачи
+</DLG_Text141>
+    <DLG_Title142>Удаление Пользовательской таблицы Скоростей и Подач</DLG_Title142>
+    <DLG_Text142>Вы Точно хотите Удалить Пользовательскую таблицу Скоростей и Подач?</DLG_Text142>
+    <DLG_Title143>Подтверждение Пользовательских Скоростей и Подач</DLG_Title143>
+    <DLG_Text143>Подтвердить использование выбранной таблицы Скоростей и Подач к резцу?</DLG_Text143>
+    <DLG_Title144>Сортировать Библиотеки Инструмента</DLG_Title144>
+    <DLG_Text144>Поменяйте порядок Библиотеки Инструмента</DLG_Text144>
+    <DLG_Text145>Сохранить изменения в Базе Данных?</DLG_Text145>
+    <DLG_Title146>Перезаписать существующий файл?</DLG_Title146>
+    <DLG_Text146>Вы уже загрузили машину с тем же идентификатором, но с другим именем: {1}
+Вы уверены, что хотите перезаписать её этой?
+Нажмите "Нет", чтобы загрузить как новую машину!</DLG_Text146>
+    <DLG_Text147>Удалить все строки из текущей таблицы?</DLG_Text147>
+    <DLG_Text148>Вы пытаетесь заново загрузить в облако уже существующую машину другого пользователя:\n{1}\nПожалуйста, создайте копию и попробуйте снова!</DLG_Text148>
+    <DLG_Title149>Напоминание пароля</DLG_Title149>
+  </controls>
+  <skv_fswizard_operation>
+    <value>-1</value>
+    <text>Без Значения</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>0</value>
+    <text>Грубая и Чистовая</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>1</value>
+    <text>Грубая</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>2</value>
+    <text>Полу-Чистовая</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value>3</value>
+    <text>Чистовая</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_finish>
+    <value>-1</value>
+    <text>Без Значения</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>0</value>
+    <text>Обычная</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>1</value>
+    <text>Очень Плохая</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>3</value>
+    <text>Плохая</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>5</value>
+    <text>Средняя</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>7</value>
+    <text>Хорошая</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value>10</value>
+    <text>Очень Хорошая</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_life>
+    <value>-1</value>
+    <text>Без Значения</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>0</value>
+    <text>Обычная</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>1</value>
+    <text>Очень Плохая</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>3</value>
+    <text>Плохая</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>5</value>
+    <text>Средняя</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>7</value>
+    <text>Хорошая</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value>10</value>
+    <text>Очень Хорошая</text>
+  </skv_fswizard_life>
+  <skv_fswizard_coolant>
+    <value>-1</value>
+    <text>Без Значения</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>0</value>
+    <text>Нет</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>1</value>
+    <text>Сжатый Воздух</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>2</value>
+    <text>СОЖ Туман</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>3</value>
+    <text>Наружный Подвод</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value>4</value>
+    <text>Внутренний Под Давлением</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_rating>
+    <value>0</value>
+    <text>Без Значения</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>1</value>
+    <text>Очень Плохой</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>2</value>
+    <text>Плохой</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>3</value>
+    <text>Средний</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>4</value>
+    <text>Хороший</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value>5</value>
+    <text>Очень Хороший</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_tool_type>
+    <id>1</id>
+    <name>Цилиндрическая Фреза Общего Назначения</name>
+    <short_name>SEM</short_name>
+    <priority>1</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>24</id>
+    <name>Сферическая Фреза Общего Назначения</name>
+    <short_name>SBM</short_name>
+    <priority>1.1</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>2</id>
+    <name>Высокопроизводительная Цилиндрическая Фреза</name>
+    <short_name>SHPEM</short_name>
+    <priority>1.2</priority>
+    <usage>Высокопроизводительная Цельная Концевая Фреза требует стабильный зажим и мощную машину.
+Убедитесь, что условия фрезерования стабильны.</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>3</id>
+    <name>Пластинчатая Концевая Фреза</name>
+    <short_name>IEM</short_name>
+    <priority>1.3</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>25</id>
+    <name>Пластинчатая Сферическая Фреза</name>
+    <short_name>IBM</short_name>
+    <priority>1.4</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>5</id>
+    <name>Пластинчатая Торцевая Фреза</name>
+    <short_name>IFM</short_name>
+    <priority>1.5</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>9</id>
+    <name>Сверло (Джобберское)</name>
+    <short_name>DRL</short_name>
+    <priority>2</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>10</id>
+    <name>Развёртка</name>
+    <short_name>Ream</short_name>
+    <priority>3</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>4</id>
+    <name>Торцевая Пластинчатая Фреза Высокой Подачи</name>
+    <short_name>HFEM</short_name>
+    <priority>1.7</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>12</id>
+    <name>Параболическое Сверло с высоким углом канавки</name>
+    <short_name>HiDRL</short_name>
+    <priority>2.1</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>13</id>
+    <name>Сверло с Прямой Канавкой для Твёрдых Металлов</name>
+    <short_name>DRL</short_name>
+    <priority>2.4</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>14</id>
+    <name>Сверло-Лопата</name>
+    <short_name>Spade</short_name>
+    <priority>2.2</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>15</id>
+    <name>Резьбо-Фрезер</name>
+    <short_name>TMill</short_name>
+    <priority>4</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>7</id>
+    <name>Длинно кромочная Пластинчатая Фреза</name>
+    <short_name>HeliMill</short_name>
+    <priority>1.8</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>6</id>
+    <name>V-образный Гравер</name>
+    <short_name>V-Bit</short_name>
+    <priority>1.9</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>16</id>
+    <name>Токарный резец проходной прямой (Профиль)</name>
+    <short_name>Turn</short_name>
+    <priority>7</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>17</id>
+    <name>Токарный резец прорезной (Канавка)</name>
+    <short_name>Groove</short_name>
+    <priority>7.2</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>18</id>
+    <name>Токарный резец расточной</name>
+    <short_name>Turn-Bore</short_name>
+    <priority>7.3</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>19</id>
+    <name>Метчик</name>
+    <short_name>Tap</short_name>
+    <priority>4.1</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>20</id>
+    <name>Накатный Метчик</name>
+    <short_name>Form Tap</short_name>
+    <priority>4.2</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>21</id>
+    <name>Зенкер Торцевой</name>
+    <short_name>C-Bore</short_name>
+    <priority>3.1</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>22</id>
+    <name>Фасочная Фреза</name>
+    <short_name>Chamfer</short_name>
+    <priority>1.95</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>23</id>
+    <name>Сверло со Сменными Пластинами</name>
+    <short_name>IDRL</short_name>
+    <priority>2.3</priority>
+    <usage>Подразумевается  2-х пластинчатое сверло с 1 эффективным зубом (Две Пластины- одна в центре и одна на периферии)
+Очень рекомендована внутренняя подача СОЖ под высоким давлением.</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>26</id>
+    <name>Расточная Головка</name>
+    <short_name>Mill-Bore</short_name>
+    <priority>2.3</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id>27</id>
+    <name>Т-образная Фреза </name>
+    <short_name>T-Slot</short_name>
+    <priority>1.95</priority>
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Токарный резец подрезной (Торец)</name>
+    <short_name>Turn-Face</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Зенкер</name>
+    <short_name>C-Sink</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Разметочне Сверло</name>
+    <short_name>SPOT</short_name>
+    <priority />
+    <usage>Разметочные сверла используются для начала и определения местоположения отверстий. Они создают неглубокое отверстие, которое помогает предотвратить отклонение сверла от центра при начале сверления.</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_stockstatus>
+    <value>0</value>
+    <text>В Наличии</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value>1</value>
+    <text>Нет в Наличии</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value>2</value>
+    <text>Заказано</text>
+  </skv_fswizard_stockstatus>
+</language>

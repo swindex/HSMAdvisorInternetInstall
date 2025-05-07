@@ -1,0 +1,1043 @@
+<?xml version="1.0" standalone="yes"?>
+<language>
+  <controls>
+    <FSWIZARD_TAB>Rezné rýchlosti</FSWIZARD_TAB>
+    <settings_keep_Limit_Def>Limit výchylky %</settings_keep_Limit_Def>
+    <settings_keep_Limit_Torque>Limit krútiaceho momentu %</settings_keep_Limit_Torque>
+    <settings_keep_max_RPM>Max. ot/min</settings_keep_max_RPM>
+    <settings_keep_max_feed>Max. posuv</settings_keep_max_feed>
+    <settings_keep_max_torque>Max. krútiaci moment</settings_keep_max_torque>
+    <settings_keep_max_HP>Max. HP</settings_keep_max_HP>
+    <TAB_Tool_Database>Databáza nástrojov</TAB_Tool_Database>
+    <Tab_Threads>Závity</Tab_Threads>
+    <LB_Machine_Overrides>Limity aktuálneho stroja</LB_Machine_Overrides>
+    <GEOMETRY_TAB>Geometria</GEOMETRY_TAB>
+    <PLUGINS_TAB>WEB stránky</PLUGINS_TAB>
+    <TAB_Settings>Nastavenia</TAB_Settings>
+    <LB_Input_T>Vstup</LB_Input_T>
+    <LB_Result_T>Výsledok</LB_Result_T>
+    <LB_Lic_Status>Licencia</LB_Lic_Status>
+    <DB_Status_OK>Stav databázi nástrojov: OK</DB_Status_OK>
+    <DB_Status_OK_Text>Súbor s databázou:{x}
+Posledná operácia bola úspešná</DB_Status_OK_Text>
+    <DB_Status_Writing>Stav databázi nástrojov: Ukladám</DB_Status_Writing>
+    <DB_Status_Writing_Text>Zapisujem do:{x}</DB_Status_Writing_Text>
+    <DB_Status_Writing_Error>Stav databázi nástrojov: Chyba zápisu!</DB_Status_Writing_Error>
+    <DB_Status_Writing_Error_Text>Chyba zápisu do súboru:{x}
+S chybou:{y}</DB_Status_Writing_Error_Text>
+    <DB_Status_Reading>Stav databázi nástrojov: Čítam</DB_Status_Reading>
+    <DB_Status_Reading_Text>Čítam z:{x}</DB_Status_Reading_Text>
+    <DB_Status_Reading_Error>Stav databázi nástrojov: Chyba čítania</DB_Status_Reading_Error>
+    <DB_Status_Reading_Error_Text>Chyba čítania zo súboru:{x}
+S chybou:{y}</DB_Status_Reading_Error_Text>
+    <btn_DDE_Cancel>Zrušiť</btn_DDE_Cancel>
+    <BT_Define_Machines>Upraviť</BT_Define_Machines>
+    <BTN_More_Materials>Viac</BTN_More_Materials>
+    <LB_Machine>Stroj</LB_Machine>
+    <LB_Tool_Library>Knižnica nástroja</LB_Tool_Library>
+    <LB_Hardness_T>Tvrdosť:</LB_Hardness_T>
+    <LB_Max_RPM_T>Max. ot/min</LB_Max_RPM_T>
+    <LB_Max_Power_T>Max. výkon</LB_Max_Power_T>
+    <LB_Max_Torque_T>Max. krútiaci moment</LB_Max_Torque_T>
+    <LB_Max_Feed_T>Max. posuv</LB_Max_Feed_T>
+    <BTN_FSW_Edit_New_Tool>Upraviť nový</BTN_FSW_Edit_New_Tool>
+    <btn_Load_Tool>Načítať nástroj/rez</btn_Load_Tool>
+    <btn_FSW_Add_Tool>Pridať nástroj</btn_FSW_Add_Tool>
+    <LB_Thread_Pitch>Stúpanie</LB_Thread_Pitch>
+    <LB_Thread_Form>Druh závitu
+</LB_Thread_Form>
+    <LB_Thread_Size>Veľkosť</LB_Thread_Size>
+    <LB_Tip_Dia_T>Priemer špičky</LB_Tip_Dia_T>
+    <LB_N_Flutes_T>Počet britov</LB_N_Flutes_T>
+    <LB_Len_T>Vyčnievanie nástroja</LB_Len_T>
+    <LB_Corner_Rad_T>Rohový rádius</LB_Corner_Rad_T>
+    <check_BallNose>Rádiusová fréza</check_BallNose>
+    <LB_Flute_Len_T>Dĺžka britu</LB_Flute_Len_T>
+    <LB_Leadangle_T>Uhol stúpania</LB_Leadangle_T>
+    <LB_Shank_Dia_T>Priemer stopky</LB_Shank_Dia_T>
+    <LB_Helix_T>Uhol skrutkovice</LB_Helix_T>
+    <LB_ShouldeR_Len_T>Dĺžka reznej časti</LB_ShouldeR_Len_T>
+    <BTN_Reset_all>Obnoviť</BTN_Reset_all>
+    <LB_Tool_Type>Typ nástroja</LB_Tool_Type>
+    <LB_DOC_T>Hĺbka rezu</LB_DOC_T>
+    <LD_DOC_Threadmill_T>Hĺbka rezu</LD_DOC_Threadmill_T>
+    <LB_DOC_RAD_T>Hĺbka rezu</LB_DOC_RAD_T>
+    <LB_DOC_GROOVE_T>Šírka rezu</LB_DOC_GROOVE_T>
+    <LB_WOC_T>Šírka rezu</LB_WOC_T>
+    <LB_WOC_Threadmill_T>Šírka rezu</LB_WOC_Threadmill_T>
+    <check_Slotting>drážka/kapsa</check_Slotting>
+    <LB_TP_Thread_Type>Typ závitu</LB_TP_Thread_Type>
+    <LB_DRL_E_Dia_T>Efektívny priemer</LB_DRL_E_Dia_T>
+    <LB_Depth_T>Hĺbka
+</LB_Depth_T>
+    <LB_Tap_Drill_Dia_T>Veľkosť vrtáku</LB_Tap_Drill_Dia_T>
+    <LB_Feed_PC_T>P</LB_Feed_PC_T>
+    <LB_Speed_PC_T>R</LB_Speed_PC_T>
+    <LB_Limit_Torque_PC_T>Limit krútiaceho momentu</LB_Limit_Torque_PC_T>
+    <LB_LimitDef_PC_T>Limit výchylky</LB_LimitDef_PC_T>
+    <LB_Tool_Max_RPM>Max. ot/min nástroja</LB_Tool_Max_RPM>
+    <LB_Ideal_Speed_T>Rýchlosť</LB_Ideal_Speed_T>
+    <LB_Ideal_Chipload_T>Špona</LB_Ideal_Chipload_T>
+    <LB_RPM_T>ot/min</LB_RPM_T>
+    <LB_Feed_T>Posuv</LB_Feed_T>
+    <LB_Speed_T>Rýchlosť</LB_Speed_T>
+    <LB_RPM_Plunge_T>Otáčky zápichu</LB_RPM_Plunge_T>
+    <LB_Plunge_T>Posuv zápichu</LB_Plunge_T>
+    <Tab_Cutting_Data>Rezné dáta</Tab_Cutting_Data>
+    <tab_warnings>Varovania</tab_warnings>
+    <tab_tool_paint>Nástroj</tab_tool_paint>
+    <btn_Filter_Reset>Obnoviť všetko</btn_Filter_Reset>
+    <LB_Size>Veľkosť</LB_Size>
+    <LB_ThreadForm>Druh závitu</LB_ThreadForm>
+    <LB_ThreadClass>Trieda</LB_ThreadClass>
+    <LB_Units>Jednotky</LB_Units>
+    <GRP_Threads_External_Thread_Info>Informácie vonkajšieho závitu</GRP_Threads_External_Thread_Info>
+    <LB_ThreadPitch>Stúpanie</LB_ThreadPitch>
+    <LB_DrillTapChart>Tabuľka vrtákov/závitníkov</LB_DrillTapChart>
+    <Radio_Threads_Cutting>Rezanie</Radio_Threads_Cutting>
+    <Radio_Threads_Forming>Tvarovanie</Radio_Threads_Forming>
+    <Licence_BT_Enter_Key>Zakúpiť/zadať kľúč</Licence_BT_Enter_Key>
+    <LB_LicenseLevel>Stupeň licencie:</LB_LicenseLevel>
+    <btn_settings_open_user_folder>Otvoriť adresár užívateľa</btn_settings_open_user_folder>
+    <BT_E_Exit>Núdzové ukončenie</BT_E_Exit>
+    <btn_Font_Large>Nastavenie veľkosti a štýlu fontu</btn_Font_Large>
+    <settings_check_for_updates>Skontrolovať aktualizácie po štarte</settings_check_for_updates>
+    <settings_check_Help>Zobraziť okná s nápovedou</settings_check_Help>
+    <settings_check_swicth_to_warnings>Po chybe prejsťnna kartu varovania</settings_check_swicth_to_warnings>
+    <settings_check_reset_tooldata_upon_tooltype>Obnoviť dáta nástrojov (Odporúčame akontrolovať toto nastavenie)</settings_check_reset_tooldata_upon_tooltype>
+    <settings_check_reset_overrides_upon_tooltype>Obnoviť pravidlá rýchlosti/posuvu</settings_check_reset_overrides_upon_tooltype>
+    <settings_check_reset_preformance_upon_tooltype>Obnoviť výkony noža</settings_check_reset_preformance_upon_tooltype>
+    <settings_check_reset_limits_upon_tooltype>Obnoviť bezpečnostné limity nástroja</settings_check_reset_limits_upon_tooltype>
+    <LB_Defaults_Text>Tu si môžete nastaviť predvolené hodnoty pre rôzne pravidlá a limity.</LB_Defaults_Text>
+    <LB_Defaults_Speed>Rezná rýchlosť (R%)</LB_Defaults_Speed>
+    <LB_Defaults_Feed>Veľkosť špony (P%)</LB_Defaults_Feed>
+    <LB_Defaults_Performance>Výkon nástroja</LB_Defaults_Performance>
+    <LB_Defaults_Torque>Limit krútiaceho momentu (%)</LB_Defaults_Torque>
+    <LB_Defaults_Deflection>Limit výchylky</LB_Defaults_Deflection>
+    <GRP_Settings_DB_Other>Oatatné</GRP_Settings_DB_Other>
+    <BTN_Set_DB_Location>Načítať databázu nástrojov...</BTN_Set_DB_Location>
+    <chck_Shared_Database>Zdieľať databázu nástrojov</chck_Shared_Database>
+    <settings_confirm_calculation_delete>Potvrdiť pred vymazaním nástroja/noža</settings_confirm_calculation_delete>
+    <BTN_View_Reginfo>Zobraziť registračné informácie</BTN_View_Reginfo>
+    <btn_CutCloud>Spustiť CutCloud</btn_CutCloud>
+    <BT_Define_Tool_Type>Typ nástroja</BT_Define_Tool_Type>
+    <BT_Define_Material>Materiál</BT_Define_Material>
+    <EXP_DDE_Integration>CAM integrácia</EXP_DDE_Integration>
+    <EXP_Workpiece>Obrobok a stroj</EXP_Workpiece>
+    <EXP_Tool_Data>Parametre nástroja</EXP_Tool_Data>
+    <EXP_Cut>Parametre rezu</EXP_Cut>
+    <EXP_Comp>Kompenzácia</EXP_Comp>
+    <EXP_Thread_Params>Parametre závitu</EXP_Thread_Params>
+    <EXP_Drilling_Params>Parametre vŕtania</EXP_Drilling_Params>
+    <EXP_Gages>Odhady</EXP_Gages>
+    <PB_Machine_Power>Výkon:</PB_Machine_Power>
+    <PB_Machine_Torque>Krútiaci moment:</PB_Machine_Torque>
+    <PB_Mrr>Úber materiálu:</PB_Mrr>
+    <PB_Tool_Life>Životnosť nástroja:</PB_Tool_Life>
+    <PB_Tool_Deflection>Výchylka:</PB_Tool_Deflection>
+    <PB_Tool_Torque>Krútiaci moment nástroja:</PB_Tool_Torque>
+    <EXP_Overrides>Nastavenie rýchlosti a posuvu</EXP_Overrides>
+    <EXP_Tool_Limits>Limity nástroja</EXP_Tool_Limits>
+    <EXP_CUT_Controls>Uložený rez</EXP_CUT_Controls>
+    <EXP_Limits>Limity zataženia</EXP_Limits>
+    <EXP_Man_Settings>Rezné rýchlosti výrobcu</EXP_Man_Settings>
+    <EXP_Speed_Feed>Rezné rýchlosti</EXP_Speed_Feed>
+    <EXP_myCut_tool_DB_Tool_Filter>Filter nástroja</EXP_myCut_tool_DB_Tool_Filter>
+    <EXP_Threads_Thread_Type>Závit</EXP_Threads_Thread_Type>
+    <EXP_Threads_External>Vonkajší závit / trojbodové meranie</EXP_Threads_External>
+    <EXP_Threads_Internal>Vnútorný závit. Tabuľka závitníkov a vrtákov</EXP_Threads_Internal>
+    <EXP_Settings_Licence_Trial>Licencia</EXP_Settings_Licence_Trial>
+    <EXP_Settings_General>Všeobecné</EXP_Settings_General>
+    <EXP_Settings_Things_to_Reset>Polia a limity sa obnovia na predvolené po zmene nástroja
+</EXP_Settings_Things_to_Reset>
+    <EXP_Settings_Defaults>Predvolené</EXP_Settings_Defaults>
+    <EXP_Settings_Licence_Full>Licencia</EXP_Settings_Licence_Full>
+    <LB_Tool_Filter>Filter nástrojov:</LB_Tool_Filter>
+    <btn_Add>Pridať</btn_Add>
+    <btn_Cancel>Zrušiť</btn_Cancel>
+    <btn_Save>Uložiť</btn_Save>
+    <btn_Apply>Použiť</btn_Apply>
+    <SFMToolStripMenuItem>Rezná rýchlosť</SFMToolStripMenuItem>
+    <ChiploadToolStripMenuItem>Špona</ChiploadToolStripMenuItem>
+    <RPMToolStripMenuItem>ot/min</RPMToolStripMenuItem>
+    <FeedrateToolStripMenuItem>Posuv</FeedrateToolStripMenuItem>
+    <PlungeFeedToolStripMenuItem>Zápich</PlungeFeedToolStripMenuItem>
+    <DOCToolStripMenuItem>Hĺbka rezu</DOCToolStripMenuItem>
+    <WOCToolStripMenuItem>Šírka rezu</WOCToolStripMenuItem>
+    <LB_FirstName>Meno:</LB_FirstName>
+    <LB_SerialNumber>Licenčný kľúč:</LB_SerialNumber>
+    <LB_LastName>Priezvisko:</LB_LastName>
+    <LNK_Purchase_License>Kúpiť licenciu</LNK_Purchase_License>
+    <LB_Computer_ID>ID počítača</LB_Computer_ID>
+    <LB_License_Level>Úroveň licencie:</LB_License_Level>
+    <LNK_Claim_Purchased_Keys>Prezrieť si licenciu On-line</LNK_Claim_Purchased_Keys>
+    <LNK_Autoregister>Automaticky zaregistrovať</LNK_Autoregister>
+    <LNK_License_Logout>Odhlásiť</LNK_License_Logout>
+    <FRM_MachineDefinition>Definícia stroja</FRM_MachineDefinition>
+    <GRP_Power_Curve>Výkonová krivka</GRP_Power_Curve>
+    <BTN_Power_Curve_Wizard>Sprievodca výkonovej krivky</BTN_Power_Curve_Wizard>
+    <BTN_Power_Curve_Wizard_tooltip>Spustiť sprievodcu odhadovania výkonovej krivky</BTN_Power_Curve_Wizard_tooltip>
+    <LB_Mach_Notice>* hodnoty otáčok MUSIA byť vo vzostupnom poradí
+</LB_Mach_Notice>
+    <GRP_Machine_Info>Informácie o stroji</GRP_Machine_Info>
+    <BTN_Add_Mach>Pridať</BTN_Add_Mach>
+    <BTN_Add_Mach_tooltip>Vytvoriť novú definíciu stroja</BTN_Add_Mach_tooltip>
+    <BTN_Remove_Mach>Odstrániť</BTN_Remove_Mach>
+    <BTN_Remove_Mach_tooltip>Odstrániť zvolenú definíciu zo zoznamu</BTN_Remove_Mach_tooltip>
+    <BTN_clone_mach>Duplikovať</BTN_clone_mach>
+    <BTN_clone_mach_tooltip>Duplikovať zvolenú definíciu</BTN_clone_mach_tooltip>
+    <BTN_Import_Mach>Importovať</BTN_Import_Mach>
+    <BTN_Import_Mach_tooltip>Importovať definíciu stroja z externého súboru</BTN_Import_Mach_tooltip>
+    <BTN_Export_Mach>Exportovať</BTN_Export_Mach>
+    <BTN_Export_Mach_tooltip>Exportovať definíciu stroja do externého súboru</BTN_Export_Mach_tooltip>
+    <LB_Max_Tap_RPM>Max. ot/min závitníka</LB_Max_Tap_RPM>
+    <LB_Max_Tap_RPM_tooltip>Nastavte maximálne povolené otáčky rezania závitov pre Váš stroj</LB_Max_Tap_RPM_tooltip>
+    <LB_Min_RPM_T>Min. ot/min</LB_Min_RPM_T>
+    <LB_Min_RPM_T_tooltip>Minimálne otáčky vretena</LB_Min_RPM_T_tooltip>
+    <LB_Name>Názov</LB_Name>
+    <LB_Warning_At_T>Varovať pri</LB_Warning_At_T>
+    <LB_Warning_At_T_tooltip>Vygenerovať varovanie kedykoľvek výkon alebo krútiaci moment  bude blízko maxima
+
+</LB_Warning_At_T_tooltip>
+    <CHK_Mach_Use_Curve>Použiť výkonovú krivku</CHK_Mach_Use_Curve>
+    <CHK_Mach_Use_Curve_tooltip>Zvoľte ak chcete použiť kompenzáciu výkonovou krivkou
+Limit maximálnych otáčok a krútiaceho momentu sa bude meniť v závislosti od otáčok vretena</CHK_Mach_Use_Curve_tooltip>
+    <MiniCalc_Turn_Scallop>Zapnúť kalkulačku dokončovania povrchu</MiniCalc_Turn_Scallop>
+    <LB_Surface_Roughness_T>Ra drsnosť povrchu</LB_Surface_Roughness_T>
+    <LB_Feed_per_Rev>Posuv na otáčku</LB_Feed_per_Rev>
+    <MiniCalc_Interpolation>Interpolácia kruhu/Rampovanie</MiniCalc_Interpolation>
+    <LB_Angle_T>Uhol</LB_Angle_T>
+    <LB_Pass_Length>Dĺžka prechodu</LB_Pass_Length>
+    <btn_Close>Zavrieť</btn_Close>
+    <LB_Series_Name>Séria</LB_Series_Name>
+    <LB_Brand_Name>Značka</LB_Brand_Name>
+    <LB_Additional_Tool_Info>Dodatočné informácie nástroja</LB_Additional_Tool_Info>
+    <LB_Number_On_Hand_tooltip>Počet nástrojov v košíku</LB_Number_On_Hand_tooltip>
+    <LB_Stock_Opt_tooltip>Optimálny počet v sklade</LB_Stock_Opt_tooltip>
+    <LB_Price>Cena</LB_Price>
+    <btn_Copy_Data>Kopírovať údaje</btn_Copy_Data>
+    <btn_Paste_Data>Vložiť údaje</btn_Paste_Data>
+    <TAB_Tool_Info>Informácie nástroja</TAB_Tool_Info>
+    <Tab_Speeds_and_Feeds>Rezné rýchlosti</Tab_Speeds_and_Feeds>
+    <CHK_SF_Auto>Autometické rezné rýchlosti</CHK_SF_Auto>
+    <CHK_SF_Custom>Vlastné rezné rýchlosti</CHK_SF_Custom>
+    <LB_Chipload_T>Špona</LB_Chipload_T>
+    <LB_Material_T>Materiál</LB_Material_T>
+    <btn_Reset_SFM>Obnoviť</btn_Reset_SFM>
+    <btn_Reset_IPT>Obnoviť</btn_Reset_IPT>
+    <btn_Reset_IPT_Table>Obnoviť</btn_Reset_IPT_Table>
+    <Edit_Cut_Info>Upraviť rezné informácie</Edit_Cut_Info>
+    <LB_Holder>Uchytenie</LB_Holder>
+    <Tab_Tool_Geometry>Geometria nástroja</Tab_Tool_Geometry>
+    <BTN_Upload_Machine>Nahrať</BTN_Upload_Machine>
+    <BTN_Upload_Machine_tooltip>Nahrať aktuálny profil stroja do cloudu</BTN_Upload_Machine_tooltip>
+    <BTN_Download_Machine>Stiahnuť</BTN_Download_Machine>
+    <BTN_Download_Machine_tooltip>Stiahnuť profil stroja z cloudu</BTN_Download_Machine_tooltip>
+    <CHK_Private_Machine>Súkromný stroj</CHK_Private_Machine>
+    <CHK_Private_Machine_tooltip>Ak nahráte tento stroj ako súkromný neumožníte ostatným používateľom stiahnuťie</CHK_Private_Machine_tooltip>
+    <LB_Register_About_Cloud>Zaregistrujte sa do HSMAdvisor cloudu pre prístup ku profilom strojov, nástrojov a ďalších</LB_Register_About_Cloud>
+    <btn_Send>Odoslať</btn_Send>
+    <AddToolToolStripMenuItem>Pridať nový nástroj</AddToolToolStripMenuItem>
+    <EditToolInfoToolStripMenuItem>Upraviť informácie nástroja</EditToolInfoToolStripMenuItem>
+    <EditToolDataToolStripMenuItem>Upraviť geometriu nástroja</EditToolDataToolStripMenuItem>
+    <DeleteToolToolStripMenuItem>Vymazať nástroj</DeleteToolToolStripMenuItem>
+    <SaveToolToolStripMenuItem>Uložiť nástroj</SaveToolToolStripMenuItem>
+    <OpenToolDatabaseToolStripMenuItem>Otvoriť databázu nástrojov</OpenToolDatabaseToolStripMenuItem>
+    <CreateNewToolLibrary>Vytvoriť novú knižnicu nástroja</CreateNewToolLibrary>
+    <ImportStripMenuItem>Importovať</ImportStripMenuItem>
+    <ExportToolStripMenuItem>Exportovať</ExportToolStripMenuItem>
+    <ExportAsXmlFileToolStripMenuItem>Exportovať do XML</ExportAsXmlFileToolStripMenuItem>
+    <ImportFromXMLFileToolStripMenuItem>Importovať z XML</ImportFromXMLFileToolStripMenuItem>
+    <LoadToolStripMenuItem>Načítať</LoadToolStripMenuItem>
+    <ViewInformationToolStripMenuItem>Zobraziť informácie</ViewInformationToolStripMenuItem>
+    <CopyToolToAnotherLibraryToolStripMenuItem>Kopírovať do ...</CopyToolToAnotherLibraryToolStripMenuItem>
+    <MoveToolToAnotherLibraryToolStripMenuItem>Presunúť do ...</MoveToolToAnotherLibraryToolStripMenuItem>
+    <DeleteCutInfoToolStripMenuItem>Zmazať</DeleteCutInfoToolStripMenuItem>
+    <ToolWizardsToolStripMenuItem>Rýchla hromadná editácia</ToolWizardsToolStripMenuItem>
+    <ResetSFOverridesToolStripMenuItem>Obnoviť pravidlá rýchlosti a posuvu</ResetSFOverridesToolStripMenuItem>
+    <ResetCutDataToolStripMenuItem>Obnoviť rezné dáta</ResetCutDataToolStripMenuItem>
+    <SetMachineToolStripMenuItem>Nastaviť stroj</SetMachineToolStripMenuItem>
+    <SetHolderToolStripMenuItem>Nastaviť uchytenie</SetHolderToolStripMenuItem>
+    <SetCommentToolStripMenuItem>Nastaviť popis</SetCommentToolStripMenuItem>
+    <SetBrandNameToolStripMenuItem>Nastaviť výrobcu</SetBrandNameToolStripMenuItem>
+    <SetSupplierToolStripMenuItem>Nastaviť dodávateľa</SetSupplierToolStripMenuItem>
+    <SetSupplierPartNumberToolStripMenuItem>Nastaviť katalógové číslo dodávateľa</SetSupplierPartNumberToolStripMenuItem>
+    <RenameToolLibraryToolStripMenuItem>Premenovať knižnicu nástroja</RenameToolLibraryToolStripMenuItem>
+    <MergeToolLibrariesToolStripMenuItem>Spijiť knižnicu nástroja s inou</MergeToolLibrariesToolStripMenuItem>
+    <DeleteCurrentToolLibraryToolStripMenuItem>Vymazať knižnicu nástroja</DeleteCurrentToolLibraryToolStripMenuItem>
+    <AddCutToolStripMenuItem>Pridať nôž</AddCutToolStripMenuItem>
+    <CutInfoToolStripMenuItem>Upraviť informácie noža</CutInfoToolStripMenuItem>
+    <DeleteCutToolStripMenuItem>Vymazať nôž</DeleteCutToolStripMenuItem>
+    <SaveCutToolStripMenuItem>Uložiť nôž</SaveCutToolStripMenuItem>
+    <ToolStripMenuItem11>Exportovať</ToolStripMenuItem11>
+    <DeletePluginToolStripMenuItem>Vymazať WEB stránku</DeletePluginToolStripMenuItem>
+    <CloseTabToolStripMenuItem>Zatvoriť kartu</CloseTabToolStripMenuItem>
+    <SavePageOnDiskToolStripMenuItem>Uložiť stránku na disk</SavePageOnDiskToolStripMenuItem>
+    <radio_Circle_Internal>Vnútorný (diera)</radio_Circle_Internal>
+    <radio_Circle_External>Vonkajší (výčnelok)</radio_Circle_External>
+    <LB_Cutting_Speed_T>Rezná rýchlosť</LB_Cutting_Speed_T>
+    <CHK_Expand_All>Rozbaliť všetky nástroje</CHK_Expand_All>
+    <LB_Operation>Operácia</LB_Operation>
+    <LB_Surface_Finish>Povrchová úprava</LB_Surface_Finish>
+    <LB_Tool_Life>Životnosť nástroja</LB_Tool_Life>
+    <LB_Units_T>Jednotky</LB_Units_T>
+    <LB_Comment>Popis</LB_Comment>
+    <LB_Feed_PC_T_Body>● 30% - Dokončovanie / veľmi jemné hrubovanie
+● 50% - Polo-dokončovanie / jemné hrubovanie
+● 100% - Hrubovanie
+● 150% - Prudké hrubovanie: Dávajte pozor
+● 200% - Veľmi prudké hrubovanie na veľmi tuhom nastavení: Dávajte si extrémny pozor</LB_Feed_PC_T_Body>
+    <LB_Max_Feed_T_Head>Maximálna požadovaná presnosť posuvu pre Váš stroj</LB_Max_Feed_T_Head>
+    <LB_Max_Feed_T_Body>Ak dosiahnete tento limit otáčky vretena sa znížia tak aby zodpovedali vypočítanej špone</LB_Max_Feed_T_Body>
+    <PB_Tool_Deflection_Slider_Head>Bezpečnostný limit výchylky nástroja</PB_Tool_Deflection_Slider_Head>
+    <PB_Tool_Deflection_Slider_Body>Umožnuje zmeniť limit výchylky nástroja
+Keď výchylka nástroja dosiahne tento limit, nastavenie špony sa zníži aby sa predišlo zničeniu
+● 70% je predvolená bezpečnostná hodnota (môžete ju zmeniť v Nastavenia-&amp;gt;Predvolé)
+● 100% je maximálna bezpečná výchylka
+● 200% maximálna výchylka
+Kliknutím obnovíte predvolené</PB_Tool_Deflection_Slider_Body>
+    <PB_Tool_Torque_Slider_Head>Bezpečnostný limit krútiaceho momentu nástroja</PB_Tool_Torque_Slider_Head>
+    <LB_Max_RPM_T_Head>Limit otáčok stroja</LB_Max_RPM_T_Head>
+    <LB_WOC_T_Head>Radiálna šírka rezu
+</LB_WOC_T_Head>
+    <LB_WOC_Threadmill_T_Head>Šírka rezu</LB_WOC_Threadmill_T_Head>
+    <LB_DOC_T_Head>Axiálna hĺbka rezu</LB_DOC_T_Head>
+    <LB_DOC_Threadmill_T_Head>Axiálna hĺbka rezu</LB_DOC_Threadmill_T_Head>
+    <LB_DOC_GROOVE_T_Head>Šírka rezu</LB_DOC_GROOVE_T_Head>
+    <LB_Depth_T_Head>Hĺbka diery</LB_Depth_T_Head>
+    <LB_DRL_E_Dia_T_Head>Efektívny priemer</LB_DRL_E_Dia_T_Head>
+    <LB_TP_Major_Diameter_Head>Priemer závitu</LB_TP_Major_Diameter_Head>
+    <LB_DOC_RAD_T_Head>Hĺbka rezu</LB_DOC_RAD_T_Head>
+    <LB_Len_T_Head>Vyčnievanie nástroja</LB_Len_T_Head>
+    <LB_Len_T_Body>Vzdialenosť od špičky nástroja po uchytenie
+Pre integrované nástroje môžete použiť vzdialenosť od vretena po špičku nástroja
+cliknutím obnovíte predvolené</LB_Len_T_Body>
+    <LB_Corner_Rad_T_Head>Rohový rádius</LB_Corner_Rad_T_Head>
+    <LB_Corner_Rad_T_Body>Kliknutím obnovíte predvolené</LB_Corner_Rad_T_Body>
+    <LB_RPM_T_Head>Rýchlosť vretena</LB_RPM_T_Head>
+    <LB_Flute_Len_T_Head>Dĺžka britu</LB_Flute_Len_T_Head>
+    <LB_Tip_Dia_T_Head>Priemer špičky</LB_Tip_Dia_T_Head>
+    <LB_Tip_Dia_T_Body>Priemer špičky nástroja</LB_Tip_Dia_T_Body>
+    <PB_Machine_Torque_Head>Krútiaci moment vretena</PB_Machine_Torque_Head>
+    <DGV_name>Typ</DGV_name>
+    <DGV_comment>Popis</DGV_comment>
+    <CMB_Text_4>Všetky typy</CMB_Text_4>
+    <CMB_Text_11>Typ operácie</CMB_Text_11>
+    <CMB_Text_12>Hĺbka rezu</CMB_Text_12>
+    <CMB_Text_13>Šírka rezu</CMB_Text_13>
+    <CMB_Text_14>Dokončovanie povrchu</CMB_Text_14>
+    <CMB_Text_15>Životnosť nástroja</CMB_Text_15>
+    <CMB_Text_17>Stroj</CMB_Text_17>
+    <CMB_Text_18>Číslo nástroja</CMB_Text_18>
+    <CMB_Text_19>Počet britov</CMB_Text_19>
+    <CMB_Text_20>Priemer/rozmer</CMB_Text_20>
+    <CMB_Text_21>Rohový rádius</CMB_Text_21>
+    <CMB_Text_22>Vyčnievanie nástroja</CMB_Text_22>
+    <CMB_Text_23>Typ nástroja (dlhý)</CMB_Text_23>
+    <CMB_Text_24>Typ nástroja (krátky)</CMB_Text_24>
+    <CMB_Text_25>Výrobca</CMB_Text_25>
+    <CMB_Text_26>Séria</CMB_Text_26>
+    <CMB_Text_27>Materiál nástroja</CMB_Text_27>
+    <CMB_Text_28>Povlak nástroja</CMB_Text_28>
+    <CMB_Text_29>Počet nožov</CMB_Text_29>
+    <CMB_Text_30>Popis nástroja</CMB_Text_30>
+    <EXP_Tool_Filter>Knižnica nástrojov</EXP_Tool_Filter>
+    <ERR_Warning>Varovanie:</ERR_Warning>
+    <ERR_Remedy>Riešenie:</ERR_Remedy>
+    <ERR_MaxRPM>Výsledné otáčky sú limitované maximálnymi otáčkami stroja</ERR_MaxRPM>
+    <ERR_Tap_ToolTorqueLimit>Bezpečnostný limit krútiaceho momentu nástroja bol prekročený</ERR_Tap_ToolTorqueLimit>
+    <ERR_Tap_ToolTorqueLimit_Remedy>Zvážte zväčšenie vodiaceho otvoru</ERR_Tap_ToolTorqueLimit_Remedy>
+    <ERR_Tap_PowerCurve_Power>Maximálny výkon stroja bol prekročený. Rezná rýchlosť bola znížená</ERR_Tap_PowerCurve_Power>
+    <ERR_Tap_PowerCurve_Power_Remedy>Upravte reznú rýchlosť alebo použite väčší vodiaci otvor</ERR_Tap_PowerCurve_Power_Remedy>
+    <ERR_Tap_Machine_Power>Maximálny výkon stroja bol prekročený. Rezná rýchlosť bola znížená</ERR_Tap_Machine_Power>
+    <ERR_Tap_Max_Torque>Maximálny krútiaci moment stroja bol prekročený. Nebola vykonaná žiadna akcia</ERR_Tap_Max_Torque>
+    <ERR_Tap_Max_Torque_Remedy>Použite väčší vodiaci otvor</ERR_Tap_Max_Torque_Remedy>
+    <ERR_Machine_Max_Feedrate>Maximálny posuv stroja bol prekročený. Rýchlosť vretena bola znížená aby zodpovedala vypočítanej veľkosti špony</ERR_Machine_Max_Feedrate>
+    <ERR_Tool_MaxRPM>Výsledné otáčky sú limitované maximálnymi otáčkami v nastaveniach výrobcu nástroja</ERR_Tool_MaxRPM>
+    <ERR_Tap_MinRPM>Výsledné otáčky sú nižšie ako minimálny limit stroja. Otáčky boli upravené tak aby zodpovedali minimálnym otáčkam</ERR_Tap_MinRPM>
+    <ERR_Tap_MinRPM_Remedy>Použite nástroje s povlakom alebo z tvrdokovu pre dosiahnutie vyššej reznej rýchlosti </ERR_Tap_MinRPM_Remedy>
+    <ERR_Tool_Length_PRM_Reduced>Výsledné otáčky boli upravené kvôli dĺžke nástroja</ERR_Tool_Length_PRM_Reduced>
+    <ERR_Tool_Deflection_Limit>Bezpečnostný limit výchylky nástroja bol prekročený. Rezná rýchloať bola upravená aby sa zabránilo poškodeniu nástroja</ERR_Tool_Deflection_Limit>
+    <ERR_Tool_Torque_Limit>Bezpečnostný limit krútiaceho momentu nástroja bol prekročený. Rýchlosť posuvu bola znížená</ERR_Tool_Torque_Limit>
+    <LNG_edit_new_tool>Upraviť nový nástroj</LNG_edit_new_tool>
+    <LNG_Hello>Ahoj!</LNG_Hello>
+    <LNG_Add>Pridať</LNG_Add>
+    <LNG_Save>Uložiť</LNG_Save>
+    <LNG_Delete>Zmazať</LNG_Delete>
+    <LNG_Cancel>Zrušiť</LNG_Cancel>
+    <LNG_TextTooLong>Text ie príliš dlhý: maximálne {1} znakov</LNG_TextTooLong>
+    <LNG_Material>Materiál</LNG_Material>
+    <LNG_Tool>Nástroj</LNG_Tool>
+    <LNG_Max_Torque>Max. krútiaci moment</LNG_Max_Torque>
+    <LNG_Cutting_Force>Rezná sila</LNG_Cutting_Force>
+    <LNG_Deflection>Výchylka</LNG_Deflection>
+    <LNG_Max_Deflection>Max. výchylka</LNG_Max_Deflection>
+    <LNG_Library>Knižnica</LNG_Library>
+    <LNG_Height>Výška</LNG_Height>
+    <LNG_connecting_to_server>Pripájanie na Server...</LNG_connecting_to_server>
+    <LNG_connection_error>Chyba pripojenia na server..,</LNG_connection_error>
+    <LNG_connection_complete>Spojenie úspešné</LNG_connection_complete>
+    <LNG_search_ok>Vyhľadávanie úspešné</LNG_search_ok>
+    <LNG_No_Tool_Selected>Nie je zvolený nástroj</LNG_No_Tool_Selected>
+    <LNG_RPM>ot/min</LNG_RPM>
+    <DLG_Text4>Varovanie: Vaša skúšobná licencia čoskoro vyprší!</DLG_Text4>
+    <DLG_Text8>Uložiť všetky zmeny a ukončiť?</DLG_Text8>
+    <DLG_Title8>Uložiť definície stroja</DLG_Title8>
+    <DLG_Title67>Heslo</DLG_Title67>
+    <DLG_Title69>Chyba spojenia</DLG_Title69>
+    <DLG_Text74>Súbor je prázdny</DLG_Text74>
+    <DLG_Title76>Reaetovať pravidlá rýchlosti a posuvu</DLG_Title76>
+    <DLG_Title77>Obnoviť rezné dáta</DLG_Title77>
+    <DLG_Title78>Nastaviť stroj</DLG_Title78>
+    <DLG_Text78>Prosím vyberte stroj zo zoznamu</DLG_Text78>
+    <DLG_Title81>Popis</DLG_Title81>
+    <DLG_Title87>Vytvoriť nový nástroj?</DLG_Title87>
+    <DLG_Title88>Vytvoriť nový nástroj?</DLG_Title88>
+    <DLG_Text89>Prosím uistite sa či máte internetové pripojenie</DLG_Text89>
+    <DLG_Title90>Registrácia úspešná</DLG_Title90>
+    <DLG_Text90>Ďakujeme za registráciu v HSMAdvisor Cloud Services</DLG_Text90>
+    <DLG_Text91>Stroj úspešne uploadovaný</DLG_Text91>
+    <DLG_Text93>Stroj úspešne stiahnutý</DLG_Text93>
+    <DLG_Text102>Zadajte výkon v maximálnych otáčkach</DLG_Text102>
+    <DLG_Title114>Nastaviť pravidlá rýchlosti a posuvu</DLG_Title114>
+    <DLG_Text114>Prosím zadajťe pravidlá pre reznú rýchlosť a posuv.
+Ponechajte pole prázdne pre preskočenie nastavenia hodnoty.</DLG_Text114>
+    <DLG_Text115>Rýchlosť %</DLG_Text115>
+    <DLG_Text116>Posuv %</DLG_Text116>
+    <DLG_Title127>Vymazať súčasnú tabuľku veľkostí špony?</DLG_Title127>
+    <DLG_Text127>Tento sprievodca resetuje súčasnú tabuľku veľkoati špony
+Pokračovať?</DLG_Text127>
+    <DLG_Text128>Došlo k chybe v parametroch
+Nemôžem pokračovať</DLG_Text128>
+    <DLG_Text129>Nemôžete to tu opustiť ak je názov knižnice prázdny!</DLG_Text129>
+    <DLG_Text130>Naozaj chcete obnoviť vlastnú povrchovú rýchlosť na predvolenú?
+Vyberte áno pre pokračovanie</DLG_Text130>
+    <DLG_Text131>Naozaj chcete obnoviť vlastnú veľkosť špony na predvolenú?
+Vyberte áno pre pokračovanie</DLG_Text131>
+    <DLG_Text132>Naozaj chcete obnoviť vlastnú veľkosť špony a SFM na predvolenú?
+Vyberte áno pre pokračovanie</DLG_Text132>
+    <DLG_Title134>Sprievodca duplikáciou/zmenou veľkosti nástroja</DLG_Title134>
+    <DLG_Text134>Tento sprievodca vytvorí tabuľku veľkostí zvoleného nástroja
+Pokračovať?</DLG_Text134>
+    <DLG_Text135>Prosím zadajte najmenší priemer nástroja</DLG_Text135>
+    <DLG_Text136>Prosím zadajte najvä
+čší priemer nástroja</DLG_Text136>
+    <DLG_Text137>Prosím zadajte prírastok priemeru nástroja</DLG_Text137>
+    <DLG_Text140>Prosím zadajte veľkosT špony pre minimálny priemer nástroja/nMusí byť väčší ako 0</DLG_Text140>
+    <DLG_Text141>Prosím zadajte veľkosť špony pre maximálny priemer nástroja/nMusínbyť vačší alebo rovnaký ako minimálna veľkosť špony</DLG_Text141>
+    <GRP_Static_Fields />
+    <settings_keep_productivity />
+    <Label14 />
+    <BT_Library_More />
+    <REFERENCE_TAB />
+    <LB_Browse_Web />
+    <Plugins_BTN_Go />
+    <BTN_CustomSpeedsFeeds />
+    <ML_Status_OK_Text />
+    <btn_DDE_OK />
+    <BTN_Edit_Family />
+    <LB_Brinell />
+    <LB_Max_Power />
+    <LB_ToolType />
+    <btn_Capture />
+    <LB_Pitch />
+    <LB_Tap_dia_T />
+    <LB_Turn_Dia_T />
+    <LB_N_Starts_T />
+    <LB_N_Inserts_T />
+    <check_TaperShoulder />
+    <LB_Insert_Len_T />
+    <LB_HolderSize_T />
+    <LB_Shoulder_Dia_T />
+    <LB_DEG />
+    <btn_Minicalc_Interpolation />
+    <btn_Check_HSM />
+    <btn_check_Thinning />
+    <btn_minicalc_scallop />
+    <Button1 />
+    <Label_Crossfeed_Angle />
+    <LB_TP_Major_Diameter />
+    <radio_Circle_Line />
+    <LB_DRL_Peck_T />
+    <LB_Tap_Thread_PC_T />
+    <LB_MaxRad />
+    <LB_ThreadCrestTruncate />
+    <LB_ThreadRootTruncate />
+    <Label_Root_Radius_T />
+    <GRP_Threads_External_Three_Wire />
+    <LB_Thread3Wire />
+    <LB_ThreadWireDiameter />
+    <LB_ThreadPitchDiameter />
+    <LB_ThreadMeasureOverWire />
+    <LB_ThreadWireDiaMin />
+    <LB_ThreadWireDiaMax />
+    <LB_ThreadWireDiaBest />
+    <LB_ThreadRecPc />
+    <LB_ThreadTapHoleSize />
+    <LB_ThreadDesiredPC />
+    <LB_Settings_Lease_Period_T />
+    <GRP_Settings_Dropdown />
+    <BTN_Settings_Edit_Tool_DropDown_Items />
+    <BTN_Settings_Edit_Cut_DropDown_Items />
+    <LB_ToolCutDrowdowns_Hint />
+    <BTN_MachineDB_Location />
+    <settings_keep_machine_id />
+    <BTN_Manage_Machines />
+    <EXP_Tapping_Data />
+    <EXP_Settings_myCUT_DB_Settings />
+    <btn_Ok />
+    <PeckToolStripMenuItem />
+    <LoginForm />
+    <LB_Email />
+    <CHK_Mach_Stick_To_RPM />
+    <CHK_Mach_Stick_To_RPM_tooltip />
+    <BTN_Open />
+    <LB_Scallop_T />
+    <MiniCalc_Scallop />
+    <LB_Scallop_DOC />
+    <LB_Stepover />
+    <GRP_Interpolation_Params />
+    <LB_Circular_Units_Converted_T />
+    <LB_Feature_Type />
+    <LB_Pilot_Hole_Dia />
+    <LB_Stock_Dia_T />
+    <LB_Fin_Hole_Dia />
+    <LB_Fin_Boss_Dia />
+    <LB_Cutter_Dia_T />
+    <LB_With_of_Cut_T />
+    <LB_Pitch_DOC />
+    <GRP_Helical_Params />
+    <Radio_Ramp_Feed />
+    <btn_CreatePR />
+    <btn_ApplyToStock />
+    <btn_Save_Request />
+    <LB_SetOrderQty />
+    <LB_SetOrderQtyMax />
+    <LB_SetOrderQtyMin />
+    <LB_SetOrderQty0 />
+    <PurchaseRequest_DLG />
+    <btn_PrintPR />
+    <Edit_Tool_Info />
+    <LB_Insert_Name />
+    <LB_Brand_Series />
+    <LB_Number_On_Hand />
+    <LB_Stock_Min />
+    <LB_Stock_Min_tooltip />
+    <LB_Stock_Opt />
+    <LB_Number_On_Order />
+    <LB_Number_On_Order_tooltip />
+    <btn_Copy_Data_tooltip />
+    <btn_Paste_Data_tooltip />
+    <btn_Add_ToOrder />
+    <LB_Tool_Supplier />
+    <LB_Tool_Location />
+    <LB_Supplier_Part_ID />
+    <LB_Tool_Record_Type />
+    <CHK_Generic />
+    <LB_SFM />
+    <CustomSpeedsFeeds />
+    <LB_Custom_Tables />
+    <LB_SAF_Message />
+    <BTN_Generate_Sizes />
+    <LB_Number />
+    <LB_Offset_Length />
+    <LB_Offset_Dia />
+    <LB_Additional_OP_Info />
+    <btn_HSMA_Cloud_Login />
+    <GRP_Cloud_Service />
+    <CutCloudFeedback />
+    <EXP_OptionsAbout />
+    <CHK_CutCloudF_Save_Params />
+    <LB_CutCloudAbout />
+    <LB_Op_Comment />
+    <LB_Op_Rating />
+    <LB_Coolant />
+    <SetSeriesNameToolStripMenuItem />
+    <InsertBatchToolListToolStripMenuItem />
+    <LB_Show_Tree_ToolTip />
+    <LB_Feed_PC_T_Head />
+    <PB_Tool_Torque_Slider_Body />
+    <LB_Max_RPM_T_Body />
+    <LB_Max_Power_T_Head />
+    <LB_Max_Power_T_Body />
+    <LB_Max_Torque_T_Head />
+    <LB_Max_Torque_T_Body />
+    <LB_WOC_T_Body />
+    <LB_WOC_Threadmill_T_Body />
+    <LB_DOC_T_Body />
+    <LB_DOC_Threadmill_T_Body />
+    <LB_DOC_GROOVE_T_Body />
+    <LB_Leadangle_T_Lead_Head />
+    <LB_Leadangle_T_Lead_Body />
+    <LB_Leadangle_T_Taper_Head />
+    <LB_Leadangle_T_Taper_Body />
+    <LB_Leadangle_T_Tip_Head />
+    <LB_Leadangle_T_Tip_Body />
+    <PNL_MaxPerformance_Head />
+    <PNL_MaxPerformance_Body />
+    <PNL_MinPerformance_Head />
+    <PNL_MinPerformance_Body />
+    <LB_Depth_T_Body />
+    <LB_DRL_E_Dia_T_Body />
+    <LB_Speed_PC_T_Head />
+    <LB_Speed_PC_T_Body />
+    <LB_TP_Major_Diameter_Body />
+    <LB_DOC_RAD_T_Body />
+    <BT_MyCut_Tool_More_Head />
+    <BT_MyCut_Tool_More_Body />
+    <BT_myCut_Cut_More_Head />
+    <BT_myCut_Cut_More_Body />
+    <Input_Depth_Head />
+    <Input_Depth_Body />
+    <btn_check_Thinning_Head />
+    <btn_check_Thinning_Body />
+    <btn_Check_HSM_Head />
+    <btn_Check_HSM_Body />
+    <Panel_Tool_Manufacturer_Settings_Tip_Head />
+    <Panel_Tool_Manufacturer_Settings_Tip_Body />
+    <LB_Tool_Max_RPM_Head />
+    <LB_Tool_Max_RPM_Body />
+    <LB_Ideal_Chipload_T_Head />
+    <LB_Ideal_Chipload_T_Body />
+    <LB_Ideal_Speed_T_Head />
+    <LB_Ideal_Speed_T_Body />
+    <BTN_Reset_all_Head />
+    <BTN_Reset_all_Body />
+    <BTN_More_Materials_Head />
+    <BTN_More_Materials_Body />
+    <LB_Chipload_T_Head />
+    <LB_Chipload_T_Body />
+    <LB_Speed_T_Head />
+    <LB_Speed_T_Body />
+    <check_Slotting_Head />
+    <check_Slotting_Body />
+    <settings_keep_machine_id_Head />
+    <settings_keep_machine_id_Body />
+    <LB_Plunge_T_Head />
+    <LB_Plunge_T_Body />
+    <chck_Shared_Database_Head />
+    <chck_Shared_Database_Body />
+    <BTN_Set_DB_Location_Head />
+    <BTN_Set_DB_Location_Body />
+    <BTN_SF_Status_Head />
+    <BTN_SF_Status_Body />
+    <btn_Load_Tool_Head />
+    <btn_Load_Tool_Body />
+    <BTN_FSW_Edit_New_Tool_Head />
+    <BTN_FSW_Edit_New_Tool_Body />
+    <btn_FSW_Edit_Tool_Head />
+    <btn_FSW_Edit_Tool_Body />
+    <btn_FSW_Add_Tool_Head />
+    <btn_FSW_Add_Tool_Body />
+    <btn_Add_Cut_Head />
+    <btn_Add_Cut_Body />
+    <CMB_LIB_TOOL_Head />
+    <CMB_Cut_Head />
+    <CMB_Cut_Body />
+    <LB_Settings_Lease_Period_T_Head />
+    <LB_Settings_Lease_Period_T_Body />
+    <PB_Machine_Power_Head />
+    <PB_Machine_Power_Body />
+    <PB_Tool_Life_Head />
+    <PB_Tool_Life_Body />
+    <PB_Mrr_Head />
+    <PB_Mrr_Body />
+    <PB_Tool_Deflection_Head />
+    <PB_Tool_Deflection_Body />
+    <PB_Tool_Torque_Head />
+    <PB_Tool_Torque_Body />
+    <LB_Feed_T_Head />
+    <LB_Feed_T_Body />
+    <LB_RPM_T_Body />
+    <LB_Flute_Len_T_Body />
+    <LB_Insert_Len_T_Head />
+    <LB_Insert_Len_T_Body />
+    <LB_Helix_T_Head />
+    <LB_Helix_T_Body />
+    <LB_Shank_Dia_T_Head />
+    <LB_Shank_Dia_T_Body />
+    <LB_HolderSize_T_Head />
+    <LB_HolderSize_T_Body />
+    <LB_N_Flutes_T_Head />
+    <LB_N_Flutes_T_Body />
+    <LB_N_Starts_T_Head />
+    <LB_N_Starts_T_Body />
+    <LB_N_Inserts_T_Head />
+    <LB_N_Inserts_T_Body />
+    <PB_Machine_Torque_Body />
+    <LB_RPM_Plunge_T_Head />
+    <LB_RPM_Plunge_T_Body />
+    <LB_DRL_Peck_T_Head />
+    <LB_DRL_Peck_T_Body />
+    <LB_Turn_Dia_T_Head />
+    <LB_Turn_Dia_T_Body />
+    <btn_HSMA_Cloud_Login_Head />
+    <btn_HSMA_Cloud_Login_Body />
+    <LB_CutCloudRating_Head />
+    <LB_CutCloudRating_Body />
+    <LB_CloudCutsIndicator_Head />
+    <LB_CloudCutsIndicator_Body />
+    <LB_Inventory_Red_Head />
+    <LB_Inventory_Red_Body />
+    <LB_Inventory_Yellow_Head />
+    <LB_Inventory_Yellow_Body />
+    <LB_Inventory_Green_Head />
+    <LB_Inventory_Green_Body />
+    <LB_License_Description />
+    <DGV_node_img />
+    <DGV_cuts />
+    <DGV_node_text />
+    <DGV_tool_number />
+    <DGV_child_text />
+    <DGV_diameter />
+    <DGV_corner_rad />
+    <DGV_flute_n />
+    <DGV_material />
+    <DGV_tool_material />
+    <DGV_work_material />
+    <DGV_coating />
+    <DGV_brand_name />
+    <DGV_series_name />
+    <DGV_supplier />
+    <DGV_supplier_pid />
+    <DGV_rpm />
+    <DGV_feed />
+    <DGV_sfm_adj />
+    <DGV_ipt_adj />
+    <DGV_doc />
+    <DGV_woc />
+    <DGV_stickout />
+    <DGV_shank_dia />
+    <DGV_operation_type />
+    <DGV_Operation />
+    <DGV_surface_finish />
+    <DGV_tool_life />
+    <DGV_Rating />
+    <DGV_machine />
+    <DGV_holder />
+    <DGV_Mrr />
+    <DGV_Qty />
+    <DGV_minQty />
+    <DGV_maxQty />
+    <DGV_onOrderQty />
+    <DGV_OrderQty />
+    <DGV_Price />
+    <DGV_Received />
+    <DGV_Status />
+    <CMB_Text_1 />
+    <CMB_Text_2 />
+    <CMB_Text_3 />
+    <CMB_Text_5 />
+    <CMB_Text_6 />
+    <CMB_Text_7 />
+    <CMB_Text_8 />
+    <CMB_Text_9 />
+    <CMB_Text_10 />
+    <CMB_Text_16 />
+    <CMB_Text_31 />
+    <SelectTool_DLG />
+    <ERR_MaxTapRPM />
+    <ERR_Tap_Max_ToolRPM />
+    <ERR_Machine_Max_Feedrate_Remedy />
+    <ERR_Tool_MaxRPM_Remedy />
+    <ERR_ThreadMill_MD_Required />
+    <ERR_ThreadMill_MD_TooSmall />
+    <ERR_Tool_Deflection_Limit_Remedy />
+    <ERR_Tool_Torque_Limit_Remedy />
+    <ERR_DRL_Torque_Limit />
+    <ERR_DRL_Torque_Limit_Remedy />
+    <ERR_Machine_PowerCurve_Limit />
+    <ERR_Machine_PowerCurve_Limit_Remedy />
+    <ERR_Machine_DRL_PowerCurve_Limit_Remedy />
+    <ERR_Machine_Power_Limit />
+    <ERR_Machine_Power_Limit_Remedy />
+    <ERR_Machine_DRL_Power_Limit_Remedy />
+    <ERR_Machine_Torque_Limit />
+    <ERR_Machine_Torque_Limit_Remedy />
+    <ERR_Machine_MinRPM_Limit />
+    <ERR_Machine_MinRPM_Limit_Remedy />
+    <ERR_PasswordsNoMatch />
+    <ERR_PasswordTooShort />
+    <ERR_LoginTooShort />
+    <ERR_EmailTooShort />
+    <LNG_Feed_rev />
+    <LNG_Power />
+    <LNG_Torque />
+    <LNG_Power_Curve />
+    <LNG_coated />
+    <LNG_Tool_Usage />
+    <LNG_Generic_Size />
+    <LNG_License_Message />
+    <LNG_days_left />
+    <LNG_Expired />
+    <LNG_Busy />
+    <LNG_Trial />
+    <LNG_Permanent />
+    <LNG_Floating />
+    <LNG_Active />
+    <LNG_Fatal_Error />
+    <LNG_Error />
+    <LNG_InvalidEntry />
+    <LNG_ResetToDefault />
+    <LNG_OK />
+    <LNG_Recommended_Peck />
+    <LNG_Breakthough_Amount />
+    <LNG_Pilot_Hole_Dia />
+    <LNG_Not_Required />
+    <LNG_Chip_Thickness />
+    <LNG_Reference_Chipload />
+    <LNG_Engagement />
+    <LNG_DOC />
+    <LNG_WOC />
+    <LNG_MRR />
+    <LNG_Effective_Dia />
+    <LNG_Cross_Section />
+    <LNG_Allowance />
+    <LNG_major_dia />
+    <LNG_pitch_dia />
+    <LNG_minor_dia_max />
+    <LNG_search_returned_nothing />
+    <LNG_search_too_restricted />
+    <LNG_LeadAngle />
+    <LNG_TipAngle />
+    <LNG_TaperAngle />
+    <LNG_Edit_New_Cut />
+    <LNG_Crossfeed_Amount />
+    <LNG_TXT_License_Help_BOX_Trial_Active />
+    <LNG_TXT_License_Help_BOX_Trial_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Active />
+    <LNG_TXT_License_Help_BOX_Full_Active />
+    <LNG_TXT_License_Help_BOX_Floating_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Busy />
+    <LNG_AddToolsToORder />
+    <LNG_AddToolsToORder_Prompt />
+    <LNG_ToolsOnOrder />
+    <LNG_ToolsOnOrder_prompt />
+    <LNG_Enter_Brand_And_Series />
+    <DLG_PurchaseRequestPrompt />
+    <DLG_Text1 />
+    <DLG_Title1 />
+    <DLG_Text2 />
+    <DLG_Text3 />
+    <DLG_Text5 />
+    <DLG_Text6 />
+    <DLG_Text7 />
+    <DLG_Text9 />
+    <DLG_Title9 />
+    <DLG_Text10 />
+    <DLG_Title10 />
+    <DLG_Text11 />
+    <DLG_Title11 />
+    <DLG_Text12 />
+    <DLG_Text13 />
+    <DLG_Title14 />
+    <DLG_Text14 />
+    <DLG_Title15 />
+    <DLG_Text15 />
+    <DLG_Title16 />
+    <DLG_Text16 />
+    <DLG_Text176 />
+    <DLG_Title17 />
+    <DLG_Text17 />
+    <DLG_Title18 />
+    <DLG_Text18 />
+    <DLG_Text19 />
+    <DLG_Title20 />
+    <DLG_Text20 />
+    <DLG_Title21 />
+    <DLG_Text21 />
+    <DLG_Title22 />
+    <DLG_Text22 />
+    <DLG_Title23 />
+    <DLG_Text23 />
+    <DLG_Title24 />
+    <DLG_Text24 />
+    <DLG_Title25 />
+    <DLG_Text25 />
+    <DLG_Title26 />
+    <DLG_Text26 />
+    <DLG_Title27 />
+    <DLG_Text27 />
+    <DLG_Title29 />
+    <DLG_Text29 />
+    <DLG_Title30 />
+    <DLG_Text30 />
+    <DLG_Text300 />
+    <DLG_Title31 />
+    <DLG_Text31 />
+    <DLG_Title32 />
+    <DLG_Text32 />
+    <DLG_Title33 />
+    <DLG_Text33 />
+    <DLG_Title34 />
+    <DLG_Text34 />
+    <DLG_Title35 />
+    <DLG_Text35 />
+    <DLG_Title36 />
+    <DLG_Text36 />
+    <DLG_Title37 />
+    <DLG_Text37 />
+    <DLG_Title38 />
+    <DLG_Text38 />
+    <DLG_Title39 />
+    <DLG_Text39 />
+    <DLG_Title40 />
+    <DLG_Title400 />
+    <DLG_Text40 />
+    <DLG_Title41 />
+    <DLG_Text41 />
+    <DLG_Title42 />
+    <DLG_Text42 />
+    <DLG_Text43 />
+    <DLG_Title44 />
+    <DLG_Text44 />
+    <DLG_Title45 />
+    <DLG_Text45 />
+    <DLG_Title46 />
+    <DLG_Text46 />
+    <DLG_Title47 />
+    <DLG_Text47 />
+    <DLG_Title48 />
+    <DLG_Text48 />
+    <DLG_Title49 />
+    <DLG_Text49 />
+    <DLG_Title50 />
+    <DLG_Text50 />
+    <DLG_Title51 />
+    <DLG_Text51 />
+    <DLG_Title52 />
+    <DLG_Text52 />
+    <DLG_Title53 />
+    <DLG_Text53 />
+    <DLG_Title54 />
+    <DLG_Text54 />
+    <DLG_Title55 />
+    <DLG_Text55 />
+    <DLG_Title56 />
+    <DLG_Text56 />
+    <DLG_Title57 />
+    <DLG_Text57 />
+    <DLG_Text58 />
+    <DLG_Title59 />
+    <DLG_Text59 />
+    <DLG_Title60 />
+    <DLG_Text60 />
+    <DLG_Title61 />
+    <DLG_Text61 />
+    <DLG_Title63 />
+    <DLG_Text63 />
+    <DLG_Title64 />
+    <DLG_Text64 />
+    <DLG_Text65 />
+    <DLG_Title66 />
+    <DLG_Text66 />
+    <DLG_Text67 />
+    <DLG_Title68 />
+    <DLG_Text69 />
+    <DLG_Text70 />
+    <DLG_Text71 />
+    <DLG_Title73 />
+    <DLG_Text73 />
+    <DLG_Title75 />
+    <DLG_Text75 />
+    <DLG_Text76 />
+    <DLG_Text77 />
+    <DLG_Title79 />
+    <DLG_Text79 />
+    <DLG_Title80 />
+    <DLG_Text80 />
+    <DLG_Text81 />
+    <DLG_Title82 />
+    <DLG_Text82 />
+    <DLG_Title83 />
+    <DLG_Text83 />
+    <DLG_Title84 />
+    <DLG_Text84 />
+    <DLG_Title85 />
+    <DLG_Text85 />
+    <DLG_Title86 />
+    <DLG_Text86 />
+    <DLG_Text87 />
+    <DLG_Text88 />
+    <DLG_Title91 />
+    <DLG_Text92 />
+    <DLG_Text_PleaseCheckMachine />
+    <DLG_Text94 />
+    <DLG_Text95 />
+    <DLG_Text96 />
+    <DLG_Text97 />
+    <DLG_Text98 />
+    <DLG_Text99 />
+    <DLG_Text100 />
+    <DLG_Text101 />
+    <DLG_Text103 />
+    <DLG_Text104 />
+    <DLG_Text105 />
+    <DLG_Text106 />
+    <DLG_Text107 />
+    <DLG_Text108 />
+    <DLG_Title109 />
+    <DLG_Text109 />
+    <DLG_Title110 />
+    <DLG_Text110 />
+    <DLG_Title111 />
+    <DLG_Text111 />
+    <DLG_Title112 />
+    <DLG_Text112 />
+    <DLG_Title113 />
+    <DLG_Text113 />
+    <DLG_Title117 />
+    <DLG_Text117 />
+    <DLG_Text118 />
+    <DLG_Title119 />
+    <DLG_Text119 />
+    <DLG_Title120 />
+    <DLG_Text120 />
+    <DLG_Title121 />
+    <DLG_Text121 />
+    <DLG_Title122 />
+    <DLG_Text122 />
+    <DLG_Title123 />
+    <DLG_Text123 />
+    <DLG_Text125 />
+    <DLG_Text126 />
+    <DLG_Text138 />
+    <DLG_Text139 />
+    <DLG_Title142 />
+    <DLG_Text142 />
+    <DLG_Title143 />
+    <DLG_Text143 />
+    <DLG_Title144 />
+    <DLG_Text144 />
+    <DLG_Text145 />
+    <DLG_Title146 />
+    <DLG_Text146 />
+  </controls>
+  <skv_fswizard_operation>
+    <text>Nenastavené</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <text>Hrubovanie a dokončovanie</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <text>Hrubovanie</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <text>Polodokončenie</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <text>Dokončovanie</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_finish>
+    <text>Nenastavené</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_stockstatus>
+    <text>Na sklade</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <text>Vypredané</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <text>Na objednávku</text>
+  </skv_fswizard_stockstatus>
+</language>

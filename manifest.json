@@ -1,0 +1,34 @@
+{
+    "version":"2.8.5",
+    "resources":[
+        {
+            "file_version":"2.8.5",
+            "local_path":"HSMAdvisor.exe",
+            "remote_path":"https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/HSMAdvisor.exe"
+        },
+        {
+            "local_path":"HSMAdvisor.exe.config",
+            "remote_path":"https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/HSMAdvisor.exe.config"
+        },
+        {
+            "file_version":"2.8.5",
+            "local_path":"HSMAdvisorCore.dll",
+            "remote_path":"https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/HSMAdvisorCore.dll"
+        },
+        {
+            "file_version":"2.8.5",
+            "local_path":"HSMAdvisorDatabase.dll",
+            "remote_path":"https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/HSMAdvisorDatabase.dll"
+        },
+        {
+            "file_version":"2.8.5",
+            "local_path":"HSMAdvisorPlugin.dll",
+            "remote_path":"https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/HSMAdvisorPlugin.dll"
+        },
+        {
+            "file_version":"13.0.3",
+            "local_path":"Newtonsoft.Json.dll",
+            "remote_path":"https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/Newtonsoft.Json.dll"
+        }
+    ]
+}

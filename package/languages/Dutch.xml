@@ -1,0 +1,1617 @@
+<?xml version="1.0" standalone="yes"?>
+<language>
+  <settings>
+    <lang_code />
+    <lang_scale_x />
+    <lang_scale_y />
+  </settings>
+  <controls>
+    <TXT_TranslatedBy>ing. Peter Schuurbiers
+CNC INSTRUCTIE BURO
+www.cncinstructieburo.nl
+info@cncinstructieburo.nl</TXT_TranslatedBy>
+    <LB_Type>Type</LB_Type>
+    <CHK_DefaultForTooltypes>Maak deze keuze voor het Tool Type hieronder.</CHK_DefaultForTooltypes>
+    <CHK_DefaultForTooltypes_tooltip>Kies automatisch deze machine wanneer een van de ondersteunde tool types is gekozen.</CHK_DefaultForTooltypes_tooltip>
+    <FSWIZARD_TAB>Snelheden en Voedingen</FSWIZARD_TAB>
+    <GRP_Static_Fields>Statische(keuze) velden</GRP_Static_Fields>
+    <settings_keep_Limit_Def>Limiet Afbuiging %</settings_keep_Limit_Def>
+    <settings_keep_productivity>Prestatie</settings_keep_productivity>
+    <Label14>?</Label14>
+    <settings_keep_Limit_Torque>Limiet Koppel %</settings_keep_Limit_Torque>
+    <settings_keep_max_RPM>Max Toerental</settings_keep_max_RPM>
+    <settings_keep_max_feed>Max Voeding</settings_keep_max_feed>
+    <settings_keep_max_torque>Max Koppel</settings_keep_max_torque>
+    <settings_keep_max_HP>Max HP</settings_keep_max_HP>
+    <TAB_Tool_Database>Tool Database</TAB_Tool_Database>
+    <BT_Library_More>Acties</BT_Library_More>
+    <Tab_Threads>Schroefdraden</Tab_Threads>
+    <LB_Machine_Overrides>Actuele Machine grenzen:</LB_Machine_Overrides>
+    <REFERENCE_TAB>Normen</REFERENCE_TAB>
+    <GEOMETRY_TAB>Rekenhulp</GEOMETRY_TAB>
+    <PLUGINS_TAB>Weblink</PLUGINS_TAB>
+    <LB_Browse_Web>Zoek in Web:</LB_Browse_Web>
+    <Plugins_BTN_Go>Go</Plugins_BTN_Go>
+    <BTN_CustomSpeedsFeeds>Eigen Snelheid en Voedingen</BTN_CustomSpeedsFeeds>
+    <TAB_Settings>Instellingen</TAB_Settings>
+    <LB_Input_T>Ingaven</LB_Input_T>
+    <LB_Result_T>Resultaat</LB_Result_T>
+    <LB_Lic_Status>Licentie</LB_Lic_Status>
+    <DB_Status_OK>Tool en Machine database status:              Vertaling: CNC Instructie Buro NL v1.0</DB_Status_OK>
+    <DB_Status_OK_Text>Tool Database:{x}</DB_Status_OK_Text>
+    <ML_Status_OK_Text>Machine Database:{x}</ML_Status_OK_Text>
+    <DB_Status_Writing>Tool Database status: Opslaan</DB_Status_Writing>
+    <DB_Status_Writing_Text>Schrijven naar:{x}</DB_Status_Writing_Text>
+    <DB_Status_Writing_Error>Database status: Opslaan Mislukt!</DB_Status_Writing_Error>
+    <DB_Status_Writing_Error_Text>Mislukt om weg te schrijven naar file:{x}
+Met fout:{y}</DB_Status_Writing_Error_Text>
+    <DB_Status_Reading>Database status: Lezen</DB_Status_Reading>
+    <DB_Status_Reading_Text>Lezen van:{x}</DB_Status_Reading_Text>
+    <DB_Status_Reading_Error>Database status: Lezen Mislukt!</DB_Status_Reading_Error>
+    <DB_Status_Reading_Error_Text>Mislukt om te schrijven naar file:{x}
+Met fout:{y}</DB_Status_Reading_Error_Text>
+    <btn_DDE_OK>OK</btn_DDE_OK>
+    <btn_DDE_Cancel>Annuleer</btn_DDE_Cancel>
+    <BT_Define_Machines>Edit</BT_Define_Machines>
+    <BTN_Edit>Edit</BTN_Edit>
+    <BTN_Edit_Family>Edit</BTN_Edit_Family>
+    <BTN_More_Materials>Meer..</BTN_More_Materials>
+    <LB_Machine>Machine</LB_Machine>
+    <LB_Tool_Library>Tool Bibliotheek</LB_Tool_Library>
+    <LB_Library>Bibliotheek</LB_Library>
+    <LB_Hardness_T>Hardheid:</LB_Hardness_T>
+    <LB_Brinell>Brinell</LB_Brinell>
+    <LB_Max_RPM_T>Max Toerental</LB_Max_RPM_T>
+    <LB_Max_Power_T>Max Vermogen</LB_Max_Power_T>
+    <LB_Max_Power>PK</LB_Max_Power>
+    <LB_Max_Torque_T>Max koppel</LB_Max_Torque_T>
+    <LB_Max_Feed_T>Max Voeding</LB_Max_Feed_T>
+    <LB_ToolType>Tool Type</LB_ToolType>
+    <btn_Capture>Gevonden</btn_Capture>
+    <BTN_FSW_Edit_New_Tool>Edit Nieuw</BTN_FSW_Edit_New_Tool>
+    <btn_Load_Tool>Laden Tool</btn_Load_Tool>
+    <btn_FSW_Add_Tool>Tool Toevoegen</btn_FSW_Add_Tool>
+    <LB_Pitch>in</LB_Pitch>
+    <LB_Thread_Pitch>Spoed</LB_Thread_Pitch>
+    <LB_Thread_Form>Draadvorm</LB_Thread_Form>
+    <LB_Thread_Size>Afmeting</LB_Thread_Size>
+    <LB_Tap_dia_T>Tap Dia</LB_Tap_dia_T>
+    <LB_Tip_Dia_T>Snij Dia</LB_Tip_Dia_T>
+    <LB_Turn_Dia_T>As dia</LB_Turn_Dia_T>
+    <LB_N_Starts_T># Starts</LB_N_Starts_T>
+    <LB_N_Flutes_T># Tanden</LB_N_Flutes_T>
+    <LB_N_Inserts_T># Platen</LB_N_Inserts_T>
+    <LB_Len_T>Uitspanlengte</LB_Len_T>
+    <LB_Corner_Rad_T>Radius</LB_Corner_Rad_T>
+    <LB_MaxForce>Max. Aanzetkracht</LB_MaxForce>
+    <LB_MaxForce_tooltip>Maximum toegestane snijkracht.
+Voeding zal worden begrenst om de snijkracht onder deze waarde te houden.</LB_MaxForce_tooltip>
+    <check_BallNose>Bolkop</check_BallNose>
+    <check_TaperShoulder>Tapse schacht</check_TaperShoulder>
+    <LB_Insert_Len_T>Plaatlengte</LB_Insert_Len_T>
+    <LB_Flute_Len_T>Snijlengte</LB_Flute_Len_T>
+    <LB_Leadangle_T>Hoek</LB_Leadangle_T>
+    <LB_Shank_Dia_T>Inspan Dia</LB_Shank_Dia_T>
+    <LB_HolderSize_T>Opname Afm.</LB_HolderSize_T>
+    <LB_Helix_T>Helix Hoek</LB_Helix_T>
+    <LB_ShouldeR_Len_T>Schacht Len.</LB_ShouldeR_Len_T>
+    <LB_Shoulder_Dia_T>Schacht Dia</LB_Shoulder_Dia_T>
+    <BTN_Reset_all>Reset</BTN_Reset_all>
+    <LB_Tool_Type>Tool Type</LB_Tool_Type>
+    <LB_DOC_T>Diepte</LB_DOC_T>
+    <LD_DOC_Threadmill_T>Diepte</LD_DOC_Threadmill_T>
+    <LB_DOC_RAD_T>Snedediepte</LB_DOC_RAD_T>
+    <LB_DOC_GROOVE_T>Breedte</LB_DOC_GROOVE_T>
+    <LB_WOC_T>Breedte</LB_WOC_T>
+    <LB_WOC_Threadmill_T>Breedte</LB_WOC_Threadmill_T>
+    <check_Slotting>Sleuf / Kamer</check_Slotting>
+    <LB_DEG>Aangrijphoek</LB_DEG>
+    <btn_Minicalc_Interpolation>Cirkel/Insteek</btn_Minicalc_Interpolation>
+    <btn_Check_HSM>HSM</btn_Check_HSM>
+    <btn_check_Thinning>Spaanverdunning Hex</btn_check_Thinning>
+    <btn_minicalc_scallop>Ruwheid</btn_minicalc_scallop>
+    <Button1>Insteken</Button1>
+    <LB_TP_Thread_Type>Draad Type</LB_TP_Thread_Type>
+    <Label_Crossfeed_Angle>Flankhoek</Label_Crossfeed_Angle>
+    <LB_TP_Major_Diameter>Nominale Dia</LB_TP_Major_Diameter>
+    <radio_Circle_Line>ZigZag</radio_Circle_Line>
+    <LB_DRL_E_Dia_T>Effectieve Dia</LB_DRL_E_Dia_T>
+    <LB_Depth_T>Diepte</LB_Depth_T>
+    <LB_DRL_Peck_T>Boorstap</LB_DRL_Peck_T>
+    <LB_Tap_Thread_PC_T>Draad Percentage</LB_Tap_Thread_PC_T>
+    <LB_Tap_Drill_Dia_T>Boor Afmeting</LB_Tap_Drill_Dia_T>
+    <LB_Feed_PC_T>F</LB_Feed_PC_T>
+    <LB_Speed_PC_T>S</LB_Speed_PC_T>
+    <LB_Limit_Torque_PC_T>Limiet Koppel</LB_Limit_Torque_PC_T>
+    <LB_LimitDef_PC_T>Limiet Afbuiging</LB_LimitDef_PC_T>
+    <LB_Tool_Max_RPM>Tool Max S</LB_Tool_Max_RPM>
+    <LB_Ideal_Speed_T>Snijsnelh. V</LB_Ideal_Speed_T>
+    <LB_Ideal_Chipload_T>Aanzet Fz</LB_Ideal_Chipload_T>
+    <LB_RPM_T>Toerental S</LB_RPM_T>
+    <LB_Feed_T>Voeding F</LB_Feed_T>
+    <LB_Speed_T>Snijsnelh. V</LB_Speed_T>
+    <LB_RPM_Plunge_T>Insteek S</LB_RPM_Plunge_T>
+    <LB_Plunge_T>Insteek F</LB_Plunge_T>
+    <Tab_Cutting_Data>Snijgegevens</Tab_Cutting_Data>
+    <tab_warnings>Waarschuwing</tab_warnings>
+    <tab_tool_paint>Tool situatie</tab_tool_paint>
+    <btn_Filter_Reset>Reset Alles</btn_Filter_Reset>
+    <LB_Size>Afmeting</LB_Size>
+    <LB_ThreadForm>Draadvorm</LB_ThreadForm>
+    <LB_ThreadClass>Klasse</LB_ThreadClass>
+    <LB_Units>Eenheden</LB_Units>
+    <GRP_Threads_External_Thread_Info>Buitendraad Informatie</GRP_Threads_External_Thread_Info>
+    <LB_MaxRad>Max Rad</LB_MaxRad>
+    <LB_ThreadPitch>Spoed</LB_ThreadPitch>
+    <LB_ThreadCrestTruncate>Topafplatting</LB_ThreadCrestTruncate>
+    <LB_ThreadRootTruncate>Kernafplatting</LB_ThreadRootTruncate>
+    <Label_Root_Radius_T>Kernafronding</Label_Root_Radius_T>
+    <GRP_Threads_External_Three_Wire>Driedraads-methode meting</GRP_Threads_External_Three_Wire>
+    <LB_Thread3Wire>Bekende waarden ingeven en druk op ENTER</LB_Thread3Wire>
+    <LB_ThreadWireDiameter>Draaddiameter</LB_ThreadWireDiameter>
+    <LB_ThreadPitchDiameter>Flankendiameter</LB_ThreadPitchDiameter>
+    <LB_ThreadMeasureOverWire>Meting over de meetdraad</LB_ThreadMeasureOverWire>
+    <LB_ThreadWireDiaMin>Meetdraad Dia Min</LB_ThreadWireDiaMin>
+    <LB_ThreadWireDiaMax>Meetdraad Dia Max</LB_ThreadWireDiaMax>
+    <LB_ThreadWireDiaBest>Meetdraad Dia Beste</LB_ThreadWireDiaBest>
+    <LB_DrillTapChart>Boor/Tap lijst</LB_DrillTapChart>
+    <LB_ThreadRecPc>Advies draad %</LB_ThreadRecPc>
+    <Radio_Threads_Cutting>Verspanen</Radio_Threads_Cutting>
+    <Radio_Threads_Forming>Vervormen</Radio_Threads_Forming>
+    <LB_ThreadTapHoleSize>Tapgat maat</LB_ThreadTapHoleSize>
+    <LB_ThreadDesiredPC>Vereiste draad %</LB_ThreadDesiredPC>
+    <Licence_BT_Enter_Key>Aankoop/Enter toets</Licence_BT_Enter_Key>
+    <LB_LicenseLevel>Licentie niveau:</LB_LicenseLevel>
+    <btn_settings_open_user_folder>Open gebruikers map</btn_settings_open_user_folder>
+    <LB_Settings_Lease_Period_T>Floating License Parkeer Periode</LB_Settings_Lease_Period_T>
+    <BT_E_Exit>Nooduitgang!</BT_E_Exit>
+    <btn_Font_Large>Stel lettertype in</btn_Font_Large>
+    <settings_check_for_updates>Controleer op updates bij opstarten.</settings_check_for_updates>
+    <settings_check_Help>Toon pop-up helptekst</settings_check_Help>
+    <settings_check_swicth_to_warnings>Bij fout schakel naar tab  waarschuwing</settings_check_swicth_to_warnings>
+    <settings_check_reset_tooldata_upon_tooltype>Reset Tool Data (ZEER aan te bevelen om te gebruiken)</settings_check_reset_tooldata_upon_tooltype>
+    <settings_check_reset_overrides_upon_tooltype>Reset Correctie % S en F</settings_check_reset_overrides_upon_tooltype>
+    <settings_check_reset_preformance_upon_tooltype>Reset Tool prestatie.
+</settings_check_reset_preformance_upon_tooltype>
+    <settings_check_reset_limits_upon_tooltype>Reset Tool veiligheidslimieten
+</settings_check_reset_limits_upon_tooltype>
+    <LB_Defaults_Text>Hier kun je diverse defaults instellen voor correcties en limieten.</LB_Defaults_Text>
+    <LB_Defaults_Speed>Snijsnelheid (S%)</LB_Defaults_Speed>
+    <LB_Defaults_Feed>Aanzet Fz (F%)</LB_Defaults_Feed>
+    <LB_Defaults_Performance>Tool Prestatie</LB_Defaults_Performance>
+    <LB_Defaults_Torque>Koppel Limiet (%)</LB_Defaults_Torque>
+    <LB_Defaults_Deflection>Afbuiging Limiet (%)</LB_Defaults_Deflection>
+    <GRP_Settings_Dropdown>Tool en Bewerking pull-downs</GRP_Settings_Dropdown>
+    <BTN_Settings_Edit_Tool_DropDown_Items>Edit Tool pull-down items</BTN_Settings_Edit_Tool_DropDown_Items>
+    <BTN_Settings_Edit_Cut_DropDown_Items>Edit Bewerking pull-down items</BTN_Settings_Edit_Cut_DropDown_Items>
+    <LB_ToolCutDrowdowns_Hint>Voor edit kun je ook klikken met de rechter-muis-knop op bewerking en tool pull-down items.</LB_ToolCutDrowdowns_Hint>
+    <GRP_Settings_DB_Other>Anders</GRP_Settings_DB_Other>
+    <BTN_Set_DB_Location>Locatiemap Tool Database</BTN_Set_DB_Location>
+    <BTN_MachineDB_Location>Locatiemap Machine database</BTN_MachineDB_Location>
+    <chck_Shared_Database>Gedeelde Tool Database</chck_Shared_Database>
+    <settings_confirm_calculation_delete>Bevestig Tool/Bewerking Wissen</settings_confirm_calculation_delete>
+    <settings_keep_machine_id>Machine keuze</settings_keep_machine_id>
+    <BTN_View_Reginfo>Toon registratie info</BTN_View_Reginfo>
+    <btn_CutCloud>Open CutCloud</btn_CutCloud>
+    <BT_Define_Tool_Type>Tool Type</BT_Define_Tool_Type>
+    <BT_Define_Material>Materiaal</BT_Define_Material>
+    <BTN_Manage_Machines>Manage Machines</BTN_Manage_Machines>
+    <EXP_DDE_Integration>CAM Intergratie</EXP_DDE_Integration>
+    <EXP_Workpiece>Materiaal</EXP_Workpiece>
+    <EXP_Tool_Data>Tool Data</EXP_Tool_Data>
+    <EXP_Cut>Snijvariabelen</EXP_Cut>
+    <LB_Cutting_Parameters>Parameters</LB_Cutting_Parameters>
+    <EXP_Comp>Compensatie</EXP_Comp>
+    <EXP_Thread_Params>Draad Parameters</EXP_Thread_Params>
+    <EXP_Drilling_Params>Boor Parameters</EXP_Drilling_Params>
+    <EXP_Tapping_Data>Tap Data</EXP_Tapping_Data>
+    <EXP_Gages>Tool Belastingmeters</EXP_Gages>
+    <PB_Machine_Power>Spilvermogen:</PB_Machine_Power>
+    <PB_Machine_Torque>Koppel:</PB_Machine_Torque>
+    <PB_Machine_Force>Snijkracht:</PB_Machine_Force>
+    <PB_Mrr>Spaanvolume:</PB_Mrr>
+    <PB_Tool_Life>Standtijd:</PB_Tool_Life>
+    <PB_Tool_Deflection>Afbuiging:</PB_Tool_Deflection>
+    <PB_Tool_Torque>Koppel:</PB_Tool_Torque>
+    <EXP_Overrides>Correctie %</EXP_Overrides>
+    <EXP_Tool_Limits>Tool Limieten</EXP_Tool_Limits>
+    <EXP_CUT_Controls>Opslaan bewerking</EXP_CUT_Controls>
+    <EXP_Limits>Belasting Limieten</EXP_Limits>
+    <EXP_Man_Settings>Snelheden en voeding fabrikant</EXP_Man_Settings>
+    <EXP_Speed_Feed>Snelheden en voedingen advies</EXP_Speed_Feed>
+    <EXP_myCut_tool_DB_Tool_Filter>Tool Filter</EXP_myCut_tool_DB_Tool_Filter>
+    <EXP_Threads_Thread_Type>Schroefdraad</EXP_Threads_Thread_Type>
+    <EXP_Threads_External>Buitendraad / Driedraads-meting</EXP_Threads_External>
+    <EXP_Threads_Internal>Binnendraad, Tap/Boor Lijst</EXP_Threads_Internal>
+    <EXP_Settings_Licence_Trial>Licentie</EXP_Settings_Licence_Trial>
+    <EXP_Settings_General>Algemeen</EXP_Settings_General>
+    <EXP_Settings_Things_to_Reset>Velden en limieten die worden gereset op de default waarde, nadat het Tool Type is gewijzigd.</EXP_Settings_Things_to_Reset>
+    <EXP_Settings_Defaults>Defaults</EXP_Settings_Defaults>
+    <EXP_Settings_myCUT_DB_Settings>Mijn locatiemap voor Tool- en Machine Database instellen</EXP_Settings_myCUT_DB_Settings>
+    <EXP_Settings_Licence_Full>Licentie</EXP_Settings_Licence_Full>
+    <LB_Tool_Filter>Tool Filter:</LB_Tool_Filter>
+    <LB_ToolShankDia>Tool schacht diameter</LB_ToolShankDia>
+    <LB_Machine_Interface>Machine Interface</LB_Machine_Interface>
+    <LB_ProductURL>Product URL</LB_ProductURL>
+    <btn_Ok>OK</btn_Ok>
+    <btn_Delete>Wissen</btn_Delete>
+    <btn_Add>Toevoegen</btn_Add>
+    <btn_Cancel>Annuleer</btn_Cancel>
+    <btn_Save>Opslaan</btn_Save>
+    <btn_Apply>Enter</btn_Apply>
+    <SFMToolStripMenuItem>Snijsnelheid</SFMToolStripMenuItem>
+    <ChiploadToolStripMenuItem>Aanzet Fz</ChiploadToolStripMenuItem>
+    <RPMToolStripMenuItem>Toerental</RPMToolStripMenuItem>
+    <FeedrateToolStripMenuItem>Voeding</FeedrateToolStripMenuItem>
+    <PlungeFeedToolStripMenuItem>Insteek F</PlungeFeedToolStripMenuItem>
+    <DOCToolStripMenuItem>Diepte</DOCToolStripMenuItem>
+    <WOCToolStripMenuItem>Breedte</WOCToolStripMenuItem>
+    <PeckToolStripMenuItem>Boorstap</PeckToolStripMenuItem>
+    <LoginForm>{pname} Licentie Activatie</LoginForm>
+    <LB_FirstName>Voornaam:</LB_FirstName>
+    <LB_SerialNumber>Licentiesleutel:</LB_SerialNumber>
+    <LB_LastName>Achternaam:</LB_LastName>
+    <LNK_Purchase_License>Aankoop licentie</LNK_Purchase_License>
+    <LB_Computer_ID>Computer ID:</LB_Computer_ID>
+    <LB_License_Level>Licentie niveau:</LB_License_Level>
+    <LB_Email>E-mail</LB_Email>
+    <LNK_Claim_Purchased_Keys>Toon mijn licentie On-line</LNK_Claim_Purchased_Keys>
+    <LNK_Autoregister>Registreer automatisch</LNK_Autoregister>
+    <LNK_License_Logout>Uitloggen</LNK_License_Logout>
+    <FRM_MachineDefinition>Machine Profiel</FRM_MachineDefinition>
+    <CHK_Mach_Stick_To_RPM>Berekeningen gaan uit van de match met het Toerental uit de tabel voor het diagram.</CHK_Mach_Stick_To_RPM>
+    <CHK_Mach_Stick_To_RPM_tooltip>Controleer of je het berekende Toerental wilt afronden op het benaderde Toerental uit de tabel van het vermogensdiagram.
+Van toepassing ingeval van een schakelbare toerentallen reeks.</CHK_Mach_Stick_To_RPM_tooltip>
+    <GRP_Power_Curve>Vermogensdiagram</GRP_Power_Curve>
+    <BTN_Power_Curve_Wizard>Vermogensdiagram Wizard</BTN_Power_Curve_Wizard>
+    <BTN_Power_Curve_Wizard_tooltip>Open de Vernogensdiagram wizard berekening.</BTN_Power_Curve_Wizard_tooltip>
+    <LB_Mach_Notice>* Toerentallen MOETEN in oplopende volgorde staan</LB_Mach_Notice>
+    <GRP_Machine_Info>Machine Informatie</GRP_Machine_Info>
+    <GRP_Select_Machine>Selecteer Machine</GRP_Select_Machine>
+    <BTN_Add_Mach>Toevoegen</BTN_Add_Mach>
+    <BTN_Add_Mach_tooltip>Maak een nieuw Machine Profiel</BTN_Add_Mach_tooltip>
+    <BTN_Remove_Mach>Verwijder</BTN_Remove_Mach>
+    <BTN_Remove_Mach_tooltip>Verwijder geselecteerd profiel uit de lijst</BTN_Remove_Mach_tooltip>
+    <BTN_clone_mach>Clone</BTN_clone_mach>
+    <BTN_clone_mach_tooltip>Clone geselecteerd profiel</BTN_clone_mach_tooltip>
+    <BTN_Import_Mach>Importeer</BTN_Import_Mach>
+    <BTN_Import_Mach_tooltip>Importeer een Machine Profiel uit een extern bestand</BTN_Import_Mach_tooltip>
+    <BTN_Export_Mach>Exporteer</BTN_Export_Mach>
+    <BTN_Export_Mach_tooltip>Exporteer een Machine Profiel naar een extern bestand</BTN_Export_Mach_tooltip>
+    <BTN_Open>Opslaan</BTN_Open>
+    <LB_Max_Tap_RPM>Max Tap Toerental</LB_Max_Tap_RPM>
+    <LB_Max_Tap_RPM_tooltip>Stel het maximum toerental in voor tappen op jouw machine.</LB_Max_Tap_RPM_tooltip>
+    <LB_Min_RPM_T>Min Toerental</LB_Min_RPM_T>
+    <LB_Min_RPM_T_tooltip>Minimum spiltoerental</LB_Min_RPM_T_tooltip>
+    <LB_Name>Naam</LB_Name>
+    <LB_Warning_At_T>Waarschuwing bij</LB_Warning_At_T>
+    <LB_Warning_At_T_tooltip>Genereerd een waarschuwing als het vermogen of het koppel het maximum nadert.</LB_Warning_At_T_tooltip>
+    <CHK_Mach_Use_Curve>Pas Vermogensdiagram toe.</CHK_Mach_Use_Curve>
+    <CHK_Mach_Use_Curve_tooltip>Pas de compensatie toe in de berekening, die rekening houdt met het vermogensdiagram.
+Maximum Vermogen en Maximum Koppel limieten zullen varieren bij het gevonden spiltoerental.</CHK_Mach_Use_Curve_tooltip>
+    <MiniCalc_Turn_Scallop>Draaien oppervlakte Finish Calculator</MiniCalc_Turn_Scallop>
+    <LB_Surface_Roughness_T>Ra waarde</LB_Surface_Roughness_T>
+    <LB_Scallop_T>Ruwheid</LB_Scallop_T>
+    <LB_Feed_per_Rev>Aanzet per omwenteling</LB_Feed_per_Rev>
+    <MiniCalc_Interpolation>Helixfrezen/Insteekfrezen</MiniCalc_Interpolation>
+    <MiniCalc_Scallop>Bolfrees Oppervlakte Ruwheid Calculator.</MiniCalc_Scallop>
+    <LB_Scallop_DOC>Diepte(DOC)</LB_Scallop_DOC>
+    <LB_Stepover>Overstap</LB_Stepover>
+    <GRP_Interpolation_Params>Insteek Parameters</GRP_Interpolation_Params>
+    <LB_Circular_Units_Converted_T>Alle waarden worden berekend volgens de snijdende freesdiameter.</LB_Circular_Units_Converted_T>
+    <LB_Feature_Type>Insteek Methode</LB_Feature_Type>
+    <LB_Pilot_Hole_Dia>Startgat Diameter</LB_Pilot_Hole_Dia>
+    <LB_Stock_Dia_T>Ruwe diameter</LB_Stock_Dia_T>
+    <LB_Fin_Hole_Dia>Finish Gat Diameter</LB_Fin_Hole_Dia>
+    <LB_Fin_Boss_Dia>Finish Prop Diameter</LB_Fin_Boss_Dia>
+    <LB_Cutter_Dia_T>Freesdiameter</LB_Cutter_Dia_T>
+    <LB_With_of_Cut_T>Insteekbreedte</LB_With_of_Cut_T>
+    <LB_Angle_T>Hoek</LB_Angle_T>
+    <LB_Pitch_DOC>Spoed (Stapdiepte)</LB_Pitch_DOC>
+    <GRP_Helical_Params>Insteekhoek Calculator</GRP_Helical_Params>
+    <Radio_Ramp_Feed>Insteekfrezen</Radio_Ramp_Feed>
+    <LB_Pass_Length>Snedelengte</LB_Pass_Length>
+    <btn_CreatePR>Maak inkoop aanvraag aan</btn_CreatePR>
+    <btn_Close>Sluit</btn_Close>
+    <btn_ApplyToStock>Enter ontvangst op voorraad.</btn_ApplyToStock>
+    <btn_Save_Request>Aanvraag opslaan</btn_Save_Request>
+    <LB_SetOrderQty>Stel 'Aanvraag' aantal in:</LB_SetOrderQty>
+    <LB_SetOrderQtyMax>max voorraad</LB_SetOrderQtyMax>
+    <LB_SetOrderQtyMin>min voorraad</LB_SetOrderQtyMin>
+    <LB_SetOrderQty0>Stel in op 0</LB_SetOrderQty0>
+    <PurchaseRequest_DLG>Inkoop aanvraag formulier</PurchaseRequest_DLG>
+    <btn_PrintPR>Exporteer inkoop aanvraag</btn_PrintPR>
+    <Edit_Tool_Info>Edit Tool informatie</Edit_Tool_Info>
+    <LB_Series_Name>Serie naam</LB_Series_Name>
+    <LB_Brand_Name>Merknaam</LB_Brand_Name>
+    <LB_Insert_Name>Ingave Naam</LB_Insert_Name>
+    <LB_Brand_Series>Maatwerk Tabel</LB_Brand_Series>
+    <LB_Additional_Tool_Info>Extra Tool Informatie</LB_Additional_Tool_Info>
+    <LB_Number_On_Hand>Op voorraad</LB_Number_On_Hand>
+    <LB_Number_On_Hand_tooltip>Aantal Tools momenteel op voorraad</LB_Number_On_Hand_tooltip>
+    <LB_Stock_Min>Voorraad Min.</LB_Stock_Min>
+    <LB_Stock_Min_tooltip>Minimum voorraad aantal dat een waarschuwing oproept.</LB_Stock_Min_tooltip>
+    <LB_Stock_Opt>Voorraad Max.</LB_Stock_Opt>
+    <LB_Stock_Opt_tooltip>Optimaal voorraad aantal</LB_Stock_Opt_tooltip>
+    <LB_Number_On_Order>Momenteel in bestelling</LB_Number_On_Order>
+    <LB_Number_On_Order_tooltip>Aantal Tools momenteel in bestelling</LB_Number_On_Order_tooltip>
+    <LB_Price>Prijs</LB_Price>
+    <btn_Clear_Table>Wis tabel</btn_Clear_Table>
+    <btn_Copy_Data>Kopieer Data</btn_Copy_Data>
+    <btn_Paste_Data>Plak Data</btn_Paste_Data>
+    <btn_Copy_Data_tooltip>Kopieer Eigen Data naar klembord</btn_Copy_Data_tooltip>
+    <btn_Paste_Data_tooltip>Plak Eigen Data vanuit klembord</btn_Paste_Data_tooltip>
+    <LB_ToOrder>Bestellen</LB_ToOrder>
+    <btn_Add_ToOrder>In bestelling zetten</btn_Add_ToOrder>
+    <LB_Tool_Supplier>Leverancier</LB_Tool_Supplier>
+    <LB_Tool_Location>Locatie (kast-lade-vak)</LB_Tool_Location>
+    <LB_Supplier_Part_ID>Bestel nr.</LB_Supplier_Part_ID>
+    <LB_Tool_Record_Type>Type gegeven</LB_Tool_Record_Type>
+    <CHK_Generic>Generic - Wijziging mogelijk op Tool Geometry</CHK_Generic>
+    <TAB_Tool_Info>Tool Info</TAB_Tool_Info>
+    <Tab_Speeds_and_Feeds>Snelheden en Voedingen</Tab_Speeds_and_Feeds>
+    <CHK_SF_Auto>Automatische Snelheden en Voedingen</CHK_SF_Auto>
+    <CHK_SF_Custom>Eigen Snelheden en Voedingen</CHK_SF_Custom>
+    <LB_Chipload_T>Aanzet Fz</LB_Chipload_T>
+    <LB_Material_T>Materiaal</LB_Material_T>
+    <LB_SFM>V</LB_SFM>
+    <btn_Reset_SFM>Reset naar default</btn_Reset_SFM>
+    <CustomSpeedsFeeds>Eigen snelheden en voedingen</CustomSpeedsFeeds>
+    <LB_Custom_Tables>Eigen Tabellen</LB_Custom_Tables>
+    <LB_SAF_Message>Opgeven merknaam en serienaam als tool info.</LB_SAF_Message>
+    <btn_Reset_IPT>Reset naar default</btn_Reset_IPT>
+    <BTN_Generate_Sizes>Genereer Afmetingen</BTN_Generate_Sizes>
+    <btn_Reset_IPT_Table>Reset naar default</btn_Reset_IPT_Table>
+    <Edit_Cut_Info>Edit info</Edit_Cut_Info>
+    <LB_Number>T#</LB_Number>
+    <LB_Offset_Length>L#</LB_Offset_Length>
+    <LB_Offset_Dia>D#</LB_Offset_Dia>
+    <LB_Additional_OP_Info>Extra Informatie</LB_Additional_OP_Info>
+    <LB_Holder>Opname naam</LB_Holder>
+    <Tab_Tool_Geometry>Tool Geometrie</Tab_Tool_Geometry>
+    <btn_HSMA_Cloud_Login>HSMAdvisor Cloud Login</btn_HSMA_Cloud_Login>
+    <GRP_Cloud_Service>HSMAdvisor Cloud Service</GRP_Cloud_Service>
+    <BTN_Upload_Machine>Upload</BTN_Upload_Machine>
+    <BTN_Upload_Machine_tooltip>Upload huidig Machine Profiel naar de cloud</BTN_Upload_Machine_tooltip>
+    <BTN_Download_Machine>Download</BTN_Download_Machine>
+    <BTN_Download_Machine_tooltip>Download Machine Profielen uit de cloud</BTN_Download_Machine_tooltip>
+    <CHK_Private_Machine>Prive Machine</CHK_Private_Machine>
+    <CHK_Private_Machine_tooltip>Het uploaden van deze machine als prive gegeven, geven andere gebruikers hiervoor geen download permissie.</CHK_Private_Machine_tooltip>
+    <LB_Register_About_Cloud>Registreer op HSM Advisor Cloud, om toegang te krijgen tot Machine Profielen, Bewerkingen en meer.</LB_Register_About_Cloud>
+    <CutCloudFeedback>Cloud Bewerkingen feedback</CutCloudFeedback>
+    <EXP_OptionsAbout>Opties/Over</EXP_OptionsAbout>
+    <CHK_CutCloudF_Save_Params>Sla feedback parameters op in de bewerking.</CHK_CutCloudF_Save_Params>
+    <LB_CutCloudAbout>Zend feedback over jouw ervaring met de bewerking, onder de huidige condities, met dit gereedschap.
+Goed of Slecht - Laat iedereen het weten hoe het ging!</LB_CutCloudAbout>
+    <LB_Op_Comment>Bewerking</LB_Op_Comment>
+    <LB_Op_Rating>Waardeer deze bewerking</LB_Op_Rating>
+    <LB_Coolant>Koeling</LB_Coolant>
+    <btn_Send>Verzenden</btn_Send>
+    <AddToolToolStripMenuItem>Toevoegen Nieuwe Tool</AddToolToolStripMenuItem>
+    <EditToolInfoToolStripMenuItem>Edit Tool Info</EditToolInfoToolStripMenuItem>
+    <EditToolDataToolStripMenuItem>Edit Tool Geometrie</EditToolDataToolStripMenuItem>
+    <DeleteToolToolStripMenuItem>Wis Tool</DeleteToolToolStripMenuItem>
+    <SaveToolToolStripMenuItem>Opslaan Tool</SaveToolToolStripMenuItem>
+    <OpenToolDatabaseToolStripMenuItem>Open Tooldatabase ...</OpenToolDatabaseToolStripMenuItem>
+    <CreateNewToolLibrary>Aanmaken Nieuwe Tool Bibliotheek</CreateNewToolLibrary>
+    <ImportStripMenuItem>Importeer</ImportStripMenuItem>
+    <ExportToolStripMenuItem>Exporteer</ExportToolStripMenuItem>
+    <ExportAsXmlFileToolStripMenuItem>Exporteer als XML bestand</ExportAsXmlFileToolStripMenuItem>
+    <ImportFromXMLFileToolStripMenuItem>Importeer als XML bestand</ImportFromXMLFileToolStripMenuItem>
+    <LoadToolStripMenuItem>Laden</LoadToolStripMenuItem>
+    <ViewInformationToolStripMenuItem>Toon informatie</ViewInformationToolStripMenuItem>
+    <CopyToolToAnotherLibraryToolStripMenuItem>Kopieer naar ...</CopyToolToAnotherLibraryToolStripMenuItem>
+    <MoveToolToAnotherLibraryToolStripMenuItem>Verplaats naar ...</MoveToolToAnotherLibraryToolStripMenuItem>
+    <DeleteCutInfoToolStripMenuItem>Wis</DeleteCutInfoToolStripMenuItem>
+    <ToolWizardsToolStripMenuItem>EDIT hele groep</ToolWizardsToolStripMenuItem>
+    <ResetSFOverridesToolStripMenuItem>Reset VF% correctie</ResetSFOverridesToolStripMenuItem>
+    <ResetCutDataToolStripMenuItem>Reset Bewerkingsdata</ResetCutDataToolStripMenuItem>
+    <SetMachineToolStripMenuItem>Set Machine</SetMachineToolStripMenuItem>
+    <SetHolderToolStripMenuItem>Set Holder</SetHolderToolStripMenuItem>
+    <SetCommentToolStripMenuItem>Set Commentaar</SetCommentToolStripMenuItem>
+    <SetBrandNameToolStripMenuItem>Set Merknaam</SetBrandNameToolStripMenuItem>
+    <SetSeriesNameToolStripMenuItem>Set Serienaam</SetSeriesNameToolStripMenuItem>
+    <SetSupplierToolStripMenuItem>Set Leveranciersnaam</SetSupplierToolStripMenuItem>
+    <SetSupplierPartNumberToolStripMenuItem>Set Leverancier best.nr.</SetSupplierPartNumberToolStripMenuItem>
+    <RenameToolLibraryToolStripMenuItem>Hernoem Tool Bibliotheek</RenameToolLibraryToolStripMenuItem>
+    <MergeToolLibrariesToolStripMenuItem>Voeg Tool Bibliotheek samen met een andere</MergeToolLibrariesToolStripMenuItem>
+    <InsertBatchToolListToolStripMenuItem>Voeg Batch Toollijst in</InsertBatchToolListToolStripMenuItem>
+    <DeleteCurrentToolLibraryToolStripMenuItem>Wis Tool Bibliotheek</DeleteCurrentToolLibraryToolStripMenuItem>
+    <AddCutToolStripMenuItem>Add info</AddCutToolStripMenuItem>
+    <CutInfoToolStripMenuItem>Edit info</CutInfoToolStripMenuItem>
+    <DeleteCutToolStripMenuItem>Wis Info</DeleteCutToolStripMenuItem>
+    <SaveCutToolStripMenuItem>Save Info</SaveCutToolStripMenuItem>
+    <ToolStripMenuItem11>Exporteer</ToolStripMenuItem11>
+    <DeletePluginToolStripMenuItem>Wis WEBpagina</DeletePluginToolStripMenuItem>
+    <CloseTabToolStripMenuItem>Sluit Tab</CloseTabToolStripMenuItem>
+    <SavePageOnDiskToolStripMenuItem>Opslaan pagina op schijf</SavePageOnDiskToolStripMenuItem>
+    <radio_Circle_Internal>Inwendig(Gat)</radio_Circle_Internal>
+    <radio_Circle_External>Uitwendig(Prop)</radio_Circle_External>
+    <LB_Cutting_Speed_T>Snijsnelheid</LB_Cutting_Speed_T>
+    <CHK_Expand_All>Uitbreiden Tools</CHK_Expand_All>
+    <LB_Operation>Bewerking</LB_Operation>
+    <LB_Surface_Finish>Oppervlakteruwheid</LB_Surface_Finish>
+    <LB_Tool_Life>Standtijd</LB_Tool_Life>
+    <LB_Units_T>Eenheden</LB_Units_T>
+    <LB_Comment>Omschrijving</LB_Comment>
+    <LB_Show_Tree_ToolTip>Toon/Verberg Tool Database inhoudlijst</LB_Show_Tree_ToolTip>
+    <txt_data_help_label_Head>Snijgegevens</txt_data_help_label_Head>
+    <txt_data_help_label_Body>Klik op de "PRINT" knop in de onderste schermregel.\nHiermee print je een compleet rapport van dit snijadvies. </txt_data_help_label_Body>
+    <LB_Feed_PC_T_Head>Aanzet correctie</LB_Feed_PC_T_Head>
+    <LB_Feed_PC_T_Body> ●   30% - Finishen / Zeer licht verspanen
+ ●   50% - Semi-Finishen / Licht verspanen
+ ● 100% - Normaal verspanen
+ ● 150% - Zwaar verspanen: Goed opletten
+ ● 200% - Zeer zwaar verspanen met zeer stabiele opspanning: Heel goed opletten</LB_Feed_PC_T_Body>
+    <LB_Max_Feed_T_Head>Maximum benodigde Voeding voor mijn machine</LB_Max_Feed_T_Head>
+    <LB_Max_Feed_T_Body>Wanner deze limiet is bereikt, wordt het toerental verlaagd om de berekende aanzet te behouden.</LB_Max_Feed_T_Body>
+    <PB_Tool_Deflection_Slider_Head>Veiligheidslimiet Frees Afbuiging</PB_Tool_Deflection_Slider_Head>
+    <PB_Tool_Deflection_Slider_Body>Mogelijkheid om de maximum frees afbuiging te begrenzen.
+Als de frees afbuiging over het ingestelde percentage heen gaat, dan wordt de aanzet verminderd om breuk te voorkomen.
+ ●   70% is de default veiligheid (Aanpassen in: [Settings] - [Defaults]
+ ● 100% is de maximum veiligheid
+ ● 200% is de maximum afbuiging tot breuk optreedt
+Klik om Defaults te herstellen.</PB_Tool_Deflection_Slider_Body>
+    <PB_Tool_Torque_Slider_Head>Veiligheidslimiet Frees Koppel</PB_Tool_Torque_Slider_Head>
+    <PB_Tool_Torque_Slider_Body>Mogelijkheid om het koppel op de frees te begrenzen, door automatisch de aanzet te verlagen.
+Als het freeskoppel over het ingestelde percentage heen gaat, dan wordt de aanzet verminderd om breuk te voorkomen.
+-   70% is de default veiligheid (Aanpassen in: [Settings] - [Defaults]
+- 100% is de maximum veiligheid
+- 200% is het maximum tot breuk optreedt
+Klik om Defaults te herstellen.</PB_Tool_Torque_Slider_Body>
+    <PB_Machine_CuttingForce_Head>Snijkracht</PB_Machine_CuttingForce_Head>
+    <PB_Machine_CuttingForce_Body>Toont het verband tussen tool aanzetkracht en het maximum van de machine dat is ingesteld in het machine profiel.
+Deze kracht is berekend uit het benodigde vermogen en het hieruit afgeleide koppel om het spaanvolume te produceren.
+Het oneindig teken in .. kg/00 % wil zeggen: er is geen machine maximum waarde ingestel in het veld (staat op 0).
+</PB_Machine_CuttingForce_Body>
+    <LB_Max_RPM_T_Head>Machine Toerental Limiet</LB_Max_RPM_T_Head>
+    <LB_Max_RPM_T_Body>Mogelijkheid om het spiltoerental te begrenzen.
+De voeding wordt overeenkomstig begrenst, maar de aanzet blijft hetzelfde.</LB_Max_RPM_T_Body>
+    <LB_Max_Power_T_Head>Vermogen op Toollimiet</LB_Max_Power_T_Head>
+    <LB_Max_Power_T_Body>Mogelijkheid om het vermogen te begrenzen, dat benodigd is voor de verspaning.
+Toerental en voeding worden begrenst om met het berekende vermogen er onder te blijven.</LB_Max_Power_T_Body>
+    <LB_Max_Torque_T_Head>Koppel op Toollimiet</LB_Max_Torque_T_Head>
+    <LB_Max_Torque_T_Body>Mogelijkheid om het koppel te begrenzen, dat benodigd is voor de verspaning.
+De voeding wordt begrenst om met het berekende vermogen er onder te blijven.</LB_Max_Torque_T_Body>
+    <LB_WOC_T_Head>Snedebreedte (WOC)</LB_WOC_T_Head>
+    <LB_WOC_T_Body>Toepassing van een kleine snedebreedte (WOC) geeft de mogelijkheid om met de spaanverdunning hogere voedingen te gebruiken.
+Klik voor de Default waarde.</LB_WOC_T_Body>
+    <LB_WOC_Threadmill_T_Head>Snedebreedte</LB_WOC_Threadmill_T_Head>
+    <LB_WOC_Threadmill_T_Body>Radiale diepte van de draad per kant</LB_WOC_Threadmill_T_Body>
+    <LB_DOC_T_Head>Snedediepte (DOC)</LB_DOC_T_Head>
+    <LB_DOC_T_Body>Toepassing van een kleine snedediepte (DOC) in combinatie met tools die een echte hoekafronding aan de snijkant, of kleine instelhoek
+bezitten, maken het mogelijk om de voeding te verhogen door aanvinken van de spaanverdunning en/of de HSM gekozen optie.
+Klik voor de Default waarde.</LB_DOC_T_Body>
+    <LB_DOC_Threadmill_T_Head>Snedediepte</LB_DOC_Threadmill_T_Head>
+    <LB_DOC_Threadmill_T_Body>Maximum diepte draadsnede</LB_DOC_Threadmill_T_Body>
+    <LB_DOC_GROOVE_T_Head>Snedebreedte</LB_DOC_GROOVE_T_Head>
+    <LB_DOC_GROOVE_T_Body>Groefbreedte</LB_DOC_GROOVE_T_Body>
+    <LB_Leadangle_T_Lead_Head>Instelhoek</LB_Leadangle_T_Lead_Head>
+    <LB_Leadangle_T_Lead_Body>Instelhoek is de hoek tussen de snijkant en het bewerkingsvlak.
+Normale hoeken zijn:
+● 90 - Hoekfrezen / Draaien
+● 45 - Vlakfrezen / Draaien
+● 5-30 - Hoge voeding- en plungefrezen
+Door de kleine instelhoek wordt een dunne spaan gegenereerd bij kleine snedediepten, waardoor zeer hoge voedingen mogelijk zijn.
+Klik voor de Default voor dit tool type.</LB_Leadangle_T_Lead_Body>
+    <LB_Leadangle_T_Taper_Head>Conushoek</LB_Leadangle_T_Taper_Head>
+    <LB_Leadangle_T_Taper_Body>Hoek tussen de snijkant en de hartlijn van de tool.
+Klik voor de Defaults voor dit tool type.</LB_Leadangle_T_Taper_Body>
+    <LB_Leadangle_T_Tip_Head>Boor punthoek</LB_Leadangle_T_Tip_Head>
+    <LB_Leadangle_T_Tip_Body>Hoek van de boorpunt.
+Klik voor de Defaults voor dit tool type.</LB_Leadangle_T_Tip_Body>
+    <PNL_MaxPerformance_Head>Maximum Prestatie</PNL_MaxPerformance_Head>
+    <PNL_MaxPerformance_Body> ● Vereist robuuste en stabiele tools, opnamen, opspanning en machine
+ ● Aanbevolen snedediepte wordt verhoogd
+ ● Aanbevolen snedediepte wordt NIET verlaagd als compensatie voor toegenomen uitspan- en snijlengte van de frees
+ ● Voeding wordt minimaal verlaagd bij toegenomen aangrijphoek, zodat meer zijdelinkse belasting op de frees, afbuiging en koppel ontstaat
+ ● Afbuiging en koppel worden enkel begrenst door de tool veiligheidslimieten
+Verzeker je ervan dat de opspanning, het gereedschap en de machine geschikt zijn voor de klus.
+Verzeker je ervan dat de tool en machine veiligheidslimieten correct zijn ingesteld.</PNL_MaxPerformance_Body>
+    <PNL_MinPerformance_Head>Minimum Prestatie</PNL_MinPerformance_Head>
+    <PNL_MinPerformance_Body> ● Voor toepassingen waarbij de opspanning, tool of machine onvoldoende stabiel zijn om het gereedschap volledig in te zetten
+ ● Advies voor onstabiele verspaningscondities
+ ● Aanbevolen snedediepte wordt verlaagd als compensatie voor de toegenomen uitspan- en snijkantslengte van de frees
+ ● Als een grotere snedediepte (DOC) wordt toegepast dan geadviseerd, dan wordt de voeding verlaagd tot en met 50%
+ ● Elke extra toename in belasting van de tool zal leiden tot een grotere afbuiging
+Zorg ervoor dat de veiligheidslimiet voor de toolafbuiging goed is ingesteld.</PNL_MinPerformance_Body>
+    <LB_Depth_T_Head>Gatdiepte</LB_Depth_T_Head>
+    <LB_Depth_T_Body> ● Spanenbreken kan nodig zijn voor diepere gaten
+ ● Advies voor boorstap tot spanenbreken wijzigt per bereikte boordiepte
+ ● In het geval de diepte minder is dan de boorpunt,
+is de effectieve diameter kleiner dan de boordiameter.
+Klik voor de Default waarde.</LB_Depth_T_Body>
+    <LB_DRL_E_Dia_T_Head>Effectieve Diameter</LB_DRL_E_Dia_T_Head>
+    <LB_DRL_E_Dia_T_Body> ● Effectieve diameter van het gat bij de opgegeven diepte</LB_DRL_E_Dia_T_Body>
+    <LB_Speed_PC_T_Head>Snelheid correctie</LB_Speed_PC_T_Head>
+    <LB_Speed_PC_T_Body>Het programma past de snijsnelheid aan op de verspaning.
+Het correctie % hier, wordt extra toegepast op dit advies.
+●   30% - Zeer zwaar verspanen en/of erg onstabiele opspanning
+●   50% - Zwaar verspanen en/of onstabiele opspanning
+● 100% - Normaal verspanen/Semi-finishing met stabiele opspanning
+● 150% - Finishen met stabiele opspanning
+● 200% - Licht Finishen met stabiele opspanning</LB_Speed_PC_T_Body>
+    <LB_TP_Major_Diameter_Head>Draaddiameter</LB_TP_Major_Diameter_Head>
+    <LB_TP_Major_Diameter_Body>Nominale diameter van de draad
+Benodigd om correct de aanzet vermindering te bepalen, die rekening houdt met het verschil in toolbaan en tool radius.</LB_TP_Major_Diameter_Body>
+    <LB_DOC_RAD_T_Head>Snedediepte</LB_DOC_RAD_T_Head>
+    <LB_DOC_RAD_T_Body>Langsdraaien: Radiale snedediepte
+Groefsteken:    Groefbreedte
+Kotteren:           Radiale snedediepte
+Klik voor Default waarde</LB_DOC_RAD_T_Body>
+    <LB_Len_T_Head>Uitspanlengte</LB_Len_T_Head>
+    <LB_Len_T_Body>Afstand van de tooltip/uiteinde/punt tot de opname.
+Voor systeem tooling (Capto/HSK) en opnamedoorns (Vlakfrees) neem je de afstand tot de spilneus.
+Klik voor de Default waarde.</LB_Len_T_Body>
+    <LB_Corner_Rad_T_Head>Hoekradius</LB_Corner_Rad_T_Head>
+    <LB_Corner_Rad_T_Body>Klik voor de default waarde</LB_Corner_Rad_T_Body>
+    <BT_MyCut_Tool_More_Head>Tool Acties</BT_MyCut_Tool_More_Head>
+    <BT_MyCut_Tool_More_Body>De geladen Tool omvat alle Tooldata gegevens, behalve die voor de Machine keuze en het werkstuk Materiaal.
+Raadpleeg voor het aanmaken van een nieuwe tool of bibliotheek onze "CNC Verspaners HSM Gids"
+Editeer knoppen:
+● Laden Tool                   - nieuwe tool laden uit een bestaande bibliotheek.
+● Edit Tool Info                - wijzigen gereedschapsfabrikant, leverancier en informatie voor de tool.
+● Edit Nieuw                    - deblokkeren van de ingave velden voor het aanpassen van de tooldata gegevens.
+● +Tool Toevoegen        - tool kan worden gewijzigd en toegevoegd (knop verschijnt na keuze: 'Edit Nieuw').
+Pull-down lijst:
+● Edit Tool Geometrie  - toon/verberg de Editeer knoppen.
+● Wis Tool                      - verwijder geselecteerde tool uit de bibliotheek.
+● Opslaan Tool             - je kunt enkel wijzigingen opslaan in de geometrie in de 'Edit Nieuw' modus.
+Wanneer een tool is geladen uit een bibliotheek, worden de meeste ingavevelden voor de tooldata en het snijmateriaal geblokkeerd.
+Om deze velden te deblokkeren, moet je deze  tool eerst ontladen door het klikken op de knop: 'Edit Nieuw'.</BT_MyCut_Tool_More_Body>
+    <BT_myCut_Cut_More_Head>Uitvoeren Acties</BT_myCut_Cut_More_Head>
+    <BT_myCut_Cut_More_Body>De geladen Tool omvat de snijvariabelen voor de eigen praktijksnede, behalve die voor de Tooldata (geometrie).
+Raadpleeg voor het aanmaken van een nieuwe praktijksnede onze "CNC Verspaners HSM Gids"
+
+● Nieuwe snede  - Add info     - toevoegen nieuwe bewerking voor het huidige geselecteerde gereedschap
+● Edit snede         - Edit info     - wijzigen geselecteerde bewerkingsinformatie
+● Wis snede         - Wis info     - verwijder geselecteerde bewerking uit de bibliotheek
+● Opslaan snede - Save info  - opslaan wijzigingen die zijn gemaakt aan de huidige geselecteerde bewerking
+
+Een praktijksnede omvat de parameters over het werkstukmateriaal, snedediepte en snedebreedte, snijsnelheid, voeding en % correcties.
+Aan elk gereedschap kan een onbeperkt aantal praktijksneden worden toegekend.
+</BT_myCut_Cut_More_Body>
+    <Input_Depth_Head />
+    <Input_Depth_Body />
+    <btn_check_Thinning_Head>AAN/UIT Spaanverdunning</btn_check_Thinning_Head>
+    <btn_check_Thinning_Body>AANVINKEN om spaanverdunning te compenseren
+ ● Compensatie van spaanverdunning is mogelijk bij kleine radiale of axiale aangrijphoek in snede
+ ● Dus aanvinken om deze compensatie toe te passen, en daarmee een grotere spaandikte Hex
+ ● Richtwaarde voor snedebreedte bij HSM frezen is 6-12% van Dc of 30-40 graden aangrijphoek
+ ● Freesbewerkingen met kleine aangrijphoek verbetert de productiviteit en standtijd
+ ● Compensatie op spaanverdunning wordt afgeraden voor het nafrezen (minder mooie finish)
+ ● Compenstaie op spaanverdunning wel altijd toepassen met High Feed Frezen</btn_check_Thinning_Body>
+    <btn_Check_HSM_Head>AAN/UIT HSM Bewerking</btn_Check_HSM_Head>
+    <btn_Check_HSM_Body>AANVINKEN om frezen met Hoge Snelheid (HSM) toe te kunnen passen.
+● High Speed Machining is mogelijk bij kleine radiale aangrijphoek in snede
+● Dus aanvinken om met Hoge Snelheid Frezen een hogere snijsnelheid Vc toe te passen
+● Richtwaarde voor snedebreedte bij HSM frezen is 6-12% van Dc of 30-40 graden aangrijphoek
+● Freesbewerkingen met kleine aangrijphoek in snede, verbetert de productiviteit en standtijd
+● Het HSM frezen kan dan zowel voor een ruw als finish bewerking worden toegepast
+● Het HSM frezen met hogere snijsnelheid zal de standtijd daarbij niet veel verlagen</btn_Check_HSM_Body>
+    <Panel_Tool_Manufacturer_Settings_Tip_Head>Tool fabrikant instellingen</Panel_Tool_Manufacturer_Settings_Tip_Head>
+    <Panel_Tool_Manufacturer_Settings_Tip_Body>● Hier kun je de belangrijkste parameters aanpassen om met het leveranciers advies overeen te stemmen
+● Tool Max Toerental is zowel met de Tool als de Bewerking opgeslagen
+● Snijsnelheid en Aanzet zijn materiaal afhankelijk en met de Bewerking opgeslagen
+● Klik voor de Default waarde</Panel_Tool_Manufacturer_Settings_Tip_Body>
+    <LB_Tool_Max_RPM_Head>Maximum toegestaan toerental voor deze tool</LB_Tool_Max_RPM_Head>
+    <LB_Tool_Max_RPM_Body>Je kunt het maximum toelaatbare toerental voor deze tool begrenzen.
+● Laat in dit veld op 0 staan als je het maximum machine toerental wilt benutten.
+● Klik voor de waarde 0</LB_Tool_Max_RPM_Body>
+    <LB_Ideal_Chipload_T_Head>Aanzet uit tabel: Automatisch (code geel) / Fabrikant (code M)</LB_Ideal_Chipload_T_Head>
+    <LB_Ideal_Chipload_T_Body>Je kunt hier voor de: Advies aanzet van de fabrikant, nog een andere waarde kiezen.
+● Deze aanzet is van toepassing voor deze snede als een specifiek snijresultaat
+● De advies aanzet van de fabrikant is opgeslagen in mijn Tooldatabase
+● Klik voor de Default waarde </LB_Ideal_Chipload_T_Body>
+    <LB_Ideal_Speed_T_Head>Snijsnelheid uit tabel: Automatisch (code geel) / Fabrikant (code M)</LB_Ideal_Speed_T_Head>
+    <LB_Ideal_Speed_T_Body>Je kunt hier voor de: Advies snijsnelheid van de fabrikant, nog een andere waarde kiezen.
+● Deze aanzet is van toepassing voor deze snede als een specifiek snijresultaat
+● De advies snijsnelheid van de fabrikant is opgeslagen in mijn Tooldatabase
+● Klik voor de Default waarde </LB_Ideal_Speed_T_Body>
+    <BTN_Reset_all_Head>Reset alle waarden naar default</BTN_Reset_all_Head>
+    <BTN_Reset_all_Body>Alle invoervelden worden gereset naar de default waarde.
+Het huidige geselcteerde gereedschap wordt weggezet.
+Geometrie en aangrijphoek wordt default ingesteld voor het tool type.
+De schuifknoppen: Tool Limieten, worden ingesteld op default 100%.
+De schuifknoppen: Correctie %, worden ingesteld op default 100%</BTN_Reset_all_Body>
+    <BTN_More_Materials_Head>Materiaal Norm Verwijzing</BTN_More_Materials_Head>
+    <BTN_More_Materials_Body>Open de lijst met de materiaal norm verwijzing.</BTN_More_Materials_Body>
+    <LB_Chipload_T_Head>Aanzet Fz / Aanzet per omwenteling</LB_Chipload_T_Head>
+    <LB_Chipload_T_Body>Aanzet Fz: Verplaatsing van de tool per snijkant per omwenteling
+Aanzet per omwenteling: Verplaatsing van de tool per omwenteling
+● De eenheid is Inches of Millimeters
+● Toont advies voor aanzet Fz of aanzet per omwenteling.
+Daarna volgt uitkomst door de voedingscorrectie, materiaal belasting, HSM of spaanverdunning.
+Geef jouw waarde in en druk op Enter voor de herberekening hiervan.
+Klik voor schakelen tussen weergave van  Fz mm of mm/omw</LB_Chipload_T_Body>
+    <LB_Speed_T_Head>Snijsnelheid</LB_Speed_T_Head>
+    <LB_Speed_T_Body>Materiaal, Tool en Coating - afhankelijke waarde.
+● Toont advies snijsnelheid na de verwerking van de parameters zoals:
+Correctie % S, toollengte, materiaal keuze en HSM, echter voordat limieten zijn bereikt zoals maximum machine toerental.
+Eenheden in meters per minuut en voeding in mm per minuut
+
+Geef jouw waarde in en druk op Enter voor de herberekening hiervan.
+Klik voor de Default waarde.
+</LB_Speed_T_Body>
+    <check_Slotting_Head>Sleuf/Kamerfrezen knop</check_Slotting_Head>
+    <check_Slotting_Body>AANVINKEN om de volle freesdiameter als snedebreedte toe te passen.
+● Aanbevolen voor sleuffrezen en kamerfrezen
+
+Voor Radiusfrezen:
+Maakt het mogelijk om met de werkelijke freesdiameter te rekenen.
+● AANVINKEN voor vingerfrezen en vlakafwerking (hellingshoek van 0-60 grad)
+● UITVINKEN voor omtrekfrezen en stijle wandafwerking (wandhoek van 60-90 grad)</check_Slotting_Body>
+    <settings_keep_machine_id_Head>Machine keuze</settings_keep_machine_id_Head>
+    <settings_keep_machine_id_Body>Controleer of je niet wilt dat de Machine wordt gewijzigd als een bewerking wordt geladen met een andere machine uit de Database</settings_keep_machine_id_Body>
+    <LB_Plunge_T_Head>Insteek Voeding</LB_Plunge_T_Head>
+    <LB_Plunge_T_Body>Theoretische insteek voeding gebaseerd op geselecteerde insteek/inloop parameters.
+● Wees heel oplettend: Niet elke tool is geschikt voor insteken of graven met een sterke inloophoek - Raadpleeg de tool leverancier
+● Een veilige inloophoek voor de meeste type schachtfrezen is 3-5 graden; voor wisslplaatfrezen is dit meestal 1.5-2 graden
+● Klik voor de Default waarde</LB_Plunge_T_Body>
+    <chck_Shared_Database_Head>AAN/UIT Gedeelde Tool Database</chck_Shared_Database_Head>
+    <chck_Shared_Database_Body>Geef op of je deze Tool Database wilt delen met andere gebruikers op hetzelfde moment.
+● Als meer dan 1 HSMAdvisor gebruiker, deze database wil benaderen op hetzelfde moment, dan moet je deze optie AANVINKEN in elk programma.
+● Als je deze optie UITGEVINKT laat, dan zal de laatste programma gebruiker die afsluit, de wijzigingen overschrijven die anderen al hebben gemaakt.</chck_Shared_Database_Body>
+    <BTN_Set_DB_Location_Head>Kies de Tooldatabase locatie</BTN_Set_DB_Location_Head>
+    <BTN_Set_DB_Location_Body>Je kunt een eigen locatie opgeven voor de plaats van de Tool Database.
+Default wordt de Tool Database locatie gevonden in de installatiemap: user_tool_lib.tooldb.xml file
+● Met het gebruik hiervan kun je vrij schakelen tussen Tool Databases
+● Het toekennen van een netwerkschijf locatie, maakt het mogelijk dat meerdere gebruikers er toegang tot hebben, op hetzelfde moment.
+Je kunt beginnen met het exporteren van jouw Tooldatabase naar een gedeelde netwerklocatie.
+Dan stel je deze eigen locatie in op elke computer van de HSMAdvisor gebruiker, in de settings.
+Vergeet niet om de optie 'Enable Shared Tool Database' aan te vinken en laat alle gebruikers met hetzelfde bestand werken om dit tegelijk te gebruiken.</BTN_Set_DB_Location_Body>
+    <BTN_SF_Status_Head>Snelheden en Voedingen kleursein</BTN_SF_Status_Head>
+    <BTN_SF_Status_Body>● Geel A
+Automatisch berekende snelheden en voedingen vanuit de interne databasetabellen voor deze tool en materiaalbewerking.
+● Groen M
+Eigen snelheden en voedingen volgens de herkenning van [Merknaam] / [Serienaam] van de tool voor deze materiaalsoort.
+● Groen/Geel M
+Eigen snelheden en voedingen volgens de herkenning van [Merknaam] / [Serienaam] van de tool voor deze materiaalgroep.
+
+● Je kunt de groene aanzet tabel(len) vinden in het pull-down menu: Maatwerk Tabel.
+    Kies dan de tabel die voor de huidige tool is gemaakt en druk op: EDIT.</BTN_SF_Status_Body>
+    <btn_Load_Tool_Head>Laden Tool (Ctrl+L)</btn_Load_Tool_Head>
+    <btn_Load_Tool_Body>Laden Tool uit de Tool Database</btn_Load_Tool_Body>
+    <BTN_FSW_Edit_New_Tool_Head>Nieuwe Tool (Ctrl+N)</BTN_FSW_Edit_New_Tool_Head>
+    <BTN_FSW_Edit_New_Tool_Body>Ontlaad de tool, maar behoud alle geometrie en informatie gegevens.</BTN_FSW_Edit_New_Tool_Body>
+    <btn_FSW_Edit_Tool_Head>Edit Tool Informatie (Ctrl+E)</btn_FSW_Edit_Tool_Head>
+    <btn_FSW_Edit_Tool_Body>Edit Tool Toepassing, eigen snelheden en voedingen, fabrikant en bestelinformatie.</btn_FSW_Edit_Tool_Body>
+    <btn_FSW_Add_Tool_Head>Tool Toevoegen (Ctrl+A)</btn_FSW_Add_Tool_Head>
+    <btn_FSW_Add_Tool_Body>Tool Toevoegen aan HSMAdvisor Database</btn_FSW_Add_Tool_Body>
+    <btn_Add_Cut_Head>Opslaan praktijksnede</btn_Add_Cut_Head>
+    <btn_Add_Cut_Body>Opslaan van deze tool parameters als praktijksnede, zoals de snijvariabelen en het bewerkte materiaalsoort.</btn_Add_Cut_Body>
+    <CMB_LIB_TOOL_Head>Tool pull-downlijst</CMB_LIB_TOOL_Head>
+    <CMB_Cut_Head>Bewerking pull-downlijst</CMB_Cut_Head>
+    <CMB_Cut_Body>Werkwijze om een praktijksnede te laden die eerder met de geladen tool is vastgelegd.
+Met een Rechter-muis-klik in dit pull-downmenu, het kolom item kiezen en de volgorde.
+Klik op de eerste regel om de huidige parameters te ontladen en deze praktijksnede te laden.
+(Kies de knop [+Add] om de allereerste praktijksnede vast te leggen)</CMB_Cut_Body>
+    <LB_Settings_Lease_Period_T_Head>Floating Licentie Parkeer Periode</LB_Settings_Lease_Period_T_Head>
+    <LB_Settings_Lease_Period_T_Body>Werkwijze voor een gekochte floating licentie.
+Stel de parkeertijd in op deze computer voor het gebruik van deze licentie.
+Gedurende deze tijd kan een andere computer geen gebruik maken van deze licentie.
+Korte parkeertijden geven de mogelijkheid om vaker te wisselen van computer maar vragen ook vaker om een internet vebinding.
+Lange parkeertijden geven de mogelijkheid om het aantal internetverbindingen te beperken maar met minder wisselingen in het gebruik.
+Waarschuwing: Wanneer een parkeertijd is ingesteld kan deze niet meer worden gewijzigd in een kortere periode totdat deze tijd is verstreken.</LB_Settings_Lease_Period_T_Body>
+    <PB_Machine_Power_Head>Spilvermogen</PB_Machine_Power_Head>
+    <PB_Machine_Power_Body>Berekend spilvermogen voor deze bewerking.
+Afhankelijk van het type verspaand materiaal en het spaanvolume.
+De eenheid is HP of kW</PB_Machine_Power_Body>
+    <PB_Tool_Life_Head>Standtijd</PB_Tool_Life_Head>
+    <PB_Tool_Life_Body>Weergave van het verschil in standtijd voor de voorgestelde en de huidige toegepaste snijcondities.
+Deze waarde toont de standtijd van een snijkant als een percentage, met 100% als normale waarde.</PB_Tool_Life_Body>
+    <PB_Mrr_Head>Materiaal Spaanvolume</PB_Mrr_Head>
+    <PB_Mrr_Body>Een verspaningswaarde voor de productiviteit.
+De eenheid is kubieke inches of centimeters spaanvolume per minuut.</PB_Mrr_Body>
+    <PB_Tool_Deflection_Head>Berekende afbuiging van de tool tijdens de verspaning.</PB_Tool_Deflection_Head>
+    <PB_Tool_Deflection_Body>Tool afbuiging is afhankelijk van de uitspanlengte in de houder, aangrijphoek op het materiaal (DOC/WOC) en type verspaand materiaal.
+Het wordt aanbevolen om de tool afbuiging onder de 0.001" of 0.025mm te houden voor tegenloopfrees bewerkingen (Geen HSM of Spaanverdunning).
+Eenheid is inches of millimeters.</PB_Tool_Deflection_Body>
+    <PB_Tool_Torque_Head>Berekend koppel percentage van de maximum veilgheidswaarde voor deze tool.</PB_Tool_Torque_Head>
+    <PB_Tool_Torque_Body>Het tool koppel is afhankelijk van de aangrijphoek in de snede (DOC/WOC) en het soort verspaand materiaal.
+De eenheid is een percentage van de theoretisch veilige waarde.
+De theoretisch veilige waarde van 100% is berekend met toepassing van een veiligheidsfactor 2.</PB_Tool_Torque_Body>
+    <LB_Feed_T_Head>Voeding</LB_Feed_T_Head>
+    <LB_Feed_T_Body>De relatieve voedingssnelheid waarmee de snijkant langs het product werkt.
+De voeding wordt berekend met de aanzet, aantal snijkanten en het spiltoerental.
+De eenheid is inches per minuut of millimeter per minuut.
+Geef jouw waarde in en druk op Enter voor de herberekening hiervan.
+Klik voor de Default waarde.</LB_Feed_T_Body>
+    <LB_RPM_T_Head>Spiltoerental</LB_RPM_T_Head>
+    <LB_RPM_T_Body>Spiltoerental voor het gereedschap (Freesmachine) of werkstuk (Draaibank).
+Het spiltoerental wordt berekend met de snijsnelheid en de diameter van de tool of het werkstuk.
+De eenheid is omwentelingen per minuut.
+Geef jouw waarde in en druk op Enter voor de herberekening hiervan.
+Klik voor de Default waarde</LB_RPM_T_Body>
+    <LB_Flute_Len_T_Head>Snijlengte</LB_Flute_Len_T_Head>
+    <LB_Flute_Len_T_Body>Lengte van het snijdende gedeelte van de tool.
+Tools zijn het minst sterk in de doorsnede van de snijkant.
+Kies tools met de minst lange snijkant om de afbuiging en trilling te beperken.
+Klik voor Default waarde</LB_Flute_Len_T_Body>
+    <LB_Insert_Len_T_Head>Ingeven snijkantslengte</LB_Insert_Len_T_Head>
+    <LB_Insert_Len_T_Body>Lengte van de snijkant
+Klik voor Default waarde</LB_Insert_Len_T_Body>
+    <LB_Helix_T_Head>Snijkant Spiraalhoek</LB_Helix_T_Head>
+    <LB_Helix_T_Body>Hoek tussen de snijkant en de hartlijn van de tool.
+Een grotere spiraalhoek onderdrukt vibraties en trillingen. Het verbetert de finish en laat hogere snedediepte en verspaand volume toe.
+Klik voor de Default waarde.</LB_Helix_T_Body>
+    <LB_Shank_Dia_T_Head>Schachtdiameter van de tool</LB_Shank_Dia_T_Head>
+    <LB_Shank_Dia_T_Body>Diameter van het opname gedeelte van de tool.
+Een grotere opnamediameter maakt de tool sterker. Het laat ook meer snedediepte toe.
+Kies tools met een grotere opnamediameter voor diepere bewerkingen.
+Klik voor Default waarde
+</LB_Shank_Dia_T_Body>
+    <LB_HolderSize_T_Head>Afmeting van de klemhouder.</LB_HolderSize_T_Head>
+    <LB_HolderSize_T_Body>De klemhouder afmeting bepaald de stabieliteit voor de toe te passen snedediepten en aanzet.
+Klik voor Default waarde</LB_HolderSize_T_Body>
+    <LB_N_Flutes_T_Head>Effectief aantal snijkanten</LB_N_Flutes_T_Head>
+    <LB_N_Flutes_T_Body>Effectief aantal overlappende snijkanten, tanden of wisselplaten.
+Tools met overlappende freesvertanding of wisselplaten, hebben een half zo'n effectieve snijlengte dan dat het lijkt.</LB_N_Flutes_T_Body>
+    <LB_N_Starts_T_Head>Aantal startsneden</LB_N_Starts_T_Head>
+    <LB_N_Starts_T_Body>Default aantal is 1</LB_N_Starts_T_Body>
+    <LB_N_Inserts_T_Head>Effectief aantal snijkanten</LB_N_Inserts_T_Head>
+    <LB_N_Inserts_T_Body>Somige tools hebben meer snijkanten die tegelijk verspanen
+Default aantal is 1</LB_N_Inserts_T_Body>
+    <LB_Tip_Dia_T_Head>Snijdiameter</LB_Tip_Dia_T_Head>
+    <LB_Tip_Dia_T_Body>De snijdiameter van de tool</LB_Tip_Dia_T_Body>
+    <PB_Machine_Torque_Head>Spilkoppel</PB_Machine_Torque_Head>
+    <PB_Machine_Torque_Body>Berekend spilkoppel voor deze bewerking.
+De waarde is afhankelijk van diverse factoren zoals het type verspaand materiaal, voeding en aangrijphoek van de snijkant.
+De eenheid is Foot-Pounds: ft lb of Newtonmeter: Nm</PB_Machine_Torque_Body>
+    <LB_RPM_Plunge_T_Head>Insteek Toerental</LB_RPM_Plunge_T_Head>
+    <LB_RPM_Plunge_T_Body>Aanbevolen Toerental voor insteken in het materiaal.</LB_RPM_Plunge_T_Body>
+    <LB_DRL_Peck_T_Head>Boorstap</LB_DRL_Peck_T_Head>
+    <LB_DRL_Peck_T_Body>● Advies voor de boorstap afstand voor het huidige tool type en afmeting van het gat
+Klik voor de Default waarde</LB_DRL_Peck_T_Body>
+    <LB_Turn_Dia_T_Head>Finish As Diameter</LB_Turn_Dia_T_Head>
+    <LB_Turn_Dia_T_Body>De diameter van het werkstuk na de bewerking.
+Met de ruwe diameter wordt het toerental berekend voor langsdraaien.
+Ruwe_Diameter = Finish_Diameter + Snedediepte (DOC) x 2</LB_Turn_Dia_T_Body>
+    <btn_HSMA_Cloud_Login_Head>Login op HSMAdvisor Cloud Service</btn_HSMA_Cloud_Login_Head>
+    <btn_HSMA_Cloud_Login_Body>HSMAdvisor Cloud Service maakt het mogeijk om toegang te krijgen tot velerlei data,
+die online is opgeslagen voor en door HSMAvisor gebruikers.
+● Upload en Download HSMAdvisor Machine Profielen </btn_HSMA_Cloud_Login_Body>
+    <LB_CutCloudRating_Head>Aanleveren in de cloud</LB_CutCloudRating_Head>
+    <LB_CutCloudRating_Body>Klik om deze bewerking te classificeren en toe te voegen aan de cloud.\nDraag bij met jouw praktijkervaring en help daarmee dit mooie programma nog beter te maken!</LB_CutCloudRating_Body>
+    <LB_CloudCutsIndicator_Head>Start HSMAdvisor in de cloud</LB_CloudCutsIndicator_Head>
+    <LB_CloudCutsIndicator_Body>Klik voor toegang tot de in de cloud opgeslagen bewerkingen\nDe plaats waar echte snijgegevens uit de praktijk zijn te vinden! </LB_CloudCutsIndicator_Body>
+    <LB_Inventory_Red_Head>Voorraad alarm</LB_Inventory_Red_Head>
+    <LB_Inventory_Red_Body>Voorraad is te laag voor deze tools:
+{x}
+Klik om alles te tonen</LB_Inventory_Red_Body>
+    <LB_Inventory_Yellow_Head>Tools in aanvraag</LB_Inventory_Yellow_Head>
+    <LB_Inventory_Yellow_Body>Deze tools zijn momenteel in aanvraag:
+{x}
+Klik om alles te tonen</LB_Inventory_Yellow_Body>
+    <LB_Inventory_Green_Head>Voorraad is OK</LB_Inventory_Green_Head>
+    <LB_Inventory_Green_Body>Geen tool in aanvraag</LB_Inventory_Green_Body>
+    <LB_License_Description>Dank je voor het uittesten van HSMAdvisor
+Hieronder een teller met het resterend aantal testdagen.
+Klik op de Aankoop/Enter toets om een licentie te kopen of neem voor advies contact met ons op per mail: info@cncinstructieburo.nl</LB_License_Description>
+    <DGV_node_img>+</DGV_node_img>
+    <DGV_cuts>nC</DGV_cuts>
+    <DGV_node_text>nC</DGV_node_text>
+    <DGV_number>T#</DGV_number>
+    <DGV_child_text>T#</DGV_child_text>
+    <DGV_diameter>Afm.</DGV_diameter>
+    <DGV_corner_rad>Radius</DGV_corner_rad>
+    <DGV_flute_n>nZ</DGV_flute_n>
+    <DGV_flute_length>LOC</DGV_flute_length>
+    <DGV_ToolImage>Tool Icoon</DGV_ToolImage>
+    <DGV_name>Type</DGV_name>
+    <DGV_material>Tool % Werkstukmateriaal</DGV_material>
+    <DGV_tool_material>Snijmat.</DGV_tool_material>
+    <DGV_work_material>Werkstukmateriaal</DGV_work_material>
+    <DGV_coating>Coating</DGV_coating>
+    <DGV_brand_name>Merk</DGV_brand_name>
+    <DGV_series_name>Serie</DGV_series_name>
+    <DGV_supplier>Leverancier</DGV_supplier>
+    <DGV_supplier_pid>Bestelnr.</DGV_supplier_pid>
+    <DGV_comment>Omschrijving / Commentaar</DGV_comment>
+    <DGV_rpm>Toerental</DGV_rpm>
+    <DGV_feed>Voeding</DGV_feed>
+    <DGV_sfm_adj>S%</DGV_sfm_adj>
+    <DGV_ipt_adj>F%</DGV_ipt_adj>
+    <DGV_doc>Diepte</DGV_doc>
+    <DGV_woc>Breedte</DGV_woc>
+    <DGV_sfm>Vc</DGV_sfm>
+    <DGV_ipt>Fz</DGV_ipt>
+    <DGV_stickout>Uitsteeklengte</DGV_stickout>
+    <DGV_shank_dia>Schachtafm.</DGV_shank_dia>
+    <DGV_operation_type>Tool</DGV_operation_type>
+    <DGV_Operation>Bewerking</DGV_Operation>
+    <DGV_surface_finish>Ruwheid</DGV_surface_finish>
+    <DGV_tool_life>Standtijd</DGV_tool_life>
+    <DGV_tool_life_h>Standtijd u</DGV_tool_life_h>
+    <DGV_Rating>Rating</DGV_Rating>
+    <DGV_machine>Machine</DGV_machine>
+    <DGV_holder>Opname</DGV_holder>
+    <DGV_Mrr>Spaanvolume</DGV_Mrr>
+    <DGV_Qty>voorraad</DGV_Qty>
+    <DGV_minQty>min. voorraad</DGV_minQty>
+    <DGV_maxQty>max. voorraad</DGV_maxQty>
+    <DGV_onOrderQty>in bestelling</DGV_onOrderQty>
+    <DGV_OrderQty>aanvraag</DGV_OrderQty>
+    <DGV_Price>Prijs</DGV_Price>
+    <DGV_Received>Ontvangen</DGV_Received>
+    <DGV_Status>Status</DGV_Status>
+    <DGV_Created_On>Aangemaakt</DGV_Created_On>
+    <DGV_Updated_On>Updated</DGV_Updated_On>
+    <DGV_CAMToolpathType>CAM Toolbaan</DGV_CAMToolpathType>
+    <CMB_Text_1>Kies Bewerking</CMB_Text_1>
+    <CMB_Text_2>Kies Finish</CMB_Text_2>
+    <CMB_Text_3>Kies Standtijd</CMB_Text_3>
+    <CMB_Text_4>Alle Types</CMB_Text_4>
+    <CMB_Text_5>Alle Snijmaterialen</CMB_Text_5>
+    <CMB_Text_6>Alle coatings</CMB_Text_6>
+    <CMB_Text_7>Bew.nr.</CMB_Text_7>
+    <CMB_Text_8>Draaidiameter</CMB_Text_8>
+    <CMB_Text_9>Uitspanlengte</CMB_Text_9>
+    <CMB_Text_10>Werkstukmateriaal</CMB_Text_10>
+    <CMB_Text_11>Bewerkingstype</CMB_Text_11>
+    <CMB_Text_12>Snedediepte</CMB_Text_12>
+    <CMB_Text_13>Snedebreedte</CMB_Text_13>
+    <CMB_Text_14>Oppervlakteruwheid</CMB_Text_14>
+    <CMB_Text_15>Standtijd</CMB_Text_15>
+    <CMB_Text_16>Bew. Omschrijving</CMB_Text_16>
+    <CMB_Text_17>Machine</CMB_Text_17>
+    <CMB_Text_18>Tool Nr.</CMB_Text_18>
+    <CMB_Text_19>Aantal tanden</CMB_Text_19>
+    <CMB_Text_20>Diameter/Afm.</CMB_Text_20>
+    <CMB_Text_21>Hoekradius</CMB_Text_21>
+    <CMB_Text_22>Uitspanlengte</CMB_Text_22>
+    <CMB_Text_23>Tool Type (Lang)</CMB_Text_23>
+    <CMB_Text_24>Tool Type (Kort)</CMB_Text_24>
+    <CMB_Text_25>Merknaam</CMB_Text_25>
+    <CMB_Text_26>Serienaam</CMB_Text_26>
+    <CMB_Text_27>Tool materiaal</CMB_Text_27>
+    <CMB_Text_28>Tool coating</CMB_Text_28>
+    <CMB_Text_29>Aantal sneden</CMB_Text_29>
+    <CMB_Text_30>Tool Omschrijving</CMB_Text_30>
+    <CMB_Text_31>Houder</CMB_Text_31>
+    <SelectTool_DLG>Kies Tool of Bew.</SelectTool_DLG>
+    <EXP_Tool_Filter>Bibliotheek</EXP_Tool_Filter>
+    <ERR_Warning>Waarschuwing:</ERR_Warning>
+    <ERR_Remedy>Maatregel:</ERR_Remedy>
+    <ERR_MaxRPM>Uitkomst toerental is begrenst door ingesteld max toerental in je machinelimieten.</ERR_MaxRPM>
+    <ERR_MaxTapRPM>Uitkomst toerental is begrenst door ingesteld max toerental voor tappen in je machinelimieten.</ERR_MaxTapRPM>
+    <ERR_Tap_Max_ToolRPM>Uitkomst toerental is begrenst door ingesteld max toerental voor tappen in je machinelimieten.</ERR_Tap_Max_ToolRPM>
+    <ERR_Tap_ToolTorqueLimit>Toolkoppel veiligheidslimiet werd overschreden.</ERR_Tap_ToolTorqueLimit>
+    <ERR_Tap_ToolTorqueLimit_Remedy>Overweeg een groter startgat.</ERR_Tap_ToolTorqueLimit_Remedy>
+    <ERR_Tap_PowerCurve_Power>Max machine vermogen overschreden, snijsnelheid werd verlaagd.</ERR_Tap_PowerCurve_Power>
+    <ERR_Tap_PowerCurve_Power_Remedy>Pas snijsnelheid aan of kies groter startgat</ERR_Tap_PowerCurve_Power_Remedy>
+    <ERR_Tap_Machine_Power>Max machinevermogen overschreden, snijsnelheid werd verlaagd.</ERR_Tap_Machine_Power>
+    <ERR_Tap_Max_Torque>Max machinekoppel overschreden. Geen actie ondernomen.</ERR_Tap_Max_Torque>
+    <ERR_Tap_Max_Torque_Remedy>Pas groter startgat toe.</ERR_Tap_Max_Torque_Remedy>
+    <ERR_Machine_Max_Feedrate>Max machin voeding overschreden, snijsnelheid werd verlaagd om de aanzet te behouden.</ERR_Machine_Max_Feedrate>
+    <ERR_Machine_Max_Feedrate_Remedy>Overweeg snijsnelheid te verlagen om wrijving te voorkomen</ERR_Machine_Max_Feedrate_Remedy>
+    <ERR_Machine_Max_Tap_RPM>Uitkomst toerental is begrenst door ingesteld max toerental voor tappen in je machineprofiel.</ERR_Machine_Max_Tap_RPM>
+    <ERR_Machine_Max_Tap_RPM_Remedy />
+    <ERR_Tool_MaxRPM>Uitkomst toerental is begrenst door ingesteld max toerental in je Tool fabrikant instellingen.</ERR_Tool_MaxRPM>
+    <ERR_Tool_MaxRPM_Remedy />
+    <ERR_Tap_MinRPM>Uitkomst toerental ligt onder het minimum van je machinelimiet instelling, toerental aangepast om met het minimum toerental overeen te komen.</ERR_Tap_MinRPM>
+    <ERR_Tap_MinRPM_Remedy>Pas hardmetaal en/of gecoate tools toe om hogere snijsnelheden te gebruiken.</ERR_Tap_MinRPM_Remedy>
+    <ERR_Tool_Length_PRM_Reduced>Uitkomst toerental is begrenst omreden van de toollengte.</ERR_Tool_Length_PRM_Reduced>
+    <ERR_ThreadMill_MD_Required>Nominale draaddiameter is nodig.</ERR_ThreadMill_MD_Required>
+    <ERR_ThreadMill_MD_TooSmall>Nominale draaddiameter is te klein.</ERR_ThreadMill_MD_TooSmall>
+    <ERR_Tool_Deflection_Limit>Tool veiligheidslimiet voor de afbuiging overschreden, voeding werd verlaagd om breuk te voorkomen.</ERR_Tool_Deflection_Limit>
+    <ERR_Tool_Deflection_Limit_Remedy>Verlaag de tool aangrijphoek in snede met het werkstuk.</ERR_Tool_Deflection_Limit_Remedy>
+    <ERR_Tool_Torque_Limit>Toolkoppel veiligheidslimiet werd overschreden, voeding is verlaagd.</ERR_Tool_Torque_Limit>
+    <ERR_Tool_Torque_Limit_Remedy>Beperk de aangrijping in snede met het werkstuk.</ERR_Tool_Torque_Limit_Remedy>
+    <ERR_DRL_Torque_Limit>Toolkoppel veiligheidslimiet werd overschreden, voeding is verlaagd.</ERR_DRL_Torque_Limit>
+    <ERR_DRL_Torque_Limit_Remedy />
+    <ERR_Machine_PowerCurve_Limit>Machine Vernogensdiagram overschreden, voeding is verlaagd.</ERR_Machine_PowerCurve_Limit>
+    <ERR_Machine_PowerCurve_Limit_Remedy>Pas de snijsnelheid aan of verklein de aangrijphoek in snede met het werkstuk.</ERR_Machine_PowerCurve_Limit_Remedy>
+    <ERR_Machine_DRL_PowerCurve_Limit_Remedy />
+    <ERR_Machine_Power_Limit>Machinevermogen overschreden, voeding is verlaagd.</ERR_Machine_Power_Limit>
+    <ERR_Machine_Power_Limit_Remedy>Verminder de aangrijphoek in snede met het werkstuk.</ERR_Machine_Power_Limit_Remedy>
+    <ERR_Machine_DRL_Power_Limit_Remedy />
+    <ERR_Machine_Torque_Limit>Machinekoppel overschreden, voeding is verlaagd.</ERR_Machine_Torque_Limit>
+    <ERR_Machine_Torque_Limit_Remedy>Verminder de aangrijphoek in snede met het werkstuk.</ERR_Machine_Torque_Limit_Remedy>
+    <ERR_Machine_MinRPM_Limit>Uitkomst toerental ligt onder het minimum van je machinelimiet instelling, toerental aangepast om met het minimum toerental overeen te komen.</ERR_Machine_MinRPM_Limit>
+    <ERR_Machine_MinRPM_Limit_Remedy>Pas hardmetaal en/of gecoate tools toe zodat je hogere snijsnelheden (toerentallen) kunt toepassen.</ERR_Machine_MinRPM_Limit_Remedy>
+    <ERR_Machine_Max_Force_Limit>Maximum machinesnijkracht overschreden, voeding is verlaagd.</ERR_Machine_Max_Force_Limit>
+    <ERR_Machine_Max_Force_Limit_Remedy>Verminder de aangrijphoek in snede met het werkstuk.</ERR_Machine_Max_Force_Limit_Remedy>
+    <ERR_PasswordsNoMatch>De beide ingegeven wachtwoorden komen niet overeen.</ERR_PasswordsNoMatch>
+    <ERR_PasswordTooShort>A.U.B. enter je wachtwoord</ERR_PasswordTooShort>
+    <ERR_LoginTooShort>A.U.B. enter je loginnaam</ERR_LoginTooShort>
+    <ERR_EmailTooShort>A.U.B. enter je emailadres</ERR_EmailTooShort>
+    <LNG_Feed_rev>Aanzet/omw</LNG_Feed_rev>
+    <LNG_Power>Vermogen Pc</LNG_Power>
+    <LNG_Torque>Koppel Mc</LNG_Torque>
+    <LNG_Power_Curve>Vermogensdiagram</LNG_Power_Curve>
+    <LNG_coated>gecoat</LNG_coated>
+    <LNG_Tool_Usage>Tool keuze:</LNG_Tool_Usage>
+    <LNG_edit_new_tool>Edit nieuwe tool</LNG_edit_new_tool>
+    <LNG_Generic_Size>Generic</LNG_Generic_Size>
+    <LNG_Hello>Hallo!</LNG_Hello>
+    <LNG_License_Message>Licentie bericht</LNG_License_Message>
+    <LNG_days_left>dagen over</LNG_days_left>
+    <LNG_Expired>Beperkt</LNG_Expired>
+    <LNG_Busy>Bezig...</LNG_Busy>
+    <LNG_Trial>test</LNG_Trial>
+    <LNG_Permanent>Permanent</LNG_Permanent>
+    <LNG_Floating>Floating</LNG_Floating>
+    <LNG_Active>Actief</LNG_Active>
+    <LNG_Fatal_Error>Fatale fout</LNG_Fatal_Error>
+    <LNG_Error>Fout</LNG_Error>
+    <LNG_PleaseEnterField>A.U.B. enter de {1}</LNG_PleaseEnterField>
+    <LNG_ExceptionMessage>Error opgetreden: {1}</LNG_ExceptionMessage>
+    <LNG_InvalidEntry>Ongeldige ingave!</LNG_InvalidEntry>
+    <LNG_ResetToDefault>Reset naar Default</LNG_ResetToDefault>
+    <LNG_Add>Toevoegen</LNG_Add>
+    <LNG_Save>Opslaan</LNG_Save>
+    <LNG_Delete>Wissen</LNG_Delete>
+    <LNG_Cancel>Annuleer</LNG_Cancel>
+    <LNG_OK>OK</LNG_OK>
+    <LNG_TextTooLong>Tekst is te lang: {1} karakters max</LNG_TextTooLong>
+    <LNG_Recommended_Peck>Advies Boorstap:</LNG_Recommended_Peck>
+    <LNG_Breakthough_Amount>Lengte Doorkomen:</LNG_Breakthough_Amount>
+    <LNG_Pilot_Hole_Dia>Advies Startgat Dia:</LNG_Pilot_Hole_Dia>
+    <LNG_Not_Required>(Niet Nodig)</LNG_Not_Required>
+    <LNG_Material>Materiaal</LNG_Material>
+    <LNG_Tool>Tool</LNG_Tool>
+    <LNG_Chip_Thickness>Spaandikte Hm</LNG_Chip_Thickness>
+    <LNG_Reference_Chipload>Start Aanzet Fz</LNG_Reference_Chipload>
+    <LNG_Engagement>Spaan</LNG_Engagement>
+    <LNG_DOC>Diepte (ap)</LNG_DOC>
+    <LNG_WOC>Breedte (ae)</LNG_WOC>
+    <LNG_MRR>Spaanvolume Q</LNG_MRR>
+    <LNG_Max_Torque>Max Koppel</LNG_Max_Torque>
+    <LNG_Cutting_Force>Snijkracht</LNG_Cutting_Force>
+    <LNG_Deflection>Afbuiging</LNG_Deflection>
+    <LNG_Max_Deflection>Max Afbuiging</LNG_Max_Deflection>
+    <LNG_Effective_Dia>Effectieve Dia</LNG_Effective_Dia>
+    <LNG_Cross_Section>Doorsnede</LNG_Cross_Section>
+    <LNG_Library>Bibliotheek</LNG_Library>
+    <LNG_Allowance />
+    <LNG_major_dia>Nominale Dia</LNG_major_dia>
+    <LNG_pitch_dia>Flaken Dia</LNG_pitch_dia>
+    <LNG_minor_dia_max>Kern Dia</LNG_minor_dia_max>
+    <LNG_Height>Hoogte</LNG_Height>
+    <LNG_connecting_to_server>Verbinden met server ...</LNG_connecting_to_server>
+    <LNG_connection_error>Verbindingsfout met server</LNG_connection_error>
+    <LNG_connection_complete>Verbinding gereed</LNG_connection_complete>
+    <LNG_search_returned_nothing>Zoek terug naar leeg resultaat</LNG_search_returned_nothing>
+    <LNG_search_too_restricted>Maak zoek parameters minder beperkt</LNG_search_too_restricted>
+    <LNG_search_ok>Zoeken succesvol!</LNG_search_ok>
+    <LNG_LeadAngle>Hoek</LNG_LeadAngle>
+    <LNG_TipAngle>Punthoek</LNG_TipAngle>
+    <LNG_TaperAngle>Conushoek</LNG_TaperAngle>
+    <LNG_Edit_New_Cut>Edit nieuwe bew.</LNG_Edit_New_Cut>
+    <LNG_No_Tool_Selected>Geen Tool gekozen</LNG_No_Tool_Selected>
+    <LNG_Crossfeed_Amount>Aanzet</LNG_Crossfeed_Amount>
+    <LNG_TXT_License_Help_BOX_Trial_Active />
+    <LNG_TXT_License_Help_BOX_Trial_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Active />
+    <LNG_TXT_License_Help_BOX_Full_Active />
+    <LNG_TXT_License_Help_BOX_Floating_Expired />
+    <LNG_TXT_License_Help_BOX_Floating_Busy />
+    <LNG_AddToolsToORder>Tools Toevoegen op verzoek</LNG_AddToolsToORder>
+    <LNG_AddToolsToORder_Prompt>Geef het aantal tools op voor jouw aanvraag in de '{x}' kolom</LNG_AddToolsToORder_Prompt>
+    <LNG_ToolsOnOrder>Tools in aanvraag</LNG_ToolsOnOrder>
+    <LNG_ToolsOnOrder_prompt>Geef het aantal ontvangen tools op in de 'Ontvangen' kolom</LNG_ToolsOnOrder_prompt>
+    <LNG_RPM>  Omw</LNG_RPM>
+    <LNG_CustomSFExist>Eigen snelheden en voedingen voor dit type tool, merk en serie naam bestaat al!</LNG_CustomSFExist>
+    <LNG_Enter_Brand_And_Series>Merknaam en serienaam opgeven</LNG_Enter_Brand_And_Series>
+    <DLG_PurchaseRequestPrompt>Pas de tabel hieronder aan om de informatie te tonen die je nodig hebt en klik op "Exporteer Inkoop Aanvraag"</DLG_PurchaseRequestPrompt>
+    <DLG_Text1>Selecteer de kolommen die zichtbaar moeten zijn in de tooltabel.</DLG_Text1>
+    <DLG_Title1>Selecteer kolommen</DLG_Title1>
+    <DLG_Text2>Hallo, Dank je voor het gebruiken van de HSMAdvisor.
+De 30 dagen testperiode start vandaag.
+Na afloop van deze testperiode koop je een licentiesleutel om met dit programma verder te gaan.</DLG_Text2>
+    <DLG_Text3>De testperiode voor deze versie is verlopen.
+Koop nu een licentiesleutel om met dit programma verder te gaan.</DLG_Text3>
+    <DLG_Text4>Waarschuwing: Jou testperiode zal binnenkort verlopen!</DLG_Text4>
+    <DLG_Text5>Het is mislukt om een of meer data tabellen te laden.
+Wil je de default instellingen herladen?</DLG_Text5>
+    <DLG_Text6>Selecteer welke kolommen zichtbaar moeten zijn in de 'Bewerking' pull-downlijst.</DLG_Text6>
+    <DLG_Text7>Selecteer welke kolommen zichtbaar moeten zijn in de 'Tool' pull-downlijst.</DLG_Text7>
+    <DLG_Text8>Opslaan alle wijzigingen en EXIT?</DLG_Text8>
+    <DLG_Title8>Opslaan Machine Profielen</DLG_Title8>
+    <DLG_Text9>A.U.B. Enter een nieuwe machinenaam</DLG_Text9>
+    <DLG_Title9>Naam</DLG_Title9>
+    <DLG_Text10>Ben je er zeker van om dit Machine Profiel te wissen?
+Alle hier gemaakte wijzigingen kunnen ongedaan worden gemaakt door op de ANNULEER (Cancel) toets te drukken.</DLG_Text10>
+    <DLG_Title10>Verwijder Machine</DLG_Title10>
+    <DLG_Text11>Aanmaken nieuw Machine Profiel.
+      A.U.B. Enter de machinenaam</DLG_Text11>
+    <DLG_Title11>Naam</DLG_Title11>
+    <DLG_Text12>      Clonen van het Machine Profiel.
+      A.U.B. enter de nieuwe machine naam.</DLG_Text12>
+    <DLG_Text13>Dank u voor de bestelling van HSMAdvisor
+Je kunt nu verder met jouw werk.</DLG_Text13>
+    <DLG_Title14>Tool Database exporteren</DLG_Title14>
+    <DLG_Text14>A.U.B. selecteer de Tool bibliotheken die je zou willen exporteren.</DLG_Text14>
+    <DLG_Title15>Tool Database Importeren</DLG_Title15>
+    <DLG_Text15>A.U.B. selecteer de Tool bibliotheken die je zou willen importeren.
+Je wordt gevraagd om nieuwe namen voor bestaande biblioheken.</DLG_Text15>
+    <DLG_Title16>Naam</DLG_Title16>
+    <DLG_Text16> bestaat al in de Tool Data Base.
+A.u.b. kies een andere naam voor de geimporteerde bibliotheek.</DLG_Text16>
+    <DLG_Text176>Impoteren afgebroken door gebruiker.</DLG_Text176>
+    <DLG_Title17>Naam</DLG_Title17>
+    <DLG_Text17>A.U.B. Enter een unieke naam voor de nieuwe Tool bibliotheek.</DLG_Text17>
+    <DLG_Title18>Biliotheek aanmaak rapport.</DLG_Title18>
+    <DLG_Text18>Tool Bibliotheek "{1}" toegevoegd aan de Tool DB</DLG_Text18>
+    <DLG_Text19>Kon geen nieuwe Tool Bibliotheek aanmaken: een tool bibliotheek met naam "{1}" bestaat al in de database.</DLG_Text19>
+    <DLG_Title20>Wis WEBpagina?</DLG_Title20>
+    <DLG_Text20>Ben je er zeker van om deze Webpagina op jouw computer te wissen?</DLG_Text20>
+    <DLG_Title21>Kan de niet opgeslagen WEB pagina's wissen.</DLG_Title21>
+    <DLG_Text21>Je kunt alleen WEBpagina's wissen, die op je computer hebt opgeslagen.</DLG_Text21>
+    <DLG_Title22>Verlaten Tool Geometrie Edit modus.</DLG_Title22>
+    <DLG_Text22>Opslaan tool wijzigingen?</DLG_Text22>
+    <DLG_Title23>Reset database locatie naar default.</DLG_Title23>
+    <DLG_Text23>Mijn database locatie is al default
+Huidige default locatie is:</DLG_Text23>
+    <DLG_Title24>Niets geselecteerd</DLG_Title24>
+    <DLG_Text24>A.U.B. selecteer Tools/Bewerkingen die je wilt wijzigen</DLG_Text24>
+    <DLG_Title25>Bevestig wissen bewerking</DLG_Title25>
+    <DLG_Text25>Ben je er zeker van om de geselecteerde records te wissen?</DLG_Text25>
+    <DLG_Title26>Onvindbaar Tool/Bewerking</DLG_Title26>
+    <DLG_Text26>Er is iets fout gegaan. Kon de regels niet vinden waarnaar werd verwezen.</DLG_Text26>
+    <DLG_Title27>Bevestig wissen bibliotheek</DLG_Title27>
+    <DLG_Text27>Ben je er zeker van om de bibliotheek {1} te wissen en alle tools?</DLG_Text27>
+    <DLG_Title29>Naam</DLG_Title29>
+    <DLG_Text29>A.U.B. Enter nieuwe naam voor</DLG_Text29>
+    <DLG_Title30>Fout met hernoemen</DLG_Title30>
+    <DLG_Text30>Kan bibliotheek niet hernoemen.</DLG_Text30>
+    <DLG_Text300>Nieuwe naam bestaat al in de Tooldatabase</DLG_Text300>
+    <DLG_Title31>Bevestig hernoemen Tool bibliotheek</DLG_Title31>
+    <DLG_Text31>Weet je het zeker dat je de bibliotheek naam wilt wijzigen?</DLG_Text31>
+    <DLG_Title32>Voeg toe aan bibliotheek</DLG_Title32>
+    <DLG_Text32>Selecteer bibliotheek waaraan je wilt toevoegen</DLG_Text32>
+    <DLG_Title33>A.U.B. Enter de naam die verschijnt in het "WEBpagina's" toolmenu</DLG_Title33>
+    <DLG_Text33>Naam</DLG_Text33>
+    <DLG_Title34>Fout opslaan pagina</DLG_Title34>
+    <DLG_Text34>Kan webpagina niet opslaan.</DLG_Text34>
+    <DLG_Title35>Foute bestandsnaam</DLG_Title35>
+    <DLG_Text35>Bestandsnaam die werd gebruikt bevat illigale tekens</DLG_Text35>
+    <DLG_Title36>Floating Licentie Controle mislukt</DLG_Title36>
+    <DLG_Text36>Onmogelijk om jouw {pname} floating licentie te controleren.
+Wil je het opnieuw proberen?</DLG_Text36>
+    <DLG_Title37>Verruim licentie parkeer periode?</DLG_Title37>
+    <DLG_Text37>Ben je er zeker van om de License Parking Period te verlengen?
+Je kunt deze licentie niet eerder gebruiken op een andere computer totdat deze verlengingsperiode is verstreken.</DLG_Text37>
+    <DLG_Title38>Aantekening</DLG_Title38>
+    <DLG_Text38>De nieuwe licentie parkeer periode gaat alleen in als de huidige is verstreken.</DLG_Text38>
+    <DLG_Title39>Je bent Up-to-Date</DLG_Title39>
+    <DLG_Text39>Je hebt de laatste versie geinstalleerd.
+We laten weten wanneer er een nieuwe versie beschikbaar is.</DLG_Text39>
+    <DLG_Title40>Update {1} is beschikbaar!</DLG_Title40>
+    <DLG_Text40>Een Update is beschikbaar!
+Klik om naar de downloadpagina te gaan</DLG_Text40>
+    <DLG_Title41>Selcteer Tool/Bewerking uit de database</DLG_Title41>
+    <DLG_Text41>Ben je er zeker van om deze bewerking in de bibliotheek te wissen?</DLG_Text41>
+    <DLG_Title42>Instelling wegschrijven mislukt</DLG_Title42>
+    <DLG_Text42>Wegschrijven van een of meer datafiles mislukt.</DLG_Text42>
+    <DLG_Text43>Kon je Settings bestand niet opslaan.
+A.U.B. controleer of je de permissie rechten hebt</DLG_Text43>
+    <DLG_Title44>Fout samenvoegen</DLG_Title44>
+    <DLG_Text44>Kan bibliotheken niet samenvoegen.
+Nieuwe naam mag niet gelijk aan de oude naam zijn.</DLG_Text44>
+    <DLG_Title45 />
+    <DLG_Text45>Er is alleen EEN bibliotheek in de Tolldatabase.
+Niets om naar samen te voegen.</DLG_Text45>
+    <DLG_Title46>Samenvoeg rapport</DLG_Title46>
+    <DLG_Text46>is geslaagd om naar samen te voegen</DLG_Text46>
+    <DLG_Title47>Kon de tools niet verplaatsen</DLG_Title47>
+    <DLG_Text47>A.U.B. selecteer tools die je eerst wilt verplaatsen.</DLG_Text47>
+    <DLG_Title48>Verplaats tools naar bibliotheek.</DLG_Title48>
+    <DLG_Text48>Kies de bibliotheek waar je de geselecteerde tool(s) naar toe wilt overzetten.</DLG_Text48>
+    <DLG_Title49>Kon de tool niet verplaatsen</DLG_Title49>
+    <DLG_Text49>Er is iets fout gegaan. Kon de regel niet vinden om naar te verplaatsen.</DLG_Text49>
+    <DLG_Title50>Kon de tools niet kopieren</DLG_Title50>
+    <DLG_Text50>A.U.B. selecteer tools die je eerst wilt kopieren</DLG_Text50>
+    <DLG_Title51>Kopieer tool naar bibliotheek</DLG_Title51>
+    <DLG_Text51>Kies de bibliotheek waar je geselecteerde tool(s) na toe wilt kopieren\nVoorraad informatie wordt op 0 gezet</DLG_Text51>
+    <DLG_Title52>Kon de tool niet kopieren</DLG_Title52>
+    <DLG_Text52>Er is iets fout gegaan. Kon de regels niet vinden om naar te kopieren.</DLG_Text52>
+    <DLG_Title53>Nieuwe tool aanmaken?</DLG_Title53>
+    <DLG_Text53>Je kunt niet direct bewerkingen toevoegen aan generic tools.
+Een nieuw tool record aanmaken met de huidige tooldata?</DLG_Text53>
+    <DLG_Title54>Kon de bewerking niet editeren.</DLG_Title54>
+    <DLG_Text54>Je moet de calculatie eerst laden om deze te kunnen editeren.</DLG_Text54>
+    <DLG_Title55>Kon tool niet wissen</DLG_Title55>
+    <DLG_Text55>A.U.B. selecteer tool die je eerst wilt WISSEN</DLG_Text55>
+    <DLG_Title56>Wissen bevestigen</DLG_Title56>
+    <DLG_Text56>Ben je er zeker van om deze tool in de bibliotheek te wissen?</DLG_Text56>
+    <DLG_Title57>Programma sluiten?</DLG_Title57>
+    <DLG_Text57>Ben je er zeker van om af te sluiten (Exit) zonder het opslaan van enige wijziging?
+Het programma sluit af en de volgende keer zullen bij opstarten alle nu gemaakte wijzigingen ongedaan zijn gemaakt.
+Druk op JA om af te sluiten en haal alle wijzigingen terug.</DLG_Text57>
+    <DLG_Text58>Bestand wegschrijven mislukt: controleer je permissie rechten voor lezen en schrijven in de map die je hebt opgegeven.</DLG_Text58>
+    <DLG_Title59>Kon de bewerking niet wissen.</DLG_Title59>
+    <DLG_Text59>A.U.B. selecteer de bewerking die je als eerste wilt WISSEN</DLG_Text59>
+    <DLG_Title60>Printfout van deze pagina</DLG_Title60>
+    <DLG_Text60>Print lukt niet voor pagina:</DLG_Text60>
+    <DLG_Title61>Database wegschrijven mislukt</DLG_Title61>
+    <DLG_Text61>Kon je database niet opslaan.
+A.U.B. een andere locatie kiezen.</DLG_Text61>
+    <DLG_Title63>Tool bibliotheek Async wegschrijffout</DLG_Title63>
+    <DLG_Text63>Kan niet wegschrijven naar het bestand:</DLG_Text63>
+    <DLG_Title64>Licentie fout</DLG_Title64>
+    <DLG_Text64>Beide Voornaam en Achternaam, moeten worden ingevuld en moeten elk uit tenminste 3 karakters bestaan.
+Controleer of jou gegevens kloppen en dat je licentienummer juist is.</DLG_Text64>
+    <DLG_Text65>De licentiesleutel komt niet overeen met de Voornaam, Achternaam en/of Computer ID die werd ingegeven.
+A.U.B. controleer of je gegevens kloppen en het licentienummer goed is.</DLG_Text65>
+    <DLG_Title66>Licentie bestand wegschrijven mislukt.</DLG_Title66>
+    <DLG_Text66>Licentiesleutel is OK maar HSMAdvisor kon het licentie bestand niet opslaan.
+A.U.B. controleer of je permissie rechten overeenstemmen.</DLG_Text66>
+    <DLG_Title67>Wachtwoord</DLG_Title67>
+    <DLG_Text67>De licentie is beveiligd met een wachtwoord.
+Je moet deze invoeren om deze hier te registreren.</DLG_Text67>
+    <DLG_Title68>On-line activatie bericht</DLG_Title68>
+    <DLG_Title69>Verbindingsfout</DLG_Title69>
+    <DLG_Text69>Licentie server reageerd net inverwachte responce.
+A.U.B. controleer of een firewall deze verbinding niet blokkeert.</DLG_Text69>
+    <DLG_Text70>Kan niet met de licentie server verbinden.
+A.U.B. controleer of een firewall deze verbinding niet blokkeert.</DLG_Text70>
+    <DLG_Text71>Voornaam, Achternaam en Email moeten worden opgegeven en moeten tenminste uit 3 karakters bestaan.
+A.U.B. controleer of je dezelfde gegevens gebrukt als tijdens de bestelling.</DLG_Text71>
+    <DLG_Title73>Fout met laden database.</DLG_Title73>
+    <DLG_Text73>Fout opgetreden tijdens het laden van jouw database.</DLG_Text73>
+    <DLG_Text74>Bestand is leeg.</DLG_Text74>
+    <DLG_Title75>Reset mijn database locatie naar default.</DLG_Title75>
+    <DLG_Text75>Weet je het zeker dat je de huidige database locatie naar default wilt wijzigen?
+Huidige locatie is:</DLG_Text75>
+    <DLG_Title76>Reset snelheid en voeding % correcties</DLG_Title76>
+    <DLG_Text76>Weet je het zeker dat je de Snelheid en Voedingen in de geselecteerde rijen naar default wilt wijzigen?</DLG_Text76>
+    <DLG_Title78>Kies machine</DLG_Title78>
+    <DLG_Text78>A.U.B. selecteer de machine van de lijst.</DLG_Text78>
+    <DLG_Title79>Kies opname</DLG_Title79>
+    <DLG_Text79>A.U.B. selecteer de naam van de opname van de lijst of enter een nieuwe.</DLG_Text79>
+    <DLG_Title80>Reset bewerking compensatie parameters</DLG_Title80>
+    <DLG_Text80>Weet je het zeker dat je de Spaanverdunning, HSM Bewerking en Insteek parameters in de geselecteerde rijen naar default wilt wijzigen?</DLG_Text80>
+    <DLG_Title81>Omschrijving</DLG_Title81>
+    <DLG_Text81>Enter de nieuwe Tool/Bewerking omschrijving</DLG_Text81>
+    <DLG_Title82>Merknaam</DLG_Title82>
+    <DLG_Text82>Enter de nieuwe tool merknaam.</DLG_Text82>
+    <DLG_Title83>Serienaam</DLG_Title83>
+    <DLG_Text83>Enter de nieuwe tool serienaam.</DLG_Text83>
+    <DLG_Title84>Leveranciersnaam</DLG_Title84>
+    <DLG_Text84>Enter de nieuwe leveranciersnaam.</DLG_Text84>
+    <DLG_Title85>Bestel nr.</DLG_Title85>
+    <DLG_Text85>Enter het nieuwe leveranciers bestelnummer.</DLG_Text85>
+    <DLG_Title86>Tool data klopt niet</DLG_Title86>
+    <DLG_Text86>De tool blijkt te zijn gewijzigd nadat het de laatste keer werd opgeslagen in mijn database.
+Update de Tooldatabase registratie met de nieuwe informatie?
+Klik ANNULEER om als nieuwe tool op te nemen.</DLG_Text86>
+    <DLG_Title87>Een nieuwe tool aanmaken?</DLG_Title87>
+    <DLG_Text87> bevindt zich nog niet in de database.
+Wil je een nieuwe tool TOEVOEGEN aan the HSMAdvisor databese?</DLG_Text87>
+    <DLG_Title88>Nieuwe tool aanmaken?</DLG_Title88>
+    <DLG_Text88>{name} is al gebruikt voor een van de toolbanen met Tool Nr. {oldnumber}
+Wil je de bestaande tool gebruiken?
+
+JA - Gebruik huidig Tool #{oldnumber} 
+NEE  - Maak nieuw Tool #{number}</DLG_Text88>
+    <DLG_Text89>A.U.B. controleer of de internetverbinding bestaat.</DLG_Text89>
+    <DLG_Title90>Registratie succesvol</DLG_Title90>
+    <DLG_Text90>Dank je voor het registreren bij HSMAdvisor Cloud Service.</DLG_Text90>
+    <DLG_Title91>HSMAdvisor Cloud Service</DLG_Title91>
+    <DLG_Text91>Machine succesvol uploaded</DLG_Text91>
+    <DLG_Text92>Onmogelijk te verbinden met de cloud.
+A.U.B. neem contact op met technische support
+Fout code:</DLG_Text92>
+    <DLG_Text93>{1} machine(s) gedownload</DLG_Text93>
+    <DLG_Text_PleaseCheckMachine>A.U.B. Machine Profiel aanvinken, om van de cloud te downloaden.</DLG_Text_PleaseCheckMachine>
+    <DLG_Text94>Max Toerental kan niet nul zijn. A.U.B. enter de max toerental waarde.</DLG_Text94>
+    <DLG_Text95>Min Toerental kan niet nul zijn. A.U.B. enter de min toerental waarde.</DLG_Text95>
+    <DLG_Text96>Max Toerental kan niet lager of gelijk zijn aan het min toerental,  A.U.B. verbeter de ingave.</DLG_Text96>
+    <DLG_Text97>Max Vermogen kan niet nul zijn. A.U.B. enter de max vermogen waarde.</DLG_Text97>
+    <DLG_Text98>Max Voeding kan niet nul zijn. A.U.B. enter de waarde voor de max voeding.</DLG_Text98>
+    <DLG_Text99>Waarschuwing: Deze wizard reset de huidige tabel voor het vermogensdiagram\nDoorgaan?</DLG_Text99>
+    <DLG_Text100>Enter het toerental waarop het vermogen het maximum het eerst bereikt.</DLG_Text100>
+    <DLG_Text101>Enter het toerental waarop het vermogen begint af te vlakken.</DLG_Text101>
+    <DLG_Text102>Enter het vermogen op het maximum toerental.</DLG_Text102>
+    <DLG_Text103>Het eerste vermogenspiek toerental moet tussen min en max toerental liggen. A.U.B. verbeter je ingave.</DLG_Text103>
+    <DLG_Text104>Het laatste vermogenspiek toerental moet tussen eerste vermogenspiek toerental en max toerental liggen. A.U.B. verbeter je ingave.</DLG_Text104>
+    <DLG_Text105>Het vermogen op het maximum toerental kan niet lager zijn dan het max machine vermogen. A.U.B. verbeter je ingave.</DLG_Text105>
+    <DLG_Text106>Heeft deze machine een spil met dubbele aandrijving?
+Antwoord "NEE" is onzeker</DLG_Text106>
+    <DLG_Text107>Enter aantal dat je van plan bent te bestellen.</DLG_Text107>
+    <DLG_Title107>Aantal</DLG_Title107>
+    <DLG_Text108>Kan niet doorgaan- De itemlijst is leeg.
+Stel aantal in voor de tools die je wilt toevoegen aan de aanvraag.</DLG_Text108>
+    <DLG_Title109>Fout met laden database.</DLG_Title109>
+    <DLG_Text109>De Tool Database backup is er voor in de plaats geladen. Originele database wordt aangevuld na elke wijziging die erop wordt gemaakt.</DLG_Text109>
+    <DLG_Title110>Fout met laden backup database.</DLG_Title110>
+    <DLG_Text110>Fout met laden backup tooldatabase.</DLG_Text110>
+    <DLG_Title111>Informatiebron niet opgegeven.</DLG_Title111>
+    <DLG_Text111>A.U.B. selecteer de informatiebron</DLG_Text111>
+    <DLG_Title112>Tool informatie niet opgegeven.</DLG_Title112>
+    <DLG_Text112>Om deze bewerking te rapporteren als toolfabrikant advies, a.u.b. enter de:
+Merknaam en serienaam op het tool fabrikant informatie paneel.</DLG_Text112>
+    <DLG_Title113>Waarschuwing: Fout tekst formaat</DLG_Title113>
+    <DLG_Text113>Tekst in de merknaam, serienaam of opmerking, is gelimiteerd tot 25 karakters elk.
+Tekst in de Extra Bewerkingsinfo is gelimiteerd tot 256 karakters.
+Lange tekst wordt ingekort.</DLG_Text113>
+    <DLG_Title114>Stel snelheid en voedingscorrecties in.</DLG_Title114>
+    <DLG_Text114>A.U.B. enter de snijsnelheid en voedingscorrectie.
+Laat het veld blank om de instelling over te slaan.</DLG_Text114>
+    <DLG_Text115>Snelheid %</DLG_Text115>
+    <DLG_Text116>Voeding %</DLG_Text116>
+    <DLG_Title117>Ingave bewerking niet mogelijk</DLG_Title117>
+    <DLG_Text117>    Geselecteerde bewerking bevat geen CAM Toolbaan Data.
+    Het kan niet worden toegevoegd aan de bewerkingslijst.</DLG_Text117>
+    <DLG_Text118>Geen bewerking gekozen.
+A.U.B. selecteer een bewerking met een CAM Toolbaan gegeven.</DLG_Text118>
+    <DLG_Title119>Onmogelijk te sluiten.</DLG_Title119>
+    <DLG_Text119>De huidige Tool Database wordt nog opgeslagen...
+Onmogelijk om de HSMAvisor te sluiten zolang dit proces duurt.</DLG_Text119>
+    <DLG_Title120>Wijzigingen niet opgeslagen.</DLG_Title120>
+    <DLG_Text120>De wijzigingen werden niet in de huidige Tool Databased opgeslagen\nWil je de HSMAdvisor nog afsluiten.</DLG_Text120>
+    <DLG_Title121>De calculator is niet beschikbaar voor dit type tool.</DLG_Title121>
+    <DLG_Text121>Ruwheidswaarde calculator is enkel voor radiusfrezen beschikbaar</DLG_Text121>
+    <DLG_Title122>Bent je er zeker van om de merknaam te wijzigen?</DLG_Title122>
+    <DLG_Text122>Je gebruikt de eigen snelheden en voedingen tabel, die is gekoppeld aan deze merk-/serienaam combinatie\nWeet je zeker dat je de merknaam wilt wijzigen en hiermee de associatie met het record in de eigen snelheid- en voedingstabel?</DLG_Text122>
+    <DLG_Title123>Merknaam en/of Serienaam ontbreekt.</DLG_Title123>
+    <DLG_Text123>A.U.B. specificeer Tool merknaam EN Tool serienaam in de Toolinformatie tab.</DLG_Text123>
+    <DLG_Text125>Diameter kan niet kleiner dan nul zijn !\nA.U.B. controleer of elke diameter cel op nul staat of groter.</DLG_Text125>
+    <DLG_Text126>Diameter kan niet groter zijn dan {1} !\nA.U.B. controleer of elke diameter cel gelijk of kleiner is dan {1}.</DLG_Text126>
+    <DLG_Title127>Wissen huidige aanzettabel?</DLG_Title127>
+    <DLG_Text127>Deze wizard zal de huidige aanzettabel resetten\nDoorgaan? </DLG_Text127>
+    <DLG_Text128>Er is een fout opgetreden in jouw data\nDoorgaan niet mogelijk</DLG_Text128>
+    <DLG_Text129>De naam van de Tool bibliotheek kan niet ontbreken!</DLG_Text129>
+    <DLG_Text130>Wil je werkelijk deze eigen snijsnelheid resetten naar default?\nKies JA om door te gaan</DLG_Text130>
+    <DLG_Text131>Wil je werkelijk deze eigen aanzetten resetten naar default?\nKies JA om door te gaan</DLG_Text131>
+    <DLG_Text132>Wil je werkelijk de eigen aanzetten en toerental plakken naar dit materiaal?\nKies JA om door te gaan</DLG_Text132>
+    <DLG_Title134>Clone/Verander Tool Wizard afmeting</DLG_Title134>
+    <DLG_Text134>Deze wizard zal een afmetingenlijst genereren gebaseerd op de geselecteerde tool\nDoorgaan?</DLG_Text134>
+    <DLG_Text135>A.U.B. Enter de kleinste tooldiameter</DLG_Text135>
+    <DLG_Text136>A.U.B. Enter de grootste tooldiameter</DLG_Text136>
+    <DLG_Text137>A.U.B. Enter de tooldiameter eenheid</DLG_Text137>
+    <DLG_Text138>A.U.B. Enter de nieuwe toolomschrijving\nJe kunt {d} gebruiken als opname van de diameter.</DLG_Text138>
+    <DLG_Text139>Wil je de toolafmetingen verschalen?\nAls je niet verschalen kiest, zal enkel de diameter wijzigen.</DLG_Text139>
+    <DLG_Text140>A.U.B. Enter de aanzet voor de minimum tooldiameter\nMoet groter zijn dan 0</DLG_Text140>
+    <DLG_Text141>A.U.B. Enter de aanzet voor de maximum tooldiameter\nMoet gelijk of groter zijn dan de minimum aanzet.</DLG_Text141>
+    <DLG_Title142>Wis eigen snelheden en voedingentabel</DLG_Title142>
+    <DLG_Text142>Ben je er zeker van om de geselecteerde eigen tabellen voor snelheden en voedingen te wissen?</DLG_Text142>
+    <DLG_Title143>Eigen snelheden en voedingen bevestiging</DLG_Title143>
+    <DLG_Text143>Pas geselecteerde tabellen voor snelheden en voedingen toe voor huidige tool? </DLG_Text143>
+    <DLG_Title144>Rankschik Tool bibliotheken.</DLG_Title144>
+    <DLG_Text144>Wijzig de weergave volgorde van de tool bibliotheken.</DLG_Text144>
+    <DLG_Text145>De wijzigingen op de huidige bibliotheek opslaan?</DLG_Text145>
+    <DLG_Title146>Deze overschrijven?</DLG_Title146>
+    <DLG_Text146>Je hebt al een machine met dezelfde ID geupload maar met andere naam: {1}\nWeet je het zeker deze te overschrijven?\nKlik op NEE om een nieuwe machine te uploaden!</DLG_Text146>
+    <DLG_Text147>Verwijder alle regels uit de huidige tabel?</DLG_Text147>
+    <DLG_Text148>Je probeert opnieuw een andermans bestaande machine te uploaden:\nA.U.B. maak een kopie en probeer het opnieuw!</DLG_Text148>
+  </controls>
+  <skv_fswizard_operation>
+    <value />
+    <text>Geen</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Ruw en Finish</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Ruw</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Semi-Finish</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_operation>
+    <value />
+    <text>Finish</text>
+  </skv_fswizard_operation>
+  <skv_fswizard_finish>
+    <value />
+    <text>Geen</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Normaal</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Zeer slecht</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Slecht</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Gemiddeld</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Goed</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_finish>
+    <value />
+    <text>Zeer goed</text>
+  </skv_fswizard_finish>
+  <skv_fswizard_life>
+    <value />
+    <text>Geen</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Normaal</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Zeer slecht</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Slecht</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Gemiddeld</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Goed</text>
+  </skv_fswizard_life>
+  <skv_fswizard_life>
+    <value />
+    <text>Zeer goed</text>
+  </skv_fswizard_life>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Geen</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Uit</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Lucht</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Mist</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Vloeistof</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_coolant>
+    <value />
+    <text>Interne hoge druk</text>
+  </skv_fswizard_coolant>
+  <skv_fswizard_rating>
+    <value />
+    <text>Geen</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Zeer slecht</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Slecht</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Gemiddeld</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Goed</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_rating>
+    <value />
+    <text>Zeer goed</text>
+  </skv_fswizard_rating>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Schachtfrees</name>
+    <short_name>SFR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Bolfrees</name>
+    <short_name>BFR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>HP/Ruwfrees</name>
+    <short_name>HPRFR</short_name>
+    <priority />
+    <usage>High Performance/Ruwfrees (Kordel vertanding) vraagt om een stabiele opspanning.
+Verzeker je ervan dat de opspanning en gereedschapsopname in orde zijn.</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>WP Schachtfrees</name>
+    <short_name>WPSFR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>WP Bolfrees</name>
+    <short_name>WPBFR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>WP Vlakfrees</name>
+    <short_name>WPVFR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Spiraalboor</name>
+    <short_name>SBR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Ruimer</name>
+    <short_name>Ruimer</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>High Feed Frees</name>
+    <short_name>HFF</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Hi-Helix Parabolische boor</name>
+    <short_name>HiBR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Rechte snijkant voor hard metaal</name>
+    <short_name>RBR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Plaatboor</name>
+    <short_name>PBR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Draadfrees</name>
+    <short_name>DFR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>WP Helix Hoekfrees</name>
+    <short_name>WPHFR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Graveerstift</name>
+    <short_name>V-FR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Langsdraaien</name>
+    <short_name>LangsDr</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Insteken</name>
+    <short_name>Steken</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Binnendraaien</name>
+    <short_name>BinnenDR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Tap</name>
+    <short_name>Tap</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Roltap</name>
+    <short_name>Roltap</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Verzinkboor</name>
+    <short_name>VerzinkBR</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Afbraamfrees</name>
+    <short_name>AfbramenFr</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>WP Boor</name>
+    <short_name>WPBR</short_name>
+    <priority />
+    <usage>Aannamen 1 effectieve tand (2 platen overlappen) Internekoeling vereist</usage>
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Kotterkop</name>
+    <short_name>Kotterkop</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>T-Gleuffrees</name>
+    <short_name>T-Gleuf</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_tool_type>
+    <id />
+    <name>Vlakdraaien
+</name>
+    <short_name>Vlakken</short_name>
+    <priority />
+    <usage />
+  </skv_fswizard_tool_type>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text>Op voorraad</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text>Niet op voorraad</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_stockstatus>
+    <value />
+    <text>In bestelling</text>
+  </skv_fswizard_stockstatus>
+  <skv_fswizard_machinetype>
+    <value />
+    <text />
+  </skv_fswizard_machinetype>
+  <skv_fswizard_machinetype>
+    <value />
+    <text />
+  </skv_fswizard_machinetype>
+  <skv_fswizard_machinetype>
+    <value />
+    <text />
+  </skv_fswizard_machinetype>
+  <skv_fswizard_machinetype>
+    <value />
+    <text />
+  </skv_fswizard_machinetype>
+</language>
