@@ -26,6 +26,11 @@
       <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/HSMAdvisorPlugin.dll</remote_path>
     </resource>
     <resource>
+      <file_version>1.0.3.30140</file_version>
+      <local_path>plugins\ExchangeHSMWorks.dll</local_path>
+      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/plugins/ExchangeHSMWorks.dll</remote_path>
+    </resource>
+    <resource>
       <file_version>13.0.3</file_version>
       <local_path>Newtonsoft.Json.dll</local_path>
       <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/Newtonsoft.Json.dll</remote_path>
