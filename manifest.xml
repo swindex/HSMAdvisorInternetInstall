@@ -4,36 +4,36 @@
     <resource>
       <file_version>2.8.5</file_version>
       <local_path>HSMAdvisor.exe</local_path>
-      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/HSMAdvisor.exe</remote_path>
+      <remote_path>package/HSMAdvisor.exe</remote_path>
     </resource>
     <resource>
       <local_path>HSMAdvisor.exe.config</local_path>
-      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/HSMAdvisor.exe.config</remote_path>
+      <remote_path>package/HSMAdvisor.exe.config</remote_path>
     </resource>
     <resource>
       <file_version>2.8.5</file_version>
       <local_path>HSMAdvisorCore.dll</local_path>
-      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/HSMAdvisorCore.dll</remote_path>
+      <remote_path>package/HSMAdvisorCore.dll</remote_path>
     </resource>
     <resource>
       <file_version>2.8.5</file_version>
       <local_path>HSMAdvisorDatabase.dll</local_path>
-      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/HSMAdvisorDatabase.dll</remote_path>
+      <remote_path>package/HSMAdvisorDatabase.dll</remote_path>
     </resource>
     <resource>
       <file_version>2.8.5</file_version>
       <local_path>HSMAdvisorPlugin.dll</local_path>
-      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/HSMAdvisorPlugin.dll</remote_path>
+      <remote_path>package/HSMAdvisorPlugin.dll</remote_path>
     </resource>
     <resource>
       <file_version>1.0.3.30140</file_version>
       <local_path>plugins\ExchangeHSMWorks.dll</local_path>
-      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/plugins/ExchangeHSMWorks.dll</remote_path>
+      <remote_path>package/plugins/ExchangeHSMWorks.dll</remote_path>
     </resource>
     <resource>
       <file_version>13.0.3</file_version>
       <local_path>Newtonsoft.Json.dll</local_path>
-      <remote_path>https://raw.githubusercontent.com/swindex/HSMAdvisorInternetInstall/refs/heads/main/package/Newtonsoft.Json.dll</remote_path>
+      <remote_path>package/Newtonsoft.Json.dll</remote_path>
     </resource>
   </resources>
 </package>
